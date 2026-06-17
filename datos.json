@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "17/06/2026 23:12",
+  "actualizado": "17/06/2026 19:33",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 17,
+      "pts": 18,
       "diff": 0,
       "acumulado": [
         {
@@ -91,6 +91,10 @@
         {
           "id": 61,
           "pts": 17
+        },
+        {
+          "id": 67,
+          "pts": 18
         }
       ]
     },
@@ -98,7 +102,7 @@
       "pos": 2,
       "name": "Mayra",
       "pts": 16,
-      "diff": -1,
+      "diff": -2,
       "acumulado": [
         {
           "id": 1,
@@ -183,13 +187,17 @@
         {
           "id": 61,
           "pts": 16
+        },
+        {
+          "id": 67,
+          "pts": 16
         }
       ]
     },
     {
       "pos": 3,
       "name": "Peter",
-      "pts": 15,
+      "pts": 16,
       "diff": -2,
       "acumulado": [
         {
@@ -275,13 +283,17 @@
         {
           "id": 61,
           "pts": 15
+        },
+        {
+          "id": 67,
+          "pts": 16
         }
       ]
     },
     {
       "pos": 4,
       "name": "Josmary",
-      "pts": 13,
+      "pts": 14,
       "diff": -4,
       "acumulado": [
         {
@@ -367,13 +379,17 @@
         {
           "id": 61,
           "pts": 13
+        },
+        {
+          "id": 67,
+          "pts": 14
         }
       ]
     },
     {
       "pos": 5,
       "name": "Osmar",
-      "pts": 13,
+      "pts": 14,
       "diff": -4,
       "acumulado": [
         {
@@ -459,6 +475,10 @@
         {
           "id": 61,
           "pts": 13
+        },
+        {
+          "id": 67,
+          "pts": 14
         }
       ]
     },
@@ -466,7 +486,7 @@
       "pos": 6,
       "name": "Carolina",
       "pts": 12,
-      "diff": -5,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -551,105 +571,17 @@
         {
           "id": 61,
           "pts": 12
+        },
+        {
+          "id": 67,
+          "pts": 12
         }
       ]
     },
     {
       "pos": 7,
-      "name": "Carlos",
-      "pts": 9,
-      "diff": -8,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 7,
-          "pts": 0
-        },
-        {
-          "id": 8,
-          "pts": 0
-        },
-        {
-          "id": 13,
-          "pts": 0
-        },
-        {
-          "id": 14,
-          "pts": 1
-        },
-        {
-          "id": 19,
-          "pts": 1
-        },
-        {
-          "id": 20,
-          "pts": 1
-        },
-        {
-          "id": 25,
-          "pts": 2
-        },
-        {
-          "id": 26,
-          "pts": 3
-        },
-        {
-          "id": 31,
-          "pts": 6
-        },
-        {
-          "id": 32,
-          "pts": 6
-        },
-        {
-          "id": 37,
-          "pts": 6
-        },
-        {
-          "id": 38,
-          "pts": 7
-        },
-        {
-          "id": 43,
-          "pts": 7
-        },
-        {
-          "id": 44,
-          "pts": 7
-        },
-        {
-          "id": 49,
-          "pts": 7
-        },
-        {
-          "id": 50,
-          "pts": 8
-        },
-        {
-          "id": 55,
-          "pts": 9
-        },
-        {
-          "id": 56,
-          "pts": 9
-        },
-        {
-          "id": 61,
-          "pts": 9
-        }
-      ]
-    },
-    {
-      "pos": 8,
-      "name": "Jonathan",
-      "pts": 9,
+      "name": "Sol",
+      "pts": 10,
       "diff": -8,
       "acumulado": [
         {
@@ -674,7 +606,7 @@
         },
         {
           "id": 14,
-          "pts": 3
+          "pts": 2
         },
         {
           "id": 19,
@@ -698,7 +630,7 @@
         },
         {
           "id": 32,
-          "pts": 4
+          "pts": 5
         },
         {
           "id": 37,
@@ -734,15 +666,115 @@
         },
         {
           "id": 61,
+          "pts": 9
+        },
+        {
+          "id": 67,
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "pos": 8,
+      "name": "Carlos",
+      "pts": 9,
+      "diff": -9,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 0
+        },
+        {
+          "id": 7,
+          "pts": 0
+        },
+        {
+          "id": 8,
+          "pts": 0
+        },
+        {
+          "id": 13,
+          "pts": 0
+        },
+        {
+          "id": 14,
+          "pts": 1
+        },
+        {
+          "id": 19,
+          "pts": 1
+        },
+        {
+          "id": 20,
+          "pts": 1
+        },
+        {
+          "id": 25,
+          "pts": 2
+        },
+        {
+          "id": 26,
+          "pts": 3
+        },
+        {
+          "id": 31,
+          "pts": 6
+        },
+        {
+          "id": 32,
+          "pts": 6
+        },
+        {
+          "id": 37,
+          "pts": 6
+        },
+        {
+          "id": 38,
+          "pts": 7
+        },
+        {
+          "id": 43,
+          "pts": 7
+        },
+        {
+          "id": 44,
+          "pts": 7
+        },
+        {
+          "id": 49,
+          "pts": 7
+        },
+        {
+          "id": 50,
+          "pts": 8
+        },
+        {
+          "id": 55,
+          "pts": 9
+        },
+        {
+          "id": 56,
+          "pts": 9
+        },
+        {
+          "id": 61,
+          "pts": 9
+        },
+        {
+          "id": 67,
           "pts": 9
         }
       ]
     },
     {
       "pos": 9,
-      "name": "Sol",
+      "name": "Jonathan",
       "pts": 9,
-      "diff": -8,
+      "diff": -9,
       "acumulado": [
         {
           "id": 1,
@@ -766,7 +798,7 @@
         },
         {
           "id": 14,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 19,
@@ -790,7 +822,7 @@
         },
         {
           "id": 32,
-          "pts": 5
+          "pts": 4
         },
         {
           "id": 37,
@@ -826,6 +858,10 @@
         },
         {
           "id": 61,
+          "pts": 9
+        },
+        {
+          "id": 67,
           "pts": 9
         }
       ]
@@ -834,7 +870,7 @@
       "pos": 10,
       "name": "Yosember",
       "pts": 7,
-      "diff": -10,
+      "diff": -11,
       "acumulado": [
         {
           "id": 1,
@@ -918,6 +954,10 @@
         },
         {
           "id": 61,
+          "pts": 7
+        },
+        {
+          "id": 67,
           "pts": 7
         }
       ]
@@ -1393,8 +1433,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -1434,7 +1474,7 @@
       ]
     },
     "Josmary": {
-      "pts_total": 13,
+      "pts_total": 14,
       "partidos": [
         {
           "id": 1,
@@ -1902,8 +1942,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -2411,8 +2451,8 @@
           "id": 67,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -2452,7 +2492,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 13,
+      "pts_total": 14,
       "partidos": [
         {
           "id": 1,
@@ -2920,8 +2960,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -3429,8 +3469,8 @@
           "id": 67,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -3470,7 +3510,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 9,
+      "pts_total": 10,
       "partidos": [
         {
           "id": 1,
@@ -3938,8 +3978,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -4447,8 +4487,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -4488,7 +4528,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 15,
+      "pts_total": 16,
       "partidos": [
         {
           "id": 1,
@@ -4956,8 +4996,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -5465,8 +5505,8 @@
           "id": 67,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -5506,7 +5546,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 17,
+      "pts_total": 18,
       "partidos": [
         {
           "id": 1,
@@ -5974,8 +6014,8 @@
           "id": 67,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 4 - 2 Croacia"
         },
         {
           "id": 68,
@@ -6204,9 +6244,27 @@
       "goles_l": 1,
       "goles_v": 1,
       "visitante": "DR Congo"
+    },
+    {
+      "id": 67,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Inglaterra",
+      "goles_l": 4,
+      "goles_v": 2,
+      "visitante": "Croacia"
     }
   ],
   "ultimos5": [
+    {
+      "id": 67,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Inglaterra",
+      "goles_l": 4,
+      "goles_v": 2,
+      "visitante": "Croacia"
+    },
     {
       "id": 61,
       "grupo": "K",
@@ -6242,19 +6300,10 @@
       "goles_l": 1,
       "goles_v": 4,
       "visitante": "Noruega"
-    },
-    {
-      "id": 49,
-      "grupo": "I",
-      "jornada": 1,
-      "local": "Francia",
-      "goles_l": 3,
-      "goles_v": 1,
-      "visitante": "Senegal"
     }
   ],
   "stats": {
-    "jugados": 21,
-    "pendientes": 51
+    "jugados": 22,
+    "pendientes": 50
   }
 }
