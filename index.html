@@ -229,7 +229,7 @@ function selectPlayer(name) {
 
   // Mapa id → partido real para obtener nombres de equipos
   const mapaPartidos = {};
-  (DATA.partidos || []).forEach(p => mapaPartidos[p.id] = p);
+  (DATA.todos_partidos || DATA.partidos || []).forEach(p => mapaPartidos[p.id] = p);
 
   const rows = p.partidos.map(m => {
     const partido = mapaPartidos[m.id];
