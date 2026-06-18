@@ -76,6 +76,8 @@
     .bracket-team{display:flex;justify-content:space-between;padding:7px 10px;font-size:12px;border-bottom:1px solid rgba(255,255,255,.05)}
     .bracket-team:last-child{border-bottom:none}
     .bracket-winner{color:var(--accent);font-weight:800}
+    .live-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--danger);box-shadow:0 0 0 0 rgba(255,107,107,.6);animation:livepulse 1.5s infinite}
+    @keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(255,107,107,.6)}70%{box-shadow:0 0 0 8px rgba(255,107,107,0)}100%{box-shadow:0 0 0 0 rgba(255,107,107,0)}}
   </style>
 </head>
 <body>
@@ -100,6 +102,7 @@
 
   <!-- RANKING -->
   <div id="page-ranking" class="page active">
+    <div id="enVivoPanel"></div>
     <div class="grid2">
       <div class="panel">
         <h2>Ranking general</h2>
@@ -200,6 +203,7 @@ async function cargar() {
     DATA = await res.json();
     if (DATA.error) throw new Error(DATA.error);
     renderRanking();
+    renderEnVivo();
     renderUltimos();
     renderKpis();
     renderPlayerBtns();
@@ -224,6 +228,22 @@ function renderRanking() {
       <td class="pts-big">${r.pts}</td>
       <td class="diff ${r.diff===0?'leader':''}">${r.diff===0?'Líder':r.diff}</td>
     </tr>`).join('');
+}
+
+function renderEnVivo() {
+  const partidos = DATA.en_vivo || [];
+  if (!partidos.length) { document.getElementById('enVivoPanel').innerHTML = ''; return; }
+  document.getElementById('enVivoPanel').innerHTML = `
+    <div class="panel" style="border-color:rgba(255,107,107,.4)">
+      <h2><span class="live-dot"></span> En vivo ahora</h2>
+      ${partidos.map(m => `
+        <div class="match">
+          <div class="match-top"><span>Grupo ${m.grupo} · J${m.jornada}</span><span style="color:var(--danger);font-weight:800">● EN VIVO</span></div>
+          <div class="teams">
+            <span>${m.local}</span><span class="score-res">${m.goles_l} - ${m.goles_v}</span><span>${m.visitante}</span>
+          </div>
+        </div>`).join('')}
+    </div>`;
 }
 
 function renderUltimos() {
