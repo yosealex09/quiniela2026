@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "18/06/2026 17:05",
+  "actualizado": "18/06/2026 17:15",
   "ranking": [
     {
       "pos": 1,
@@ -18,6 +18,10 @@
         },
         {
           "id": 4,
+          "pts": 6
+        },
+        {
+          "id": 7,
           "pts": 6
         },
         {
@@ -112,6 +116,118 @@
     },
     {
       "pos": 2,
+      "name": "Mayra",
+      "pts": 19,
+      "diff": -5,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 0
+        },
+        {
+          "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 7,
+          "pts": 4
+        },
+        {
+          "id": 8,
+          "pts": 7
+        },
+        {
+          "id": 10,
+          "pts": 8
+        },
+        {
+          "id": 13,
+          "pts": 8
+        },
+        {
+          "id": 14,
+          "pts": 11
+        },
+        {
+          "id": 19,
+          "pts": 11
+        },
+        {
+          "id": 20,
+          "pts": 11
+        },
+        {
+          "id": 25,
+          "pts": 12
+        },
+        {
+          "id": 26,
+          "pts": 12
+        },
+        {
+          "id": 31,
+          "pts": 12
+        },
+        {
+          "id": 32,
+          "pts": 13
+        },
+        {
+          "id": 37,
+          "pts": 13
+        },
+        {
+          "id": 38,
+          "pts": 13
+        },
+        {
+          "id": 43,
+          "pts": 13
+        },
+        {
+          "id": 44,
+          "pts": 13
+        },
+        {
+          "id": 49,
+          "pts": 16
+        },
+        {
+          "id": 50,
+          "pts": 16
+        },
+        {
+          "id": 55,
+          "pts": 17
+        },
+        {
+          "id": 56,
+          "pts": 18
+        },
+        {
+          "id": 61,
+          "pts": 18
+        },
+        {
+          "id": 62,
+          "pts": 19
+        },
+        {
+          "id": 67,
+          "pts": 19
+        },
+        {
+          "id": 68,
+          "pts": 19
+        }
+      ]
+    },
+    {
+      "pos": 3,
       "name": "Josmary",
       "pts": 18,
       "diff": -6,
@@ -129,6 +245,10 @@
           "pts": 2
         },
         {
+          "id": 7,
+          "pts": 2
+        },
+        {
           "id": 8,
           "pts": 2
         },
@@ -219,7 +339,7 @@
       ]
     },
     {
-      "pos": 3,
+      "pos": 4,
       "name": "Peter",
       "pts": 18,
       "diff": -6,
@@ -234,6 +354,10 @@
         },
         {
           "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 7,
           "pts": 1
         },
         {
@@ -327,7 +451,7 @@
       ]
     },
     {
-      "pos": 4,
+      "pos": 5,
       "name": "Osmar",
       "pts": 17,
       "diff": -7,
@@ -342,6 +466,10 @@
         },
         {
           "id": 4,
+          "pts": 3
+        },
+        {
+          "id": 7,
           "pts": 3
         },
         {
@@ -431,114 +559,6 @@
         {
           "id": 68,
           "pts": 17
-        }
-      ]
-    },
-    {
-      "pos": 5,
-      "name": "Mayra",
-      "pts": 16,
-      "diff": -8,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 8,
-          "pts": 4
-        },
-        {
-          "id": 10,
-          "pts": 5
-        },
-        {
-          "id": 13,
-          "pts": 5
-        },
-        {
-          "id": 14,
-          "pts": 8
-        },
-        {
-          "id": 19,
-          "pts": 8
-        },
-        {
-          "id": 20,
-          "pts": 8
-        },
-        {
-          "id": 25,
-          "pts": 9
-        },
-        {
-          "id": 26,
-          "pts": 9
-        },
-        {
-          "id": 31,
-          "pts": 9
-        },
-        {
-          "id": 32,
-          "pts": 10
-        },
-        {
-          "id": 37,
-          "pts": 10
-        },
-        {
-          "id": 38,
-          "pts": 10
-        },
-        {
-          "id": 43,
-          "pts": 10
-        },
-        {
-          "id": 44,
-          "pts": 10
-        },
-        {
-          "id": 49,
-          "pts": 13
-        },
-        {
-          "id": 50,
-          "pts": 13
-        },
-        {
-          "id": 55,
-          "pts": 14
-        },
-        {
-          "id": 56,
-          "pts": 15
-        },
-        {
-          "id": 61,
-          "pts": 15
-        },
-        {
-          "id": 62,
-          "pts": 16
-        },
-        {
-          "id": 67,
-          "pts": 16
-        },
-        {
-          "id": 68,
-          "pts": 16
         }
       ]
     },
@@ -558,6 +578,10 @@
         },
         {
           "id": 4,
+          "pts": 2
+        },
+        {
+          "id": 7,
           "pts": 2
         },
         {
@@ -669,6 +693,10 @@
           "pts": 1
         },
         {
+          "id": 7,
+          "pts": 1
+        },
+        {
           "id": 8,
           "pts": 2
         },
@@ -774,6 +802,10 @@
         },
         {
           "id": 4,
+          "pts": 3
+        },
+        {
+          "id": 7,
           "pts": 3
         },
         {
@@ -885,6 +917,10 @@
           "pts": 0
         },
         {
+          "id": 7,
+          "pts": 0
+        },
+        {
           "id": 8,
           "pts": 0
         },
@@ -990,6 +1026,10 @@
         },
         {
           "id": 4,
+          "pts": 0
+        },
+        {
+          "id": 7,
           "pts": 0
         },
         {
@@ -1133,8 +1173,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -1642,8 +1682,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -2151,8 +2191,8 @@
           "id": 7,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -2660,8 +2700,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -3169,8 +3209,8 @@
           "id": 7,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -3678,8 +3718,8 @@
           "id": 7,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -4139,7 +4179,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 16,
+      "pts_total": 19,
       "partidos": [
         {
           "id": 1,
@@ -4187,8 +4227,8 @@
           "id": 7,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -4696,8 +4736,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -5205,8 +5245,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -5714,8 +5754,8 @@
           "id": 7,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
         },
         {
           "id": 8,
@@ -6213,6 +6253,18 @@
       "fecha": "2026-06-18T16:00:00Z"
     },
     {
+      "id": 7,
+      "grupo": "B",
+      "jornada": 1,
+      "local": "Canadá",
+      "visitante": "Bosnia y Herz.",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-12T19:00:00Z"
+    },
+    {
       "id": 8,
       "grupo": "B",
       "jornada": 1,
@@ -6556,9 +6608,9 @@
       "jornada": 1,
       "local": "Canadá",
       "visitante": "Bosnia y Herz.",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-12T19:00:00Z"
     },
@@ -7779,7 +7831,7 @@
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 25,
-    "pendientes": 47
+    "jugados": 26,
+    "pendientes": 46
   }
 }
