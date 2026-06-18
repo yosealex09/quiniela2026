@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "17/06/2026 22:39",
+  "actualizado": "17/06/2026 22:45",
   "ranking": [
     {
       "pos": 1,
@@ -7049,7 +7049,7 @@
       "jugado": false
     },
     {
-      "id": 1,
+      "id": 1072,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo A",
@@ -7059,7 +7059,7 @@
       "jugado": false
     },
     {
-      "id": 2,
+      "id": 1073,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo B",
@@ -7069,7 +7069,7 @@
       "jugado": false
     },
     {
-      "id": 3,
+      "id": 1074,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo C",
@@ -7079,7 +7079,7 @@
       "jugado": false
     },
     {
-      "id": 4,
+      "id": 1075,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo D",
@@ -7089,7 +7089,7 @@
       "jugado": false
     },
     {
-      "id": 5,
+      "id": 1076,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo E",
@@ -7099,7 +7099,7 @@
       "jugado": false
     },
     {
-      "id": 6,
+      "id": 1077,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo F",
@@ -7109,7 +7109,7 @@
       "jugado": false
     },
     {
-      "id": 7,
+      "id": 1078,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo G",
@@ -7119,7 +7119,7 @@
       "jugado": false
     },
     {
-      "id": 8,
+      "id": 1079,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo H",
@@ -7129,7 +7129,7 @@
       "jugado": false
     },
     {
-      "id": 9,
+      "id": 1080,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo I",
@@ -7139,7 +7139,7 @@
       "jugado": false
     },
     {
-      "id": 10,
+      "id": 1081,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo J",
@@ -7149,7 +7149,7 @@
       "jugado": false
     },
     {
-      "id": 11,
+      "id": 1082,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo K",
@@ -7159,7 +7159,7 @@
       "jugado": false
     },
     {
-      "id": 12,
+      "id": 1083,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo L",
@@ -7169,7 +7169,7 @@
       "jugado": false
     },
     {
-      "id": 13,
+      "id": 1084,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo M",
@@ -7179,7 +7179,7 @@
       "jugado": false
     },
     {
-      "id": 14,
+      "id": 1085,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo N",
@@ -7189,7 +7189,7 @@
       "jugado": false
     },
     {
-      "id": 15,
+      "id": 1086,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo O",
@@ -7199,7 +7199,7 @@
       "jugado": false
     },
     {
-      "id": 16,
+      "id": 1087,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Equipo P",
@@ -7209,7 +7209,7 @@
       "jugado": false
     },
     {
-      "id": 17,
+      "id": 1088,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo A",
@@ -7219,7 +7219,7 @@
       "jugado": false
     },
     {
-      "id": 18,
+      "id": 1089,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo B",
@@ -7229,7 +7229,7 @@
       "jugado": false
     },
     {
-      "id": 19,
+      "id": 1090,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo C",
@@ -7239,7 +7239,7 @@
       "jugado": false
     },
     {
-      "id": 20,
+      "id": 1091,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo D",
@@ -7249,7 +7249,7 @@
       "jugado": false
     },
     {
-      "id": 21,
+      "id": 1092,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo E",
@@ -7259,7 +7259,7 @@
       "jugado": false
     },
     {
-      "id": 22,
+      "id": 1093,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo F",
@@ -7269,7 +7269,7 @@
       "jugado": false
     },
     {
-      "id": 23,
+      "id": 1094,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo G",
@@ -7279,7 +7279,7 @@
       "jugado": false
     },
     {
-      "id": 24,
+      "id": 1095,
       "grupo": "Octavos de Final",
       "jornada": 0,
       "local": "Equipo H",
@@ -7289,7 +7289,7 @@
       "jugado": false
     },
     {
-      "id": 25,
+      "id": 1096,
       "grupo": "Cuartos de Final",
       "jornada": 0,
       "local": "Equipo A",
@@ -7299,7 +7299,7 @@
       "jugado": false
     },
     {
-      "id": 26,
+      "id": 1097,
       "grupo": "Cuartos de Final",
       "jornada": 0,
       "local": "Equipo B",
@@ -7309,7 +7309,7 @@
       "jugado": false
     },
     {
-      "id": 27,
+      "id": 1098,
       "grupo": "Cuartos de Final",
       "jornada": 0,
       "local": "Equipo C",
@@ -7319,7 +7319,7 @@
       "jugado": false
     },
     {
-      "id": 28,
+      "id": 1099,
       "grupo": "Cuartos de Final",
       "jornada": 0,
       "local": "Equipo D",
@@ -7329,7 +7329,7 @@
       "jugado": false
     },
     {
-      "id": 29,
+      "id": 1100,
       "grupo": "Semifinales",
       "jornada": 0,
       "local": "Equipo A",
@@ -7339,7 +7339,7 @@
       "jugado": false
     },
     {
-      "id": 30,
+      "id": 1101,
       "grupo": "Semifinales",
       "jornada": 0,
       "local": "Equipo B",
@@ -7349,7 +7349,7 @@
       "jugado": false
     },
     {
-      "id": 31,
+      "id": 1102,
       "grupo": "Final",
       "jornada": 0,
       "local": "Equipo A",
