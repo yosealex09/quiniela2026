@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "17/06/2026 21:06",
+  "actualizado": "17/06/2026 22:24",
   "ranking": [
     {
       "pos": 1,
@@ -6101,207 +6101,1262 @@
       "grupo": "A",
       "jornada": 1,
       "local": "México",
+      "visitante": "Sudáfrica",
       "goles_l": 2,
       "goles_v": 0,
-      "visitante": "Sudáfrica"
+      "jugado": true
     },
     {
       "id": 2,
       "grupo": "A",
       "jornada": 1,
       "local": "Corea del Sur",
+      "visitante": "Chequia",
       "goles_l": 2,
       "goles_v": 1,
-      "visitante": "Chequia"
+      "jugado": true
     },
     {
       "id": 7,
       "grupo": "B",
       "jornada": 1,
       "local": "Canadá",
+      "visitante": "Bosnia y Herz.",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "Bosnia y Herz."
+      "jugado": true
     },
     {
       "id": 8,
       "grupo": "B",
       "jornada": 1,
       "local": "Catar",
+      "visitante": "Suiza",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "Suiza"
+      "jugado": true
     },
     {
       "id": 13,
       "grupo": "C",
       "jornada": 1,
       "local": "Brasil",
+      "visitante": "Marruecos",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "Marruecos"
+      "jugado": true
     },
     {
       "id": 14,
       "grupo": "C",
       "jornada": 1,
       "local": "Haití",
+      "visitante": "Escocia",
       "goles_l": 0,
       "goles_v": 1,
-      "visitante": "Escocia"
+      "jugado": true
     },
     {
       "id": 19,
       "grupo": "D",
       "jornada": 1,
       "local": "USA",
+      "visitante": "Paraguay",
       "goles_l": 4,
       "goles_v": 1,
-      "visitante": "Paraguay"
+      "jugado": true
     },
     {
       "id": 20,
       "grupo": "D",
       "jornada": 1,
       "local": "Australia",
+      "visitante": "Turquía",
       "goles_l": 2,
       "goles_v": 0,
-      "visitante": "Turquía"
+      "jugado": true
     },
     {
       "id": 25,
       "grupo": "E",
       "jornada": 1,
       "local": "Alemania",
+      "visitante": "Curaçao",
       "goles_l": 7,
       "goles_v": 1,
-      "visitante": "Curaçao"
+      "jugado": true
     },
     {
       "id": 26,
       "grupo": "E",
       "jornada": 1,
       "local": "Costa de Marfil",
+      "visitante": "Ecuador",
       "goles_l": 1,
       "goles_v": 0,
-      "visitante": "Ecuador"
+      "jugado": true
     },
     {
       "id": 31,
       "grupo": "F",
       "jornada": 1,
       "local": "Países Bajos",
+      "visitante": "Japón",
       "goles_l": 2,
       "goles_v": 2,
-      "visitante": "Japón"
+      "jugado": true
     },
     {
       "id": 32,
       "grupo": "F",
       "jornada": 1,
       "local": "Suecia",
+      "visitante": "Túnez",
       "goles_l": 4,
       "goles_v": 1,
-      "visitante": "Túnez"
+      "jugado": true
     },
     {
       "id": 37,
       "grupo": "G",
       "jornada": 1,
       "local": "Bélgica",
+      "visitante": "Egipto",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "Egipto"
+      "jugado": true
     },
     {
       "id": 38,
       "grupo": "G",
       "jornada": 1,
       "local": "Irán",
+      "visitante": "Nueva Zelanda",
       "goles_l": 2,
       "goles_v": 2,
-      "visitante": "Nueva Zelanda"
+      "jugado": true
     },
     {
       "id": 43,
       "grupo": "H",
       "jornada": 1,
       "local": "España",
+      "visitante": "Cabo Verde",
       "goles_l": 0,
       "goles_v": 0,
-      "visitante": "Cabo Verde"
+      "jugado": true
     },
     {
       "id": 44,
       "grupo": "H",
       "jornada": 1,
       "local": "Arabia Saudí",
+      "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "Uruguay"
+      "jugado": true
     },
     {
       "id": 49,
       "grupo": "I",
       "jornada": 1,
       "local": "Francia",
+      "visitante": "Senegal",
       "goles_l": 3,
       "goles_v": 1,
-      "visitante": "Senegal"
+      "jugado": true
     },
     {
       "id": 50,
       "grupo": "I",
       "jornada": 1,
       "local": "Irak",
+      "visitante": "Noruega",
       "goles_l": 1,
       "goles_v": 4,
-      "visitante": "Noruega"
+      "jugado": true
     },
     {
       "id": 55,
       "grupo": "J",
       "jornada": 1,
       "local": "Argentina",
+      "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "visitante": "Argelia"
+      "jugado": true
     },
     {
       "id": 56,
       "grupo": "J",
       "jornada": 1,
       "local": "Austria",
+      "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "visitante": "Jordania"
+      "jugado": true
     },
     {
       "id": 61,
       "grupo": "K",
       "jornada": 1,
       "local": "Portugal",
+      "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "DR Congo"
+      "jugado": true
     },
     {
       "id": 67,
       "grupo": "L",
       "jornada": 1,
       "local": "Inglaterra",
+      "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "visitante": "Croacia"
+      "jugado": true
     },
     {
       "id": 68,
       "grupo": "L",
       "jornada": 1,
       "local": "Ghana",
+      "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "visitante": "Panamá"
+      "jugado": true
+    }
+  ],
+  "todos_partidos": [
+    {
+      "id": 1,
+      "grupo": "A",
+      "jornada": 1,
+      "local": "México",
+      "visitante": "Sudáfrica",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 2,
+      "grupo": "A",
+      "jornada": 1,
+      "local": "Corea del Sur",
+      "visitante": "Chequia",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 3,
+      "grupo": "A",
+      "jornada": 2,
+      "local": "México",
+      "visitante": "Corea del Sur",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 4,
+      "grupo": "A",
+      "jornada": 2,
+      "local": "Sudáfrica",
+      "visitante": "Chequia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 5,
+      "grupo": "A",
+      "jornada": 3,
+      "local": "México",
+      "visitante": "Chequia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 6,
+      "grupo": "A",
+      "jornada": 3,
+      "local": "Sudáfrica",
+      "visitante": "Corea del Sur",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 7,
+      "grupo": "B",
+      "jornada": 1,
+      "local": "Canadá",
+      "visitante": "Bosnia y Herz.",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 8,
+      "grupo": "B",
+      "jornada": 1,
+      "local": "Catar",
+      "visitante": "Suiza",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 9,
+      "grupo": "B",
+      "jornada": 2,
+      "local": "Canadá",
+      "visitante": "Catar",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 10,
+      "grupo": "B",
+      "jornada": 2,
+      "local": "Bosnia y Herz.",
+      "visitante": "Suiza",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 11,
+      "grupo": "B",
+      "jornada": 3,
+      "local": "Canadá",
+      "visitante": "Suiza",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 12,
+      "grupo": "B",
+      "jornada": 3,
+      "local": "Bosnia y Herz.",
+      "visitante": "Catar",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 13,
+      "grupo": "C",
+      "jornada": 1,
+      "local": "Brasil",
+      "visitante": "Marruecos",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 14,
+      "grupo": "C",
+      "jornada": 1,
+      "local": "Haití",
+      "visitante": "Escocia",
+      "goles_l": 0,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 15,
+      "grupo": "C",
+      "jornada": 2,
+      "local": "Brasil",
+      "visitante": "Haití",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 16,
+      "grupo": "C",
+      "jornada": 2,
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 17,
+      "grupo": "C",
+      "jornada": 3,
+      "local": "Brasil",
+      "visitante": "Escocia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 18,
+      "grupo": "C",
+      "jornada": 3,
+      "local": "Marruecos",
+      "visitante": "Haití",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 19,
+      "grupo": "D",
+      "jornada": 1,
+      "local": "USA",
+      "visitante": "Paraguay",
+      "goles_l": 4,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 20,
+      "grupo": "D",
+      "jornada": 1,
+      "local": "Australia",
+      "visitante": "Turquía",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 21,
+      "grupo": "D",
+      "jornada": 2,
+      "local": "USA",
+      "visitante": "Australia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 22,
+      "grupo": "D",
+      "jornada": 2,
+      "local": "Paraguay",
+      "visitante": "Turquía",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 23,
+      "grupo": "D",
+      "jornada": 3,
+      "local": "USA",
+      "visitante": "Turquía",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 24,
+      "grupo": "D",
+      "jornada": 3,
+      "local": "Paraguay",
+      "visitante": "Australia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 25,
+      "grupo": "E",
+      "jornada": 1,
+      "local": "Alemania",
+      "visitante": "Curaçao",
+      "goles_l": 7,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 26,
+      "grupo": "E",
+      "jornada": 1,
+      "local": "Costa de Marfil",
+      "visitante": "Ecuador",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 27,
+      "grupo": "E",
+      "jornada": 2,
+      "local": "Alemania",
+      "visitante": "Costa de Marfil",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 28,
+      "grupo": "E",
+      "jornada": 2,
+      "local": "Curaçao",
+      "visitante": "Ecuador",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 29,
+      "grupo": "E",
+      "jornada": 3,
+      "local": "Alemania",
+      "visitante": "Ecuador",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 30,
+      "grupo": "E",
+      "jornada": 3,
+      "local": "Curaçao",
+      "visitante": "Costa de Marfil",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 31,
+      "grupo": "F",
+      "jornada": 1,
+      "local": "Países Bajos",
+      "visitante": "Japón",
+      "goles_l": 2,
+      "goles_v": 2,
+      "jugado": true
+    },
+    {
+      "id": 32,
+      "grupo": "F",
+      "jornada": 1,
+      "local": "Suecia",
+      "visitante": "Túnez",
+      "goles_l": 4,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 33,
+      "grupo": "F",
+      "jornada": 2,
+      "local": "Países Bajos",
+      "visitante": "Suecia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 34,
+      "grupo": "F",
+      "jornada": 2,
+      "local": "Japón",
+      "visitante": "Túnez",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 35,
+      "grupo": "F",
+      "jornada": 3,
+      "local": "Países Bajos",
+      "visitante": "Túnez",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 36,
+      "grupo": "F",
+      "jornada": 3,
+      "local": "Japón",
+      "visitante": "Suecia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 37,
+      "grupo": "G",
+      "jornada": 1,
+      "local": "Bélgica",
+      "visitante": "Egipto",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 38,
+      "grupo": "G",
+      "jornada": 1,
+      "local": "Irán",
+      "visitante": "Nueva Zelanda",
+      "goles_l": 2,
+      "goles_v": 2,
+      "jugado": true
+    },
+    {
+      "id": 39,
+      "grupo": "G",
+      "jornada": 2,
+      "local": "Bélgica",
+      "visitante": "Irán",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 40,
+      "grupo": "G",
+      "jornada": 2,
+      "local": "Egipto",
+      "visitante": "Nueva Zelanda",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 41,
+      "grupo": "G",
+      "jornada": 3,
+      "local": "Bélgica",
+      "visitante": "Nueva Zelanda",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 42,
+      "grupo": "G",
+      "jornada": 3,
+      "local": "Egipto",
+      "visitante": "Irán",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 43,
+      "grupo": "H",
+      "jornada": 1,
+      "local": "España",
+      "visitante": "Cabo Verde",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 44,
+      "grupo": "H",
+      "jornada": 1,
+      "local": "Arabia Saudí",
+      "visitante": "Uruguay",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 45,
+      "grupo": "H",
+      "jornada": 2,
+      "local": "España",
+      "visitante": "Arabia Saudí",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 46,
+      "grupo": "H",
+      "jornada": 2,
+      "local": "Cabo Verde",
+      "visitante": "Uruguay",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 47,
+      "grupo": "H",
+      "jornada": 3,
+      "local": "España",
+      "visitante": "Uruguay",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 48,
+      "grupo": "H",
+      "jornada": 3,
+      "local": "Cabo Verde",
+      "visitante": "Arabia Saudí",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 49,
+      "grupo": "I",
+      "jornada": 1,
+      "local": "Francia",
+      "visitante": "Senegal",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 50,
+      "grupo": "I",
+      "jornada": 1,
+      "local": "Irak",
+      "visitante": "Noruega",
+      "goles_l": 1,
+      "goles_v": 4,
+      "jugado": true
+    },
+    {
+      "id": 51,
+      "grupo": "I",
+      "jornada": 2,
+      "local": "Francia",
+      "visitante": "Irak",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 52,
+      "grupo": "I",
+      "jornada": 2,
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 53,
+      "grupo": "I",
+      "jornada": 3,
+      "local": "Francia",
+      "visitante": "Noruega",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 54,
+      "grupo": "I",
+      "jornada": 3,
+      "local": "Senegal",
+      "visitante": "Irak",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 55,
+      "grupo": "J",
+      "jornada": 1,
+      "local": "Argentina",
+      "visitante": "Argelia",
+      "goles_l": 3,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 56,
+      "grupo": "J",
+      "jornada": 1,
+      "local": "Austria",
+      "visitante": "Jordania",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 57,
+      "grupo": "J",
+      "jornada": 2,
+      "local": "Argentina",
+      "visitante": "Austria",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 58,
+      "grupo": "J",
+      "jornada": 2,
+      "local": "Argelia",
+      "visitante": "Jordania",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 59,
+      "grupo": "J",
+      "jornada": 3,
+      "local": "Argentina",
+      "visitante": "Jordania",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 60,
+      "grupo": "J",
+      "jornada": 3,
+      "local": "Argelia",
+      "visitante": "Austria",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 61,
+      "grupo": "K",
+      "jornada": 1,
+      "local": "Portugal",
+      "visitante": "DR Congo",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true
+    },
+    {
+      "id": 62,
+      "grupo": "K",
+      "jornada": 1,
+      "local": "Uzbekistán",
+      "visitante": "Colombia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 63,
+      "grupo": "K",
+      "jornada": 2,
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 64,
+      "grupo": "K",
+      "jornada": 2,
+      "local": "DR Congo",
+      "visitante": "Colombia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 65,
+      "grupo": "K",
+      "jornada": 3,
+      "local": "Portugal",
+      "visitante": "Colombia",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 66,
+      "grupo": "K",
+      "jornada": 3,
+      "local": "DR Congo",
+      "visitante": "Uzbekistán",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 67,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Inglaterra",
+      "visitante": "Croacia",
+      "goles_l": 4,
+      "goles_v": 2,
+      "jugado": true
+    },
+    {
+      "id": 68,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Ghana",
+      "visitante": "Panamá",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true
+    },
+    {
+      "id": 69,
+      "grupo": "L",
+      "jornada": 2,
+      "local": "Inglaterra",
+      "visitante": "Ghana",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 70,
+      "grupo": "L",
+      "jornada": 2,
+      "local": "Croacia",
+      "visitante": "Panamá",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 71,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 72,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Croacia",
+      "visitante": "Ghana",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 1,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo A",
+      "visitante": "Equipo Q",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 2,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo B",
+      "visitante": "Equipo R",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 3,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo C",
+      "visitante": "Equipo S",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 4,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo D",
+      "visitante": "Equipo T",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 5,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo E",
+      "visitante": "Equipo U",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 6,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo F",
+      "visitante": "Equipo V",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 7,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo G",
+      "visitante": "Equipo W",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 8,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo H",
+      "visitante": "Equipo X",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 9,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo I",
+      "visitante": "Equipo Y",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 10,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo J",
+      "visitante": "Equipo Z",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 11,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo K",
+      "visitante": "Equipo [",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 12,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo L",
+      "visitante": "Equipo \\",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 13,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo M",
+      "visitante": "Equipo ]",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 14,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo N",
+      "visitante": "Equipo ^",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 15,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo O",
+      "visitante": "Equipo _",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 16,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Equipo P",
+      "visitante": "Equipo `",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 17,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo A",
+      "visitante": "Equipo Q",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 18,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo B",
+      "visitante": "Equipo R",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 19,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo C",
+      "visitante": "Equipo S",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 20,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo D",
+      "visitante": "Equipo T",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 21,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo E",
+      "visitante": "Equipo U",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 22,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo F",
+      "visitante": "Equipo V",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 23,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo G",
+      "visitante": "Equipo W",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 24,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Equipo H",
+      "visitante": "Equipo X",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 25,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Equipo A",
+      "visitante": "Equipo Q",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 26,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Equipo B",
+      "visitante": "Equipo R",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 27,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Equipo C",
+      "visitante": "Equipo S",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 28,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Equipo D",
+      "visitante": "Equipo T",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 29,
+      "grupo": "Semifinales",
+      "jornada": 0,
+      "local": "Equipo A",
+      "visitante": "Equipo Q",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 30,
+      "grupo": "Semifinales",
+      "jornada": 0,
+      "local": "Equipo B",
+      "visitante": "Equipo R",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
+    },
+    {
+      "id": 31,
+      "grupo": "Final",
+      "jornada": 0,
+      "local": "Equipo A",
+      "visitante": "Equipo Q",
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
     }
   ],
   "ultimos5": [
@@ -6310,45 +7365,50 @@
       "grupo": "L",
       "jornada": 1,
       "local": "Ghana",
+      "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "visitante": "Panamá"
+      "jugado": true
     },
     {
       "id": 67,
       "grupo": "L",
       "jornada": 1,
       "local": "Inglaterra",
+      "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "visitante": "Croacia"
+      "jugado": true
     },
     {
       "id": 61,
       "grupo": "K",
       "jornada": 1,
       "local": "Portugal",
+      "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "visitante": "DR Congo"
+      "jugado": true
     },
     {
       "id": 56,
       "grupo": "J",
       "jornada": 1,
       "local": "Austria",
+      "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "visitante": "Jordania"
+      "jugado": true
     },
     {
       "id": 55,
       "grupo": "J",
       "jornada": 1,
       "local": "Argentina",
+      "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "visitante": "Argelia"
+      "jugado": true
     }
   ],
   "stats": {
