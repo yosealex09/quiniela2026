@@ -101,11 +101,13 @@ def emparejar_resultados(calendario, partidos_api):
         gl = gv = None
         jugado = False
         en_vivo = False
+        fecha = None
         if match:
             m, invertido = match
             estado = m.get("status")
             ft = m.get("score", {}).get("fullTime", {})
             h, a = ft.get("home"), ft.get("away")
+            fecha = m.get("utcDate")
             if h is not None and a is not None:
                 gl, gv = (a, h) if invertido else (h, a)
                 jugado = estado == "FINISHED"
@@ -116,6 +118,7 @@ def emparejar_resultados(calendario, partidos_api):
         entrada["goles_v"] = gv
         entrada["jugado"] = jugado
         entrada["en_vivo"] = en_vivo
+        entrada["fecha"] = fecha
         resultado.append(entrada)
     return resultado, sin_cruzar
 
@@ -189,7 +192,7 @@ def main():
                 acumulado.append({"id": p["id"], "pts": total})
         ranking.append({"pos": i, "name": name, "pts": pts, "diff": pts - max_pts, "acumulado": acumulado})
 
-    ultimos5 = sorted(partidos_grupo_jugados, key=lambda p: p["id"], reverse=True)[:5]
+    ultimos5 = sorted(partidos_grupo_jugados, key=lambda p: p["fecha"] or "", reverse=True)[:5]
     en_vivo = [p for p in todos_partidos if p.get("en_vivo")]
 
     data = {

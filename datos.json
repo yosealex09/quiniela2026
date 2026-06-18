@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "18/06/2026 14:12",
+  "actualizado": "18/06/2026 14:52",
   "ranking": [
     {
       "pos": 1,
@@ -6185,7 +6185,8 @@
       "goles_l": 2,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-11T19:00:00Z"
     },
     {
       "id": 2,
@@ -6196,7 +6197,8 @@
       "goles_l": 2,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-12T02:00:00Z"
     },
     {
       "id": 4,
@@ -6207,7 +6209,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T16:00:00Z"
     },
     {
       "id": 7,
@@ -6218,7 +6221,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-12T19:00:00Z"
     },
     {
       "id": 8,
@@ -6229,7 +6233,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T19:00:00Z"
     },
     {
       "id": 13,
@@ -6240,7 +6245,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T22:00:00Z"
     },
     {
       "id": 14,
@@ -6251,7 +6257,8 @@
       "goles_l": 0,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T01:00:00Z"
     },
     {
       "id": 19,
@@ -6262,7 +6269,8 @@
       "goles_l": 4,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T01:00:00Z"
     },
     {
       "id": 20,
@@ -6273,7 +6281,8 @@
       "goles_l": 2,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T04:00:00Z"
     },
     {
       "id": 25,
@@ -6284,7 +6293,8 @@
       "goles_l": 7,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T17:00:00Z"
     },
     {
       "id": 26,
@@ -6295,7 +6305,8 @@
       "goles_l": 1,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T23:00:00Z"
     },
     {
       "id": 31,
@@ -6306,7 +6317,8 @@
       "goles_l": 2,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T20:00:00Z"
     },
     {
       "id": 32,
@@ -6317,7 +6329,8 @@
       "goles_l": 5,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T02:00:00Z"
     },
     {
       "id": 37,
@@ -6328,7 +6341,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T19:00:00Z"
     },
     {
       "id": 38,
@@ -6339,7 +6353,8 @@
       "goles_l": 2,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T01:00:00Z"
     },
     {
       "id": 43,
@@ -6350,7 +6365,8 @@
       "goles_l": 0,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T16:00:00Z"
     },
     {
       "id": 44,
@@ -6361,7 +6377,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T22:00:00Z"
     },
     {
       "id": 49,
@@ -6372,7 +6389,8 @@
       "goles_l": 3,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T19:00:00Z"
     },
     {
       "id": 50,
@@ -6383,7 +6401,8 @@
       "goles_l": 1,
       "goles_v": 4,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T22:00:00Z"
     },
     {
       "id": 55,
@@ -6394,7 +6413,8 @@
       "goles_l": 3,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T01:00:00Z"
     },
     {
       "id": 56,
@@ -6405,7 +6425,8 @@
       "goles_l": 3,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T04:00:00Z"
     },
     {
       "id": 61,
@@ -6416,7 +6437,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T17:00:00Z"
     },
     {
       "id": 62,
@@ -6427,7 +6449,8 @@
       "goles_l": 1,
       "goles_v": 3,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T02:00:00Z"
     },
     {
       "id": 67,
@@ -6438,7 +6461,8 @@
       "goles_l": 4,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T20:00:00Z"
     },
     {
       "id": 68,
@@ -6449,7 +6473,8 @@
       "goles_l": 1,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T23:00:00Z"
     }
   ],
   "todos_partidos": [
@@ -6462,7 +6487,8 @@
       "goles_l": 2,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-11T19:00:00Z"
     },
     {
       "id": 2,
@@ -6473,7 +6499,8 @@
       "goles_l": 2,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-12T02:00:00Z"
     },
     {
       "id": 3,
@@ -6484,7 +6511,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-19T01:00:00Z"
     },
     {
       "id": 4,
@@ -6495,7 +6523,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T16:00:00Z"
     },
     {
       "id": 5,
@@ -6506,7 +6535,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T01:00:00Z"
     },
     {
       "id": 6,
@@ -6517,7 +6547,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T01:00:00Z"
     },
     {
       "id": 7,
@@ -6528,7 +6559,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-12T19:00:00Z"
     },
     {
       "id": 8,
@@ -6539,7 +6571,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T19:00:00Z"
     },
     {
       "id": 9,
@@ -6550,7 +6583,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T22:00:00Z"
     },
     {
       "id": 10,
@@ -6561,7 +6595,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T19:00:00Z"
     },
     {
       "id": 11,
@@ -6572,7 +6607,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-24T19:00:00Z"
     },
     {
       "id": 12,
@@ -6583,7 +6619,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-24T19:00:00Z"
     },
     {
       "id": 13,
@@ -6594,7 +6631,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T22:00:00Z"
     },
     {
       "id": 14,
@@ -6605,7 +6643,8 @@
       "goles_l": 0,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T01:00:00Z"
     },
     {
       "id": 15,
@@ -6616,7 +6655,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-20T00:30:00Z"
     },
     {
       "id": 16,
@@ -6627,7 +6667,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-19T22:00:00Z"
     },
     {
       "id": 17,
@@ -6638,7 +6679,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-24T22:00:00Z"
     },
     {
       "id": 18,
@@ -6649,7 +6691,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-24T22:00:00Z"
     },
     {
       "id": 19,
@@ -6660,7 +6703,8 @@
       "goles_l": 4,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-13T01:00:00Z"
     },
     {
       "id": 20,
@@ -6671,7 +6715,8 @@
       "goles_l": 2,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T04:00:00Z"
     },
     {
       "id": 21,
@@ -6682,7 +6727,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-19T19:00:00Z"
     },
     {
       "id": 22,
@@ -6693,7 +6739,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-20T03:00:00Z"
     },
     {
       "id": 23,
@@ -6704,7 +6751,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-26T02:00:00Z"
     },
     {
       "id": 24,
@@ -6715,7 +6763,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-26T02:00:00Z"
     },
     {
       "id": 25,
@@ -6726,7 +6775,8 @@
       "goles_l": 7,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T17:00:00Z"
     },
     {
       "id": 26,
@@ -6737,7 +6787,8 @@
       "goles_l": 1,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T23:00:00Z"
     },
     {
       "id": 27,
@@ -6748,7 +6799,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-20T20:00:00Z"
     },
     {
       "id": 28,
@@ -6759,7 +6811,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-21T00:00:00Z"
     },
     {
       "id": 29,
@@ -6770,7 +6823,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T20:00:00Z"
     },
     {
       "id": 30,
@@ -6781,7 +6835,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T20:00:00Z"
     },
     {
       "id": 31,
@@ -6792,7 +6847,8 @@
       "goles_l": 2,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-14T20:00:00Z"
     },
     {
       "id": 32,
@@ -6803,7 +6859,8 @@
       "goles_l": 5,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T02:00:00Z"
     },
     {
       "id": 33,
@@ -6814,7 +6871,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-20T17:00:00Z"
     },
     {
       "id": 34,
@@ -6825,7 +6883,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-21T04:00:00Z"
     },
     {
       "id": 35,
@@ -6836,7 +6895,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T23:00:00Z"
     },
     {
       "id": 36,
@@ -6847,7 +6907,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-25T23:00:00Z"
     },
     {
       "id": 37,
@@ -6858,7 +6919,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T19:00:00Z"
     },
     {
       "id": 38,
@@ -6869,7 +6931,8 @@
       "goles_l": 2,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T01:00:00Z"
     },
     {
       "id": 39,
@@ -6880,7 +6943,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-21T19:00:00Z"
     },
     {
       "id": 40,
@@ -6891,7 +6955,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-22T01:00:00Z"
     },
     {
       "id": 41,
@@ -6902,7 +6967,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T03:00:00Z"
     },
     {
       "id": 42,
@@ -6913,7 +6979,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T03:00:00Z"
     },
     {
       "id": 43,
@@ -6924,7 +6991,8 @@
       "goles_l": 0,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T16:00:00Z"
     },
     {
       "id": 44,
@@ -6935,7 +7003,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-15T22:00:00Z"
     },
     {
       "id": 45,
@@ -6946,7 +7015,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-21T16:00:00Z"
     },
     {
       "id": 46,
@@ -6957,7 +7027,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-21T22:00:00Z"
     },
     {
       "id": 47,
@@ -6968,7 +7039,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T00:00:00Z"
     },
     {
       "id": 48,
@@ -6979,7 +7051,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T00:00:00Z"
     },
     {
       "id": 49,
@@ -6990,7 +7063,8 @@
       "goles_l": 3,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T19:00:00Z"
     },
     {
       "id": 50,
@@ -7001,7 +7075,8 @@
       "goles_l": 1,
       "goles_v": 4,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-16T22:00:00Z"
     },
     {
       "id": 51,
@@ -7012,7 +7087,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-22T21:00:00Z"
     },
     {
       "id": 52,
@@ -7023,7 +7099,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-23T00:00:00Z"
     },
     {
       "id": 53,
@@ -7034,7 +7111,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-26T19:00:00Z"
     },
     {
       "id": 54,
@@ -7045,7 +7123,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-26T19:00:00Z"
     },
     {
       "id": 55,
@@ -7056,7 +7135,8 @@
       "goles_l": 3,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T01:00:00Z"
     },
     {
       "id": 56,
@@ -7067,7 +7147,8 @@
       "goles_l": 3,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T04:00:00Z"
     },
     {
       "id": 57,
@@ -7078,7 +7159,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-22T17:00:00Z"
     },
     {
       "id": 58,
@@ -7089,7 +7171,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-23T03:00:00Z"
     },
     {
       "id": 59,
@@ -7100,7 +7183,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-28T02:00:00Z"
     },
     {
       "id": 60,
@@ -7111,7 +7195,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-28T02:00:00Z"
     },
     {
       "id": 61,
@@ -7122,7 +7207,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T17:00:00Z"
     },
     {
       "id": 62,
@@ -7133,7 +7219,8 @@
       "goles_l": 1,
       "goles_v": 3,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T02:00:00Z"
     },
     {
       "id": 63,
@@ -7144,7 +7231,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-23T17:00:00Z"
     },
     {
       "id": 64,
@@ -7155,7 +7243,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-24T02:00:00Z"
     },
     {
       "id": 65,
@@ -7166,7 +7255,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T23:30:00Z"
     },
     {
       "id": 66,
@@ -7177,7 +7267,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T23:30:00Z"
     },
     {
       "id": 67,
@@ -7188,7 +7279,8 @@
       "goles_l": 4,
       "goles_v": 2,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T20:00:00Z"
     },
     {
       "id": 68,
@@ -7199,7 +7291,8 @@
       "goles_l": 1,
       "goles_v": 0,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T23:00:00Z"
     },
     {
       "id": 69,
@@ -7210,7 +7303,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-23T20:00:00Z"
     },
     {
       "id": 70,
@@ -7221,7 +7315,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-23T23:00:00Z"
     },
     {
       "id": 71,
@@ -7232,7 +7327,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
     },
     {
       "id": 72,
@@ -7243,7 +7339,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
     },
     {
       "id": 1072,
@@ -7254,7 +7351,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1073,
@@ -7265,7 +7363,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1074,
@@ -7276,7 +7375,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1075,
@@ -7287,7 +7387,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1076,
@@ -7298,7 +7399,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1077,
@@ -7309,7 +7411,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1078,
@@ -7320,7 +7423,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1079,
@@ -7331,7 +7435,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1080,
@@ -7342,7 +7447,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1081,
@@ -7353,7 +7459,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1082,
@@ -7364,7 +7471,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1083,
@@ -7375,7 +7483,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1084,
@@ -7386,7 +7495,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1085,
@@ -7397,7 +7507,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1086,
@@ -7408,7 +7519,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1087,
@@ -7419,7 +7531,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1088,
@@ -7430,7 +7543,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1089,
@@ -7441,7 +7555,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1090,
@@ -7452,7 +7567,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1091,
@@ -7463,7 +7579,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1092,
@@ -7474,7 +7591,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1093,
@@ -7485,7 +7603,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1094,
@@ -7496,7 +7615,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1095,
@@ -7507,7 +7627,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1096,
@@ -7518,7 +7639,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1097,
@@ -7529,7 +7651,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1098,
@@ -7540,7 +7663,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1099,
@@ -7551,7 +7675,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1100,
@@ -7562,7 +7687,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1101,
@@ -7573,7 +7699,8 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     },
     {
       "id": 1102,
@@ -7584,31 +7711,22 @@
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": null
     }
   ],
   "ultimos5": [
     {
-      "id": 68,
-      "grupo": "L",
-      "jornada": 1,
-      "local": "Ghana",
-      "visitante": "Panamá",
+      "id": 4,
+      "grupo": "A",
+      "jornada": 2,
+      "local": "Sudáfrica",
+      "visitante": "Chequia",
       "goles_l": 1,
-      "goles_v": 0,
+      "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
-    },
-    {
-      "id": 67,
-      "grupo": "L",
-      "jornada": 1,
-      "local": "Inglaterra",
-      "visitante": "Croacia",
-      "goles_l": 4,
-      "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T16:00:00Z"
     },
     {
       "id": 62,
@@ -7619,7 +7737,32 @@
       "goles_l": 1,
       "goles_v": 3,
       "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-18T02:00:00Z"
+    },
+    {
+      "id": 68,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Ghana",
+      "visitante": "Panamá",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-17T23:00:00Z"
+    },
+    {
+      "id": 67,
+      "grupo": "L",
+      "jornada": 1,
+      "local": "Inglaterra",
+      "visitante": "Croacia",
+      "goles_l": 4,
+      "goles_v": 2,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-17T20:00:00Z"
     },
     {
       "id": 61,
@@ -7630,18 +7773,8 @@
       "goles_l": 1,
       "goles_v": 1,
       "jugado": true,
-      "en_vivo": false
-    },
-    {
-      "id": 56,
-      "grupo": "J",
-      "jornada": 1,
-      "local": "Austria",
-      "visitante": "Jordania",
-      "goles_l": 3,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "en_vivo": false,
+      "fecha": "2026-06-17T17:00:00Z"
     }
   ],
   "en_vivo": [],
