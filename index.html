@@ -64,6 +64,11 @@
     select{background:#1a2640;border:1px solid rgba(255,255,255,.15);color:var(--text);padding:8px 12px;border-radius:10px;font-size:13px;cursor:pointer}
     .stats-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
     .stats-row .kpi{flex:1;min-width:90px}
+    .next-match{background:linear-gradient(135deg,rgba(255,209,102,.14),rgba(255,255,255,.04));border:1px solid rgba(255,209,102,.35);border-radius:16px;padding:14px 16px;margin-bottom:14px}
+    .next-match-label{color:var(--gold);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:8px}
+    .next-match-teams{font-size:18px;font-weight:800}
+    .next-match-teams span{color:var(--muted);font-weight:600;margin:0 8px;font-size:13px}
+    .next-match-pred{color:var(--muted);font-size:13px;margin-top:4px}
   </style>
 </head>
 <body>
@@ -231,6 +236,15 @@ function selectPlayer(name) {
   const mapaPartidos = {};
   (DATA.todos_partidos || DATA.partidos || []).forEach(p => mapaPartidos[p.id] = p);
 
+  const proximo = p.partidos.find(m => m.pts === null);
+  const proximoPartido = proximo ? mapaPartidos[proximo.id] : null;
+  const proximoHtml = proximoPartido ? `
+    <div class="next-match">
+      <div class="next-match-label">⏱ Próximo pronóstico pendiente · Partido #${proximo.id}</div>
+      <div class="next-match-teams">${proximoPartido.local} <span>vs</span> ${proximoPartido.visitante}</div>
+      <div class="next-match-pred">Tu pronóstico: ${proximo.pred_l??'?'} - ${proximo.pred_v??'?'}</div>
+    </div>` : '';
+
   const rows = p.partidos.map(m => {
     const partido = mapaPartidos[m.id];
     const local    = partido ? partido.local    : '—';
@@ -257,16 +271,34 @@ function selectPlayer(name) {
   }).join('');
 
   document.getElementById('forecastContent').innerHTML = `
+    ${proximoHtml}
     <div class="stats-row">
-      <div class="kpi" style="background:rgba(72,225,166,.1)"><b>${p.pts_total}</b><span>Puntos totales</span></div>
-      <div class="kpi" style="background:rgba(72,225,166,.08)"><b>${exactos}</b><span>Exactos ✓</span></div>
-      <div class="kpi" style="background:rgba(78,168,255,.08)"><b>${tendencias}</b><span>Tendencias ~</span></div>
-      <div class="kpi" style="background:rgba(255,107,107,.08)"><b>${fallos}</b><span>Fallos ✗</span></div>
+      <div class="kpi" style="background:rgba(72,225,166,.1)"><b data-count="${p.pts_total}">0</b><span>Puntos totales</span></div>
+      <div class="kpi" style="background:rgba(72,225,166,.08)"><b data-count="${exactos}">0</b><span>Exactos ✓</span></div>
+      <div class="kpi" style="background:rgba(78,168,255,.08)"><b data-count="${tendencias}">0</b><span>Tendencias ~</span></div>
+      <div class="kpi" style="background:rgba(255,107,107,.08)"><b data-count="${fallos}">0</b><span>Fallos ✗</span></div>
     </div>
     <table class="ft">
       <thead><tr><th>#</th><th>Partido</th><th>Pronóstico</th><th>Pts</th><th>Resultado</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>`;
+
+  animateCounts();
+}
+
+// ── Animación de conteo en KPIs ─────────────────────────────────────────────
+function animateCounts() {
+  document.querySelectorAll('#forecastContent b[data-count]').forEach(el => {
+    const target = parseInt(el.dataset.count, 10) || 0;
+    const duration = 600;
+    const start = performance.now();
+    function tick(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      el.textContent = Math.round(target * progress);
+      if (progress < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  });
 }
 
 // ── Gráfica ───────────────────────────────────────────────────────────────────
