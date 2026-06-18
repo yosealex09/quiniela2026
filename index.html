@@ -69,6 +69,13 @@
     .next-match-teams{font-size:18px;font-weight:800}
     .next-match-teams span{color:var(--muted);font-weight:600;margin:0 8px;font-size:13px}
     .next-match-pred{color:var(--muted);font-size:13px;margin-top:4px}
+    .bracket-wrap{display:flex;gap:24px;overflow-x:auto;padding-bottom:10px}
+    .bracket-col{display:flex;flex-direction:column;justify-content:space-around;gap:14px;min-width:200px}
+    .bracket-round-title{text-align:center;color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:4px}
+    .bracket-match{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden}
+    .bracket-team{display:flex;justify-content:space-between;padding:7px 10px;font-size:12px;border-bottom:1px solid rgba(255,255,255,.05)}
+    .bracket-team:last-child{border-bottom:none}
+    .bracket-winner{color:var(--accent);font-weight:800}
   </style>
 </head>
 <body>
@@ -83,6 +90,8 @@
   <div class="tabs">
     <div class="tab active"  data-page="ranking">🏆 Ranking</div>
     <div class="tab"         data-page="pronosticos">🔮 Pronósticos</div>
+    <div class="tab"         data-page="grupos">🌐 Grupos</div>
+    <div class="tab"         data-page="brackets">🗂️ Brackets</div>
     <div class="tab"         data-page="grafica">📈 Evolución</div>
     <div class="tab"         data-page="comparar">⚖️ Comparar</div>
   </div>
@@ -124,6 +133,23 @@
     </div>
   </div>
 
+  <!-- GRUPOS -->
+  <div id="page-grupos" class="page">
+    <div class="panel">
+      <h2>🌐 Fase de grupos</h2>
+      <div class="select-wrap" id="grupoBtns"></div>
+      <div id="grupoContent"></div>
+    </div>
+  </div>
+
+  <!-- BRACKETS -->
+  <div id="page-brackets" class="page">
+    <div class="panel">
+      <h2>🗂️ Eliminatorias</h2>
+      <div id="bracketContent"></div>
+    </div>
+  </div>
+
   <!-- GRÁFICA -->
   <div id="page-grafica" class="page">
     <div class="panel">
@@ -162,6 +188,8 @@ document.querySelectorAll('.tab').forEach(tab => {
     tab.classList.add('active');
     document.getElementById('page-' + tab.dataset.page).classList.add('active');
     if (tab.dataset.page === 'grafica' && DATA) renderGrafica();
+    if (tab.dataset.page === 'grupos' && DATA) renderGrupoBtns();
+    if (tab.dataset.page === 'brackets' && DATA) renderBracket();
   });
 });
 
@@ -299,6 +327,92 @@ function animateCounts() {
     }
     requestAnimationFrame(tick);
   });
+}
+
+// ── Grupos ────────────────────────────────────────────────────────────────────
+let activeGrupo = null;
+
+function renderGrupoBtns() {
+  const grupos = [...new Set(DATA.todos_partidos
+    .filter(p => p.grupo.length === 1)
+    .map(p => p.grupo))].sort();
+  document.getElementById('grupoBtns').innerHTML = grupos.map(g =>
+    `<div class="player-btn ${g===activeGrupo?'active':''}" onclick="selectGrupo('${g}')">Grupo ${g}</div>`
+  ).join('');
+  if (!activeGrupo) selectGrupo(grupos[0]);
+}
+
+function calcularStandings(matches) {
+  const teams = {};
+  const ensure = name => teams[name] || (teams[name] = { name, pj:0, g:0, e:0, p:0, gf:0, gc:0, pts:0 });
+  matches.forEach(m => { ensure(m.local); ensure(m.visitante); });
+  matches.filter(m => m.jugado).forEach(m => {
+    const L = ensure(m.local), V = ensure(m.visitante);
+    L.pj++; V.pj++; L.gf += m.goles_l; L.gc += m.goles_v; V.gf += m.goles_v; V.gc += m.goles_l;
+    if (m.goles_l > m.goles_v)      { L.g++; L.pts += 3; V.p++; }
+    else if (m.goles_v > m.goles_l) { V.g++; V.pts += 3; L.p++; }
+    else { L.e++; V.e++; L.pts++; V.pts++; }
+  });
+  return Object.values(teams).sort((a,b) => b.pts - a.pts || (b.gf-b.gc) - (a.gf-a.gc) || b.gf - a.gf);
+}
+
+function selectGrupo(g) {
+  activeGrupo = g;
+  document.querySelectorAll('#grupoBtns .player-btn').forEach(b => b.classList.toggle('active', b.textContent==='Grupo '+g));
+
+  const matches = DATA.todos_partidos.filter(p => p.grupo === g).sort((a,b) => a.id - b.id);
+  const standings = calcularStandings(matches);
+
+  const tablaHtml = `
+    <table class="ft">
+      <thead><tr><th>Equipo</th><th>PJ</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th><th>Pts</th></tr></thead>
+      <tbody>${standings.map((t,i) => `
+        <tr>
+          <td style="font-weight:700">${i<2?'<span class="medal">⬆️</span> ':''}${t.name}</td>
+          <td>${t.pj}</td><td>${t.g}</td><td>${t.e}</td><td>${t.p}</td>
+          <td>${t.gf}</td><td>${t.gc}</td><td class="pts-big" style="font-size:14px">${t.pts}</td>
+        </tr>`).join('')}</tbody>
+    </table>`;
+
+  const matchesHtml = matches.map(m => `
+    <div class="match">
+      <div class="match-top"><span>Jornada ${m.jornada}</span><span class="${m.jugado?'ok':'pend'}">${m.jugado?'✓ Jugado':'Pendiente'}</span></div>
+      <div class="teams">
+        <span>${m.local}</span>
+        <span class="score-res">${m.jugado?`${m.goles_l} - ${m.goles_v}`:'vs'}</span>
+        <span>${m.visitante}</span>
+      </div>
+    </div>`).join('');
+
+  document.getElementById('grupoContent').innerHTML = `
+    <div class="grid2">
+      <div>${tablaHtml}</div>
+      <div>${matchesHtml}</div>
+    </div>`;
+}
+
+// ── Brackets ──────────────────────────────────────────────────────────────────
+function renderBracket() {
+  const rondas = ['16avos de Final','Octavos de Final','Cuartos de Final','Semifinales','Final'];
+  const html = rondas.map(r => {
+    const matches = DATA.todos_partidos.filter(p => p.grupo === r).sort((a,b) => a.id - b.id);
+    if (!matches.length) return '';
+    return `
+      <div class="bracket-col">
+        <div class="bracket-round-title">${r}</div>
+        ${matches.map(m => `
+          <div class="bracket-match">
+            <div class="bracket-team ${m.jugado && m.goles_l>m.goles_v?'bracket-winner':''}">
+              <span>${m.local}</span><span>${m.jugado?m.goles_l:''}</span>
+            </div>
+            <div class="bracket-team ${m.jugado && m.goles_v>m.goles_l?'bracket-winner':''}">
+              <span>${m.visitante}</span><span>${m.jugado?m.goles_v:''}</span>
+            </div>
+          </div>`).join('')}
+      </div>`;
+  }).join('');
+
+  document.getElementById('bracketContent').innerHTML = `<div class="bracket-wrap">${html}</div>`;
 }
 
 // ── Gráfica ───────────────────────────────────────────────────────────────────
