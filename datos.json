@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "18/06/2026 13:50",
+  "actualizado": "18/06/2026 13:53",
   "ranking": [
     {
       "pos": 1,
@@ -1269,7 +1269,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -1778,7 +1778,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -2287,7 +2287,7 @@
           "pred_l": 1,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -2796,7 +2796,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -3305,7 +3305,7 @@
           "pred_l": 0,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -3814,7 +3814,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -4323,7 +4323,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -4832,7 +4832,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -5341,7 +5341,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -5850,7 +5850,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 4 - 1 Túnez"
+          "resultado": "Suecia 5 - 1 Túnez"
         },
         {
           "id": 33,
@@ -6144,7 +6144,8 @@
       "visitante": "Sudáfrica",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 2,
@@ -6154,7 +6155,8 @@
       "visitante": "Chequia",
       "goles_l": 2,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 7,
@@ -6164,7 +6166,8 @@
       "visitante": "Bosnia y Herz.",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 8,
@@ -6174,7 +6177,8 @@
       "visitante": "Suiza",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 13,
@@ -6184,7 +6188,8 @@
       "visitante": "Marruecos",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 14,
@@ -6194,7 +6199,8 @@
       "visitante": "Escocia",
       "goles_l": 0,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 19,
@@ -6204,7 +6210,8 @@
       "visitante": "Paraguay",
       "goles_l": 4,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 20,
@@ -6214,7 +6221,8 @@
       "visitante": "Turquía",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 25,
@@ -6224,7 +6232,8 @@
       "visitante": "Curaçao",
       "goles_l": 7,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 26,
@@ -6234,7 +6243,8 @@
       "visitante": "Ecuador",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 31,
@@ -6244,7 +6254,8 @@
       "visitante": "Japón",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 32,
@@ -6252,9 +6263,10 @@
       "jornada": 1,
       "local": "Suecia",
       "visitante": "Túnez",
-      "goles_l": 4,
+      "goles_l": 5,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 37,
@@ -6264,7 +6276,8 @@
       "visitante": "Egipto",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 38,
@@ -6274,7 +6287,8 @@
       "visitante": "Nueva Zelanda",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 43,
@@ -6284,7 +6298,8 @@
       "visitante": "Cabo Verde",
       "goles_l": 0,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 44,
@@ -6294,7 +6309,8 @@
       "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 49,
@@ -6304,7 +6320,8 @@
       "visitante": "Senegal",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 50,
@@ -6314,7 +6331,8 @@
       "visitante": "Noruega",
       "goles_l": 1,
       "goles_v": 4,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 55,
@@ -6324,7 +6342,8 @@
       "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 56,
@@ -6334,7 +6353,8 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 61,
@@ -6344,7 +6364,8 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 62,
@@ -6354,7 +6375,8 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 67,
@@ -6364,7 +6386,8 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 68,
@@ -6374,7 +6397,8 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     }
   ],
   "todos_partidos": [
@@ -6386,7 +6410,8 @@
       "visitante": "Sudáfrica",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 2,
@@ -6396,7 +6421,8 @@
       "visitante": "Chequia",
       "goles_l": 2,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 3,
@@ -6406,7 +6432,8 @@
       "visitante": "Corea del Sur",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 4,
@@ -6414,9 +6441,10 @@
       "jornada": 2,
       "local": "Sudáfrica",
       "visitante": "Chequia",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true
     },
     {
       "id": 5,
@@ -6426,7 +6454,8 @@
       "visitante": "Chequia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 6,
@@ -6436,7 +6465,8 @@
       "visitante": "Corea del Sur",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 7,
@@ -6446,7 +6476,8 @@
       "visitante": "Bosnia y Herz.",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 8,
@@ -6456,7 +6487,8 @@
       "visitante": "Suiza",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 9,
@@ -6466,7 +6498,8 @@
       "visitante": "Catar",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 10,
@@ -6476,7 +6509,8 @@
       "visitante": "Suiza",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 11,
@@ -6486,7 +6520,8 @@
       "visitante": "Suiza",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 12,
@@ -6496,7 +6531,8 @@
       "visitante": "Catar",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 13,
@@ -6506,7 +6542,8 @@
       "visitante": "Marruecos",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 14,
@@ -6516,7 +6553,8 @@
       "visitante": "Escocia",
       "goles_l": 0,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 15,
@@ -6526,7 +6564,8 @@
       "visitante": "Haití",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 16,
@@ -6536,7 +6575,8 @@
       "visitante": "Escocia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 17,
@@ -6546,7 +6586,8 @@
       "visitante": "Escocia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 18,
@@ -6556,7 +6597,8 @@
       "visitante": "Haití",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 19,
@@ -6566,7 +6608,8 @@
       "visitante": "Paraguay",
       "goles_l": 4,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 20,
@@ -6576,7 +6619,8 @@
       "visitante": "Turquía",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 21,
@@ -6586,7 +6630,8 @@
       "visitante": "Australia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 22,
@@ -6596,7 +6641,8 @@
       "visitante": "Turquía",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 23,
@@ -6606,7 +6652,8 @@
       "visitante": "Turquía",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 24,
@@ -6616,7 +6663,8 @@
       "visitante": "Australia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 25,
@@ -6626,7 +6674,8 @@
       "visitante": "Curaçao",
       "goles_l": 7,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 26,
@@ -6636,7 +6685,8 @@
       "visitante": "Ecuador",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 27,
@@ -6646,7 +6696,8 @@
       "visitante": "Costa de Marfil",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 28,
@@ -6656,7 +6707,8 @@
       "visitante": "Ecuador",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 29,
@@ -6666,7 +6718,8 @@
       "visitante": "Ecuador",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 30,
@@ -6676,7 +6729,8 @@
       "visitante": "Costa de Marfil",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 31,
@@ -6686,7 +6740,8 @@
       "visitante": "Japón",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 32,
@@ -6694,9 +6749,10 @@
       "jornada": 1,
       "local": "Suecia",
       "visitante": "Túnez",
-      "goles_l": 4,
+      "goles_l": 5,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 33,
@@ -6706,7 +6762,8 @@
       "visitante": "Suecia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 34,
@@ -6716,7 +6773,8 @@
       "visitante": "Túnez",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 35,
@@ -6726,7 +6784,8 @@
       "visitante": "Túnez",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 36,
@@ -6736,7 +6795,8 @@
       "visitante": "Suecia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 37,
@@ -6746,7 +6806,8 @@
       "visitante": "Egipto",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 38,
@@ -6756,7 +6817,8 @@
       "visitante": "Nueva Zelanda",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 39,
@@ -6766,7 +6828,8 @@
       "visitante": "Irán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 40,
@@ -6776,7 +6839,8 @@
       "visitante": "Nueva Zelanda",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 41,
@@ -6786,7 +6850,8 @@
       "visitante": "Nueva Zelanda",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 42,
@@ -6796,7 +6861,8 @@
       "visitante": "Irán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 43,
@@ -6806,7 +6872,8 @@
       "visitante": "Cabo Verde",
       "goles_l": 0,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 44,
@@ -6816,7 +6883,8 @@
       "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 45,
@@ -6826,7 +6894,8 @@
       "visitante": "Arabia Saudí",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 46,
@@ -6836,7 +6905,8 @@
       "visitante": "Uruguay",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 47,
@@ -6846,7 +6916,8 @@
       "visitante": "Uruguay",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 48,
@@ -6856,7 +6927,8 @@
       "visitante": "Arabia Saudí",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 49,
@@ -6866,7 +6938,8 @@
       "visitante": "Senegal",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 50,
@@ -6876,7 +6949,8 @@
       "visitante": "Noruega",
       "goles_l": 1,
       "goles_v": 4,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 51,
@@ -6886,7 +6960,8 @@
       "visitante": "Irak",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 52,
@@ -6896,7 +6971,8 @@
       "visitante": "Noruega",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 53,
@@ -6906,7 +6982,8 @@
       "visitante": "Noruega",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 54,
@@ -6916,7 +6993,8 @@
       "visitante": "Irak",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 55,
@@ -6926,7 +7004,8 @@
       "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 56,
@@ -6936,7 +7015,8 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 57,
@@ -6946,7 +7026,8 @@
       "visitante": "Austria",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 58,
@@ -6956,7 +7037,8 @@
       "visitante": "Jordania",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 59,
@@ -6966,7 +7048,8 @@
       "visitante": "Jordania",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 60,
@@ -6976,7 +7059,8 @@
       "visitante": "Austria",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 61,
@@ -6986,7 +7070,8 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 62,
@@ -6996,7 +7081,8 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 63,
@@ -7006,7 +7092,8 @@
       "visitante": "Uzbekistán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 64,
@@ -7016,7 +7103,8 @@
       "visitante": "Colombia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 65,
@@ -7026,7 +7114,8 @@
       "visitante": "Colombia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 66,
@@ -7036,7 +7125,8 @@
       "visitante": "Uzbekistán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 67,
@@ -7046,7 +7136,8 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 68,
@@ -7056,7 +7147,8 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 69,
@@ -7066,7 +7158,8 @@
       "visitante": "Ghana",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 70,
@@ -7076,7 +7169,8 @@
       "visitante": "Panamá",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 71,
@@ -7086,7 +7180,8 @@
       "visitante": "Panamá",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 72,
@@ -7096,7 +7191,8 @@
       "visitante": "Ghana",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1072,
@@ -7106,7 +7202,8 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1073,
@@ -7116,7 +7213,8 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1074,
@@ -7126,7 +7224,8 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1075,
@@ -7136,7 +7235,8 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1076,
@@ -7146,7 +7246,8 @@
       "visitante": "Equipo U",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1077,
@@ -7156,7 +7257,8 @@
       "visitante": "Equipo V",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1078,
@@ -7166,7 +7268,8 @@
       "visitante": "Equipo W",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1079,
@@ -7176,7 +7279,8 @@
       "visitante": "Equipo X",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1080,
@@ -7186,7 +7290,8 @@
       "visitante": "Equipo Y",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1081,
@@ -7196,7 +7301,8 @@
       "visitante": "Equipo Z",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1082,
@@ -7206,7 +7312,8 @@
       "visitante": "Equipo [",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1083,
@@ -7216,7 +7323,8 @@
       "visitante": "Equipo \\",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1084,
@@ -7226,7 +7334,8 @@
       "visitante": "Equipo ]",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1085,
@@ -7236,7 +7345,8 @@
       "visitante": "Equipo ^",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1086,
@@ -7246,7 +7356,8 @@
       "visitante": "Equipo _",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1087,
@@ -7256,7 +7367,8 @@
       "visitante": "Equipo `",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1088,
@@ -7266,7 +7378,8 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1089,
@@ -7276,7 +7389,8 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1090,
@@ -7286,7 +7400,8 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1091,
@@ -7296,7 +7411,8 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1092,
@@ -7306,7 +7422,8 @@
       "visitante": "Equipo U",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1093,
@@ -7316,7 +7433,8 @@
       "visitante": "Equipo V",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1094,
@@ -7326,7 +7444,8 @@
       "visitante": "Equipo W",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1095,
@@ -7336,7 +7455,8 @@
       "visitante": "Equipo X",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1096,
@@ -7346,7 +7466,8 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1097,
@@ -7356,7 +7477,8 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1098,
@@ -7366,7 +7488,8 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1099,
@@ -7376,7 +7499,8 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1100,
@@ -7386,7 +7510,8 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1101,
@@ -7396,7 +7521,8 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     },
     {
       "id": 1102,
@@ -7406,7 +7532,8 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false
+      "jugado": false,
+      "en_vivo": false
     }
   ],
   "ultimos5": [
@@ -7418,7 +7545,8 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 67,
@@ -7428,7 +7556,8 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 62,
@@ -7438,7 +7567,8 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 61,
@@ -7448,7 +7578,8 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
     },
     {
       "id": 56,
@@ -7458,7 +7589,21 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true
+      "jugado": true,
+      "en_vivo": false
+    }
+  ],
+  "en_vivo": [
+    {
+      "id": 4,
+      "grupo": "A",
+      "jornada": 2,
+      "local": "Sudáfrica",
+      "visitante": "Chequia",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true
     }
   ],
   "stats": {
