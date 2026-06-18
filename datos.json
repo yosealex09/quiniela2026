@@ -5,7 +5,7 @@
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 23,
+      "pts": 20,
       "diff": 0,
       "acumulado": [
         {
@@ -17,212 +17,100 @@
           "pts": 3
         },
         {
-          "id": 4,
-          "pts": 6
-        },
-        {
           "id": 7,
-          "pts": 6
+          "pts": 3
         },
         {
           "id": 8,
-          "pts": 6
+          "pts": 3
         },
         {
           "id": 13,
-          "pts": 6
+          "pts": 3
         },
         {
           "id": 14,
-          "pts": 7
+          "pts": 4
         },
         {
           "id": 19,
-          "pts": 8
+          "pts": 5
         },
         {
           "id": 20,
-          "pts": 8
+          "pts": 5
         },
         {
           "id": 25,
-          "pts": 9
+          "pts": 6
         },
         {
           "id": 26,
-          "pts": 9
+          "pts": 6
         },
         {
           "id": 31,
-          "pts": 10
+          "pts": 7
         },
         {
           "id": 32,
-          "pts": 11
+          "pts": 8
         },
         {
           "id": 37,
-          "pts": 11
+          "pts": 8
         },
         {
           "id": 38,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 43,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 44,
-          "pts": 15
+          "pts": 12
         },
         {
           "id": 49,
-          "pts": 16
+          "pts": 13
         },
         {
           "id": 50,
-          "pts": 16
+          "pts": 13
         },
         {
           "id": 55,
-          "pts": 19
+          "pts": 16
         },
         {
           "id": 56,
-          "pts": 20
+          "pts": 17
         },
         {
           "id": 61,
-          "pts": 20
+          "pts": 17
         },
         {
           "id": 62,
-          "pts": 21
+          "pts": 18
         },
         {
           "id": 67,
-          "pts": 22
+          "pts": 19
         },
         {
           "id": 68,
-          "pts": 23
+          "pts": 20
         }
       ]
     },
     {
       "pos": 2,
-      "name": "Mayra",
-      "pts": 18,
-      "diff": -5,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 7,
-          "pts": 4
-        },
-        {
-          "id": 8,
-          "pts": 7
-        },
-        {
-          "id": 13,
-          "pts": 7
-        },
-        {
-          "id": 14,
-          "pts": 10
-        },
-        {
-          "id": 19,
-          "pts": 10
-        },
-        {
-          "id": 20,
-          "pts": 10
-        },
-        {
-          "id": 25,
-          "pts": 11
-        },
-        {
-          "id": 26,
-          "pts": 11
-        },
-        {
-          "id": 31,
-          "pts": 11
-        },
-        {
-          "id": 32,
-          "pts": 12
-        },
-        {
-          "id": 37,
-          "pts": 12
-        },
-        {
-          "id": 38,
-          "pts": 12
-        },
-        {
-          "id": 43,
-          "pts": 12
-        },
-        {
-          "id": 44,
-          "pts": 12
-        },
-        {
-          "id": 49,
-          "pts": 15
-        },
-        {
-          "id": 50,
-          "pts": 15
-        },
-        {
-          "id": 55,
-          "pts": 16
-        },
-        {
-          "id": 56,
-          "pts": 17
-        },
-        {
-          "id": 61,
-          "pts": 17
-        },
-        {
-          "id": 62,
-          "pts": 18
-        },
-        {
-          "id": 67,
-          "pts": 18
-        },
-        {
-          "id": 68,
-          "pts": 18
-        }
-      ]
-    },
-    {
-      "pos": 3,
       "name": "Peter",
       "pts": 18,
-      "diff": -5,
+      "diff": -2,
       "acumulado": [
         {
           "id": 1,
@@ -230,10 +118,6 @@
         },
         {
           "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 4,
           "pts": 1
         },
         {
@@ -327,10 +211,10 @@
       ]
     },
     {
-      "pos": 4,
+      "pos": 3,
       "name": "Josmary",
       "pts": 17,
-      "diff": -6,
+      "diff": -3,
       "acumulado": [
         {
           "id": 1,
@@ -338,10 +222,6 @@
         },
         {
           "id": 2,
-          "pts": 2
-        },
-        {
-          "id": 4,
           "pts": 2
         },
         {
@@ -435,10 +315,114 @@
       ]
     },
     {
+      "pos": 4,
+      "name": "Mayra",
+      "pts": 17,
+      "diff": -3,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 0
+        },
+        {
+          "id": 7,
+          "pts": 3
+        },
+        {
+          "id": 8,
+          "pts": 6
+        },
+        {
+          "id": 13,
+          "pts": 6
+        },
+        {
+          "id": 14,
+          "pts": 9
+        },
+        {
+          "id": 19,
+          "pts": 9
+        },
+        {
+          "id": 20,
+          "pts": 9
+        },
+        {
+          "id": 25,
+          "pts": 10
+        },
+        {
+          "id": 26,
+          "pts": 10
+        },
+        {
+          "id": 31,
+          "pts": 10
+        },
+        {
+          "id": 32,
+          "pts": 11
+        },
+        {
+          "id": 37,
+          "pts": 11
+        },
+        {
+          "id": 38,
+          "pts": 11
+        },
+        {
+          "id": 43,
+          "pts": 11
+        },
+        {
+          "id": 44,
+          "pts": 11
+        },
+        {
+          "id": 49,
+          "pts": 14
+        },
+        {
+          "id": 50,
+          "pts": 14
+        },
+        {
+          "id": 55,
+          "pts": 15
+        },
+        {
+          "id": 56,
+          "pts": 16
+        },
+        {
+          "id": 61,
+          "pts": 16
+        },
+        {
+          "id": 62,
+          "pts": 17
+        },
+        {
+          "id": 67,
+          "pts": 17
+        },
+        {
+          "id": 68,
+          "pts": 17
+        }
+      ]
+    },
+    {
       "pos": 5,
       "name": "Osmar",
       "pts": 16,
-      "diff": -7,
+      "diff": -4,
       "acumulado": [
         {
           "id": 1,
@@ -446,10 +430,6 @@
         },
         {
           "id": 2,
-          "pts": 3
-        },
-        {
-          "id": 4,
           "pts": 3
         },
         {
@@ -544,9 +524,9 @@
     },
     {
       "pos": 6,
-      "name": "Jonathan",
+      "name": "Sol",
       "pts": 14,
-      "diff": -9,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -557,44 +537,40 @@
           "pts": 1
         },
         {
-          "id": 4,
-          "pts": 2
-        },
-        {
           "id": 7,
-          "pts": 2
+          "pts": 1
         },
         {
           "id": 8,
-          "pts": 3
+          "pts": 2
         },
         {
           "id": 13,
-          "pts": 3
+          "pts": 2
         },
         {
           "id": 14,
-          "pts": 4
+          "pts": 2
         },
         {
           "id": 19,
-          "pts": 4
+          "pts": 3
         },
         {
           "id": 20,
-          "pts": 4
+          "pts": 3
         },
         {
           "id": 25,
-          "pts": 5
+          "pts": 4
         },
         {
           "id": 26,
-          "pts": 5
+          "pts": 4
         },
         {
           "id": 31,
-          "pts": 5
+          "pts": 4
         },
         {
           "id": 32,
@@ -602,47 +578,47 @@
         },
         {
           "id": 37,
-          "pts": 6
+          "pts": 5
         },
         {
           "id": 38,
-          "pts": 7
+          "pts": 6
         },
         {
           "id": 43,
-          "pts": 7
+          "pts": 6
         },
         {
           "id": 44,
-          "pts": 7
+          "pts": 6
         },
         {
           "id": 49,
-          "pts": 8
+          "pts": 7
         },
         {
           "id": 50,
-          "pts": 9
+          "pts": 8
         },
         {
           "id": 55,
-          "pts": 10
+          "pts": 9
         },
         {
           "id": 56,
-          "pts": 10
+          "pts": 9
         },
         {
           "id": 61,
-          "pts": 10
+          "pts": 9
         },
         {
           "id": 62,
-          "pts": 13
+          "pts": 10
         },
         {
           "id": 67,
-          "pts": 13
+          "pts": 11
         },
         {
           "id": 68,
@@ -652,105 +628,101 @@
     },
     {
       "pos": 7,
-      "name": "Sol",
+      "name": "Carolina",
       "pts": 14,
-      "diff": -9,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 1
+          "pts": 3
         },
         {
           "id": 7,
-          "pts": 1
+          "pts": 3
         },
         {
           "id": 8,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 13,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 14,
-          "pts": 2
+          "pts": 4
         },
         {
           "id": 19,
-          "pts": 3
+          "pts": 5
         },
         {
           "id": 20,
-          "pts": 3
+          "pts": 5
         },
         {
           "id": 25,
-          "pts": 4
+          "pts": 6
         },
         {
           "id": 26,
-          "pts": 4
-        },
-        {
-          "id": 31,
-          "pts": 4
-        },
-        {
-          "id": 32,
-          "pts": 5
-        },
-        {
-          "id": 37,
-          "pts": 5
-        },
-        {
-          "id": 38,
-          "pts": 6
-        },
-        {
-          "id": 43,
-          "pts": 6
-        },
-        {
-          "id": 44,
-          "pts": 6
-        },
-        {
-          "id": 49,
           "pts": 7
         },
         {
-          "id": 50,
+          "id": 31,
+          "pts": 7
+        },
+        {
+          "id": 32,
           "pts": 8
         },
         {
-          "id": 55,
+          "id": 37,
+          "pts": 8
+        },
+        {
+          "id": 38,
+          "pts": 8
+        },
+        {
+          "id": 43,
+          "pts": 8
+        },
+        {
+          "id": 44,
+          "pts": 8
+        },
+        {
+          "id": 49,
           "pts": 9
         },
         {
-          "id": 56,
-          "pts": 9
-        },
-        {
-          "id": 61,
-          "pts": 9
-        },
-        {
-          "id": 62,
+          "id": 50,
           "pts": 10
         },
         {
-          "id": 67,
+          "id": 55,
           "pts": 11
+        },
+        {
+          "id": 56,
+          "pts": 12
+        },
+        {
+          "id": 61,
+          "pts": 12
+        },
+        {
+          "id": 62,
+          "pts": 13
+        },
+        {
+          "id": 67,
+          "pts": 13
         },
         {
           "id": 68,
@@ -760,109 +732,105 @@
     },
     {
       "pos": 8,
-      "name": "Carolina",
-      "pts": 14,
-      "diff": -9,
+      "name": "Jonathan",
+      "pts": 13,
+      "diff": -7,
       "acumulado": [
         {
           "id": 1,
-          "pts": 3
+          "pts": 0
         },
         {
           "id": 2,
-          "pts": 3
-        },
-        {
-          "id": 4,
-          "pts": 3
+          "pts": 1
         },
         {
           "id": 7,
-          "pts": 3
+          "pts": 1
         },
         {
           "id": 8,
-          "pts": 3
+          "pts": 2
         },
         {
           "id": 13,
-          "pts": 3
+          "pts": 2
         },
         {
           "id": 14,
-          "pts": 4
+          "pts": 3
         },
         {
           "id": 19,
-          "pts": 5
+          "pts": 3
         },
         {
           "id": 20,
-          "pts": 5
+          "pts": 3
         },
         {
           "id": 25,
-          "pts": 6
+          "pts": 4
         },
         {
           "id": 26,
-          "pts": 7
+          "pts": 4
         },
         {
           "id": 31,
-          "pts": 7
+          "pts": 4
         },
         {
           "id": 32,
-          "pts": 8
+          "pts": 4
         },
         {
           "id": 37,
-          "pts": 8
+          "pts": 5
         },
         {
           "id": 38,
-          "pts": 8
+          "pts": 6
         },
         {
           "id": 43,
-          "pts": 8
+          "pts": 6
         },
         {
           "id": 44,
-          "pts": 8
+          "pts": 6
         },
         {
           "id": 49,
-          "pts": 9
+          "pts": 7
         },
         {
           "id": 50,
-          "pts": 10
+          "pts": 8
         },
         {
           "id": 55,
-          "pts": 11
+          "pts": 9
         },
         {
           "id": 56,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 61,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 62,
-          "pts": 13
+          "pts": 12
         },
         {
           "id": 67,
-          "pts": 13
+          "pts": 12
         },
         {
           "id": 68,
-          "pts": 14
+          "pts": 13
         }
       ]
     },
@@ -870,7 +838,7 @@
       "pos": 9,
       "name": "Carlos",
       "pts": 11,
-      "diff": -12,
+      "diff": -9,
       "acumulado": [
         {
           "id": 1,
@@ -878,10 +846,6 @@
         },
         {
           "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 4,
           "pts": 0
         },
         {
@@ -978,7 +942,7 @@
       "pos": 10,
       "name": "Yosember",
       "pts": 9,
-      "diff": -14,
+      "diff": -11,
       "acumulado": [
         {
           "id": 1,
@@ -986,10 +950,6 @@
         },
         {
           "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 4,
           "pts": 0
         },
         {
@@ -1112,7 +1072,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -1309,7 +1269,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -1621,7 +1581,7 @@
           "id": 4,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -1818,7 +1778,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -2130,7 +2090,7 @@
           "id": 4,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -2327,7 +2287,7 @@
           "pred_l": 1,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -2639,7 +2599,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -2836,7 +2796,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -3121,7 +3081,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 14,
+      "pts_total": 13,
       "partidos": [
         {
           "id": 1,
@@ -3148,7 +3108,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": 1,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -3345,7 +3305,7 @@
           "pred_l": 0,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -3657,7 +3617,7 @@
           "id": 4,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -3854,7 +3814,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -4139,7 +4099,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 18,
+      "pts_total": 17,
       "partidos": [
         {
           "id": 1,
@@ -4166,7 +4126,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": 1,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -4363,7 +4323,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -4675,7 +4635,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -4872,7 +4832,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -5184,7 +5144,7 @@
           "id": 4,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": 0,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -5381,7 +5341,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -5666,7 +5626,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 23,
+      "pts_total": 20,
       "partidos": [
         {
           "id": 1,
@@ -5693,7 +5653,7 @@
           "id": 4,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 3,
+          "pts": null,
           "resultado": "Pendiente"
         },
         {
@@ -5890,7 +5850,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
+          "resultado": "Suecia 4 - 1 Túnez"
         },
         {
           "id": 33,
@@ -6184,8 +6144,7 @@
       "visitante": "Sudáfrica",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 2,
@@ -6195,8 +6154,7 @@
       "visitante": "Chequia",
       "goles_l": 2,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 7,
@@ -6206,8 +6164,7 @@
       "visitante": "Bosnia y Herz.",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 8,
@@ -6217,8 +6174,7 @@
       "visitante": "Suiza",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 13,
@@ -6228,8 +6184,7 @@
       "visitante": "Marruecos",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 14,
@@ -6239,8 +6194,7 @@
       "visitante": "Escocia",
       "goles_l": 0,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 19,
@@ -6250,8 +6204,7 @@
       "visitante": "Paraguay",
       "goles_l": 4,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 20,
@@ -6261,8 +6214,7 @@
       "visitante": "Turquía",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 25,
@@ -6272,8 +6224,7 @@
       "visitante": "Curaçao",
       "goles_l": 7,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 26,
@@ -6283,8 +6234,7 @@
       "visitante": "Ecuador",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 31,
@@ -6294,8 +6244,7 @@
       "visitante": "Japón",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 32,
@@ -6303,10 +6252,9 @@
       "jornada": 1,
       "local": "Suecia",
       "visitante": "Túnez",
-      "goles_l": 5,
+      "goles_l": 4,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 37,
@@ -6316,8 +6264,7 @@
       "visitante": "Egipto",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 38,
@@ -6327,8 +6274,7 @@
       "visitante": "Nueva Zelanda",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 43,
@@ -6338,8 +6284,7 @@
       "visitante": "Cabo Verde",
       "goles_l": 0,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 44,
@@ -6349,8 +6294,7 @@
       "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 49,
@@ -6360,8 +6304,7 @@
       "visitante": "Senegal",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 50,
@@ -6371,8 +6314,7 @@
       "visitante": "Noruega",
       "goles_l": 1,
       "goles_v": 4,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 55,
@@ -6382,8 +6324,7 @@
       "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 56,
@@ -6393,8 +6334,7 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 61,
@@ -6404,8 +6344,7 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 62,
@@ -6415,8 +6354,7 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 67,
@@ -6426,8 +6364,7 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 68,
@@ -6437,8 +6374,7 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     }
   ],
   "todos_partidos": [
@@ -6450,8 +6386,7 @@
       "visitante": "Sudáfrica",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 2,
@@ -6461,8 +6396,7 @@
       "visitante": "Chequia",
       "goles_l": 2,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 3,
@@ -6472,8 +6406,7 @@
       "visitante": "Corea del Sur",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 4,
@@ -6481,10 +6414,9 @@
       "jornada": 2,
       "local": "Sudáfrica",
       "visitante": "Chequia",
-      "goles_l": 1,
-      "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true
+      "goles_l": null,
+      "goles_v": null,
+      "jugado": false
     },
     {
       "id": 5,
@@ -6494,8 +6426,7 @@
       "visitante": "Chequia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 6,
@@ -6505,8 +6436,7 @@
       "visitante": "Corea del Sur",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 7,
@@ -6516,8 +6446,7 @@
       "visitante": "Bosnia y Herz.",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 8,
@@ -6527,8 +6456,7 @@
       "visitante": "Suiza",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 9,
@@ -6538,8 +6466,7 @@
       "visitante": "Catar",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 10,
@@ -6549,8 +6476,7 @@
       "visitante": "Suiza",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 11,
@@ -6560,8 +6486,7 @@
       "visitante": "Suiza",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 12,
@@ -6571,8 +6496,7 @@
       "visitante": "Catar",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 13,
@@ -6582,8 +6506,7 @@
       "visitante": "Marruecos",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 14,
@@ -6593,8 +6516,7 @@
       "visitante": "Escocia",
       "goles_l": 0,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 15,
@@ -6604,8 +6526,7 @@
       "visitante": "Haití",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 16,
@@ -6615,8 +6536,7 @@
       "visitante": "Escocia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 17,
@@ -6626,8 +6546,7 @@
       "visitante": "Escocia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 18,
@@ -6637,8 +6556,7 @@
       "visitante": "Haití",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 19,
@@ -6648,8 +6566,7 @@
       "visitante": "Paraguay",
       "goles_l": 4,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 20,
@@ -6659,8 +6576,7 @@
       "visitante": "Turquía",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 21,
@@ -6670,8 +6586,7 @@
       "visitante": "Australia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 22,
@@ -6681,8 +6596,7 @@
       "visitante": "Turquía",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 23,
@@ -6692,8 +6606,7 @@
       "visitante": "Turquía",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 24,
@@ -6703,8 +6616,7 @@
       "visitante": "Australia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 25,
@@ -6714,8 +6626,7 @@
       "visitante": "Curaçao",
       "goles_l": 7,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 26,
@@ -6725,8 +6636,7 @@
       "visitante": "Ecuador",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 27,
@@ -6736,8 +6646,7 @@
       "visitante": "Costa de Marfil",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 28,
@@ -6747,8 +6656,7 @@
       "visitante": "Ecuador",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 29,
@@ -6758,8 +6666,7 @@
       "visitante": "Ecuador",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 30,
@@ -6769,8 +6676,7 @@
       "visitante": "Costa de Marfil",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 31,
@@ -6780,8 +6686,7 @@
       "visitante": "Japón",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 32,
@@ -6789,10 +6694,9 @@
       "jornada": 1,
       "local": "Suecia",
       "visitante": "Túnez",
-      "goles_l": 5,
+      "goles_l": 4,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 33,
@@ -6802,8 +6706,7 @@
       "visitante": "Suecia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 34,
@@ -6813,8 +6716,7 @@
       "visitante": "Túnez",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 35,
@@ -6824,8 +6726,7 @@
       "visitante": "Túnez",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 36,
@@ -6835,8 +6736,7 @@
       "visitante": "Suecia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 37,
@@ -6846,8 +6746,7 @@
       "visitante": "Egipto",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 38,
@@ -6857,8 +6756,7 @@
       "visitante": "Nueva Zelanda",
       "goles_l": 2,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 39,
@@ -6868,8 +6766,7 @@
       "visitante": "Irán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 40,
@@ -6879,8 +6776,7 @@
       "visitante": "Nueva Zelanda",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 41,
@@ -6890,8 +6786,7 @@
       "visitante": "Nueva Zelanda",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 42,
@@ -6901,8 +6796,7 @@
       "visitante": "Irán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 43,
@@ -6912,8 +6806,7 @@
       "visitante": "Cabo Verde",
       "goles_l": 0,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 44,
@@ -6923,8 +6816,7 @@
       "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 45,
@@ -6934,8 +6826,7 @@
       "visitante": "Arabia Saudí",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 46,
@@ -6945,8 +6836,7 @@
       "visitante": "Uruguay",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 47,
@@ -6956,8 +6846,7 @@
       "visitante": "Uruguay",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 48,
@@ -6967,8 +6856,7 @@
       "visitante": "Arabia Saudí",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 49,
@@ -6978,8 +6866,7 @@
       "visitante": "Senegal",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 50,
@@ -6989,8 +6876,7 @@
       "visitante": "Noruega",
       "goles_l": 1,
       "goles_v": 4,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 51,
@@ -7000,8 +6886,7 @@
       "visitante": "Irak",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 52,
@@ -7011,8 +6896,7 @@
       "visitante": "Noruega",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 53,
@@ -7022,8 +6906,7 @@
       "visitante": "Noruega",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 54,
@@ -7033,8 +6916,7 @@
       "visitante": "Irak",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 55,
@@ -7044,8 +6926,7 @@
       "visitante": "Argelia",
       "goles_l": 3,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 56,
@@ -7055,8 +6936,7 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 57,
@@ -7066,8 +6946,7 @@
       "visitante": "Austria",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 58,
@@ -7077,8 +6956,7 @@
       "visitante": "Jordania",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 59,
@@ -7088,8 +6966,7 @@
       "visitante": "Jordania",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 60,
@@ -7099,8 +6976,7 @@
       "visitante": "Austria",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 61,
@@ -7110,8 +6986,7 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 62,
@@ -7121,8 +6996,7 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 63,
@@ -7132,8 +7006,7 @@
       "visitante": "Uzbekistán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 64,
@@ -7143,8 +7016,7 @@
       "visitante": "Colombia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 65,
@@ -7154,8 +7026,7 @@
       "visitante": "Colombia",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 66,
@@ -7165,8 +7036,7 @@
       "visitante": "Uzbekistán",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 67,
@@ -7176,8 +7046,7 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 68,
@@ -7187,8 +7056,7 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 69,
@@ -7198,8 +7066,7 @@
       "visitante": "Ghana",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 70,
@@ -7209,8 +7076,7 @@
       "visitante": "Panamá",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 71,
@@ -7220,8 +7086,7 @@
       "visitante": "Panamá",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 72,
@@ -7231,8 +7096,7 @@
       "visitante": "Ghana",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1072,
@@ -7242,8 +7106,7 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1073,
@@ -7253,8 +7116,7 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1074,
@@ -7264,8 +7126,7 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1075,
@@ -7275,8 +7136,7 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1076,
@@ -7286,8 +7146,7 @@
       "visitante": "Equipo U",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1077,
@@ -7297,8 +7156,7 @@
       "visitante": "Equipo V",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1078,
@@ -7308,8 +7166,7 @@
       "visitante": "Equipo W",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1079,
@@ -7319,8 +7176,7 @@
       "visitante": "Equipo X",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1080,
@@ -7330,8 +7186,7 @@
       "visitante": "Equipo Y",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1081,
@@ -7341,8 +7196,7 @@
       "visitante": "Equipo Z",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1082,
@@ -7352,8 +7206,7 @@
       "visitante": "Equipo [",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1083,
@@ -7363,8 +7216,7 @@
       "visitante": "Equipo \\",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1084,
@@ -7374,8 +7226,7 @@
       "visitante": "Equipo ]",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1085,
@@ -7385,8 +7236,7 @@
       "visitante": "Equipo ^",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1086,
@@ -7396,8 +7246,7 @@
       "visitante": "Equipo _",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1087,
@@ -7407,8 +7256,7 @@
       "visitante": "Equipo `",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1088,
@@ -7418,8 +7266,7 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1089,
@@ -7429,8 +7276,7 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1090,
@@ -7440,8 +7286,7 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1091,
@@ -7451,8 +7296,7 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1092,
@@ -7462,8 +7306,7 @@
       "visitante": "Equipo U",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1093,
@@ -7473,8 +7316,7 @@
       "visitante": "Equipo V",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1094,
@@ -7484,8 +7326,7 @@
       "visitante": "Equipo W",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1095,
@@ -7495,8 +7336,7 @@
       "visitante": "Equipo X",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1096,
@@ -7506,8 +7346,7 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1097,
@@ -7517,8 +7356,7 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1098,
@@ -7528,8 +7366,7 @@
       "visitante": "Equipo S",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1099,
@@ -7539,8 +7376,7 @@
       "visitante": "Equipo T",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1100,
@@ -7550,8 +7386,7 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1101,
@@ -7561,8 +7396,7 @@
       "visitante": "Equipo R",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     },
     {
       "id": 1102,
@@ -7572,8 +7406,7 @@
       "visitante": "Equipo Q",
       "goles_l": null,
       "goles_v": null,
-      "jugado": false,
-      "en_vivo": false
+      "jugado": false
     }
   ],
   "ultimos5": [
@@ -7585,8 +7418,7 @@
       "visitante": "Panamá",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 67,
@@ -7596,8 +7428,7 @@
       "visitante": "Croacia",
       "goles_l": 4,
       "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 62,
@@ -7607,8 +7438,7 @@
       "visitante": "Colombia",
       "goles_l": 1,
       "goles_v": 3,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 61,
@@ -7618,8 +7448,7 @@
       "visitante": "DR Congo",
       "goles_l": 1,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
+      "jugado": true
     },
     {
       "id": 56,
@@ -7629,21 +7458,7 @@
       "visitante": "Jordania",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false
-    }
-  ],
-  "en_vivo": [
-    {
-      "id": 4,
-      "grupo": "A",
-      "jornada": 2,
-      "local": "Sudáfrica",
-      "visitante": "Chequia",
-      "goles_l": 1,
-      "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true
+      "jugado": true
     }
   ],
   "stats": {
