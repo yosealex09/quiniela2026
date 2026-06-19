@@ -195,6 +195,17 @@ def main():
     ultimos5 = sorted(partidos_grupo_jugados, key=lambda p: p["fecha"] or "", reverse=True)[:5]
     en_vivo = [p for p in todos_partidos if p.get("en_vivo")]
 
+    jugados_antes = None
+    if os.path.exists(JSON_OUT):
+        try:
+            with open(JSON_OUT, encoding="utf-8") as f:
+                jugados_antes = json.load(f).get("stats", {}).get("jugados")
+        except (json.JSONDecodeError, OSError):
+            jugados_antes = None
+    if jugados_antes is not None and len(partidos_grupo_jugados) < jugados_antes:
+        print(f"  ALERTA: jugados bajo de {jugados_antes} a {len(partidos_grupo_jugados)} "
+              "- posible dato incompleto de la API, revisar antes de confiar en este resultado")
+
     data = {
         "ok": True,
         "actualizado": datetime.now().strftime("%d/%m/%Y %H:%M"),
