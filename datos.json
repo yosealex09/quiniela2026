@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "18/06/2026 17:15",
+  "actualizado": "18/06/2026 20:12",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 24,
+      "pts": 25,
       "diff": 0,
       "acumulado": [
         {
@@ -29,88 +29,92 @@
           "pts": 6
         },
         {
+          "id": 9,
+          "pts": 7
+        },
+        {
           "id": 10,
-          "pts": 7
-        },
-        {
-          "id": 13,
-          "pts": 7
-        },
-        {
-          "id": 14,
           "pts": 8
         },
         {
-          "id": 19,
+          "id": 13,
+          "pts": 8
+        },
+        {
+          "id": 14,
           "pts": 9
+        },
+        {
+          "id": 19,
+          "pts": 10
         },
         {
           "id": 20,
-          "pts": 9
+          "pts": 10
         },
         {
           "id": 25,
-          "pts": 10
-        },
-        {
-          "id": 26,
-          "pts": 10
-        },
-        {
-          "id": 31,
           "pts": 11
         },
         {
-          "id": 32,
+          "id": 26,
+          "pts": 11
+        },
+        {
+          "id": 31,
           "pts": 12
+        },
+        {
+          "id": 32,
+          "pts": 13
         },
         {
           "id": 37,
-          "pts": 12
+          "pts": 13
         },
         {
           "id": 38,
-          "pts": 13
+          "pts": 14
         },
         {
           "id": 43,
-          "pts": 13
+          "pts": 14
         },
         {
           "id": 44,
-          "pts": 16
+          "pts": 17
         },
         {
           "id": 49,
-          "pts": 17
+          "pts": 18
         },
         {
           "id": 50,
-          "pts": 17
+          "pts": 18
         },
         {
           "id": 55,
-          "pts": 20
+          "pts": 21
         },
         {
           "id": 56,
-          "pts": 21
-        },
-        {
-          "id": 61,
-          "pts": 21
-        },
-        {
-          "id": 62,
           "pts": 22
         },
         {
-          "id": 67,
+          "id": 61,
+          "pts": 22
+        },
+        {
+          "id": 62,
           "pts": 23
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 24
+        },
+        {
+          "id": 68,
+          "pts": 25
         }
       ]
     },
@@ -118,7 +122,7 @@
       "pos": 2,
       "name": "Mayra",
       "pts": 19,
-      "diff": -5,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -138,6 +142,10 @@
         },
         {
           "id": 8,
+          "pts": 7
+        },
+        {
+          "id": 9,
           "pts": 7
         },
         {
@@ -228,8 +236,8 @@
     },
     {
       "pos": 3,
-      "name": "Josmary",
-      "pts": 18,
+      "name": "Peter",
+      "pts": 19,
       "diff": -6,
       "acumulado": [
         {
@@ -238,91 +246,95 @@
         },
         {
           "id": 2,
-          "pts": 2
+          "pts": 1
         },
         {
           "id": 4,
-          "pts": 2
+          "pts": 1
         },
         {
           "id": 7,
-          "pts": 2
+          "pts": 1
         },
         {
           "id": 8,
-          "pts": 2
-        },
-        {
-          "id": 10,
-          "pts": 3
-        },
-        {
-          "id": 13,
-          "pts": 3
-        },
-        {
-          "id": 14,
-          "pts": 3
-        },
-        {
-          "id": 19,
-          "pts": 3
-        },
-        {
-          "id": 20,
           "pts": 4
         },
         {
-          "id": 25,
+          "id": 9,
           "pts": 5
         },
         {
-          "id": 26,
+          "id": 10,
           "pts": 5
         },
         {
-          "id": 31,
+          "id": 13,
+          "pts": 5
+        },
+        {
+          "id": 14,
+          "pts": 6
+        },
+        {
+          "id": 19,
+          "pts": 7
+        },
+        {
+          "id": 20,
           "pts": 8
         },
         {
-          "id": 32,
+          "id": 25,
           "pts": 9
+        },
+        {
+          "id": 26,
+          "pts": 9
+        },
+        {
+          "id": 31,
+          "pts": 9
+        },
+        {
+          "id": 32,
+          "pts": 10
         },
         {
           "id": 37,
-          "pts": 9
+          "pts": 13
         },
         {
           "id": 38,
-          "pts": 9
+          "pts": 13
         },
         {
           "id": 43,
-          "pts": 9
+          "pts": 13
         },
         {
           "id": 44,
-          "pts": 12
+          "pts": 13
         },
         {
           "id": 49,
-          "pts": 13
+          "pts": 14
         },
         {
           "id": 50,
-          "pts": 13
+          "pts": 15
         },
         {
           "id": 55,
-          "pts": 13
+          "pts": 16
         },
         {
           "id": 56,
-          "pts": 14
+          "pts": 16
         },
         {
           "id": 61,
-          "pts": 14
+          "pts": 16
         },
         {
           "id": 62,
@@ -334,15 +346,15 @@
         },
         {
           "id": 68,
-          "pts": 18
+          "pts": 19
         }
       ]
     },
     {
       "pos": 4,
-      "name": "Peter",
+      "name": "Josmary",
       "pts": 18,
-      "diff": -6,
+      "diff": -7,
       "acumulado": [
         {
           "id": 1,
@@ -350,47 +362,51 @@
         },
         {
           "id": 2,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": 4,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": 7,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": 8,
-          "pts": 4
+          "pts": 2
+        },
+        {
+          "id": 9,
+          "pts": 2
         },
         {
           "id": 10,
-          "pts": 4
+          "pts": 3
         },
         {
           "id": 13,
-          "pts": 4
+          "pts": 3
         },
         {
           "id": 14,
-          "pts": 5
+          "pts": 3
         },
         {
           "id": 19,
-          "pts": 6
+          "pts": 3
         },
         {
           "id": 20,
-          "pts": 7
+          "pts": 4
         },
         {
           "id": 25,
-          "pts": 8
+          "pts": 5
         },
         {
           "id": 26,
-          "pts": 8
+          "pts": 5
         },
         {
           "id": 31,
@@ -402,15 +418,15 @@
         },
         {
           "id": 37,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 38,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 43,
-          "pts": 12
+          "pts": 9
         },
         {
           "id": 44,
@@ -422,27 +438,27 @@
         },
         {
           "id": 50,
-          "pts": 14
+          "pts": 13
         },
         {
           "id": 55,
-          "pts": 15
+          "pts": 13
         },
         {
           "id": 56,
-          "pts": 15
+          "pts": 14
         },
         {
           "id": 61,
-          "pts": 15
+          "pts": 14
         },
         {
           "id": 62,
-          "pts": 16
+          "pts": 17
         },
         {
           "id": 67,
-          "pts": 17
+          "pts": 18
         },
         {
           "id": 68,
@@ -453,7 +469,7 @@
     {
       "pos": 5,
       "name": "Osmar",
-      "pts": 17,
+      "pts": 18,
       "diff": -7,
       "acumulado": [
         {
@@ -477,95 +493,99 @@
           "pts": 3
         },
         {
+          "id": 9,
+          "pts": 4
+        },
+        {
           "id": 10,
-          "pts": 4
-        },
-        {
-          "id": 13,
-          "pts": 4
-        },
-        {
-          "id": 14,
           "pts": 5
         },
         {
-          "id": 19,
+          "id": 13,
+          "pts": 5
+        },
+        {
+          "id": 14,
           "pts": 6
+        },
+        {
+          "id": 19,
+          "pts": 7
         },
         {
           "id": 20,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 25,
-          "pts": 7
+          "pts": 8
         },
         {
           "id": 26,
-          "pts": 7
+          "pts": 8
         },
         {
           "id": 31,
-          "pts": 7
+          "pts": 8
         },
         {
           "id": 32,
-          "pts": 8
-        },
-        {
-          "id": 37,
-          "pts": 8
-        },
-        {
-          "id": 38,
-          "pts": 8
-        },
-        {
-          "id": 43,
-          "pts": 8
-        },
-        {
-          "id": 44,
-          "pts": 8
-        },
-        {
-          "id": 49,
           "pts": 9
         },
         {
-          "id": 50,
+          "id": 37,
+          "pts": 9
+        },
+        {
+          "id": 38,
+          "pts": 9
+        },
+        {
+          "id": 43,
+          "pts": 9
+        },
+        {
+          "id": 44,
+          "pts": 9
+        },
+        {
+          "id": 49,
           "pts": 10
         },
         {
+          "id": 50,
+          "pts": 11
+        },
+        {
           "id": 55,
-          "pts": 13
+          "pts": 14
         },
         {
           "id": 56,
-          "pts": 14
-        },
-        {
-          "id": 61,
-          "pts": 14
-        },
-        {
-          "id": 62,
           "pts": 15
         },
         {
-          "id": 67,
+          "id": 61,
+          "pts": 15
+        },
+        {
+          "id": 62,
           "pts": 16
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 17
+        },
+        {
+          "id": 68,
+          "pts": 18
         }
       ]
     },
     {
       "pos": 6,
       "name": "Jonathan",
-      "pts": 15,
+      "pts": 16,
       "diff": -9,
       "acumulado": [
         {
@@ -589,96 +609,216 @@
           "pts": 3
         },
         {
-          "id": 10,
+          "id": 9,
           "pts": 4
+        },
+        {
+          "id": 10,
+          "pts": 5
         },
         {
           "id": 13,
-          "pts": 4
+          "pts": 5
         },
         {
           "id": 14,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 19,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 20,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 25,
-          "pts": 6
-        },
-        {
-          "id": 26,
-          "pts": 6
-        },
-        {
-          "id": 31,
-          "pts": 6
-        },
-        {
-          "id": 32,
-          "pts": 6
-        },
-        {
-          "id": 37,
           "pts": 7
         },
         {
+          "id": 26,
+          "pts": 7
+        },
+        {
+          "id": 31,
+          "pts": 7
+        },
+        {
+          "id": 32,
+          "pts": 7
+        },
+        {
+          "id": 37,
+          "pts": 8
+        },
+        {
           "id": 38,
-          "pts": 8
-        },
-        {
-          "id": 43,
-          "pts": 8
-        },
-        {
-          "id": 44,
-          "pts": 8
-        },
-        {
-          "id": 49,
           "pts": 9
         },
         {
-          "id": 50,
+          "id": 43,
+          "pts": 9
+        },
+        {
+          "id": 44,
+          "pts": 9
+        },
+        {
+          "id": 49,
           "pts": 10
         },
         {
-          "id": 55,
+          "id": 50,
           "pts": 11
+        },
+        {
+          "id": 55,
+          "pts": 12
         },
         {
           "id": 56,
-          "pts": 11
+          "pts": 12
         },
         {
           "id": 61,
-          "pts": 11
+          "pts": 12
         },
         {
           "id": 62,
-          "pts": 14
+          "pts": 15
         },
         {
           "id": 67,
-          "pts": 14
+          "pts": 15
         },
         {
           "id": 68,
-          "pts": 15
+          "pts": 16
         }
       ]
     },
     {
       "pos": 7,
+      "name": "Carolina",
+      "pts": 16,
+      "diff": -9,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 3
+        },
+        {
+          "id": 2,
+          "pts": 3
+        },
+        {
+          "id": 4,
+          "pts": 3
+        },
+        {
+          "id": 7,
+          "pts": 3
+        },
+        {
+          "id": 8,
+          "pts": 3
+        },
+        {
+          "id": 9,
+          "pts": 4
+        },
+        {
+          "id": 10,
+          "pts": 5
+        },
+        {
+          "id": 13,
+          "pts": 5
+        },
+        {
+          "id": 14,
+          "pts": 6
+        },
+        {
+          "id": 19,
+          "pts": 7
+        },
+        {
+          "id": 20,
+          "pts": 7
+        },
+        {
+          "id": 25,
+          "pts": 8
+        },
+        {
+          "id": 26,
+          "pts": 9
+        },
+        {
+          "id": 31,
+          "pts": 9
+        },
+        {
+          "id": 32,
+          "pts": 10
+        },
+        {
+          "id": 37,
+          "pts": 10
+        },
+        {
+          "id": 38,
+          "pts": 10
+        },
+        {
+          "id": 43,
+          "pts": 10
+        },
+        {
+          "id": 44,
+          "pts": 10
+        },
+        {
+          "id": 49,
+          "pts": 11
+        },
+        {
+          "id": 50,
+          "pts": 12
+        },
+        {
+          "id": 55,
+          "pts": 13
+        },
+        {
+          "id": 56,
+          "pts": 14
+        },
+        {
+          "id": 61,
+          "pts": 14
+        },
+        {
+          "id": 62,
+          "pts": 15
+        },
+        {
+          "id": 67,
+          "pts": 15
+        },
+        {
+          "id": 68,
+          "pts": 16
+        }
+      ]
+    },
+    {
+      "pos": 8,
       "name": "Sol",
       "pts": 15,
-      "diff": -9,
+      "diff": -10,
       "acumulado": [
         {
           "id": 1,
@@ -698,6 +838,10 @@
         },
         {
           "id": 8,
+          "pts": 2
+        },
+        {
+          "id": 9,
           "pts": 2
         },
         {
@@ -779,118 +923,6 @@
         {
           "id": 67,
           "pts": 12
-        },
-        {
-          "id": 68,
-          "pts": 15
-        }
-      ]
-    },
-    {
-      "pos": 8,
-      "name": "Carolina",
-      "pts": 15,
-      "diff": -9,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 3
-        },
-        {
-          "id": 2,
-          "pts": 3
-        },
-        {
-          "id": 4,
-          "pts": 3
-        },
-        {
-          "id": 7,
-          "pts": 3
-        },
-        {
-          "id": 8,
-          "pts": 3
-        },
-        {
-          "id": 10,
-          "pts": 4
-        },
-        {
-          "id": 13,
-          "pts": 4
-        },
-        {
-          "id": 14,
-          "pts": 5
-        },
-        {
-          "id": 19,
-          "pts": 6
-        },
-        {
-          "id": 20,
-          "pts": 6
-        },
-        {
-          "id": 25,
-          "pts": 7
-        },
-        {
-          "id": 26,
-          "pts": 8
-        },
-        {
-          "id": 31,
-          "pts": 8
-        },
-        {
-          "id": 32,
-          "pts": 9
-        },
-        {
-          "id": 37,
-          "pts": 9
-        },
-        {
-          "id": 38,
-          "pts": 9
-        },
-        {
-          "id": 43,
-          "pts": 9
-        },
-        {
-          "id": 44,
-          "pts": 9
-        },
-        {
-          "id": 49,
-          "pts": 10
-        },
-        {
-          "id": 50,
-          "pts": 11
-        },
-        {
-          "id": 55,
-          "pts": 12
-        },
-        {
-          "id": 56,
-          "pts": 13
-        },
-        {
-          "id": 61,
-          "pts": 13
-        },
-        {
-          "id": 62,
-          "pts": 14
-        },
-        {
-          "id": 67,
-          "pts": 14
         },
         {
           "id": 68,
@@ -901,7 +933,7 @@
     {
       "pos": 9,
       "name": "Carlos",
-      "pts": 11,
+      "pts": 12,
       "diff": -13,
       "acumulado": [
         {
@@ -925,95 +957,99 @@
           "pts": 0
         },
         {
+          "id": 9,
+          "pts": 1
+        },
+        {
           "id": 10,
-          "pts": 0
+          "pts": 1
         },
         {
           "id": 13,
-          "pts": 0
+          "pts": 1
         },
         {
           "id": 14,
-          "pts": 1
-        },
-        {
-          "id": 19,
-          "pts": 1
-        },
-        {
-          "id": 20,
-          "pts": 1
-        },
-        {
-          "id": 25,
           "pts": 2
         },
         {
-          "id": 26,
+          "id": 19,
+          "pts": 2
+        },
+        {
+          "id": 20,
+          "pts": 2
+        },
+        {
+          "id": 25,
           "pts": 3
         },
         {
+          "id": 26,
+          "pts": 4
+        },
+        {
           "id": 31,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 32,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 37,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 38,
-          "pts": 7
-        },
-        {
-          "id": 43,
-          "pts": 7
-        },
-        {
-          "id": 44,
-          "pts": 7
-        },
-        {
-          "id": 49,
-          "pts": 7
-        },
-        {
-          "id": 50,
           "pts": 8
         },
         {
-          "id": 55,
+          "id": 43,
+          "pts": 8
+        },
+        {
+          "id": 44,
+          "pts": 8
+        },
+        {
+          "id": 49,
+          "pts": 8
+        },
+        {
+          "id": 50,
           "pts": 9
+        },
+        {
+          "id": 55,
+          "pts": 10
         },
         {
           "id": 56,
-          "pts": 9
+          "pts": 10
         },
         {
           "id": 61,
-          "pts": 9
+          "pts": 10
         },
         {
           "id": 62,
-          "pts": 10
+          "pts": 11
         },
         {
           "id": 67,
-          "pts": 10
+          "pts": 11
         },
         {
           "id": 68,
-          "pts": 11
+          "pts": 12
         }
       ]
     },
     {
       "pos": 10,
       "name": "Yosember",
-      "pts": 9,
+      "pts": 10,
       "diff": -15,
       "acumulado": [
         {
@@ -1037,95 +1073,99 @@
           "pts": 1
         },
         {
+          "id": 9,
+          "pts": 2
+        },
+        {
           "id": 10,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": 13,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": 14,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 19,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 20,
-          "pts": 2
+          "pts": 3
         },
         {
           "id": 25,
-          "pts": 3
-        },
-        {
-          "id": 26,
-          "pts": 3
-        },
-        {
-          "id": 31,
-          "pts": 3
-        },
-        {
-          "id": 32,
           "pts": 4
         },
         {
+          "id": 26,
+          "pts": 4
+        },
+        {
+          "id": 31,
+          "pts": 4
+        },
+        {
+          "id": 32,
+          "pts": 5
+        },
+        {
           "id": 37,
-          "pts": 5
-        },
-        {
-          "id": 38,
-          "pts": 5
-        },
-        {
-          "id": 43,
-          "pts": 5
-        },
-        {
-          "id": 44,
-          "pts": 5
-        },
-        {
-          "id": 49,
-          "pts": 5
-        },
-        {
-          "id": 50,
           "pts": 6
         },
         {
-          "id": 55,
+          "id": 38,
+          "pts": 6
+        },
+        {
+          "id": 43,
+          "pts": 6
+        },
+        {
+          "id": 44,
+          "pts": 6
+        },
+        {
+          "id": 49,
+          "pts": 6
+        },
+        {
+          "id": 50,
           "pts": 7
+        },
+        {
+          "id": 55,
+          "pts": 8
         },
         {
           "id": 56,
-          "pts": 7
+          "pts": 8
         },
         {
           "id": 61,
-          "pts": 7
+          "pts": 8
         },
         {
           "id": 62,
-          "pts": 8
+          "pts": 9
         },
         {
           "id": 67,
-          "pts": 8
+          "pts": 9
         },
         {
           "id": 68,
-          "pts": 9
+          "pts": 10
         }
       ]
     }
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 9,
+      "pts_total": 10,
       "partidos": [
         {
           "id": 1,
@@ -1187,8 +1227,8 @@
           "id": 9,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -1696,8 +1736,8 @@
           "id": 9,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -2143,7 +2183,7 @@
       ]
     },
     "Carlos": {
-      "pts_total": 11,
+      "pts_total": 12,
       "partidos": [
         {
           "id": 1,
@@ -2205,8 +2245,8 @@
           "id": 9,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -2652,7 +2692,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 17,
+      "pts_total": 18,
       "partidos": [
         {
           "id": 1,
@@ -2714,8 +2754,8 @@
           "id": 9,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -3161,7 +3201,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 15,
+      "pts_total": 16,
       "partidos": [
         {
           "id": 1,
@@ -3223,8 +3263,8 @@
           "id": 9,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -3732,8 +3772,8 @@
           "id": 9,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -4241,8 +4281,8 @@
           "id": 9,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -4688,7 +4728,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 18,
+      "pts_total": 19,
       "partidos": [
         {
           "id": 1,
@@ -4750,8 +4790,8 @@
           "id": 9,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -5197,7 +5237,7 @@
       ]
     },
     "Carolina": {
-      "pts_total": 15,
+      "pts_total": 16,
       "partidos": [
         {
           "id": 1,
@@ -5259,8 +5299,8 @@
           "id": 9,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -5706,7 +5746,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 24,
+      "pts_total": 25,
       "partidos": [
         {
           "id": 1,
@@ -5768,8 +5808,8 @@
           "id": 9,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
         },
         {
           "id": 10,
@@ -6277,6 +6317,18 @@
       "fecha": "2026-06-13T19:00:00Z"
     },
     {
+      "id": 9,
+      "grupo": "B",
+      "jornada": 2,
+      "local": "Canadá",
+      "visitante": "Catar",
+      "goles_l": 6,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-18T22:00:00Z"
+    },
+    {
       "id": 10,
       "grupo": "B",
       "jornada": 2,
@@ -6632,9 +6684,9 @@
       "jornada": 2,
       "local": "Canadá",
       "visitante": "Catar",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 6,
+      "goles_v": 0,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-18T22:00:00Z"
     },
@@ -7769,6 +7821,18 @@
   ],
   "ultimos5": [
     {
+      "id": 9,
+      "grupo": "B",
+      "jornada": 2,
+      "local": "Canadá",
+      "visitante": "Catar",
+      "goles_l": 6,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-18T22:00:00Z"
+    },
+    {
       "id": 10,
       "grupo": "B",
       "jornada": 2,
@@ -7815,23 +7879,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-17T23:00:00Z"
-    },
-    {
-      "id": 67,
-      "grupo": "L",
-      "jornada": 1,
-      "local": "Inglaterra",
-      "visitante": "Croacia",
-      "goles_l": 4,
-      "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-17T20:00:00Z"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 26,
-    "pendientes": 46
+    "jugados": 27,
+    "pendientes": 45
   }
 }
