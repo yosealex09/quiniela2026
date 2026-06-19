@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "18/06/2026 20:12",
+  "actualizado": "18/06/2026 23:00",
   "ranking": [
     {
       "pos": 1,
@@ -6612,10 +6612,10 @@
       "jornada": 2,
       "local": "México",
       "visitante": "Corea del Sur",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-19T01:00:00Z"
     },
     {
@@ -7881,7 +7881,20 @@
       "fecha": "2026-06-17T23:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 3,
+      "grupo": "A",
+      "jornada": 2,
+      "local": "México",
+      "visitante": "Corea del Sur",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-19T01:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 27,
     "pendientes": 45
