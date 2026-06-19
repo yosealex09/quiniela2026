@@ -527,8 +527,13 @@ function renderProximos() {
 function renderComparativo() {
   const jugadores = DATA.ranking.map(r => r.name);
   const partidos = (DATA.todos_partidos || [])
-    .filter(p => p.grupo.length === 1 && p.fecha)
+    .filter(p => p.grupo.length === 1 && p.fecha && !p.jugado && !p.en_vivo)
     .sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  if (!partidos.length) {
+    document.getElementById('compareContent').innerHTML = '<p class="pend" style="font-size:13px">No quedan partidos pendientes por comparar.</p>';
+    return;
+  }
 
   const dias = agruparPorDia(partidos);
 
