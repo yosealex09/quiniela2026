@@ -60,8 +60,8 @@
     .chart-wrap{position:relative;height:320px}
     .error{color:var(--danger);background:rgba(255,107,107,.1);border:1px solid rgba(255,107,107,.2);border-radius:12px;padding:14px;margin:10px 0}
     .footer{text-align:center;color:var(--muted);font-size:12px;margin-top:24px}
-    .compare-selects{display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
-    select{background:#1a2640;border:1px solid rgba(255,255,255,.15);color:var(--text);padding:8px 12px;border-radius:10px;font-size:13px;cursor:pointer}
+    .compare-grid-wrap{overflow-x:auto}
+    .compare-grid-wrap table{min-width:900px}
     .stats-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
     .stats-row .kpi{flex:1;min-width:90px}
     .next-match{background:linear-gradient(135deg,rgba(255,209,102,.14),rgba(255,255,255,.04));border:1px solid rgba(255,209,102,.35);border-radius:16px;padding:14px 16px;margin-bottom:14px}
@@ -94,6 +94,7 @@
     <div class="tab"         data-page="pronosticos">🔮 Pronósticos</div>
     <div class="tab"         data-page="grupos">🌐 Grupos</div>
     <div class="tab"         data-page="brackets">🗂️ Brackets</div>
+    <div class="tab"         data-page="proximos">🗓️ Próximos</div>
     <div class="tab"         data-page="grafica">📈 Evolución</div>
     <div class="tab"         data-page="comparar">⚖️ Comparar</div>
   </div>
@@ -153,6 +154,14 @@
     </div>
   </div>
 
+  <!-- PRÓXIMOS -->
+  <div id="page-proximos" class="page">
+    <div class="panel">
+      <h2>🗓️ Próximos partidos</h2>
+      <div id="proximosContent"></div>
+    </div>
+  </div>
+
   <!-- GRÁFICA -->
   <div id="page-grafica" class="page">
     <div class="panel">
@@ -164,12 +173,7 @@
   <!-- COMPARAR -->
   <div id="page-comparar" class="page">
     <div class="panel">
-      <h2>⚖️ Comparar dos jugadores</h2>
-      <div class="compare-selects">
-        <select id="cmp1"></select>
-        <select id="cmp2"></select>
-        <button class="btn" onclick="renderComparar()">Comparar</button>
-      </div>
+      <h2>⚖️ Comparativo de pronósticos por día</h2>
       <div id="compareContent"></div>
     </div>
   </div>
@@ -193,6 +197,8 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.page === 'grafica' && DATA) renderGrafica();
     if (tab.dataset.page === 'grupos' && DATA) renderGrupoBtns();
     if (tab.dataset.page === 'brackets' && DATA) renderBracket();
+    if (tab.dataset.page === 'proximos' && DATA) renderProximos();
+    if (tab.dataset.page === 'comparar' && DATA) renderComparativo();
   });
 });
 
@@ -207,7 +213,6 @@ async function cargar() {
     renderUltimos();
     renderKpis();
     renderPlayerBtns();
-    renderSelectores();
     document.getElementById('subtitulo').textContent = `Datos leídos del Excel · Actualizado: ${DATA.actualizado}`;
     document.getElementById('footer').textContent = `Quiniela Mundial 2026 · ${DATA.stats.jugados} partidos jugados · ${DATA.actualizado}`;
     document.getElementById('errorBox').style.display = 'none';
@@ -472,49 +477,82 @@ function renderGrafica() {
   });
 }
 
-// ── Comparar ──────────────────────────────────────────────────────────────────
-function renderSelectores() {
-  const names = DATA.ranking.map(r => r.name);
-  ['cmp1','cmp2'].forEach((id,i) => {
-    document.getElementById(id).innerHTML = names.map((n,j) =>
-      `<option value="${n}" ${j===i?'selected':''}>${n}</option>`).join('');
-  });
+// ── Fechas ────────────────────────────────────────────────────────────────────
+function formatearDia(fechaISO) {
+  const d = new Date(fechaISO);
+  const txt = d.toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' });
+  return txt.charAt(0).toUpperCase() + txt.slice(1);
 }
 
-function renderComparar() {
-  const n1 = document.getElementById('cmp1').value;
-  const n2 = document.getElementById('cmp2').value;
-  if (n1===n2) { document.getElementById('compareContent').innerHTML='<p class="pend">Selecciona dos jugadores distintos.</p>'; return; }
+function formatearHora(fechaISO) {
+  return new Date(fechaISO).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+}
 
-  const p1 = DATA.pronosticos[n1], p2 = DATA.pronosticos[n2];
-  const jugados = p1.partidos.filter(m => m.pts !== null);
-  let g1=0, g2=0, emp=0;
+function agruparPorDia(partidos) {
+  const grupos = [];
+  const indice = {};
+  partidos.forEach(p => {
+    const dia = p.fecha.slice(0, 10);
+    if (!indice[dia]) { indice[dia] = { dia, partidos: [] }; grupos.push(indice[dia]); }
+    indice[dia].partidos.push(p);
+  });
+  return grupos;
+}
 
-  const rows = jugados.map(m1 => {
-    const m2 = p2.partidos.find(m => m.id===m1.id);
-    const pts2 = m2?.pts ?? 0;
-    let c1='', c2='';
-    if (m1.pts > pts2)      { c1='hit3'; g1++; }
-    else if (pts2 > m1.pts) { c2='hit3'; g2++; }
-    else emp++;
-    return `<tr>
-      <td>${m1.id}</td>
-      <td class="${c1}">${m1.pred_l??'?'}-${m1.pred_v??'?'} <small>(${m1.pts}p)</small></td>
-      <td class="${c2}">${m2?.pred_l??'?'}-${m2?.pred_v??'?'} <small>(${pts2}p)</small></td>
-      <td class="pend" style="font-size:12px">${m1.resultado}</td>
-    </tr>`;
-  }).join('');
+// ── Próximos partidos ────────────────────────────────────────────────────────
+function renderProximos() {
+  const partidos = (DATA.todos_partidos || [])
+    .filter(p => !p.jugado && !p.en_vivo && p.grupo.length === 1 && p.fecha)
+    .sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  if (!partidos.length) {
+    document.getElementById('proximosContent').innerHTML = '<p class="pend" style="font-size:13px">No hay partidos pendientes con fecha confirmada.</p>';
+    return;
+  }
+
+  const dias = agruparPorDia(partidos);
+  document.getElementById('proximosContent').innerHTML = dias.map(grupo => `
+    <h2 style="font-size:14px;color:var(--gold);margin:18px 0 10px">${formatearDia(grupo.partidos[0].fecha)}</h2>
+    ${grupo.partidos.map(m => `
+      <div class="match">
+        <div class="match-top"><span>Grupo ${m.grupo} · J${m.jornada}</span><span>${formatearHora(m.fecha)}</span></div>
+        <div class="teams">
+          <span>${m.local}</span><span class="score-res pend">vs</span><span>${m.visitante}</span>
+        </div>
+      </div>`).join('')}
+  `).join('');
+}
+
+// ── Comparativo de pronósticos ───────────────────────────────────────────────
+function renderComparativo() {
+  const jugadores = DATA.ranking.map(r => r.name);
+  const partidos = (DATA.todos_partidos || [])
+    .filter(p => p.grupo.length === 1 && p.fecha)
+    .sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  const dias = agruparPorDia(partidos);
+
+  const filas = dias.map(grupo => `
+    <tr><td colspan="${jugadores.length + 1}" style="background:rgba(255,209,102,.08);color:var(--gold);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.04em">${formatearDia(grupo.partidos[0].fecha)}</td></tr>
+    ${grupo.partidos.map(m => `
+      <tr>
+        <td style="font-size:12px;white-space:nowrap">${m.local} <span style="color:var(--muted)">vs</span> ${m.visitante}</td>
+        ${jugadores.map(j => {
+          const pred = DATA.pronosticos[j].partidos.find(x => x.id === m.id);
+          if (!pred) return '<td class="pend">—</td>';
+          const cls = pred.pts === 3 ? 'hit3' : pred.pts === 1 ? 'hit1' : pred.pts === 0 ? 'miss' : 'pend';
+          return `<td class="${cls}" style="text-align:center">${pred.pred_l ?? '?'}-${pred.pred_v ?? '?'}</td>`;
+        }).join('')}
+      </tr>`).join('')}
+  `).join('');
 
   document.getElementById('compareContent').innerHTML = `
-    <div class="stats-row">
-      <div class="kpi" style="background:rgba(72,225,166,.1)"><b>${p1.pts_total}</b><span>${n1}</span></div>
-      <div class="kpi" style="background:rgba(78,168,255,.1)"><b>${p2.pts_total}</b><span>${n2}</span></div>
-      <div class="kpi"><b>${g1}-${emp}-${g2}</b><span>G-E-G por partido</span></div>
-    </div>
-    <table class="ft">
-      <thead><tr><th>#</th><th>${n1}</th><th>${n2}</th><th>Resultado</th></tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
+    <div class="compare-grid-wrap">
+      <table class="ft">
+        <thead><tr><th>Partido</th>${jugadores.map(j => `<th style="text-align:center">${j}</th>`).join('')}</tr></thead>
+        <tbody>${filas}</tbody>
+      </table>
+    </div>`;
 }
 
 cargar();
