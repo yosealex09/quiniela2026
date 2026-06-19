@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "19/06/2026 18:04",
+  "actualizado": "19/06/2026 18:08",
   "ranking": [
     {
       "pos": 1,
@@ -6872,10 +6872,10 @@
       "jornada": 2,
       "local": "Marruecos",
       "visitante": "Escocia",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-19T22:00:00Z"
     },
     {
@@ -7985,7 +7985,20 @@
       "fecha": "2026-06-18T16:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 16,
+      "grupo": "C",
+      "jornada": 2,
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-19T22:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 29,
     "pendientes": 43
