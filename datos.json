@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "19/06/2026 18:08",
+  "actualizado": "19/06/2026 21:11",
   "ranking": [
     {
       "pos": 1,
@@ -46,6 +46,10 @@
         },
         {
           "id": 14,
+          "pts": 10
+        },
+        {
+          "id": 16,
           "pts": 10
         },
         {
@@ -129,8 +133,8 @@
     {
       "pos": 2,
       "name": "Peter",
-      "pts": 23,
-      "diff": -6,
+      "pts": 24,
+      "diff": -5,
       "acumulado": [
         {
           "id": 1,
@@ -173,68 +177,200 @@
           "pts": 9
         },
         {
-          "id": 19,
+          "id": 16,
           "pts": 10
         },
         {
-          "id": 20,
+          "id": 19,
           "pts": 11
         },
         {
-          "id": 21,
+          "id": 20,
           "pts": 12
         },
         {
+          "id": 21,
+          "pts": 13
+        },
+        {
           "id": 25,
-          "pts": 13
-        },
-        {
-          "id": 26,
-          "pts": 13
-        },
-        {
-          "id": 31,
-          "pts": 13
-        },
-        {
-          "id": 32,
           "pts": 14
         },
         {
+          "id": 26,
+          "pts": 14
+        },
+        {
+          "id": 31,
+          "pts": 14
+        },
+        {
+          "id": 32,
+          "pts": 15
+        },
+        {
           "id": 37,
-          "pts": 17
-        },
-        {
-          "id": 38,
-          "pts": 17
-        },
-        {
-          "id": 43,
-          "pts": 17
-        },
-        {
-          "id": 44,
-          "pts": 17
-        },
-        {
-          "id": 49,
           "pts": 18
         },
         {
-          "id": 50,
+          "id": 38,
+          "pts": 18
+        },
+        {
+          "id": 43,
+          "pts": 18
+        },
+        {
+          "id": 44,
+          "pts": 18
+        },
+        {
+          "id": 49,
           "pts": 19
         },
         {
-          "id": 55,
+          "id": 50,
           "pts": 20
+        },
+        {
+          "id": 55,
+          "pts": 21
         },
         {
           "id": 56,
-          "pts": 20
+          "pts": 21
         },
         {
           "id": 61,
-          "pts": 20
+          "pts": 21
+        },
+        {
+          "id": 62,
+          "pts": 22
+        },
+        {
+          "id": 67,
+          "pts": 23
+        },
+        {
+          "id": 68,
+          "pts": 24
+        }
+      ]
+    },
+    {
+      "pos": 3,
+      "name": "Josmary",
+      "pts": 22,
+      "diff": -7,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 1
+        },
+        {
+          "id": 2,
+          "pts": 2
+        },
+        {
+          "id": 3,
+          "pts": 2
+        },
+        {
+          "id": 4,
+          "pts": 2
+        },
+        {
+          "id": 7,
+          "pts": 2
+        },
+        {
+          "id": 8,
+          "pts": 2
+        },
+        {
+          "id": 9,
+          "pts": 2
+        },
+        {
+          "id": 10,
+          "pts": 3
+        },
+        {
+          "id": 13,
+          "pts": 3
+        },
+        {
+          "id": 14,
+          "pts": 3
+        },
+        {
+          "id": 16,
+          "pts": 6
+        },
+        {
+          "id": 19,
+          "pts": 6
+        },
+        {
+          "id": 20,
+          "pts": 7
+        },
+        {
+          "id": 21,
+          "pts": 8
+        },
+        {
+          "id": 25,
+          "pts": 9
+        },
+        {
+          "id": 26,
+          "pts": 9
+        },
+        {
+          "id": 31,
+          "pts": 12
+        },
+        {
+          "id": 32,
+          "pts": 13
+        },
+        {
+          "id": 37,
+          "pts": 13
+        },
+        {
+          "id": 38,
+          "pts": 13
+        },
+        {
+          "id": 43,
+          "pts": 13
+        },
+        {
+          "id": 44,
+          "pts": 16
+        },
+        {
+          "id": 49,
+          "pts": 17
+        },
+        {
+          "id": 50,
+          "pts": 17
+        },
+        {
+          "id": 55,
+          "pts": 17
+        },
+        {
+          "id": 56,
+          "pts": 18
+        },
+        {
+          "id": 61,
+          "pts": 18
         },
         {
           "id": 62,
@@ -246,12 +382,12 @@
         },
         {
           "id": 68,
-          "pts": 23
+          "pts": 22
         }
       ]
     },
     {
-      "pos": 3,
+      "pos": 4,
       "name": "Osmar",
       "pts": 22,
       "diff": -7,
@@ -294,6 +430,10 @@
         },
         {
           "id": 14,
+          "pts": 7
+        },
+        {
+          "id": 16,
           "pts": 7
         },
         {
@@ -375,7 +515,7 @@
       ]
     },
     {
-      "pos": 4,
+      "pos": 5,
       "name": "Mayra",
       "pts": 20,
       "diff": -9,
@@ -418,6 +558,10 @@
         },
         {
           "id": 14,
+          "pts": 12
+        },
+        {
+          "id": 16,
           "pts": 12
         },
         {
@@ -499,7 +643,7 @@
       ]
     },
     {
-      "pos": 5,
+      "pos": 6,
       "name": "Carolina",
       "pts": 20,
       "diff": -9,
@@ -542,6 +686,10 @@
         },
         {
           "id": 14,
+          "pts": 7
+        },
+        {
+          "id": 16,
           "pts": 7
         },
         {
@@ -623,130 +771,6 @@
       ]
     },
     {
-      "pos": 6,
-      "name": "Josmary",
-      "pts": 19,
-      "diff": -10,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 1
-        },
-        {
-          "id": 2,
-          "pts": 2
-        },
-        {
-          "id": 3,
-          "pts": 2
-        },
-        {
-          "id": 4,
-          "pts": 2
-        },
-        {
-          "id": 7,
-          "pts": 2
-        },
-        {
-          "id": 8,
-          "pts": 2
-        },
-        {
-          "id": 9,
-          "pts": 2
-        },
-        {
-          "id": 10,
-          "pts": 3
-        },
-        {
-          "id": 13,
-          "pts": 3
-        },
-        {
-          "id": 14,
-          "pts": 3
-        },
-        {
-          "id": 19,
-          "pts": 3
-        },
-        {
-          "id": 20,
-          "pts": 4
-        },
-        {
-          "id": 21,
-          "pts": 5
-        },
-        {
-          "id": 25,
-          "pts": 6
-        },
-        {
-          "id": 26,
-          "pts": 6
-        },
-        {
-          "id": 31,
-          "pts": 9
-        },
-        {
-          "id": 32,
-          "pts": 10
-        },
-        {
-          "id": 37,
-          "pts": 10
-        },
-        {
-          "id": 38,
-          "pts": 10
-        },
-        {
-          "id": 43,
-          "pts": 10
-        },
-        {
-          "id": 44,
-          "pts": 13
-        },
-        {
-          "id": 49,
-          "pts": 14
-        },
-        {
-          "id": 50,
-          "pts": 14
-        },
-        {
-          "id": 55,
-          "pts": 14
-        },
-        {
-          "id": 56,
-          "pts": 15
-        },
-        {
-          "id": 61,
-          "pts": 15
-        },
-        {
-          "id": 62,
-          "pts": 18
-        },
-        {
-          "id": 67,
-          "pts": 19
-        },
-        {
-          "id": 68,
-          "pts": 19
-        }
-      ]
-    },
-    {
       "pos": 7,
       "name": "Jonathan",
       "pts": 16,
@@ -790,6 +814,10 @@
         },
         {
           "id": 14,
+          "pts": 6
+        },
+        {
+          "id": 16,
           "pts": 6
         },
         {
@@ -873,8 +901,8 @@
     {
       "pos": 8,
       "name": "Sol",
-      "pts": 15,
-      "diff": -14,
+      "pts": 16,
+      "diff": -13,
       "acumulado": [
         {
           "id": 1,
@@ -917,72 +945,204 @@
           "pts": 3
         },
         {
-          "id": 19,
+          "id": 16,
           "pts": 4
+        },
+        {
+          "id": 19,
+          "pts": 5
         },
         {
           "id": 20,
-          "pts": 4
+          "pts": 5
         },
         {
           "id": 21,
-          "pts": 4
+          "pts": 5
         },
         {
           "id": 25,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 26,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 31,
-          "pts": 5
+          "pts": 6
         },
         {
           "id": 32,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 37,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": 38,
-          "pts": 7
-        },
-        {
-          "id": 43,
-          "pts": 7
-        },
-        {
-          "id": 44,
-          "pts": 7
-        },
-        {
-          "id": 49,
           "pts": 8
         },
         {
-          "id": 50,
+          "id": 43,
+          "pts": 8
+        },
+        {
+          "id": 44,
+          "pts": 8
+        },
+        {
+          "id": 49,
           "pts": 9
         },
         {
-          "id": 55,
+          "id": 50,
           "pts": 10
+        },
+        {
+          "id": 55,
+          "pts": 11
         },
         {
           "id": 56,
-          "pts": 10
+          "pts": 11
         },
         {
           "id": 61,
-          "pts": 10
+          "pts": 11
         },
         {
           "id": 62,
+          "pts": 12
+        },
+        {
+          "id": 67,
+          "pts": 13
+        },
+        {
+          "id": 68,
+          "pts": 16
+        }
+      ]
+    },
+    {
+      "pos": 9,
+      "name": "Yosember",
+      "pts": 13,
+      "diff": -16,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 0
+        },
+        {
+          "id": 3,
+          "pts": 1
+        },
+        {
+          "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 7,
+          "pts": 1
+        },
+        {
+          "id": 8,
+          "pts": 2
+        },
+        {
+          "id": 9,
+          "pts": 3
+        },
+        {
+          "id": 10,
+          "pts": 3
+        },
+        {
+          "id": 13,
+          "pts": 3
+        },
+        {
+          "id": 14,
+          "pts": 4
+        },
+        {
+          "id": 16,
+          "pts": 5
+        },
+        {
+          "id": 19,
+          "pts": 5
+        },
+        {
+          "id": 20,
+          "pts": 5
+        },
+        {
+          "id": 21,
+          "pts": 6
+        },
+        {
+          "id": 25,
+          "pts": 7
+        },
+        {
+          "id": 26,
+          "pts": 7
+        },
+        {
+          "id": 31,
+          "pts": 7
+        },
+        {
+          "id": 32,
+          "pts": 8
+        },
+        {
+          "id": 37,
+          "pts": 9
+        },
+        {
+          "id": 38,
+          "pts": 9
+        },
+        {
+          "id": 43,
+          "pts": 9
+        },
+        {
+          "id": 44,
+          "pts": 9
+        },
+        {
+          "id": 49,
+          "pts": 9
+        },
+        {
+          "id": 50,
+          "pts": 10
+        },
+        {
+          "id": 55,
           "pts": 11
+        },
+        {
+          "id": 56,
+          "pts": 11
+        },
+        {
+          "id": 61,
+          "pts": 11
+        },
+        {
+          "id": 62,
+          "pts": 12
         },
         {
           "id": 67,
@@ -990,12 +1150,12 @@
         },
         {
           "id": 68,
-          "pts": 15
+          "pts": 13
         }
       ]
     },
     {
-      "pos": 9,
+      "pos": 10,
       "name": "Carlos",
       "pts": 13,
       "diff": -16,
@@ -1038,6 +1198,10 @@
         },
         {
           "id": 14,
+          "pts": 2
+        },
+        {
+          "id": 16,
           "pts": 2
         },
         {
@@ -1117,135 +1281,11 @@
           "pts": 13
         }
       ]
-    },
-    {
-      "pos": 10,
-      "name": "Yosember",
-      "pts": 12,
-      "diff": -17,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 3,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 7,
-          "pts": 1
-        },
-        {
-          "id": 8,
-          "pts": 2
-        },
-        {
-          "id": 9,
-          "pts": 3
-        },
-        {
-          "id": 10,
-          "pts": 3
-        },
-        {
-          "id": 13,
-          "pts": 3
-        },
-        {
-          "id": 14,
-          "pts": 4
-        },
-        {
-          "id": 19,
-          "pts": 4
-        },
-        {
-          "id": 20,
-          "pts": 4
-        },
-        {
-          "id": 21,
-          "pts": 5
-        },
-        {
-          "id": 25,
-          "pts": 6
-        },
-        {
-          "id": 26,
-          "pts": 6
-        },
-        {
-          "id": 31,
-          "pts": 6
-        },
-        {
-          "id": 32,
-          "pts": 7
-        },
-        {
-          "id": 37,
-          "pts": 8
-        },
-        {
-          "id": 38,
-          "pts": 8
-        },
-        {
-          "id": 43,
-          "pts": 8
-        },
-        {
-          "id": 44,
-          "pts": 8
-        },
-        {
-          "id": 49,
-          "pts": 8
-        },
-        {
-          "id": 50,
-          "pts": 9
-        },
-        {
-          "id": 55,
-          "pts": 10
-        },
-        {
-          "id": 56,
-          "pts": 10
-        },
-        {
-          "id": 61,
-          "pts": 10
-        },
-        {
-          "id": 62,
-          "pts": 11
-        },
-        {
-          "id": 67,
-          "pts": 11
-        },
-        {
-          "id": 68,
-          "pts": 12
-        }
-      ]
     }
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 12,
+      "pts_total": 13,
       "partidos": [
         {
           "id": 1,
@@ -1356,8 +1396,8 @@
           "id": 16,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -1754,7 +1794,7 @@
       ]
     },
     "Josmary": {
-      "pts_total": 19,
+      "pts_total": 22,
       "partidos": [
         {
           "id": 1,
@@ -1865,8 +1905,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -2374,8 +2414,8 @@
           "id": 16,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -2883,8 +2923,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -3392,8 +3432,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -3790,7 +3830,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 15,
+      "pts_total": 16,
       "partidos": [
         {
           "id": 1,
@@ -3901,8 +3941,8 @@
           "id": 16,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -4410,8 +4450,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -4808,7 +4848,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 23,
+      "pts_total": 24,
       "partidos": [
         {
           "id": 1,
@@ -4919,8 +4959,8 @@
           "id": 16,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -5428,8 +5468,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -5937,8 +5977,8 @@
           "id": 16,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
         },
         {
           "id": 17,
@@ -6457,6 +6497,18 @@
       "fecha": "2026-06-14T01:00:00Z"
     },
     {
+      "id": 16,
+      "grupo": "C",
+      "jornada": 2,
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-19T22:00:00Z"
+    },
+    {
       "id": 19,
       "grupo": "D",
       "jornada": 1,
@@ -6860,10 +6912,10 @@
       "jornada": 2,
       "local": "Brasil",
       "visitante": "Haití",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-20T00:30:00Z"
     },
     {
@@ -6874,8 +6926,8 @@
       "visitante": "Escocia",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-19T22:00:00Z"
     },
     {
@@ -7925,6 +7977,18 @@
   ],
   "ultimos5": [
     {
+      "id": 16,
+      "grupo": "C",
+      "jornada": 2,
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-19T22:00:00Z"
+    },
+    {
       "id": 21,
       "grupo": "D",
       "jornada": 2,
@@ -7971,36 +8035,24 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-18T19:00:00Z"
-    },
-    {
-      "id": 4,
-      "grupo": "A",
-      "jornada": 2,
-      "local": "Sudáfrica",
-      "visitante": "Chequia",
-      "goles_l": 1,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-18T16:00:00Z"
     }
   ],
   "en_vivo": [
     {
-      "id": 16,
+      "id": 15,
       "grupo": "C",
       "jornada": 2,
-      "local": "Marruecos",
-      "visitante": "Escocia",
+      "local": "Brasil",
+      "visitante": "Haití",
       "goles_l": 1,
       "goles_v": 0,
       "jugado": false,
       "en_vivo": true,
-      "fecha": "2026-06-19T22:00:00Z"
+      "fecha": "2026-06-20T00:30:00Z"
     }
   ],
   "stats": {
-    "jugados": 29,
-    "pendientes": 43
+    "jugados": 30,
+    "pendientes": 42
   }
 }
