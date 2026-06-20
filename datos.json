@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "19/06/2026 22:38",
+  "actualizado": "20/06/2026 11:44",
   "ranking": [
     {
       "pos": 1,
@@ -66,6 +66,10 @@
         },
         {
           "id": 21,
+          "pts": 15
+        },
+        {
+          "id": 22,
           "pts": 15
         },
         {
@@ -201,6 +205,10 @@
           "pts": 14
         },
         {
+          "id": 22,
+          "pts": 14
+        },
+        {
           "id": 25,
           "pts": 15
         },
@@ -330,6 +338,10 @@
         },
         {
           "id": 21,
+          "pts": 9
+        },
+        {
+          "id": 22,
           "pts": 9
         },
         {
@@ -465,6 +477,10 @@
           "pts": 12
         },
         {
+          "id": 22,
+          "pts": 12
+        },
+        {
           "id": 25,
           "pts": 13
         },
@@ -597,6 +613,10 @@
           "pts": 14
         },
         {
+          "id": 22,
+          "pts": 14
+        },
+        {
           "id": 25,
           "pts": 15
         },
@@ -665,8 +685,8 @@
     {
       "pos": 6,
       "name": "Mayra",
-      "pts": 21,
-      "diff": -9,
+      "pts": 22,
+      "diff": -8,
       "acumulado": [
         {
           "id": 1,
@@ -729,76 +749,80 @@
           "pts": 13
         },
         {
-          "id": 25,
+          "id": 22,
           "pts": 14
+        },
+        {
+          "id": 25,
+          "pts": 15
         },
         {
           "id": 26,
-          "pts": 14
+          "pts": 15
         },
         {
           "id": 31,
-          "pts": 14
+          "pts": 15
         },
         {
           "id": 32,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 37,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 38,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 43,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 44,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 49,
-          "pts": 18
-        },
-        {
-          "id": 50,
-          "pts": 18
-        },
-        {
-          "id": 55,
           "pts": 19
         },
         {
-          "id": 56,
+          "id": 50,
+          "pts": 19
+        },
+        {
+          "id": 55,
           "pts": 20
+        },
+        {
+          "id": 56,
+          "pts": 21
         },
         {
           "id": 61,
-          "pts": 20
+          "pts": 21
         },
         {
           "id": 62,
-          "pts": 21
+          "pts": 22
         },
         {
           "id": 67,
-          "pts": 21
+          "pts": 22
         },
         {
           "id": 68,
-          "pts": 21
+          "pts": 22
         }
       ]
     },
     {
       "pos": 7,
       "name": "Jonathan",
-      "pts": 17,
-      "diff": -13,
+      "pts": 18,
+      "diff": -12,
       "acumulado": [
         {
           "id": 1,
@@ -861,56 +885,196 @@
           "pts": 7
         },
         {
+          "id": 22,
+          "pts": 8
+        },
+        {
           "id": 25,
-          "pts": 8
-        },
-        {
-          "id": 26,
-          "pts": 8
-        },
-        {
-          "id": 31,
-          "pts": 8
-        },
-        {
-          "id": 32,
-          "pts": 8
-        },
-        {
-          "id": 37,
           "pts": 9
         },
         {
+          "id": 26,
+          "pts": 9
+        },
+        {
+          "id": 31,
+          "pts": 9
+        },
+        {
+          "id": 32,
+          "pts": 9
+        },
+        {
+          "id": 37,
+          "pts": 10
+        },
+        {
           "id": 38,
-          "pts": 10
-        },
-        {
-          "id": 43,
-          "pts": 10
-        },
-        {
-          "id": 44,
-          "pts": 10
-        },
-        {
-          "id": 49,
           "pts": 11
         },
         {
-          "id": 50,
+          "id": 43,
+          "pts": 11
+        },
+        {
+          "id": 44,
+          "pts": 11
+        },
+        {
+          "id": 49,
           "pts": 12
         },
         {
-          "id": 55,
+          "id": 50,
           "pts": 13
+        },
+        {
+          "id": 55,
+          "pts": 14
         },
         {
           "id": 56,
-          "pts": 13
+          "pts": 14
         },
         {
           "id": 61,
+          "pts": 14
+        },
+        {
+          "id": 62,
+          "pts": 17
+        },
+        {
+          "id": 67,
+          "pts": 17
+        },
+        {
+          "id": 68,
+          "pts": 18
+        }
+      ]
+    },
+    {
+      "pos": 8,
+      "name": "Yosember",
+      "pts": 17,
+      "diff": -13,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 0
+        },
+        {
+          "id": 3,
+          "pts": 1
+        },
+        {
+          "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 7,
+          "pts": 1
+        },
+        {
+          "id": 8,
+          "pts": 2
+        },
+        {
+          "id": 9,
+          "pts": 3
+        },
+        {
+          "id": 10,
+          "pts": 3
+        },
+        {
+          "id": 13,
+          "pts": 3
+        },
+        {
+          "id": 14,
+          "pts": 4
+        },
+        {
+          "id": 15,
+          "pts": 7
+        },
+        {
+          "id": 16,
+          "pts": 8
+        },
+        {
+          "id": 19,
+          "pts": 8
+        },
+        {
+          "id": 20,
+          "pts": 8
+        },
+        {
+          "id": 21,
+          "pts": 9
+        },
+        {
+          "id": 22,
+          "pts": 10
+        },
+        {
+          "id": 25,
+          "pts": 11
+        },
+        {
+          "id": 26,
+          "pts": 11
+        },
+        {
+          "id": 31,
+          "pts": 11
+        },
+        {
+          "id": 32,
+          "pts": 12
+        },
+        {
+          "id": 37,
           "pts": 13
+        },
+        {
+          "id": 38,
+          "pts": 13
+        },
+        {
+          "id": 43,
+          "pts": 13
+        },
+        {
+          "id": 44,
+          "pts": 13
+        },
+        {
+          "id": 49,
+          "pts": 13
+        },
+        {
+          "id": 50,
+          "pts": 14
+        },
+        {
+          "id": 55,
+          "pts": 15
+        },
+        {
+          "id": 56,
+          "pts": 15
+        },
+        {
+          "id": 61,
+          "pts": 15
         },
         {
           "id": 62,
@@ -927,7 +1091,7 @@
       ]
     },
     {
-      "pos": 8,
+      "pos": 9,
       "name": "Sol",
       "pts": 17,
       "diff": -13,
@@ -993,6 +1157,10 @@
           "pts": 6
         },
         {
+          "id": 22,
+          "pts": 6
+        },
+        {
           "id": 25,
           "pts": 7
         },
@@ -1055,138 +1223,6 @@
         {
           "id": 68,
           "pts": 17
-        }
-      ]
-    },
-    {
-      "pos": 9,
-      "name": "Yosember",
-      "pts": 16,
-      "diff": -14,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 0
-        },
-        {
-          "id": 3,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 7,
-          "pts": 1
-        },
-        {
-          "id": 8,
-          "pts": 2
-        },
-        {
-          "id": 9,
-          "pts": 3
-        },
-        {
-          "id": 10,
-          "pts": 3
-        },
-        {
-          "id": 13,
-          "pts": 3
-        },
-        {
-          "id": 14,
-          "pts": 4
-        },
-        {
-          "id": 15,
-          "pts": 7
-        },
-        {
-          "id": 16,
-          "pts": 8
-        },
-        {
-          "id": 19,
-          "pts": 8
-        },
-        {
-          "id": 20,
-          "pts": 8
-        },
-        {
-          "id": 21,
-          "pts": 9
-        },
-        {
-          "id": 25,
-          "pts": 10
-        },
-        {
-          "id": 26,
-          "pts": 10
-        },
-        {
-          "id": 31,
-          "pts": 10
-        },
-        {
-          "id": 32,
-          "pts": 11
-        },
-        {
-          "id": 37,
-          "pts": 12
-        },
-        {
-          "id": 38,
-          "pts": 12
-        },
-        {
-          "id": 43,
-          "pts": 12
-        },
-        {
-          "id": 44,
-          "pts": 12
-        },
-        {
-          "id": 49,
-          "pts": 12
-        },
-        {
-          "id": 50,
-          "pts": 13
-        },
-        {
-          "id": 55,
-          "pts": 14
-        },
-        {
-          "id": 56,
-          "pts": 14
-        },
-        {
-          "id": 61,
-          "pts": 14
-        },
-        {
-          "id": 62,
-          "pts": 15
-        },
-        {
-          "id": 67,
-          "pts": 15
-        },
-        {
-          "id": 68,
-          "pts": 16
         }
       ]
     },
@@ -1254,6 +1290,10 @@
         },
         {
           "id": 21,
+          "pts": 4
+        },
+        {
+          "id": 22,
           "pts": 4
         },
         {
@@ -1325,7 +1365,7 @@
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 16,
+      "pts_total": 17,
       "partidos": [
         {
           "id": 1,
@@ -1478,8 +1518,8 @@
           "id": 22,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -1987,8 +2027,8 @@
           "id": 22,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -2496,8 +2536,8 @@
           "id": 22,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -3005,8 +3045,8 @@
           "id": 22,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -3361,7 +3401,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 17,
+      "pts_total": 18,
       "partidos": [
         {
           "id": 1,
@@ -3514,8 +3554,8 @@
           "id": 22,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -4023,8 +4063,8 @@
           "id": 22,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -4379,7 +4419,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 21,
+      "pts_total": 22,
       "partidos": [
         {
           "id": 1,
@@ -4532,8 +4572,8 @@
           "id": 22,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -5041,8 +5081,8 @@
           "id": 22,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -5550,8 +5590,8 @@
           "id": 22,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -6059,8 +6099,8 @@
           "id": 22,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
         },
         {
           "id": 23,
@@ -6597,6 +6637,18 @@
       "fecha": "2026-06-19T19:00:00Z"
     },
     {
+      "id": 22,
+      "grupo": "D",
+      "jornada": 2,
+      "local": "Paraguay",
+      "visitante": "Turquía",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-20T03:00:00Z"
+    },
+    {
       "id": 25,
       "grupo": "E",
       "jornada": 1,
@@ -7048,9 +7100,9 @@
       "jornada": 2,
       "local": "Paraguay",
       "visitante": "Turquía",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-20T03:00:00Z"
     },
@@ -8029,6 +8081,18 @@
   ],
   "ultimos5": [
     {
+      "id": 22,
+      "grupo": "D",
+      "jornada": 2,
+      "local": "Paraguay",
+      "visitante": "Turquía",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-20T03:00:00Z"
+    },
+    {
       "id": 15,
       "grupo": "C",
       "jornada": 2,
@@ -8075,23 +8139,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-19T01:00:00Z"
-    },
-    {
-      "id": 9,
-      "grupo": "B",
-      "jornada": 2,
-      "local": "Canadá",
-      "visitante": "Catar",
-      "goles_l": 6,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-18T22:00:00Z"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 31,
-    "pendientes": 41
+    "jugados": 32,
+    "pendientes": 40
   }
 }
