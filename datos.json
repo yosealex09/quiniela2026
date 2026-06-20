@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "20/06/2026 15:15",
+  "actualizado": "20/06/2026 18:03",
   "ranking": [
     {
       "pos": 1,
@@ -7212,10 +7212,10 @@
       "jornada": 2,
       "local": "Alemania",
       "visitante": "Costa de Marfil",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 2,
+      "goles_v": 1,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-20T20:00:00Z"
     },
     {
@@ -8193,7 +8193,20 @@
       "fecha": "2026-06-19T19:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 27,
+      "grupo": "E",
+      "jornada": 2,
+      "local": "Alemania",
+      "visitante": "Costa de Marfil",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-20T20:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 33,
     "pendientes": 39
