@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "21/06/2026 16:06",
+  "actualizado": "21/06/2026 17:06",
   "ranking": [
     {
       "pos": 1,
@@ -1880,7 +1880,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -2389,7 +2389,7 @@
           "pred_l": 1,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -2898,7 +2898,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -3407,7 +3407,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -3916,7 +3916,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -4425,7 +4425,7 @@
           "pred_l": 2,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -4934,7 +4934,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -5443,7 +5443,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -5952,7 +5952,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -6461,7 +6461,7 @@
           "pred_l": 2,
           "pred_v": 1,
           "pts": 1,
-          "resultado": "España 5 - 0 Arabia Saudí"
+          "resultado": "España 4 - 0 Arabia Saudí"
         },
         {
           "id": 46,
@@ -6998,7 +6998,7 @@
       "jornada": 2,
       "local": "España",
       "visitante": "Arabia Saudí",
-      "goles_l": 5,
+      "goles_l": 4,
       "goles_v": 0,
       "jugado": true,
       "en_vivo": false,
@@ -7636,7 +7636,7 @@
       "jornada": 2,
       "local": "España",
       "visitante": "Arabia Saudí",
-      "goles_l": 5,
+      "goles_l": 4,
       "goles_v": 0,
       "jugado": true,
       "en_vivo": false,
@@ -8346,7 +8346,7 @@
       "jornada": 2,
       "local": "España",
       "visitante": "Arabia Saudí",
-      "goles_l": 5,
+      "goles_l": 4,
       "goles_v": 0,
       "jugado": true,
       "en_vivo": false,
