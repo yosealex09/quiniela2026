@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "21/06/2026 12:00",
+  "actualizado": "21/06/2026 13:00",
   "ranking": [
     {
       "pos": 1,
@@ -7584,10 +7584,10 @@
       "jornada": 2,
       "local": "España",
       "visitante": "Arabia Saudí",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 3,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-21T16:00:00Z"
     },
     {
@@ -8349,7 +8349,20 @@
       "fecha": "2026-06-20T03:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 45,
+      "grupo": "H",
+      "jornada": 2,
+      "local": "España",
+      "visitante": "Arabia Saudí",
+      "goles_l": 3,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-21T16:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 36,
     "pendientes": 36
