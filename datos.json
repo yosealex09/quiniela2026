@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "22/06/2026 12:06",
+  "actualizado": "22/06/2026 13:06",
   "ranking": [
     {
       "pos": 1,
@@ -7936,10 +7936,10 @@
       "jornada": 2,
       "local": "Argentina",
       "visitante": "Austria",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-22T17:00:00Z"
     },
     {
@@ -8557,7 +8557,20 @@
       "fecha": "2026-06-21T04:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 57,
+      "grupo": "J",
+      "jornada": 2,
+      "local": "Argentina",
+      "visitante": "Austria",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-22T17:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 40,
     "pendientes": 32
