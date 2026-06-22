@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "21/06/2026 19:06",
+  "actualizado": "21/06/2026 20:06",
   "ranking": [
     {
       "pos": 1,
@@ -7700,7 +7700,7 @@
       "jornada": 2,
       "local": "Cabo Verde",
       "visitante": "Uruguay",
-      "goles_l": 1,
+      "goles_l": 2,
       "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
@@ -8460,7 +8460,7 @@
       "jornada": 2,
       "local": "Cabo Verde",
       "visitante": "Uruguay",
-      "goles_l": 1,
+      "goles_l": 2,
       "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
