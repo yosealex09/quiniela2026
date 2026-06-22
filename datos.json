@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "21/06/2026 23:06",
+  "actualizado": "21/06/2026 23:08",
   "ranking": [
     {
       "pos": 1,
@@ -117,6 +117,10 @@
           "pts": 24
         },
         {
+          "id": 40,
+          "pts": 24
+        },
+        {
           "id": 43,
           "pts": 24
         },
@@ -169,8 +173,8 @@
     {
       "pos": 2,
       "name": "Carolina",
-      "pts": 29,
-      "diff": -7,
+      "pts": 30,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -281,52 +285,56 @@
           "pts": 22
         },
         {
+          "id": 40,
+          "pts": 23
+        },
+        {
           "id": 43,
-          "pts": 22
+          "pts": 23
         },
         {
           "id": 44,
-          "pts": 22
+          "pts": 23
         },
         {
           "id": 45,
-          "pts": 23
-        },
-        {
-          "id": 46,
-          "pts": 23
-        },
-        {
-          "id": 49,
           "pts": 24
         },
         {
-          "id": 50,
+          "id": 46,
+          "pts": 24
+        },
+        {
+          "id": 49,
           "pts": 25
         },
         {
-          "id": 55,
+          "id": 50,
           "pts": 26
         },
         {
-          "id": 56,
+          "id": 55,
           "pts": 27
+        },
+        {
+          "id": 56,
+          "pts": 28
         },
         {
           "id": 61,
-          "pts": 27
+          "pts": 28
         },
         {
           "id": 62,
-          "pts": 28
+          "pts": 29
         },
         {
           "id": 67,
-          "pts": 28
+          "pts": 29
         },
         {
           "id": 68,
-          "pts": 29
+          "pts": 30
         }
       ]
     },
@@ -445,6 +453,10 @@
           "pts": 21
         },
         {
+          "id": 40,
+          "pts": 21
+        },
+        {
           "id": 43,
           "pts": 21
         },
@@ -496,6 +508,174 @@
     },
     {
       "pos": 4,
+      "name": "Osmar",
+      "pts": 27,
+      "diff": -9,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 3
+        },
+        {
+          "id": 2,
+          "pts": 3
+        },
+        {
+          "id": 3,
+          "pts": 4
+        },
+        {
+          "id": 4,
+          "pts": 4
+        },
+        {
+          "id": 7,
+          "pts": 4
+        },
+        {
+          "id": 8,
+          "pts": 4
+        },
+        {
+          "id": 9,
+          "pts": 5
+        },
+        {
+          "id": 10,
+          "pts": 6
+        },
+        {
+          "id": 13,
+          "pts": 6
+        },
+        {
+          "id": 14,
+          "pts": 7
+        },
+        {
+          "id": 15,
+          "pts": 8
+        },
+        {
+          "id": 16,
+          "pts": 8
+        },
+        {
+          "id": 19,
+          "pts": 9
+        },
+        {
+          "id": 20,
+          "pts": 9
+        },
+        {
+          "id": 21,
+          "pts": 12
+        },
+        {
+          "id": 22,
+          "pts": 12
+        },
+        {
+          "id": 25,
+          "pts": 13
+        },
+        {
+          "id": 26,
+          "pts": 13
+        },
+        {
+          "id": 27,
+          "pts": 14
+        },
+        {
+          "id": 28,
+          "pts": 14
+        },
+        {
+          "id": 31,
+          "pts": 14
+        },
+        {
+          "id": 32,
+          "pts": 15
+        },
+        {
+          "id": 33,
+          "pts": 15
+        },
+        {
+          "id": 34,
+          "pts": 16
+        },
+        {
+          "id": 37,
+          "pts": 16
+        },
+        {
+          "id": 38,
+          "pts": 16
+        },
+        {
+          "id": 39,
+          "pts": 16
+        },
+        {
+          "id": 40,
+          "pts": 17
+        },
+        {
+          "id": 43,
+          "pts": 17
+        },
+        {
+          "id": 44,
+          "pts": 17
+        },
+        {
+          "id": 45,
+          "pts": 18
+        },
+        {
+          "id": 46,
+          "pts": 18
+        },
+        {
+          "id": 49,
+          "pts": 19
+        },
+        {
+          "id": 50,
+          "pts": 20
+        },
+        {
+          "id": 55,
+          "pts": 23
+        },
+        {
+          "id": 56,
+          "pts": 24
+        },
+        {
+          "id": 61,
+          "pts": 24
+        },
+        {
+          "id": 62,
+          "pts": 25
+        },
+        {
+          "id": 67,
+          "pts": 26
+        },
+        {
+          "id": 68,
+          "pts": 27
+        }
+      ]
+    },
+    {
+      "pos": 5,
       "name": "Mayra",
       "pts": 27,
       "diff": -9,
@@ -609,6 +789,10 @@
           "pts": 20
         },
         {
+          "id": 40,
+          "pts": 20
+        },
+        {
           "id": 43,
           "pts": 20
         },
@@ -659,7 +843,7 @@
       ]
     },
     {
-      "pos": 5,
+      "pos": 6,
       "name": "Josmary",
       "pts": 26,
       "diff": -10,
@@ -773,6 +957,10 @@
           "pts": 16
         },
         {
+          "id": 40,
+          "pts": 16
+        },
+        {
           "id": 43,
           "pts": 16
         },
@@ -815,170 +1003,6 @@
         {
           "id": 67,
           "pts": 26
-        },
-        {
-          "id": 68,
-          "pts": 26
-        }
-      ]
-    },
-    {
-      "pos": 6,
-      "name": "Osmar",
-      "pts": 26,
-      "diff": -10,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 3
-        },
-        {
-          "id": 2,
-          "pts": 3
-        },
-        {
-          "id": 3,
-          "pts": 4
-        },
-        {
-          "id": 4,
-          "pts": 4
-        },
-        {
-          "id": 7,
-          "pts": 4
-        },
-        {
-          "id": 8,
-          "pts": 4
-        },
-        {
-          "id": 9,
-          "pts": 5
-        },
-        {
-          "id": 10,
-          "pts": 6
-        },
-        {
-          "id": 13,
-          "pts": 6
-        },
-        {
-          "id": 14,
-          "pts": 7
-        },
-        {
-          "id": 15,
-          "pts": 8
-        },
-        {
-          "id": 16,
-          "pts": 8
-        },
-        {
-          "id": 19,
-          "pts": 9
-        },
-        {
-          "id": 20,
-          "pts": 9
-        },
-        {
-          "id": 21,
-          "pts": 12
-        },
-        {
-          "id": 22,
-          "pts": 12
-        },
-        {
-          "id": 25,
-          "pts": 13
-        },
-        {
-          "id": 26,
-          "pts": 13
-        },
-        {
-          "id": 27,
-          "pts": 14
-        },
-        {
-          "id": 28,
-          "pts": 14
-        },
-        {
-          "id": 31,
-          "pts": 14
-        },
-        {
-          "id": 32,
-          "pts": 15
-        },
-        {
-          "id": 33,
-          "pts": 15
-        },
-        {
-          "id": 34,
-          "pts": 16
-        },
-        {
-          "id": 37,
-          "pts": 16
-        },
-        {
-          "id": 38,
-          "pts": 16
-        },
-        {
-          "id": 39,
-          "pts": 16
-        },
-        {
-          "id": 43,
-          "pts": 16
-        },
-        {
-          "id": 44,
-          "pts": 16
-        },
-        {
-          "id": 45,
-          "pts": 17
-        },
-        {
-          "id": 46,
-          "pts": 17
-        },
-        {
-          "id": 49,
-          "pts": 18
-        },
-        {
-          "id": 50,
-          "pts": 19
-        },
-        {
-          "id": 55,
-          "pts": 22
-        },
-        {
-          "id": 56,
-          "pts": 23
-        },
-        {
-          "id": 61,
-          "pts": 23
-        },
-        {
-          "id": 62,
-          "pts": 24
-        },
-        {
-          "id": 67,
-          "pts": 25
         },
         {
           "id": 68,
@@ -1098,6 +1122,10 @@
         },
         {
           "id": 39,
+          "pts": 16
+        },
+        {
+          "id": 40,
           "pts": 16
         },
         {
@@ -1265,6 +1293,10 @@
           "pts": 14
         },
         {
+          "id": 40,
+          "pts": 14
+        },
+        {
           "id": 43,
           "pts": 14
         },
@@ -1429,6 +1461,10 @@
           "pts": 15
         },
         {
+          "id": 40,
+          "pts": 15
+        },
+        {
           "id": 43,
           "pts": 15
         },
@@ -1481,8 +1517,8 @@
     {
       "pos": 10,
       "name": "Carlos",
-      "pts": 17,
-      "diff": -19,
+      "pts": 18,
+      "diff": -18,
       "acumulado": [
         {
           "id": 1,
@@ -1593,52 +1629,56 @@
           "pts": 12
         },
         {
+          "id": 40,
+          "pts": 13
+        },
+        {
           "id": 43,
-          "pts": 12
+          "pts": 13
         },
         {
           "id": 44,
-          "pts": 12
+          "pts": 13
         },
         {
           "id": 45,
-          "pts": 13
-        },
-        {
-          "id": 46,
-          "pts": 13
-        },
-        {
-          "id": 49,
-          "pts": 13
-        },
-        {
-          "id": 50,
           "pts": 14
         },
         {
-          "id": 55,
+          "id": 46,
+          "pts": 14
+        },
+        {
+          "id": 49,
+          "pts": 14
+        },
+        {
+          "id": 50,
           "pts": 15
+        },
+        {
+          "id": 55,
+          "pts": 16
         },
         {
           "id": 56,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 61,
-          "pts": 15
+          "pts": 16
         },
         {
           "id": 62,
-          "pts": 16
+          "pts": 17
         },
         {
           "id": 67,
-          "pts": 16
+          "pts": 17
         },
         {
           "id": 68,
-          "pts": 17
+          "pts": 18
         }
       ]
     }
@@ -1924,8 +1964,8 @@
           "id": 40,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -2433,8 +2473,8 @@
           "id": 40,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -2663,7 +2703,7 @@
       ]
     },
     "Carlos": {
-      "pts_total": 17,
+      "pts_total": 18,
       "partidos": [
         {
           "id": 1,
@@ -2942,8 +2982,8 @@
           "id": 40,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -3172,7 +3212,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 26,
+      "pts_total": 27,
       "partidos": [
         {
           "id": 1,
@@ -3451,8 +3491,8 @@
           "id": 40,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -3960,8 +4000,8 @@
           "id": 40,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -4469,8 +4509,8 @@
           "id": 40,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -4978,8 +5018,8 @@
           "id": 40,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -5487,8 +5527,8 @@
           "id": 40,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -5717,7 +5757,7 @@
       ]
     },
     "Carolina": {
-      "pts_total": 29,
+      "pts_total": 30,
       "partidos": [
         {
           "id": 1,
@@ -5996,8 +6036,8 @@
           "id": 40,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -6505,8 +6545,8 @@
           "id": 40,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
         },
         {
           "id": 41,
@@ -7059,6 +7099,18 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-21T19:00:00Z"
+    },
+    {
+      "id": 40,
+      "grupo": "G",
+      "jornada": 2,
+      "local": "Egipto",
+      "visitante": "Nueva Zelanda",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-22T01:00:00Z"
     },
     {
       "id": 43,
@@ -7682,8 +7734,8 @@
       "visitante": "Nueva Zelanda",
       "goles_l": 3,
       "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-22T01:00:00Z"
     },
     {
@@ -8445,6 +8497,18 @@
   ],
   "ultimos5": [
     {
+      "id": 40,
+      "grupo": "G",
+      "jornada": 2,
+      "local": "Egipto",
+      "visitante": "Nueva Zelanda",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-22T01:00:00Z"
+    },
+    {
       "id": 46,
       "grupo": "H",
       "jornada": 2,
@@ -8491,36 +8555,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-21T04:00:00Z"
-    },
-    {
-      "id": 28,
-      "grupo": "E",
-      "jornada": 2,
-      "local": "Curaçao",
-      "visitante": "Ecuador",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-21T00:00:00Z"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 40,
-      "grupo": "G",
-      "jornada": 2,
-      "local": "Egipto",
-      "visitante": "Nueva Zelanda",
-      "goles_l": 3,
-      "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-06-22T01:00:00Z"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 39,
-    "pendientes": 33
+    "jugados": 40,
+    "pendientes": 32
   }
 }
