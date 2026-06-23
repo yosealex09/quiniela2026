@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "22/06/2026 20:54",
+  "actualizado": "22/06/2026 22:06",
   "ranking": [
     {
       "pos": 1,
@@ -146,6 +146,10 @@
         },
         {
           "id": 51,
+          "pts": 30
+        },
+        {
+          "id": 52,
           "pts": 30
         },
         {
@@ -325,6 +329,10 @@
           "pts": 29
         },
         {
+          "id": 52,
+          "pts": 29
+        },
+        {
           "id": 55,
           "pts": 30
         },
@@ -501,6 +509,10 @@
           "pts": 25
         },
         {
+          "id": 52,
+          "pts": 25
+        },
+        {
           "id": 55,
           "pts": 26
         },
@@ -532,6 +544,186 @@
     },
     {
       "pos": 4,
+      "name": "Josmary",
+      "pts": 31,
+      "diff": -9,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 1
+        },
+        {
+          "id": 2,
+          "pts": 2
+        },
+        {
+          "id": 3,
+          "pts": 2
+        },
+        {
+          "id": 4,
+          "pts": 2
+        },
+        {
+          "id": 7,
+          "pts": 2
+        },
+        {
+          "id": 8,
+          "pts": 2
+        },
+        {
+          "id": 9,
+          "pts": 2
+        },
+        {
+          "id": 10,
+          "pts": 3
+        },
+        {
+          "id": 13,
+          "pts": 3
+        },
+        {
+          "id": 14,
+          "pts": 3
+        },
+        {
+          "id": 15,
+          "pts": 4
+        },
+        {
+          "id": 16,
+          "pts": 7
+        },
+        {
+          "id": 19,
+          "pts": 7
+        },
+        {
+          "id": 20,
+          "pts": 8
+        },
+        {
+          "id": 21,
+          "pts": 9
+        },
+        {
+          "id": 22,
+          "pts": 9
+        },
+        {
+          "id": 25,
+          "pts": 10
+        },
+        {
+          "id": 26,
+          "pts": 10
+        },
+        {
+          "id": 27,
+          "pts": 11
+        },
+        {
+          "id": 28,
+          "pts": 11
+        },
+        {
+          "id": 31,
+          "pts": 14
+        },
+        {
+          "id": 32,
+          "pts": 15
+        },
+        {
+          "id": 33,
+          "pts": 15
+        },
+        {
+          "id": 34,
+          "pts": 16
+        },
+        {
+          "id": 37,
+          "pts": 16
+        },
+        {
+          "id": 38,
+          "pts": 16
+        },
+        {
+          "id": 39,
+          "pts": 16
+        },
+        {
+          "id": 40,
+          "pts": 16
+        },
+        {
+          "id": 43,
+          "pts": 16
+        },
+        {
+          "id": 44,
+          "pts": 19
+        },
+        {
+          "id": 45,
+          "pts": 20
+        },
+        {
+          "id": 46,
+          "pts": 20
+        },
+        {
+          "id": 49,
+          "pts": 21
+        },
+        {
+          "id": 50,
+          "pts": 21
+        },
+        {
+          "id": 51,
+          "pts": 22
+        },
+        {
+          "id": 52,
+          "pts": 23
+        },
+        {
+          "id": 55,
+          "pts": 23
+        },
+        {
+          "id": 56,
+          "pts": 24
+        },
+        {
+          "id": 57,
+          "pts": 27
+        },
+        {
+          "id": 61,
+          "pts": 27
+        },
+        {
+          "id": 62,
+          "pts": 30
+        },
+        {
+          "id": 67,
+          "pts": 31
+        },
+        {
+          "id": 68,
+          "pts": 31
+        }
+      ]
+    },
+    {
+      "pos": 5,
       "name": "Osmar",
       "pts": 31,
       "diff": -9,
@@ -677,6 +869,10 @@
           "pts": 23
         },
         {
+          "id": 52,
+          "pts": 23
+        },
+        {
           "id": 55,
           "pts": 26
         },
@@ -703,182 +899,6 @@
         {
           "id": 68,
           "pts": 31
-        }
-      ]
-    },
-    {
-      "pos": 5,
-      "name": "Josmary",
-      "pts": 30,
-      "diff": -10,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 1
-        },
-        {
-          "id": 2,
-          "pts": 2
-        },
-        {
-          "id": 3,
-          "pts": 2
-        },
-        {
-          "id": 4,
-          "pts": 2
-        },
-        {
-          "id": 7,
-          "pts": 2
-        },
-        {
-          "id": 8,
-          "pts": 2
-        },
-        {
-          "id": 9,
-          "pts": 2
-        },
-        {
-          "id": 10,
-          "pts": 3
-        },
-        {
-          "id": 13,
-          "pts": 3
-        },
-        {
-          "id": 14,
-          "pts": 3
-        },
-        {
-          "id": 15,
-          "pts": 4
-        },
-        {
-          "id": 16,
-          "pts": 7
-        },
-        {
-          "id": 19,
-          "pts": 7
-        },
-        {
-          "id": 20,
-          "pts": 8
-        },
-        {
-          "id": 21,
-          "pts": 9
-        },
-        {
-          "id": 22,
-          "pts": 9
-        },
-        {
-          "id": 25,
-          "pts": 10
-        },
-        {
-          "id": 26,
-          "pts": 10
-        },
-        {
-          "id": 27,
-          "pts": 11
-        },
-        {
-          "id": 28,
-          "pts": 11
-        },
-        {
-          "id": 31,
-          "pts": 14
-        },
-        {
-          "id": 32,
-          "pts": 15
-        },
-        {
-          "id": 33,
-          "pts": 15
-        },
-        {
-          "id": 34,
-          "pts": 16
-        },
-        {
-          "id": 37,
-          "pts": 16
-        },
-        {
-          "id": 38,
-          "pts": 16
-        },
-        {
-          "id": 39,
-          "pts": 16
-        },
-        {
-          "id": 40,
-          "pts": 16
-        },
-        {
-          "id": 43,
-          "pts": 16
-        },
-        {
-          "id": 44,
-          "pts": 19
-        },
-        {
-          "id": 45,
-          "pts": 20
-        },
-        {
-          "id": 46,
-          "pts": 20
-        },
-        {
-          "id": 49,
-          "pts": 21
-        },
-        {
-          "id": 50,
-          "pts": 21
-        },
-        {
-          "id": 51,
-          "pts": 22
-        },
-        {
-          "id": 55,
-          "pts": 22
-        },
-        {
-          "id": 56,
-          "pts": 23
-        },
-        {
-          "id": 57,
-          "pts": 26
-        },
-        {
-          "id": 61,
-          "pts": 26
-        },
-        {
-          "id": 62,
-          "pts": 29
-        },
-        {
-          "id": 67,
-          "pts": 30
-        },
-        {
-          "id": 68,
-          "pts": 30
         }
       ]
     },
@@ -1026,6 +1046,10 @@
         },
         {
           "id": 51,
+          "pts": 25
+        },
+        {
+          "id": 52,
           "pts": 25
         },
         {
@@ -1205,6 +1229,10 @@
           "pts": 20
         },
         {
+          "id": 52,
+          "pts": 20
+        },
+        {
           "id": 55,
           "pts": 21
         },
@@ -1237,8 +1265,8 @@
     {
       "pos": 8,
       "name": "Sol",
-      "pts": 25,
-      "diff": -15,
+      "pts": 26,
+      "diff": -14,
       "acumulado": [
         {
           "id": 1,
@@ -1381,40 +1409,44 @@
           "pts": 18
         },
         {
-          "id": 55,
+          "id": 52,
           "pts": 19
+        },
+        {
+          "id": 55,
+          "pts": 20
         },
         {
           "id": 56,
-          "pts": 19
+          "pts": 20
         },
         {
           "id": 57,
-          "pts": 20
-        },
-        {
-          "id": 61,
-          "pts": 20
-        },
-        {
-          "id": 62,
           "pts": 21
         },
         {
-          "id": 67,
+          "id": 61,
+          "pts": 21
+        },
+        {
+          "id": 62,
           "pts": 22
         },
         {
+          "id": 67,
+          "pts": 23
+        },
+        {
           "id": 68,
-          "pts": 25
+          "pts": 26
         }
       ]
     },
     {
       "pos": 9,
       "name": "Yosember",
-      "pts": 24,
-      "diff": -16,
+      "pts": 25,
+      "diff": -15,
       "acumulado": [
         {
           "id": 1,
@@ -1557,32 +1589,36 @@
           "pts": 20
         },
         {
-          "id": 55,
+          "id": 52,
           "pts": 21
+        },
+        {
+          "id": 55,
+          "pts": 22
         },
         {
           "id": 56,
-          "pts": 21
+          "pts": 22
         },
         {
           "id": 57,
-          "pts": 22
+          "pts": 23
         },
         {
           "id": 61,
-          "pts": 22
+          "pts": 23
         },
         {
           "id": 62,
-          "pts": 23
+          "pts": 24
         },
         {
           "id": 67,
-          "pts": 23
+          "pts": 24
         },
         {
           "id": 68,
-          "pts": 24
+          "pts": 25
         }
       ]
     },
@@ -1733,6 +1769,10 @@
           "pts": 16
         },
         {
+          "id": 52,
+          "pts": 16
+        },
+        {
           "id": 55,
           "pts": 17
         },
@@ -1765,7 +1805,7 @@
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 24,
+      "pts_total": 25,
       "partidos": [
         {
           "id": 1,
@@ -2128,8 +2168,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -2274,7 +2314,7 @@
       ]
     },
     "Josmary": {
-      "pts_total": 30,
+      "pts_total": 31,
       "partidos": [
         {
           "id": 1,
@@ -2637,8 +2677,8 @@
           "id": 52,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -3146,8 +3186,8 @@
           "id": 52,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -3655,8 +3695,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -4164,8 +4204,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -4310,7 +4350,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 25,
+      "pts_total": 26,
       "partidos": [
         {
           "id": 1,
@@ -4673,8 +4713,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -5182,8 +5222,8 @@
           "id": 52,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -5691,8 +5731,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -6200,8 +6240,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -6709,8 +6749,8 @@
           "id": 52,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
         },
         {
           "id": 53,
@@ -7275,6 +7315,18 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-22T21:00:00Z"
+    },
+    {
+      "id": 52,
+      "grupo": "I",
+      "jornada": 2,
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "goles_l": 2,
+      "goles_v": 3,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-23T00:00:00Z"
     },
     {
       "id": 55,
@@ -7980,10 +8032,10 @@
       "jornada": 2,
       "local": "Senegal",
       "visitante": "Noruega",
-      "goles_l": 0,
-      "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true,
+      "goles_l": 2,
+      "goles_v": 3,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-23T00:00:00Z"
     },
     {
@@ -8601,6 +8653,18 @@
   ],
   "ultimos5": [
     {
+      "id": 52,
+      "grupo": "I",
+      "jornada": 2,
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "goles_l": 2,
+      "goles_v": 3,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-23T00:00:00Z"
+    },
+    {
       "id": 51,
       "grupo": "I",
       "jornada": 2,
@@ -8647,36 +8711,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-21T22:00:00Z"
-    },
-    {
-      "id": 39,
-      "grupo": "G",
-      "jornada": 2,
-      "local": "Bélgica",
-      "visitante": "Irán",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-21T19:00:00Z"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 52,
-      "grupo": "I",
-      "jornada": 2,
-      "local": "Senegal",
-      "visitante": "Noruega",
-      "goles_l": 0,
-      "goles_v": 1,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-06-23T00:00:00Z"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 42,
-    "pendientes": 30
+    "jugados": 43,
+    "pendientes": 29
   }
 }
