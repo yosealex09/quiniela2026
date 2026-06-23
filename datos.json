@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "23/06/2026 13:06",
+  "actualizado": "23/06/2026 15:05",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 40,
+      "pts": 41,
       "diff": 0,
       "acumulado": [
         {
@@ -177,19 +177,23 @@
           "pts": 38
         },
         {
-          "id": 67,
+          "id": 63,
           "pts": 39
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 40
+        },
+        {
+          "id": 68,
+          "pts": 41
         }
       ]
     },
     {
       "pos": 2,
       "name": "Carolina",
-      "pts": 35,
+      "pts": 36,
       "diff": -5,
       "acumulado": [
         {
@@ -361,19 +365,23 @@
           "pts": 34
         },
         {
+          "id": 63,
+          "pts": 35
+        },
+        {
           "id": 67,
-          "pts": 34
+          "pts": 35
         },
         {
           "id": 68,
-          "pts": 35
+          "pts": 36
         }
       ]
     },
     {
       "pos": 3,
       "name": "Peter",
-      "pts": 33,
+      "pts": 34,
       "diff": -7,
       "acumulado": [
         {
@@ -545,19 +553,23 @@
           "pts": 31
         },
         {
-          "id": 67,
+          "id": 63,
           "pts": 32
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 33
+        },
+        {
+          "id": 68,
+          "pts": 34
         }
       ]
     },
     {
       "pos": 4,
       "name": "Osmar",
-      "pts": 32,
+      "pts": 33,
       "diff": -8,
       "acumulado": [
         {
@@ -729,19 +741,23 @@
           "pts": 30
         },
         {
-          "id": 67,
+          "id": 63,
           "pts": 31
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 32
+        },
+        {
+          "id": 68,
+          "pts": 33
         }
       ]
     },
     {
       "pos": 5,
       "name": "Josmary",
-      "pts": 31,
+      "pts": 32,
       "diff": -9,
       "acumulado": [
         {
@@ -913,19 +929,23 @@
           "pts": 30
         },
         {
-          "id": 67,
+          "id": 63,
           "pts": 31
         },
         {
+          "id": 67,
+          "pts": 32
+        },
+        {
           "id": 68,
-          "pts": 31
+          "pts": 32
         }
       ]
     },
     {
       "pos": 6,
       "name": "Mayra",
-      "pts": 29,
+      "pts": 30,
       "diff": -11,
       "acumulado": [
         {
@@ -1097,19 +1117,23 @@
           "pts": 29
         },
         {
+          "id": 63,
+          "pts": 30
+        },
+        {
           "id": 67,
-          "pts": 29
+          "pts": 30
         },
         {
           "id": 68,
-          "pts": 29
+          "pts": 30
         }
       ]
     },
     {
       "pos": 7,
       "name": "Yosember",
-      "pts": 28,
+      "pts": 29,
       "diff": -12,
       "acumulado": [
         {
@@ -1281,19 +1305,23 @@
           "pts": 27
         },
         {
+          "id": 63,
+          "pts": 28
+        },
+        {
           "id": 67,
-          "pts": 27
+          "pts": 28
         },
         {
           "id": 68,
-          "pts": 28
+          "pts": 29
         }
       ]
     },
     {
       "pos": 8,
       "name": "Jonathan",
-      "pts": 28,
+      "pts": 29,
       "diff": -12,
       "acumulado": [
         {
@@ -1465,19 +1493,23 @@
           "pts": 27
         },
         {
+          "id": 63,
+          "pts": 28
+        },
+        {
           "id": 67,
-          "pts": 27
+          "pts": 28
         },
         {
           "id": 68,
-          "pts": 28
+          "pts": 29
         }
       ]
     },
     {
       "pos": 9,
       "name": "Sol",
-      "pts": 26,
+      "pts": 27,
       "diff": -14,
       "acumulado": [
         {
@@ -1649,19 +1681,23 @@
           "pts": 22
         },
         {
-          "id": 67,
+          "id": 63,
           "pts": 23
         },
         {
+          "id": 67,
+          "pts": 24
+        },
+        {
           "id": 68,
-          "pts": 26
+          "pts": 27
         }
       ]
     },
     {
       "pos": 10,
       "name": "Carlos",
-      "pts": 21,
+      "pts": 22,
       "diff": -19,
       "acumulado": [
         {
@@ -1833,19 +1869,23 @@
           "pts": 20
         },
         {
+          "id": 63,
+          "pts": 21
+        },
+        {
           "id": 67,
-          "pts": 20
+          "pts": 21
         },
         {
           "id": 68,
-          "pts": 21
+          "pts": 22
         }
       ]
     }
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 28,
+      "pts_total": 29,
       "partidos": [
         {
           "id": 1,
@@ -2285,8 +2325,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -2354,7 +2394,7 @@
       ]
     },
     "Josmary": {
-      "pts_total": 31,
+      "pts_total": 32,
       "partidos": [
         {
           "id": 1,
@@ -2794,8 +2834,8 @@
           "id": 63,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -2863,7 +2903,7 @@
       ]
     },
     "Carlos": {
-      "pts_total": 21,
+      "pts_total": 22,
       "partidos": [
         {
           "id": 1,
@@ -3303,8 +3343,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -3372,7 +3412,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 32,
+      "pts_total": 33,
       "partidos": [
         {
           "id": 1,
@@ -3812,8 +3852,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -3881,7 +3921,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 28,
+      "pts_total": 29,
       "partidos": [
         {
           "id": 1,
@@ -4321,8 +4361,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -4390,7 +4430,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 26,
+      "pts_total": 27,
       "partidos": [
         {
           "id": 1,
@@ -4830,8 +4870,8 @@
           "id": 63,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -4899,7 +4939,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 29,
+      "pts_total": 30,
       "partidos": [
         {
           "id": 1,
@@ -5339,8 +5379,8 @@
           "id": 63,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -5408,7 +5448,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 33,
+      "pts_total": 34,
       "partidos": [
         {
           "id": 1,
@@ -5848,8 +5888,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -5917,7 +5957,7 @@
       ]
     },
     "Carolina": {
-      "pts_total": 35,
+      "pts_total": 36,
       "partidos": [
         {
           "id": 1,
@@ -6357,8 +6397,8 @@
           "id": 63,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -6426,7 +6466,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 40,
+      "pts_total": 41,
       "partidos": [
         {
           "id": 1,
@@ -6866,8 +6906,8 @@
           "id": 63,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
         },
         {
           "id": 64,
@@ -7439,6 +7479,18 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-18T02:00:00Z"
+    },
+    {
+      "id": 63,
+      "grupo": "K",
+      "jornada": 2,
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "goles_l": 5,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-23T17:00:00Z"
     },
     {
       "id": 67,
@@ -8216,10 +8268,10 @@
       "jornada": 2,
       "local": "Portugal",
       "visitante": "Uzbekistán",
-      "goles_l": 0,
+      "goles_l": 5,
       "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-23T17:00:00Z"
     },
     {
@@ -8705,6 +8757,18 @@
   ],
   "ultimos5": [
     {
+      "id": 63,
+      "grupo": "K",
+      "jornada": 2,
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "goles_l": 5,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-23T17:00:00Z"
+    },
+    {
       "id": 58,
       "grupo": "J",
       "jornada": 2,
@@ -8751,36 +8815,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-22T17:00:00Z"
-    },
-    {
-      "id": 40,
-      "grupo": "G",
-      "jornada": 2,
-      "local": "Egipto",
-      "visitante": "Nueva Zelanda",
-      "goles_l": 3,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-22T01:00:00Z"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 63,
-      "grupo": "K",
-      "jornada": 2,
-      "local": "Portugal",
-      "visitante": "Uzbekistán",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-06-23T17:00:00Z"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 44,
-    "pendientes": 28
+    "jugados": 45,
+    "pendientes": 27
   }
 }
