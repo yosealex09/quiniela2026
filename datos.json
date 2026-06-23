@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "23/06/2026 12:06",
+  "actualizado": "23/06/2026 13:06",
   "ranking": [
     {
       "pos": 1,
@@ -8216,10 +8216,10 @@
       "jornada": 2,
       "local": "Portugal",
       "visitante": "Uzbekistán",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-23T17:00:00Z"
     },
     {
@@ -8765,7 +8765,20 @@
       "fecha": "2026-06-22T01:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 63,
+      "grupo": "K",
+      "jornada": 2,
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-23T17:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 44,
     "pendientes": 28
