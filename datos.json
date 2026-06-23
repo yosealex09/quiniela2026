@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "23/06/2026 15:06",
+  "actualizado": "23/06/2026 16:06",
   "ranking": [
     {
       "pos": 1,
@@ -8340,8 +8340,8 @@
       "jornada": 2,
       "local": "Inglaterra",
       "visitante": "Ghana",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
       "en_vivo": false,
       "fecha": "2026-06-23T20:00:00Z"
