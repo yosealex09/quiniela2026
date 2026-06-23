@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "22/06/2026 18:06",
+  "actualizado": "22/06/2026 20:49",
   "ranking": [
     {
       "pos": 1,
@@ -7916,7 +7916,7 @@
       "jornada": 2,
       "local": "Francia",
       "visitante": "Irak",
-      "goles_l": 1,
+      "goles_l": 3,
       "goles_v": 0,
       "jugado": false,
       "en_vivo": true,
@@ -7928,10 +7928,10 @@
       "jornada": 2,
       "local": "Senegal",
       "visitante": "Noruega",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-23T00:00:00Z"
     },
     {
@@ -8616,11 +8616,23 @@
       "jornada": 2,
       "local": "Francia",
       "visitante": "Irak",
-      "goles_l": 1,
+      "goles_l": 3,
       "goles_v": 0,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-22T21:00:00Z"
+    },
+    {
+      "id": 52,
+      "grupo": "I",
+      "jornada": 2,
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-23T00:00:00Z"
     }
   ],
   "stats": {
