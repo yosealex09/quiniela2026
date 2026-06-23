@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "22/06/2026 22:06",
+  "actualizado": "23/06/2026 01:02",
   "ranking": [
     {
       "pos": 1,
@@ -8104,10 +8104,10 @@
       "jornada": 2,
       "local": "Argelia",
       "visitante": "Jordania",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 2,
+      "goles_v": 1,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-23T03:00:00Z"
     },
     {
@@ -8713,7 +8713,20 @@
       "fecha": "2026-06-21T22:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 58,
+      "grupo": "J",
+      "jornada": 2,
+      "local": "Argelia",
+      "visitante": "Jordania",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-23T03:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 43,
     "pendientes": 29
