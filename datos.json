@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "23/06/2026 16:06",
+  "actualizado": "23/06/2026 17:06",
   "ranking": [
     {
       "pos": 1,
@@ -8343,7 +8343,7 @@
       "goles_l": 0,
       "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-23T20:00:00Z"
     },
     {
@@ -8817,7 +8817,20 @@
       "fecha": "2026-06-22T17:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 69,
+      "grupo": "L",
+      "jornada": 2,
+      "local": "Inglaterra",
+      "visitante": "Ghana",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-23T20:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 45,
     "pendientes": 27
