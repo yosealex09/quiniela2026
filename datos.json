@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "24/06/2026 14:09",
+  "actualizado": "24/06/2026 15:09",
   "ranking": [
     {
       "pos": 1,
@@ -7800,10 +7800,10 @@
       "jornada": 3,
       "local": "Canadá",
       "visitante": "Suiza",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-24T19:00:00Z"
     },
     {
@@ -7812,10 +7812,10 @@
       "jornada": 3,
       "local": "Bosnia y Herz.",
       "visitante": "Catar",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-24T19:00:00Z"
     },
     {
@@ -8973,7 +8973,32 @@
       "fecha": "2026-06-23T03:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 11,
+      "grupo": "B",
+      "jornada": 3,
+      "local": "Canadá",
+      "visitante": "Suiza",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-24T19:00:00Z"
+    },
+    {
+      "id": 12,
+      "grupo": "B",
+      "jornada": 3,
+      "local": "Bosnia y Herz.",
+      "visitante": "Catar",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-24T19:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 48,
     "pendientes": 24
