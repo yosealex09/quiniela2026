@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "25/06/2026 14:06",
+  "actualizado": "25/06/2026 17:17",
   "ranking": [
     {
       "pos": 1,
@@ -8328,10 +8328,10 @@
       "jornada": 3,
       "local": "Alemania",
       "visitante": "Ecuador",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 1,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
     },
     {
@@ -8340,10 +8340,10 @@
       "jornada": 3,
       "local": "Curaçao",
       "visitante": "Costa de Marfil",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 1,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
     },
     {
@@ -9285,7 +9285,32 @@
       "fecha": "2026-06-24T19:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 29,
+      "grupo": "E",
+      "jornada": 3,
+      "local": "Alemania",
+      "visitante": "Ecuador",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-25T20:00:00Z"
+    },
+    {
+      "id": 30,
+      "grupo": "E",
+      "jornada": 3,
+      "local": "Curaçao",
+      "visitante": "Costa de Marfil",
+      "goles_l": 0,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-25T20:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 54,
     "pendientes": 18
