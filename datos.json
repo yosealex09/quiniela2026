@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "25/06/2026 17:17",
+  "actualizado": "25/06/2026 18:02",
   "ranking": [
     {
       "pos": 1,
@@ -8329,7 +8329,7 @@
       "local": "Alemania",
       "visitante": "Ecuador",
       "goles_l": 1,
-      "goles_v": 1,
+      "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
@@ -8341,7 +8341,7 @@
       "local": "Curaçao",
       "visitante": "Costa de Marfil",
       "goles_l": 0,
-      "goles_v": 1,
+      "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
@@ -9293,7 +9293,7 @@
       "local": "Alemania",
       "visitante": "Ecuador",
       "goles_l": 1,
-      "goles_v": 1,
+      "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
@@ -9305,7 +9305,7 @@
       "local": "Curaçao",
       "visitante": "Costa de Marfil",
       "goles_l": 0,
-      "goles_v": 1,
+      "goles_v": 2,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-25T20:00:00Z"
