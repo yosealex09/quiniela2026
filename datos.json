@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "26/06/2026 16:28",
+  "actualizado": "26/06/2026 16:47",
   "ranking": [
     {
       "pos": 1,
@@ -8940,7 +8940,7 @@
       "jornada": 3,
       "local": "Senegal",
       "visitante": "Irak",
-      "goles_l": 2,
+      "goles_l": 4,
       "goles_v": 0,
       "jugado": false,
       "en_vivo": true,
@@ -9616,7 +9616,7 @@
       "jornada": 3,
       "local": "Senegal",
       "visitante": "Irak",
-      "goles_l": 2,
+      "goles_l": 4,
       "goles_v": 0,
       "jugado": false,
       "en_vivo": true,
