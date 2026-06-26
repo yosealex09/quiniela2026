@@ -52,7 +52,7 @@ PATRON_MARCADOR = re.compile(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*$")
 
 
 def normaliza(nombre):
-    s = nombre.strip().lower()
+    s = nombre.strip().lower().replace(".", "")
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
 
 
@@ -73,6 +73,7 @@ def cargar_config():
 def descargar_csv(url):
     resp = requests.get(url, timeout=20)
     resp.raise_for_status()
+    resp.encoding = "utf-8"  # requests adivina mal el charset (cae a ISO-8859-1) y corrompe tildes/ñ
     return list(csv.DictReader(io.StringIO(resp.text)))
 
 

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "26/06/2026 17:21",
+  "actualizado": "26/06/2026 17:27",
   "ranking": [
     {
       "pos": 1,
@@ -3070,6 +3070,42 @@
           "pred_v": 0,
           "pts": null,
           "resultado": "Pendiente"
+        },
+        {
+          "id": 1072,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Sudáfrica",
+          "pred_visitante": "Canadá"
+        },
+        {
+          "id": 1073,
+          "pred_l": 3,
+          "pred_v": 8,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Brasil",
+          "pred_visitante": "Japón"
+        },
+        {
+          "id": 1075,
+          "pred_l": 8,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Marruecos"
+        },
+        {
+          "id": 1081,
+          "pred_l": 5,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bosnia y Herz."
         }
       ]
     },
@@ -9276,7 +9312,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-28T19:00:00Z"
     },
     {
       "id": 1073,
@@ -9288,7 +9324,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T17:00:00Z"
     },
     {
       "id": 1074,
@@ -9312,7 +9348,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T01:00:00Z"
     },
     {
       "id": 1076,
@@ -9384,7 +9420,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T00:00:00Z"
     },
     {
       "id": 1082,
