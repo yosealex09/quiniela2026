@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "25/06/2026 21:16",
+  "actualizado": "25/06/2026 22:06",
   "ranking": [
     {
       "pos": 1,
@@ -8464,10 +8464,10 @@
       "jornada": 3,
       "local": "USA",
       "visitante": "Turquía",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-26T02:00:00Z"
     },
     {
@@ -8476,10 +8476,10 @@
       "jornada": 3,
       "local": "Paraguay",
       "visitante": "Australia",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-26T02:00:00Z"
     },
     {
@@ -9493,7 +9493,32 @@
       "fecha": "2026-06-25T01:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 23,
+      "grupo": "D",
+      "jornada": 3,
+      "local": "USA",
+      "visitante": "Turquía",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-26T02:00:00Z"
+    },
+    {
+      "id": 24,
+      "grupo": "D",
+      "jornada": 3,
+      "local": "Paraguay",
+      "visitante": "Australia",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-26T02:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 58,
     "pendientes": 14
