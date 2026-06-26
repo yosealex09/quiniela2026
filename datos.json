@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "26/06/2026 14:06",
+  "actualizado": "26/06/2026 15:06",
   "ranking": [
     {
       "pos": 1,
@@ -8928,8 +8928,8 @@
       "jornada": 3,
       "local": "Francia",
       "visitante": "Noruega",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
       "en_vivo": false,
       "fecha": "2026-06-26T19:00:00Z"
@@ -8940,10 +8940,10 @@
       "jornada": 3,
       "local": "Senegal",
       "visitante": "Irak",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-26T19:00:00Z"
     },
     {
@@ -9172,7 +9172,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-28T19:00:00Z"
     },
     {
       "id": 1073,
@@ -9184,7 +9184,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T17:00:00Z"
     },
     {
       "id": 1074,
@@ -9208,7 +9208,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T01:00:00Z"
     },
     {
       "id": 1076,
@@ -9280,7 +9280,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T00:00:00Z"
     },
     {
       "id": 1082,
@@ -9597,7 +9597,20 @@
       "fecha": "2026-06-25T20:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 54,
+      "grupo": "I",
+      "jornada": 3,
+      "local": "Senegal",
+      "visitante": "Irak",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-26T19:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 60,
     "pendientes": 12
