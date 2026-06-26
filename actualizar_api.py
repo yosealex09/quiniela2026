@@ -223,6 +223,8 @@ def main():
 
             if id_ < 1088:
                 # 16avos: el partido real ya tiene equipos fijos, se compara directo.
+                pred_local = real["local"] if real and not str(real["local"]).startswith("Equipo") else None
+                pred_visit = real["visitante"] if real and not str(real["visitante"]).startswith("Equipo") else None
                 pts = calcular_pts(pred["pred_l"], pred["pred_v"],
                                     real["goles_l"] if jugado else None,
                                     real["goles_v"] if jugado else None)
@@ -251,10 +253,14 @@ def main():
                 resultado = f'{real["local"]} {real["goles_l"]} - {real["goles_v"]} {real["visitante"]}'
             else:
                 resultado = "Pendiente"
-            partidos_jug.append({
+            entrada = {
                 "id": id_, "pred_l": pred["pred_l"], "pred_v": pred["pred_v"],
                 "pts": pts, "resultado": resultado,
-            })
+            }
+            if id_ >= 1072:
+                entrada["pred_local"] = pred_local
+                entrada["pred_visitante"] = pred_visit
+            partidos_jug.append(entrada)
         partidos_jug.sort(key=lambda m: m["id"])
         pronosticos[jug] = {"pts_total": pts_total, "partidos": partidos_jug}
 
