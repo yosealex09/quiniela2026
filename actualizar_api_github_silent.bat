@@ -3,6 +3,8 @@ cd /d C:\xampp\htdocs\quiniela
 
 python actualizar_calendario_knockout.py >> "C:\xampp\htdocs\quiniela\logs\actualizar.log" 2>&1
 
+python leer_pronosticos_form.py >> "C:\xampp\htdocs\quiniela\logs\actualizar.log" 2>&1
+
 python actualizar_api.py >> "C:\xampp\htdocs\quiniela\logs\actualizar.log" 2>&1
 if errorlevel 1 exit /b 1
 
