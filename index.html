@@ -323,6 +323,8 @@ function selectPlayer(name) {
     </tr>`;
   }).join('');
 
+  const tuBracketHtml = buildBracketHtml(p.partidos.filter(m => m.id >= 1072), true);
+
   document.getElementById('forecastContent').innerHTML = `
     ${proximoHtml}
     <div class="stats-row">
@@ -334,7 +336,8 @@ function selectPlayer(name) {
     <table class="ft">
       <thead><tr><th>#</th><th>Partido</th><th>Pronóstico</th><th>Pts</th><th>Resultado</th></tr></thead>
       <tbody>${rows}</tbody>
-    </table>`;
+    </table>
+    ${tuBracketHtml ? `<h2 style="font-size:14px;margin:20px 0 10px">🗂️ Tu bracket</h2>${tuBracketHtml}` : ''}`;
 
   animateCounts();
 }
@@ -417,27 +420,53 @@ function selectGrupo(g) {
 }
 
 // ── Brackets ──────────────────────────────────────────────────────────────────
-function renderBracket() {
-  const rondas = ['16avos de Final','Octavos de Final','Cuartos de Final','Semifinales','Final'];
-  const html = rondas.map(r => {
-    const matches = DATA.todos_partidos.filter(p => p.grupo === r).sort((a,b) => a.id - b.id);
+const RONDAS_KO = [
+  { nombre: '16avos de Final',    min: 1072, max: 1087 },
+  { nombre: 'Octavos de Final',   min: 1088, max: 1095 },
+  { nombre: 'Cuartos de Final',   min: 1096, max: 1099 },
+  { nombre: 'Semifinales',        min: 1100, max: 1101 },
+  { nombre: 'Final',              min: 1102, max: 1102 },
+];
+
+// Construye el HTML de un bracket. Si esPronostico=true, usa pred_local/pred_visitante
+// y pred_l/pred_v (predicciones de un jugador); si no, usa los datos reales del torneo.
+function buildBracketHtml(partidos, esPronostico) {
+  if (!partidos.length) return '';
+  const html = RONDAS_KO.map(ronda => {
+    const matches = partidos.filter(p => p.id >= ronda.min && p.id <= ronda.max).sort((a,b) => a.id - b.id);
     if (!matches.length) return '';
     return `
       <div class="bracket-col">
-        <div class="bracket-round-title">${r}</div>
-        ${matches.map(m => `
+        <div class="bracket-round-title">${ronda.nombre}</div>
+        ${matches.map(m => {
+          const local     = esPronostico ? (m.pred_local ?? '?')     : m.local;
+          const visitante = esPronostico ? (m.pred_visitante ?? '?') : m.visitante;
+          const golesL    = esPronostico ? m.pred_l : (m.jugado ? m.goles_l : '');
+          const golesV    = esPronostico ? m.pred_v : (m.jugado ? m.goles_v : '');
+          const jugado    = esPronostico ? true : m.jugado;
+          const ganaLocal = jugado && golesL != null && golesV != null && golesL > golesV;
+          const ganaVisit = jugado && golesL != null && golesV != null && golesV > golesL;
+          const estadoTxt = !esPronostico ? '' : m.pts===3?'✓ Exacto':m.pts===1?'~ Tendencia':m.pts===0?'✗ Fallo':'Pendiente';
+          const estadoCls = !esPronostico ? '' : m.pts===3?'hit3':m.pts===1?'hit1':m.pts===0?'miss':'pend';
+          return `
           <div class="bracket-match">
-            <div class="bracket-team ${m.jugado && m.goles_l>m.goles_v?'bracket-winner':''}">
-              <span>${m.local}</span><span>${m.jugado?m.goles_l:''}</span>
+            <div class="bracket-team ${ganaLocal?'bracket-winner':''}">
+              <span>${local}</span><span>${golesL ?? ''}</span>
             </div>
-            <div class="bracket-team ${m.jugado && m.goles_v>m.goles_l?'bracket-winner':''}">
-              <span>${m.visitante}</span><span>${m.jugado?m.goles_v:''}</span>
+            <div class="bracket-team ${ganaVisit?'bracket-winner':''}">
+              <span>${visitante}</span><span>${golesV ?? ''}</span>
             </div>
-          </div>`).join('')}
+            ${esPronostico ? `<div class="${estadoCls}" style="font-size:10px;text-align:center;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)">${estadoTxt}</div>` : ''}
+          </div>`;
+        }).join('')}
       </div>`;
   }).join('');
 
-  document.getElementById('bracketContent').innerHTML = `<div class="bracket-wrap">${html}</div>`;
+  return `<div class="bracket-wrap">${html}</div>`;
+}
+
+function renderBracket() {
+  document.getElementById('bracketContent').innerHTML = buildBracketHtml(DATA.todos_partidos.filter(p => p.id >= 1072), false);
 }
 
 // ── Gráfica ───────────────────────────────────────────────────────────────────
