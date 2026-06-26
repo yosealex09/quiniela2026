@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "grupo": "A",
+    "jornada": 1,
+    "local": "México",
+    "visitante": "Sudáfrica"
+  },
+  {
+    "id": 2,
+    "grupo": "A",
+    "jornada": 1,
+    "local": "Corea del Sur",
+    "visitante": "Chequia"
+  },
+  {
+    "id": 3,
+    "grupo": "A",
+    "jornada": 2,
+    "local": "México",
+    "visitante": "Corea del Sur"
+  },
+  {
+    "id": 4,
+    "grupo": "A",
+    "jornada": 2,
+    "local": "Sudáfrica",
+    "visitante": "Chequia"
+  },
+  {
+    "id": 5,
+    "grupo": "A",
+    "jornada": 3,
+    "local": "México",
+    "visitante": "Chequia"
+  },
+  {
+    "id": 6,
+    "grupo": "A",
+    "jornada": 3,
+    "local": "Sudáfrica",
+    "visitante": "Corea del Sur"
+  },
+  {
+    "id": 7,
+    "grupo": "B",
+    "jornada": 1,
+    "local": "Canadá",
+    "visitante": "Bosnia y Herz."
+  },
+  {
+    "id": 8,
+    "grupo": "B",
+    "jornada": 1,
+    "local": "Catar",
+    "visitante": "Suiza"
+  },
+  {
+    "id": 9,
+    "grupo": "B",
+    "jornada": 2,
+    "local": "Canadá",
+    "visitante": "Catar"
+  },
+  {
+    "id": 10,
+    "grupo": "B",
+    "jornada": 2,
+    "local": "Bosnia y Herz.",
+    "visitante": "Suiza"
+  },
+  {
+    "id": 11,
+    "grupo": "B",
+    "jornada": 3,
+    "local": "Canadá",
+    "visitante": "Suiza"
+  },
+  {
+    "id": 12,
+    "grupo": "B",
+    "jornada": 3,
+    "local": "Bosnia y Herz.",
+    "visitante": "Catar"
+  },
+  {
+    "id": 13,
+    "grupo": "C",
+    "jornada": 1,
+    "local": "Brasil",
+    "visitante": "Marruecos"
+  },
+  {
+    "id": 14,
+    "grupo": "C",
+    "jornada": 1,
+    "local": "Haití",
+    "visitante": "Escocia"
+  },
+  {
+    "id": 15,
+    "grupo": "C",
+    "jornada": 2,
+    "local": "Brasil",
+    "visitante": "Haití"
+  },
+  {
+    "id": 16,
+    "grupo": "C",
+    "jornada": 2,
+    "local": "Marruecos",
+    "visitante": "Escocia"
+  },
+  {
+    "id": 17,
+    "grupo": "C",
+    "jornada": 3,
+    "local": "Brasil",
+    "visitante": "Escocia"
+  },
+  {
+    "id": 18,
+    "grupo": "C",
+    "jornada": 3,
+    "local": "Marruecos",
+    "visitante": "Haití"
+  },
+  {
+    "id": 19,
+    "grupo": "D",
+    "jornada": 1,
+    "local": "USA",
+    "visitante": "Paraguay"
+  },
+  {
+    "id": 20,
+    "grupo": "D",
+    "jornada": 1,
+    "local": "Australia",
+    "visitante": "Turquía"
+  },
+  {
+    "id": 21,
+    "grupo": "D",
+    "jornada": 2,
+    "local": "USA",
+    "visitante": "Australia"
+  },
+  {
+    "id": 22,
+    "grupo": "D",
+    "jornada": 2,
+    "local": "Paraguay",
+    "visitante": "Turquía"
+  },
+  {
+    "id": 23,
+    "grupo": "D",
+    "jornada": 3,
+    "local": "USA",
+    "visitante": "Turquía"
+  },
+  {
+    "id": 24,
+    "grupo": "D",
+    "jornada": 3,
+    "local": "Paraguay",
+    "visitante": "Australia"
+  },
+  {
+    "id": 25,
+    "grupo": "E",
+    "jornada": 1,
+    "local": "Alemania",
+    "visitante": "Curaçao"
+  },
+  {
+    "id": 26,
+    "grupo": "E",
+    "jornada": 1,
+    "local": "Costa de Marfil",
+    "visitante": "Ecuador"
+  },
+  {
+    "id": 27,
+    "grupo": "E",
+    "jornada": 2,
+    "local": "Alemania",
+    "visitante": "Costa de Marfil"
+  },
+  {
+    "id": 28,
+    "grupo": "E",
+    "jornada": 2,
+    "local": "Curaçao",
+    "visitante": "Ecuador"
+  },
+  {
+    "id": 29,
+    "grupo": "E",
+    "jornada": 3,
+    "local": "Alemania",
+    "visitante": "Ecuador"
+  },
+  {
+    "id": 30,
+    "grupo": "E",
+    "jornada": 3,
+    "local": "Curaçao",
+    "visitante": "Costa de Marfil"
+  },
+  {
+    "id": 31,
+    "grupo": "F",
+    "jornada": 1,
+    "local": "Países Bajos",
+    "visitante": "Japón"
+  },
+  {
+    "id": 32,
+    "grupo": "F",
+    "jornada": 1,
+    "local": "Suecia",
+    "visitante": "Túnez"
+  },
+  {
+    "id": 33,
+    "grupo": "F",
+    "jornada": 2,
+    "local": "Países Bajos",
+    "visitante": "Suecia"
+  },
+  {
+    "id": 34,
+    "grupo": "F",
+    "jornada": 2,
+    "local": "Japón",
+    "visitante": "Túnez"
+  },
+  {
+    "id": 35,
+    "grupo": "F",
+    "jornada": 3,
+    "local": "Países Bajos",
+    "visitante": "Túnez"
+  },
+  {
+    "id": 36,
+    "grupo": "F",
+    "jornada": 3,
+    "local": "Japón",
+    "visitante": "Suecia"
+  },
+  {
+    "id": 37,
+    "grupo": "G",
+    "jornada": 1,
+    "local": "Bélgica",
+    "visitante": "Egipto"
+  },
+  {
+    "id": 38,
+    "grupo": "G",
+    "jornada": 1,
+    "local": "Irán",
+    "visitante": "Nueva Zelanda"
+  },
+  {
+    "id": 39,
+    "grupo": "G",
+    "jornada": 2,
+    "local": "Bélgica",
+    "visitante": "Irán"
+  },
+  {
+    "id": 40,
+    "grupo": "G",
+    "jornada": 2,
+    "local": "Egipto",
+    "visitante": "Nueva Zelanda"
+  },
+  {
+    "id": 41,
+    "grupo": "G",
+    "jornada": 3,
+    "local": "Bélgica",
+    "visitante": "Nueva Zelanda"
+  },
+  {
+    "id": 42,
+    "grupo": "G",
+    "jornada": 3,
+    "local": "Egipto",
+    "visitante": "Irán"
+  },
+  {
+    "id": 43,
+    "grupo": "H",
+    "jornada": 1,
+    "local": "España",
+    "visitante": "Cabo Verde"
+  },
+  {
+    "id": 44,
+    "grupo": "H",
+    "jornada": 1,
+    "local": "Arabia Saudí",
+    "visitante": "Uruguay"
+  },
+  {
+    "id": 45,
+    "grupo": "H",
+    "jornada": 2,
+    "local": "España",
+    "visitante": "Arabia Saudí"
+  },
+  {
+    "id": 46,
+    "grupo": "H",
+    "jornada": 2,
+    "local": "Cabo Verde",
+    "visitante": "Uruguay"
+  },
+  {
+    "id": 47,
+    "grupo": "H",
+    "jornada": 3,
+    "local": "España",
+    "visitante": "Uruguay"
+  },
+  {
+    "id": 48,
+    "grupo": "H",
+    "jornada": 3,
+    "local": "Cabo Verde",
+    "visitante": "Arabia Saudí"
+  },
+  {
+    "id": 49,
+    "grupo": "I",
+    "jornada": 1,
+    "local": "Francia",
+    "visitante": "Senegal"
+  },
+  {
+    "id": 50,
+    "grupo": "I",
+    "jornada": 1,
+    "local": "Irak",
+    "visitante": "Noruega"
+  },
+  {
+    "id": 51,
+    "grupo": "I",
+    "jornada": 2,
+    "local": "Francia",
+    "visitante": "Irak"
+  },
+  {
+    "id": 52,
+    "grupo": "I",
+    "jornada": 2,
+    "local": "Senegal",
+    "visitante": "Noruega"
+  },
+  {
+    "id": 53,
+    "grupo": "I",
+    "jornada": 3,
+    "local": "Francia",
+    "visitante": "Noruega"
+  },
+  {
+    "id": 54,
+    "grupo": "I",
+    "jornada": 3,
+    "local": "Senegal",
+    "visitante": "Irak"
+  },
+  {
+    "id": 55,
+    "grupo": "J",
+    "jornada": 1,
+    "local": "Argentina",
+    "visitante": "Argelia"
+  },
+  {
+    "id": 56,
+    "grupo": "J",
+    "jornada": 1,
+    "local": "Austria",
+    "visitante": "Jordania"
+  },
+  {
+    "id": 57,
+    "grupo": "J",
+    "jornada": 2,
+    "local": "Argentina",
+    "visitante": "Austria"
+  },
+  {
+    "id": 58,
+    "grupo": "J",
+    "jornada": 2,
+    "local": "Argelia",
+    "visitante": "Jordania"
+  },
+  {
+    "id": 59,
+    "grupo": "J",
+    "jornada": 3,
+    "local": "Argentina",
+    "visitante": "Jordania"
+  },
+  {
+    "id": 60,
+    "grupo": "J",
+    "jornada": 3,
+    "local": "Argelia",
+    "visitante": "Austria"
+  },
+  {
+    "id": 61,
+    "grupo": "K",
+    "jornada": 1,
+    "local": "Portugal",
+    "visitante": "DR Congo"
+  },
+  {
+    "id": 62,
+    "grupo": "K",
+    "jornada": 1,
+    "local": "Uzbekistán",
+    "visitante": "Colombia"
+  },
+  {
+    "id": 63,
+    "grupo": "K",
+    "jornada": 2,
+    "local": "Portugal",
+    "visitante": "Uzbekistán"
+  },
+  {
+    "id": 64,
+    "grupo": "K",
+    "jornada": 2,
+    "local": "DR Congo",
+    "visitante": "Colombia"
+  },
+  {
+    "id": 65,
+    "grupo": "K",
+    "jornada": 3,
+    "local": "Portugal",
+    "visitante": "Colombia"
+  },
+  {
+    "id": 66,
+    "grupo": "K",
+    "jornada": 3,
+    "local": "DR Congo",
+    "visitante": "Uzbekistán"
+  },
+  {
+    "id": 67,
+    "grupo": "L",
+    "jornada": 1,
+    "local": "Inglaterra",
+    "visitante": "Croacia"
+  },
+  {
+    "id": 68,
+    "grupo": "L",
+    "jornada": 1,
+    "local": "Ghana",
+    "visitante": "Panamá"
+  },
+  {
+    "id": 69,
+    "grupo": "L",
+    "jornada": 2,
+    "local": "Inglaterra",
+    "visitante": "Ghana"
+  },
+  {
+    "id": 70,
+    "grupo": "L",
+    "jornada": 2,
+    "local": "Croacia",
+    "visitante": "Panamá"
+  },
+  {
+    "id": 71,
+    "grupo": "L",
+    "jornada": 3,
+    "local": "Inglaterra",
+    "visitante": "Panamá"
+  },
+  {
+    "id": 72,
+    "grupo": "L",
+    "jornada": 3,
+    "local": "Croacia",
+    "visitante": "Ghana"
+  },
+  {
+    "id": 1072,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Sudáfrica",
+    "visitante": "Canadá"
+  },
+  {
+    "id": 1073,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Brasil",
+    "visitante": "Japón"
+  },
+  {
+    "id": 1074,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo C",
+    "visitante": "Equipo S"
+  },
+  {
+    "id": 1075,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Países Bajos",
+    "visitante": "Marruecos"
+  },
+  {
+    "id": 1076,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo E",
+    "visitante": "Equipo U"
+  },
+  {
+    "id": 1077,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo F",
+    "visitante": "Equipo V"
+  },
+  {
+    "id": 1078,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo G",
+    "visitante": "Equipo W"
+  },
+  {
+    "id": 1079,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo H",
+    "visitante": "Equipo X"
+  },
+  {
+    "id": 1080,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo I",
+    "visitante": "Equipo Y"
+  },
+  {
+    "id": 1081,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "USA",
+    "visitante": "Bosnia y Herz."
+  },
+  {
+    "id": 1082,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo K",
+    "visitante": "Equipo ["
+  },
+  {
+    "id": 1083,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo L",
+    "visitante": "Equipo \\"
+  },
+  {
+    "id": 1084,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo M",
+    "visitante": "Equipo ]"
+  },
+  {
+    "id": 1085,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo N",
+    "visitante": "Equipo ^"
+  },
+  {
+    "id": 1086,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo O",
+    "visitante": "Equipo _"
+  },
+  {
+    "id": 1087,
+    "grupo": "16avos de Final",
+    "jornada": 0,
+    "local": "Equipo P",
+    "visitante": "Equipo `"
+  },
+  {
+    "id": 1088,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo A",
+    "visitante": "Equipo Q"
+  },
+  {
+    "id": 1089,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo B",
+    "visitante": "Equipo R"
+  },
+  {
+    "id": 1090,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo C",
+    "visitante": "Equipo S"
+  },
+  {
+    "id": 1091,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo D",
+    "visitante": "Equipo T"
+  },
+  {
+    "id": 1092,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo E",
+    "visitante": "Equipo U"
+  },
+  {
+    "id": 1093,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo F",
+    "visitante": "Equipo V"
+  },
+  {
+    "id": 1094,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo G",
+    "visitante": "Equipo W"
+  },
+  {
+    "id": 1095,
+    "grupo": "Octavos de Final",
+    "jornada": 0,
+    "local": "Equipo H",
+    "visitante": "Equipo X"
+  },
+  {
+    "id": 1096,
+    "grupo": "Cuartos de Final",
+    "jornada": 0,
+    "local": "Equipo A",
+    "visitante": "Equipo Q"
+  },
+  {
+    "id": 1097,
+    "grupo": "Cuartos de Final",
+    "jornada": 0,
+    "local": "Equipo B",
+    "visitante": "Equipo R"
+  },
+  {
+    "id": 1098,
+    "grupo": "Cuartos de Final",
+    "jornada": 0,
+    "local": "Equipo C",
+    "visitante": "Equipo S"
+  },
+  {
+    "id": 1099,
+    "grupo": "Cuartos de Final",
+    "jornada": 0,
+    "local": "Equipo D",
+    "visitante": "Equipo T"
+  },
+  {
+    "id": 1100,
+    "grupo": "Semifinales",
+    "jornada": 0,
+    "local": "Equipo A",
+    "visitante": "Equipo Q"
+  },
+  {
+    "id": 1101,
+    "grupo": "Semifinales",
+    "jornada": 0,
+    "local": "Equipo B",
+    "visitante": "Equipo R"
+  },
+  {
+    "id": 1102,
+    "grupo": "Final",
+    "jornada": 0,
+    "local": "Equipo A",
+    "visitante": "Equipo Q"
+  }
+]

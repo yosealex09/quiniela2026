@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "26/06/2026 12:55",
+  "actualizado": "26/06/2026 13:34",
   "ranking": [
     {
       "pos": 1,
@@ -9166,25 +9166,25 @@
       "id": 1072,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo A",
-      "visitante": "Equipo Q",
+      "local": "Sudáfrica",
+      "visitante": "Canadá",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-28T19:00:00Z"
     },
     {
       "id": 1073,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo B",
-      "visitante": "Equipo R",
+      "local": "Brasil",
+      "visitante": "Japón",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T17:00:00Z"
     },
     {
       "id": 1074,
@@ -9202,13 +9202,13 @@
       "id": 1075,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo D",
-      "visitante": "Equipo T",
+      "local": "Países Bajos",
+      "visitante": "Marruecos",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T01:00:00Z"
     },
     {
       "id": 1076,
@@ -9274,13 +9274,13 @@
       "id": 1081,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo J",
-      "visitante": "Equipo Z",
+      "local": "USA",
+      "visitante": "Bosnia y Herz.",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T00:00:00Z"
     },
     {
       "id": 1082,
