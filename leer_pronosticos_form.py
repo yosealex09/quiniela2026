@@ -4,7 +4,11 @@ y mete los pronosticos de eliminatorias en pronosticos.json.
 
 Cómo se conecta con el resto del flujo:
   1. Los jugadores llenan el Google Form (un campo "Nombre" + un campo de texto
-     por cada cruce, ej. "Partido: España vs Francia" con respuesta "2-1").
+     por cada cruce). Dos tipos de pregunta:
+       - 16avos (equipo real ya confirmado): título "España vs Francia".
+       - Octavos en adelante (equipo todavia no se sabe): título con
+         "Partido <id>" en el texto, ej. "Partido 1088 (Ganador de 1074 vs 1077)".
+         El id debe coincidir con calendario.json / estructura_bracket.json.
   2. El Form guarda las respuestas en una Google Sheet.
   3. Esa Sheet se publica a la web como CSV (Archivo > Compartir > Publicar en la
      Web > Formato CSV) — eso da una URL pública que este script puede leer sin
@@ -43,6 +47,7 @@ CONFIG      = os.path.join(BASE_DIR, "config.json")
 JUGADORES = ['Yosember','Josmary','Carlos','Osmar','Jonathan','Sol','Mayra','Peter','Carolina','Jose']
 
 PATRON_PARTIDO = re.compile(r"^(.*?)\s+vs\s+(.*?)$", re.IGNORECASE)
+PATRON_ABSTRACTO = re.compile(r"partido\s+(\d+)", re.IGNORECASE)
 PATRON_MARCADOR = re.compile(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*$")
 
 
@@ -72,7 +77,13 @@ def descargar_csv(url):
 
 
 def mapear_columnas_a_ids(columnas, calendario):
-    """Para cada columna de partido en el CSV, encuentra el id del calendario interno."""
+    """Para cada columna de partido en el CSV, encuentra el id del calendario interno.
+
+    Soporta dos formatos de pregunta:
+      - Por nombre real de equipo, ej. "Sudáfrica vs Canadá" (16avos confirmados).
+      - Por referencia abstracta, ej. "Partido 1088 (Ganador de 1074 vs 1077)"
+        (Octavos en adelante, antes de saber los equipos reales).
+    """
     indice = {}
     for p in calendario:
         indice[(normaliza(p["local"]), normaliza(p["visitante"]))] = (p["id"], False)
@@ -80,6 +91,10 @@ def mapear_columnas_a_ids(columnas, calendario):
 
     mapa, sin_match = {}, []
     for col in columnas:
+        m_abs = PATRON_ABSTRACTO.search(col)
+        if m_abs:
+            mapa[col] = (int(m_abs.group(1)), False)
+            continue
         m = PATRON_PARTIDO.search(col.split(":", 1)[-1].strip()) if ":" in col else PATRON_PARTIDO.search(col)
         if not m:
             continue

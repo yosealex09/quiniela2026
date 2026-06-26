@@ -21,6 +21,7 @@ BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
 CALENDARIO  = os.path.join(BASE_DIR, "calendario.json")
 PRONOSTICOS = os.path.join(BASE_DIR, "pronosticos.json")
 CONFIG      = os.path.join(BASE_DIR, "config.json")
+ESTRUCTURA_BRACKET = os.path.join(BASE_DIR, "estructura_bracket.json")
 JSON_OUT    = os.path.join(BASE_DIR, "datos.json")
 
 JUGADORES = ['Yosember','Josmary','Carlos','Osmar','Jonathan','Sol','Mayra','Peter','Carolina','Jose']
@@ -133,12 +134,67 @@ def calcular_pts(pred_l, pred_v, goles_l, goles_v):
     return 1 if signo_pred == signo_real else 0
 
 
+def normaliza_simple(nombre):
+    """Compara nombres en español entre sí (sin traducir a inglés)."""
+    s = (nombre or "").strip().lower()
+    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+
+
+def equipo_predicho_ganador(preds_jugador, mapa_real, estructura, id_, cache):
+    """Resuelve recursivamente a qué equipo cree el jugador que le ganará en este cruce
+    (id_), siguiendo su propio camino de predicciones desde 16avos hacia adelante."""
+    if id_ in cache:
+        return cache[id_]
+    if id_ < 1088:
+        real = mapa_real.get(id_)
+        if not real or str(real["local"]).startswith("Equipo"):
+            cache[id_] = None
+            return None
+        local, visitante = real["local"], real["visitante"]
+    else:
+        feeds = estructura.get(str(id_))
+        if not feeds:
+            cache[id_] = None
+            return None
+        local = equipo_predicho_ganador(preds_jugador, mapa_real, estructura, feeds[0], cache)
+        visitante = equipo_predicho_ganador(preds_jugador, mapa_real, estructura, feeds[1], cache)
+        if local is None or visitante is None:
+            cache[id_] = None
+            return None
+
+    pred = preds_jugador.get(str(id_))
+    if not pred or pred.get("pred_l") is None or pred.get("pred_v") is None:
+        ganador = None
+    elif pred["pred_l"] > pred["pred_v"]:
+        ganador = local
+    elif pred["pred_v"] > pred["pred_l"]:
+        ganador = visitante
+    else:
+        ganador = None  # empate predicho - no se puede desambiguar quién avanza
+    cache[id_] = ganador
+    return ganador
+
+
+def equipos_predichos_partido(preds_jugador, mapa_real, estructura, id_, cache):
+    """Devuelve (local, visitante) que el jugador cree que se enfrentan en este cruce."""
+    feeds = estructura.get(str(id_))
+    if not feeds:
+        return (None, None)
+    local = equipo_predicho_ganador(preds_jugador, mapa_real, estructura, feeds[0], cache)
+    visitante = equipo_predicho_ganador(preds_jugador, mapa_real, estructura, feeds[1], cache)
+    return (local, visitante)
+
+
 def main():
     token = cargar_config()
     with open(CALENDARIO, encoding="utf-8") as f:
         calendario = json.load(f)
     with open(PRONOSTICOS, encoding="utf-8") as f:
         preds = json.load(f)
+    estructura = {}
+    if os.path.exists(ESTRUCTURA_BRACKET):
+        with open(ESTRUCTURA_BRACKET, encoding="utf-8") as f:
+            estructura = {k: v for k, v in json.load(f).items() if k != "_nota"}
 
     print("Descargando resultados del Mundial desde football-data.org...")
     partidos_api = obtener_partidos(token)
@@ -158,17 +214,40 @@ def main():
     for jug in JUGADORES:
         partidos_jug = []
         pts_total = 0
-        for id_str, pred in preds.get(jug, {}).items():
+        cache_ganadores = {}
+        preds_jug = preds.get(jug, {})
+        for id_str, pred in preds_jug.items():
             id_  = int(id_str)
             real = mapa.get(id_)
-            # Los puntos solo se calculan con el resultado FINAL; un partido en vivo
-            # todavía puede cambiar de marcador, así que no cuenta hasta terminar.
-            pts  = calcular_pts(pred["pred_l"], pred["pred_v"],
-                                 real["goles_l"] if real and real["jugado"] else None,
-                                 real["goles_v"] if real and real["jugado"] else None)
+            jugado = bool(real and real["jugado"])
+
+            if id_ < 1088:
+                # 16avos: el partido real ya tiene equipos fijos, se compara directo.
+                pts = calcular_pts(pred["pred_l"], pred["pred_v"],
+                                    real["goles_l"] if jugado else None,
+                                    real["goles_v"] if jugado else None)
+            else:
+                # Octavos en adelante: el jugador predijo un cruce abstracto
+                # ("ganador de X vs ganador de Y"). Solo cuenta si su propio
+                # camino de predicciones coincide con los equipos que de verdad
+                # llegaron a este cruce.
+                pred_local, pred_visit = equipos_predichos_partido(preds_jug, mapa, estructura, id_, cache_ganadores)
+                if not jugado:
+                    pts = None
+                elif pred_local is None or pred_visit is None:
+                    pts = 0  # no se pudo resolver su camino (empate en alguna ronda previa)
+                elif (normaliza_simple(pred_local) == normaliza_simple(real["local"]) and
+                      normaliza_simple(pred_visit) == normaliza_simple(real["visitante"])):
+                    pts = calcular_pts(pred["pred_l"], pred["pred_v"], real["goles_l"], real["goles_v"])
+                elif (normaliza_simple(pred_local) == normaliza_simple(real["visitante"]) and
+                      normaliza_simple(pred_visit) == normaliza_simple(real["local"])):
+                    pts = calcular_pts(pred["pred_l"], pred["pred_v"], real["goles_v"], real["goles_l"])
+                else:
+                    pts = 0  # su camino predicho no coincide con los equipos reales
+
             if pts is not None:
                 pts_total += pts
-            if real and real["jugado"]:
+            if jugado:
                 resultado = f'{real["local"]} {real["goles_l"]} - {real["goles_v"]} {real["visitante"]}'
             else:
                 resultado = "Pendiente"
