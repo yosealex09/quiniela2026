@@ -535,8 +535,8 @@
     "id": 1076,
     "grupo": "16avos de Final",
     "jornada": 0,
-    "local": "Equipo E",
-    "visitante": "Equipo U"
+    "local": "Costa de Marfil",
+    "visitante": "Noruega"
   },
   {
     "id": 1077,
@@ -598,15 +598,15 @@
     "id": 1085,
     "grupo": "16avos de Final",
     "jornada": 0,
-    "local": "Equipo N",
-    "visitante": "Equipo ^"
+    "local": "Australia",
+    "visitante": "Egipto"
   },
   {
     "id": 1086,
     "grupo": "16avos de Final",
     "jornada": 0,
-    "local": "Equipo O",
-    "visitante": "Equipo _"
+    "local": "Argentina",
+    "visitante": "Cabo Verde"
   },
   {
     "id": 1087,

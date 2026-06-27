@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "27/06/2026 15:05",
+  "actualizado": "27/06/2026 15:15",
   "ranking": [
     {
       "pos": 1,
@@ -9484,7 +9484,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": "2026-06-28T19:00:00Z"
+      "fecha": null
     },
     {
       "id": 1073,
@@ -9496,7 +9496,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": "2026-06-29T17:00:00Z"
+      "fecha": null
     },
     {
       "id": 1074,
@@ -9520,14 +9520,14 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": "2026-06-30T01:00:00Z"
+      "fecha": null
     },
     {
       "id": 1076,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo E",
-      "visitante": "Equipo U",
+      "local": "Costa de Marfil",
+      "visitante": "Noruega",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
@@ -9592,7 +9592,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": "2026-07-02T00:00:00Z"
+      "fecha": null
     },
     {
       "id": 1082,
@@ -9634,8 +9634,8 @@
       "id": 1085,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo N",
-      "visitante": "Equipo ^",
+      "local": "Australia",
+      "visitante": "Egipto",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
@@ -9646,8 +9646,8 @@
       "id": 1086,
       "grupo": "16avos de Final",
       "jornada": 0,
-      "local": "Equipo O",
-      "visitante": "Equipo _",
+      "local": "Argentina",
+      "visitante": "Cabo Verde",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
