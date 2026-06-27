@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "27/06/2026 16:34",
+  "actualizado": "27/06/2026 17:06",
   "ranking": [
     {
       "pos": 1,
@@ -9456,10 +9456,10 @@
       "jornada": 3,
       "local": "Inglaterra",
       "visitante": "Panamá",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-27T21:00:00Z"
     },
     {
@@ -9468,8 +9468,8 @@
       "jornada": 3,
       "local": "Croacia",
       "visitante": "Ghana",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
       "en_vivo": false,
       "fecha": "2026-06-27T21:00:00Z"
@@ -9909,7 +9909,20 @@
       "fecha": "2026-06-26T19:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 71,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-27T21:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 66,
     "pendientes": 6
