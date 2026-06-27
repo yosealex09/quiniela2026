@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "27/06/2026 15:15",
+  "actualizado": "27/06/2026 16:13",
   "ranking": [
     {
       "pos": 1,
@@ -9484,7 +9484,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-28T19:00:00Z"
     },
     {
       "id": 1073,
@@ -9496,7 +9496,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T17:00:00Z"
     },
     {
       "id": 1074,
@@ -9520,7 +9520,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T01:00:00Z"
     },
     {
       "id": 1076,
@@ -9592,7 +9592,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T00:00:00Z"
     },
     {
       "id": 1082,
