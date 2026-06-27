@@ -19,7 +19,6 @@ Requiere: pip install requests, token en config.json (igual que actualizar_api.p
 """
 
 import json, os, shutil
-from datetime import datetime
 import requests
 
 import actualizar_api as base  # reusa TRADUCCIONES, cargar_config, API_BASE
@@ -53,9 +52,8 @@ def main():
     with open(CALENDARIO, encoding="utf-8") as f:
         calendario = json.load(f)
 
-    backup_path = CALENDARIO.replace(".json", f"_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+    backup_path = CALENDARIO.replace(".json", "_backup.json")
     shutil.copy(CALENDARIO, backup_path)
-    print(f"Backup de calendario.json guardado en {os.path.basename(backup_path)}")
 
     resueltos, pendientes = 0, 0
     for etapa, grupo_label in ETAPA_A_GRUPO.items():
