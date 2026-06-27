@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "26/06/2026 22:05",
+  "actualizado": "26/06/2026 22:07",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 57,
+      "pts": 58,
       "diff": 0,
       "acumulado": [
         {
@@ -185,80 +185,84 @@
           "pts": 37
         },
         {
-          "id": 48,
+          "id": 47,
           "pts": 38
         },
         {
-          "id": 49,
+          "id": 48,
           "pts": 39
+        },
+        {
+          "id": 49,
+          "pts": 40
         },
         {
           "id": 50,
-          "pts": 39
+          "pts": 40
         },
         {
           "id": 51,
-          "pts": 40
-        },
-        {
-          "id": 52,
-          "pts": 40
-        },
-        {
-          "id": 53,
           "pts": 41
         },
         {
-          "id": 54,
+          "id": 52,
+          "pts": 41
+        },
+        {
+          "id": 53,
           "pts": 42
         },
         {
-          "id": 55,
-          "pts": 45
+          "id": 54,
+          "pts": 43
         },
         {
-          "id": 56,
+          "id": 55,
           "pts": 46
         },
         {
+          "id": 56,
+          "pts": 47
+        },
+        {
           "id": 57,
-          "pts": 49
-        },
-        {
-          "id": 58,
-          "pts": 49
-        },
-        {
-          "id": 61,
-          "pts": 49
-        },
-        {
-          "id": 62,
           "pts": 50
         },
         {
-          "id": 63,
+          "id": 58,
+          "pts": 50
+        },
+        {
+          "id": 61,
+          "pts": 50
+        },
+        {
+          "id": 62,
           "pts": 51
         },
         {
-          "id": 64,
+          "id": 63,
           "pts": 52
         },
         {
-          "id": 67,
+          "id": 64,
           "pts": 53
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 54
+        },
+        {
+          "id": 68,
+          "pts": 55
         },
         {
           "id": 69,
-          "pts": 54
+          "pts": 55
         },
         {
           "id": 70,
-          "pts": 57
+          "pts": 58
         }
       ]
     },
@@ -266,7 +270,7 @@
       "pos": 2,
       "name": "Carolina",
       "pts": 54,
-      "diff": -3,
+      "diff": -4,
       "acumulado": [
         {
           "id": 1,
@@ -445,6 +449,10 @@
           "pts": 37
         },
         {
+          "id": 47,
+          "pts": 37
+        },
+        {
           "id": 48,
           "pts": 38
         },
@@ -526,7 +534,7 @@
       "pos": 3,
       "name": "Peter",
       "pts": 52,
-      "diff": -5,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -705,6 +713,10 @@
           "pts": 36
         },
         {
+          "id": 47,
+          "pts": 36
+        },
+        {
           "id": 48,
           "pts": 36
         },
@@ -785,7 +797,7 @@
     {
       "pos": 4,
       "name": "Osmar",
-      "pts": 49,
+      "pts": 50,
       "diff": -8,
       "acumulado": [
         {
@@ -965,80 +977,84 @@
           "pts": 29
         },
         {
-          "id": 48,
+          "id": 47,
           "pts": 30
         },
         {
-          "id": 49,
+          "id": 48,
           "pts": 31
         },
         {
-          "id": 50,
+          "id": 49,
           "pts": 32
         },
         {
+          "id": 50,
+          "pts": 33
+        },
+        {
           "id": 51,
-          "pts": 35
-        },
-        {
-          "id": 52,
-          "pts": 35
-        },
-        {
-          "id": 53,
           "pts": 36
         },
         {
-          "id": 54,
+          "id": 52,
+          "pts": 36
+        },
+        {
+          "id": 53,
           "pts": 37
         },
         {
-          "id": 55,
-          "pts": 40
+          "id": 54,
+          "pts": 38
         },
         {
-          "id": 56,
+          "id": 55,
           "pts": 41
         },
         {
-          "id": 57,
+          "id": 56,
           "pts": 42
         },
         {
+          "id": 57,
+          "pts": 43
+        },
+        {
           "id": 58,
-          "pts": 43
-        },
-        {
-          "id": 61,
-          "pts": 43
-        },
-        {
-          "id": 62,
           "pts": 44
         },
         {
-          "id": 63,
+          "id": 61,
+          "pts": 44
+        },
+        {
+          "id": 62,
           "pts": 45
         },
         {
-          "id": 64,
+          "id": 63,
           "pts": 46
         },
         {
-          "id": 67,
+          "id": 64,
           "pts": 47
         },
         {
-          "id": 68,
+          "id": 67,
           "pts": 48
+        },
+        {
+          "id": 68,
+          "pts": 49
         },
         {
           "id": 69,
-          "pts": 48
+          "pts": 49
         },
         {
           "id": 70,
-          "pts": 49
+          "pts": 50
         }
       ]
     },
@@ -1046,7 +1062,7 @@
       "pos": 5,
       "name": "Jonathan",
       "pts": 47,
-      "diff": -10,
+      "diff": -11,
       "acumulado": [
         {
           "id": 1,
@@ -1222,6 +1238,10 @@
         },
         {
           "id": 46,
+          "pts": 26
+        },
+        {
+          "id": 47,
           "pts": 26
         },
         {
@@ -1306,7 +1326,7 @@
       "pos": 6,
       "name": "Josmary",
       "pts": 44,
-      "diff": -13,
+      "diff": -14,
       "acumulado": [
         {
           "id": 1,
@@ -1485,6 +1505,10 @@
           "pts": 29
         },
         {
+          "id": 47,
+          "pts": 29
+        },
+        {
           "id": 48,
           "pts": 29
         },
@@ -1564,9 +1588,273 @@
     },
     {
       "pos": 7,
+      "name": "Sol",
+      "pts": 44,
+      "diff": -14,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 1
+        },
+        {
+          "id": 3,
+          "pts": 1
+        },
+        {
+          "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 5,
+          "pts": 2
+        },
+        {
+          "id": 6,
+          "pts": 2
+        },
+        {
+          "id": 7,
+          "pts": 2
+        },
+        {
+          "id": 8,
+          "pts": 3
+        },
+        {
+          "id": 9,
+          "pts": 3
+        },
+        {
+          "id": 10,
+          "pts": 4
+        },
+        {
+          "id": 11,
+          "pts": 4
+        },
+        {
+          "id": 12,
+          "pts": 4
+        },
+        {
+          "id": 13,
+          "pts": 4
+        },
+        {
+          "id": 14,
+          "pts": 4
+        },
+        {
+          "id": 15,
+          "pts": 5
+        },
+        {
+          "id": 16,
+          "pts": 6
+        },
+        {
+          "id": 17,
+          "pts": 9
+        },
+        {
+          "id": 18,
+          "pts": 10
+        },
+        {
+          "id": 19,
+          "pts": 11
+        },
+        {
+          "id": 20,
+          "pts": 11
+        },
+        {
+          "id": 21,
+          "pts": 11
+        },
+        {
+          "id": 22,
+          "pts": 11
+        },
+        {
+          "id": 23,
+          "pts": 12
+        },
+        {
+          "id": 24,
+          "pts": 13
+        },
+        {
+          "id": 25,
+          "pts": 14
+        },
+        {
+          "id": 26,
+          "pts": 14
+        },
+        {
+          "id": 27,
+          "pts": 17
+        },
+        {
+          "id": 28,
+          "pts": 17
+        },
+        {
+          "id": 29,
+          "pts": 17
+        },
+        {
+          "id": 30,
+          "pts": 18
+        },
+        {
+          "id": 31,
+          "pts": 18
+        },
+        {
+          "id": 32,
+          "pts": 19
+        },
+        {
+          "id": 33,
+          "pts": 20
+        },
+        {
+          "id": 34,
+          "pts": 21
+        },
+        {
+          "id": 35,
+          "pts": 22
+        },
+        {
+          "id": 36,
+          "pts": 22
+        },
+        {
+          "id": 37,
+          "pts": 22
+        },
+        {
+          "id": 38,
+          "pts": 23
+        },
+        {
+          "id": 39,
+          "pts": 23
+        },
+        {
+          "id": 40,
+          "pts": 23
+        },
+        {
+          "id": 43,
+          "pts": 23
+        },
+        {
+          "id": 44,
+          "pts": 23
+        },
+        {
+          "id": 45,
+          "pts": 24
+        },
+        {
+          "id": 46,
+          "pts": 24
+        },
+        {
+          "id": 47,
+          "pts": 27
+        },
+        {
+          "id": 48,
+          "pts": 27
+        },
+        {
+          "id": 49,
+          "pts": 28
+        },
+        {
+          "id": 50,
+          "pts": 29
+        },
+        {
+          "id": 51,
+          "pts": 30
+        },
+        {
+          "id": 52,
+          "pts": 31
+        },
+        {
+          "id": 53,
+          "pts": 31
+        },
+        {
+          "id": 54,
+          "pts": 32
+        },
+        {
+          "id": 55,
+          "pts": 33
+        },
+        {
+          "id": 56,
+          "pts": 33
+        },
+        {
+          "id": 57,
+          "pts": 34
+        },
+        {
+          "id": 58,
+          "pts": 34
+        },
+        {
+          "id": 61,
+          "pts": 34
+        },
+        {
+          "id": 62,
+          "pts": 35
+        },
+        {
+          "id": 63,
+          "pts": 36
+        },
+        {
+          "id": 64,
+          "pts": 39
+        },
+        {
+          "id": 67,
+          "pts": 40
+        },
+        {
+          "id": 68,
+          "pts": 43
+        },
+        {
+          "id": 69,
+          "pts": 43
+        },
+        {
+          "id": 70,
+          "pts": 44
+        }
+      ]
+    },
+    {
+      "pos": 8,
       "name": "Yosember",
       "pts": 41,
-      "diff": -16,
+      "diff": -17,
       "acumulado": [
         {
           "id": 1,
@@ -1745,6 +2033,10 @@
           "pts": 24
         },
         {
+          "id": 47,
+          "pts": 24
+        },
+        {
           "id": 48,
           "pts": 24
         },
@@ -1823,270 +2115,10 @@
       ]
     },
     {
-      "pos": 8,
-      "name": "Sol",
-      "pts": 41,
-      "diff": -16,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 3,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 5,
-          "pts": 2
-        },
-        {
-          "id": 6,
-          "pts": 2
-        },
-        {
-          "id": 7,
-          "pts": 2
-        },
-        {
-          "id": 8,
-          "pts": 3
-        },
-        {
-          "id": 9,
-          "pts": 3
-        },
-        {
-          "id": 10,
-          "pts": 4
-        },
-        {
-          "id": 11,
-          "pts": 4
-        },
-        {
-          "id": 12,
-          "pts": 4
-        },
-        {
-          "id": 13,
-          "pts": 4
-        },
-        {
-          "id": 14,
-          "pts": 4
-        },
-        {
-          "id": 15,
-          "pts": 5
-        },
-        {
-          "id": 16,
-          "pts": 6
-        },
-        {
-          "id": 17,
-          "pts": 9
-        },
-        {
-          "id": 18,
-          "pts": 10
-        },
-        {
-          "id": 19,
-          "pts": 11
-        },
-        {
-          "id": 20,
-          "pts": 11
-        },
-        {
-          "id": 21,
-          "pts": 11
-        },
-        {
-          "id": 22,
-          "pts": 11
-        },
-        {
-          "id": 23,
-          "pts": 12
-        },
-        {
-          "id": 24,
-          "pts": 13
-        },
-        {
-          "id": 25,
-          "pts": 14
-        },
-        {
-          "id": 26,
-          "pts": 14
-        },
-        {
-          "id": 27,
-          "pts": 17
-        },
-        {
-          "id": 28,
-          "pts": 17
-        },
-        {
-          "id": 29,
-          "pts": 17
-        },
-        {
-          "id": 30,
-          "pts": 18
-        },
-        {
-          "id": 31,
-          "pts": 18
-        },
-        {
-          "id": 32,
-          "pts": 19
-        },
-        {
-          "id": 33,
-          "pts": 20
-        },
-        {
-          "id": 34,
-          "pts": 21
-        },
-        {
-          "id": 35,
-          "pts": 22
-        },
-        {
-          "id": 36,
-          "pts": 22
-        },
-        {
-          "id": 37,
-          "pts": 22
-        },
-        {
-          "id": 38,
-          "pts": 23
-        },
-        {
-          "id": 39,
-          "pts": 23
-        },
-        {
-          "id": 40,
-          "pts": 23
-        },
-        {
-          "id": 43,
-          "pts": 23
-        },
-        {
-          "id": 44,
-          "pts": 23
-        },
-        {
-          "id": 45,
-          "pts": 24
-        },
-        {
-          "id": 46,
-          "pts": 24
-        },
-        {
-          "id": 48,
-          "pts": 24
-        },
-        {
-          "id": 49,
-          "pts": 25
-        },
-        {
-          "id": 50,
-          "pts": 26
-        },
-        {
-          "id": 51,
-          "pts": 27
-        },
-        {
-          "id": 52,
-          "pts": 28
-        },
-        {
-          "id": 53,
-          "pts": 28
-        },
-        {
-          "id": 54,
-          "pts": 29
-        },
-        {
-          "id": 55,
-          "pts": 30
-        },
-        {
-          "id": 56,
-          "pts": 30
-        },
-        {
-          "id": 57,
-          "pts": 31
-        },
-        {
-          "id": 58,
-          "pts": 31
-        },
-        {
-          "id": 61,
-          "pts": 31
-        },
-        {
-          "id": 62,
-          "pts": 32
-        },
-        {
-          "id": 63,
-          "pts": 33
-        },
-        {
-          "id": 64,
-          "pts": 36
-        },
-        {
-          "id": 67,
-          "pts": 37
-        },
-        {
-          "id": 68,
-          "pts": 40
-        },
-        {
-          "id": 69,
-          "pts": 40
-        },
-        {
-          "id": 70,
-          "pts": 41
-        }
-      ]
-    },
-    {
       "pos": 9,
       "name": "Mayra",
       "pts": 37,
-      "diff": -20,
+      "diff": -21,
       "acumulado": [
         {
           "id": 1,
@@ -2262,6 +2294,10 @@
         },
         {
           "id": 46,
+          "pts": 24
+        },
+        {
+          "id": 47,
           "pts": 24
         },
         {
@@ -2346,7 +2382,7 @@
       "pos": 10,
       "name": "Carlos",
       "pts": 34,
-      "diff": -23,
+      "diff": -24,
       "acumulado": [
         {
           "id": 1,
@@ -2522,6 +2558,10 @@
         },
         {
           "id": 46,
+          "pts": 24
+        },
+        {
+          "id": 47,
           "pts": 24
         },
         {
@@ -2933,8 +2973,8 @@
           "id": 47,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -3442,8 +3482,8 @@
           "id": 47,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -3951,8 +3991,8 @@
           "id": 47,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -4132,7 +4172,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 49,
+      "pts_total": 50,
       "partidos": [
         {
           "id": 1,
@@ -4460,8 +4500,8 @@
           "id": 47,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -4969,8 +5009,8 @@
           "id": 47,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -5150,7 +5190,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 41,
+      "pts_total": 44,
       "partidos": [
         {
           "id": 1,
@@ -5478,8 +5518,8 @@
           "id": 47,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -5987,8 +6027,8 @@
           "id": 47,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -6496,8 +6536,8 @@
           "id": 47,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -7005,8 +7045,8 @@
           "id": 47,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -7186,7 +7226,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 57,
+      "pts_total": 58,
       "partidos": [
         {
           "id": 1,
@@ -7514,8 +7554,8 @@
           "id": 47,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "España 1 - 0 Uruguay"
         },
         {
           "id": 48,
@@ -8223,6 +8263,18 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-21T22:00:00Z"
+    },
+    {
+      "id": 47,
+      "grupo": "H",
+      "jornada": 3,
+      "local": "España",
+      "visitante": "Uruguay",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T00:00:00Z"
     },
     {
       "id": 48,
@@ -9014,8 +9066,8 @@
       "visitante": "Uruguay",
       "goles_l": 1,
       "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-27T00:00:00Z"
     },
     {
@@ -9693,6 +9745,18 @@
   ],
   "ultimos5": [
     {
+      "id": 47,
+      "grupo": "H",
+      "jornada": 3,
+      "local": "España",
+      "visitante": "Uruguay",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T00:00:00Z"
+    },
+    {
       "id": 48,
       "grupo": "H",
       "jornada": 3,
@@ -9739,36 +9803,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-26T02:00:00Z"
-    },
-    {
-      "id": 24,
-      "grupo": "D",
-      "jornada": 3,
-      "local": "Paraguay",
-      "visitante": "Australia",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-26T02:00:00Z"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 47,
-      "grupo": "H",
-      "jornada": 3,
-      "local": "España",
-      "visitante": "Uruguay",
-      "goles_l": 1,
-      "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-06-27T00:00:00Z"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 63,
-    "pendientes": 9
+    "jugados": 64,
+    "pendientes": 8
   }
 }
