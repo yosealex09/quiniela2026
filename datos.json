@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "27/06/2026 17:06",
+  "actualizado": "27/06/2026 19:21",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 59,
+      "pts": 63,
       "diff": 0,
       "acumulado": [
         {
@@ -271,14 +271,22 @@
         {
           "id": 70,
           "pts": 59
+        },
+        {
+          "id": 71,
+          "pts": 60
+        },
+        {
+          "id": 72,
+          "pts": 63
         }
       ]
     },
     {
       "pos": 2,
       "name": "Carolina",
-      "pts": 58,
-      "diff": -1,
+      "pts": 59,
+      "diff": -4,
       "acumulado": [
         {
           "id": 1,
@@ -543,14 +551,22 @@
         {
           "id": 70,
           "pts": 58
+        },
+        {
+          "id": 71,
+          "pts": 59
+        },
+        {
+          "id": 72,
+          "pts": 59
         }
       ]
     },
     {
       "pos": 3,
       "name": "Osmar",
-      "pts": 54,
-      "diff": -5,
+      "pts": 55,
+      "diff": -8,
       "acumulado": [
         {
           "id": 1,
@@ -815,285 +831,21 @@
         {
           "id": 70,
           "pts": 54
+        },
+        {
+          "id": 71,
+          "pts": 55
+        },
+        {
+          "id": 72,
+          "pts": 55
         }
       ]
     },
     {
       "pos": 4,
-      "name": "Peter",
-      "pts": 53,
-      "diff": -6,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 1
-        },
-        {
-          "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 3,
-          "pts": 4
-        },
-        {
-          "id": 4,
-          "pts": 4
-        },
-        {
-          "id": 5,
-          "pts": 5
-        },
-        {
-          "id": 6,
-          "pts": 5
-        },
-        {
-          "id": 7,
-          "pts": 5
-        },
-        {
-          "id": 8,
-          "pts": 8
-        },
-        {
-          "id": 9,
-          "pts": 9
-        },
-        {
-          "id": 10,
-          "pts": 9
-        },
-        {
-          "id": 11,
-          "pts": 12
-        },
-        {
-          "id": 12,
-          "pts": 13
-        },
-        {
-          "id": 13,
-          "pts": 13
-        },
-        {
-          "id": 14,
-          "pts": 14
-        },
-        {
-          "id": 15,
-          "pts": 15
-        },
-        {
-          "id": 16,
-          "pts": 16
-        },
-        {
-          "id": 17,
-          "pts": 17
-        },
-        {
-          "id": 18,
-          "pts": 18
-        },
-        {
-          "id": 19,
-          "pts": 19
-        },
-        {
-          "id": 20,
-          "pts": 20
-        },
-        {
-          "id": 21,
-          "pts": 21
-        },
-        {
-          "id": 22,
-          "pts": 21
-        },
-        {
-          "id": 23,
-          "pts": 21
-        },
-        {
-          "id": 24,
-          "pts": 21
-        },
-        {
-          "id": 25,
-          "pts": 22
-        },
-        {
-          "id": 26,
-          "pts": 22
-        },
-        {
-          "id": 27,
-          "pts": 23
-        },
-        {
-          "id": 28,
-          "pts": 23
-        },
-        {
-          "id": 29,
-          "pts": 23
-        },
-        {
-          "id": 30,
-          "pts": 26
-        },
-        {
-          "id": 31,
-          "pts": 26
-        },
-        {
-          "id": 32,
-          "pts": 27
-        },
-        {
-          "id": 33,
-          "pts": 27
-        },
-        {
-          "id": 34,
-          "pts": 28
-        },
-        {
-          "id": 35,
-          "pts": 29
-        },
-        {
-          "id": 36,
-          "pts": 32
-        },
-        {
-          "id": 37,
-          "pts": 35
-        },
-        {
-          "id": 38,
-          "pts": 35
-        },
-        {
-          "id": 39,
-          "pts": 35
-        },
-        {
-          "id": 40,
-          "pts": 35
-        },
-        {
-          "id": 41,
-          "pts": 36
-        },
-        {
-          "id": 42,
-          "pts": 36
-        },
-        {
-          "id": 43,
-          "pts": 36
-        },
-        {
-          "id": 44,
-          "pts": 36
-        },
-        {
-          "id": 45,
-          "pts": 37
-        },
-        {
-          "id": 46,
-          "pts": 37
-        },
-        {
-          "id": 47,
-          "pts": 37
-        },
-        {
-          "id": 48,
-          "pts": 37
-        },
-        {
-          "id": 49,
-          "pts": 38
-        },
-        {
-          "id": 50,
-          "pts": 39
-        },
-        {
-          "id": 51,
-          "pts": 40
-        },
-        {
-          "id": 52,
-          "pts": 40
-        },
-        {
-          "id": 53,
-          "pts": 41
-        },
-        {
-          "id": 54,
-          "pts": 42
-        },
-        {
-          "id": 55,
-          "pts": 43
-        },
-        {
-          "id": 56,
-          "pts": 43
-        },
-        {
-          "id": 57,
-          "pts": 46
-        },
-        {
-          "id": 58,
-          "pts": 47
-        },
-        {
-          "id": 61,
-          "pts": 47
-        },
-        {
-          "id": 62,
-          "pts": 48
-        },
-        {
-          "id": 63,
-          "pts": 49
-        },
-        {
-          "id": 64,
-          "pts": 50
-        },
-        {
-          "id": 67,
-          "pts": 51
-        },
-        {
-          "id": 68,
-          "pts": 52
-        },
-        {
-          "id": 69,
-          "pts": 52
-        },
-        {
-          "id": 70,
-          "pts": 53
-        }
-      ]
-    },
-    {
-      "pos": 5,
       "name": "Jonathan",
-      "pts": 51,
+      "pts": 55,
       "diff": -8,
       "acumulado": [
         {
@@ -1359,14 +1111,302 @@
         {
           "id": 70,
           "pts": 51
+        },
+        {
+          "id": 71,
+          "pts": 54
+        },
+        {
+          "id": 72,
+          "pts": 55
+        }
+      ]
+    },
+    {
+      "pos": 5,
+      "name": "Peter",
+      "pts": 55,
+      "diff": -8,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 1
+        },
+        {
+          "id": 2,
+          "pts": 1
+        },
+        {
+          "id": 3,
+          "pts": 4
+        },
+        {
+          "id": 4,
+          "pts": 4
+        },
+        {
+          "id": 5,
+          "pts": 5
+        },
+        {
+          "id": 6,
+          "pts": 5
+        },
+        {
+          "id": 7,
+          "pts": 5
+        },
+        {
+          "id": 8,
+          "pts": 8
+        },
+        {
+          "id": 9,
+          "pts": 9
+        },
+        {
+          "id": 10,
+          "pts": 9
+        },
+        {
+          "id": 11,
+          "pts": 12
+        },
+        {
+          "id": 12,
+          "pts": 13
+        },
+        {
+          "id": 13,
+          "pts": 13
+        },
+        {
+          "id": 14,
+          "pts": 14
+        },
+        {
+          "id": 15,
+          "pts": 15
+        },
+        {
+          "id": 16,
+          "pts": 16
+        },
+        {
+          "id": 17,
+          "pts": 17
+        },
+        {
+          "id": 18,
+          "pts": 18
+        },
+        {
+          "id": 19,
+          "pts": 19
+        },
+        {
+          "id": 20,
+          "pts": 20
+        },
+        {
+          "id": 21,
+          "pts": 21
+        },
+        {
+          "id": 22,
+          "pts": 21
+        },
+        {
+          "id": 23,
+          "pts": 21
+        },
+        {
+          "id": 24,
+          "pts": 21
+        },
+        {
+          "id": 25,
+          "pts": 22
+        },
+        {
+          "id": 26,
+          "pts": 22
+        },
+        {
+          "id": 27,
+          "pts": 23
+        },
+        {
+          "id": 28,
+          "pts": 23
+        },
+        {
+          "id": 29,
+          "pts": 23
+        },
+        {
+          "id": 30,
+          "pts": 26
+        },
+        {
+          "id": 31,
+          "pts": 26
+        },
+        {
+          "id": 32,
+          "pts": 27
+        },
+        {
+          "id": 33,
+          "pts": 27
+        },
+        {
+          "id": 34,
+          "pts": 28
+        },
+        {
+          "id": 35,
+          "pts": 29
+        },
+        {
+          "id": 36,
+          "pts": 32
+        },
+        {
+          "id": 37,
+          "pts": 35
+        },
+        {
+          "id": 38,
+          "pts": 35
+        },
+        {
+          "id": 39,
+          "pts": 35
+        },
+        {
+          "id": 40,
+          "pts": 35
+        },
+        {
+          "id": 41,
+          "pts": 36
+        },
+        {
+          "id": 42,
+          "pts": 36
+        },
+        {
+          "id": 43,
+          "pts": 36
+        },
+        {
+          "id": 44,
+          "pts": 36
+        },
+        {
+          "id": 45,
+          "pts": 37
+        },
+        {
+          "id": 46,
+          "pts": 37
+        },
+        {
+          "id": 47,
+          "pts": 37
+        },
+        {
+          "id": 48,
+          "pts": 37
+        },
+        {
+          "id": 49,
+          "pts": 38
+        },
+        {
+          "id": 50,
+          "pts": 39
+        },
+        {
+          "id": 51,
+          "pts": 40
+        },
+        {
+          "id": 52,
+          "pts": 40
+        },
+        {
+          "id": 53,
+          "pts": 41
+        },
+        {
+          "id": 54,
+          "pts": 42
+        },
+        {
+          "id": 55,
+          "pts": 43
+        },
+        {
+          "id": 56,
+          "pts": 43
+        },
+        {
+          "id": 57,
+          "pts": 46
+        },
+        {
+          "id": 58,
+          "pts": 47
+        },
+        {
+          "id": 61,
+          "pts": 47
+        },
+        {
+          "id": 62,
+          "pts": 48
+        },
+        {
+          "id": 63,
+          "pts": 49
+        },
+        {
+          "id": 64,
+          "pts": 50
+        },
+        {
+          "id": 67,
+          "pts": 51
+        },
+        {
+          "id": 68,
+          "pts": 52
+        },
+        {
+          "id": 69,
+          "pts": 52
+        },
+        {
+          "id": 70,
+          "pts": 53
+        },
+        {
+          "id": 71,
+          "pts": 54
+        },
+        {
+          "id": 72,
+          "pts": 55
         }
       ]
     },
     {
       "pos": 6,
       "name": "Sol",
-      "pts": 48,
-      "diff": -11,
+      "pts": 50,
+      "diff": -13,
       "acumulado": [
         {
           "id": 1,
@@ -1631,14 +1671,22 @@
         {
           "id": 70,
           "pts": 48
+        },
+        {
+          "id": 71,
+          "pts": 49
+        },
+        {
+          "id": 72,
+          "pts": 50
         }
       ]
     },
     {
       "pos": 7,
       "name": "Josmary",
-      "pts": 44,
-      "diff": -15,
+      "pts": 46,
+      "diff": -17,
       "acumulado": [
         {
           "id": 1,
@@ -1903,14 +1951,22 @@
         {
           "id": 70,
           "pts": 44
+        },
+        {
+          "id": 71,
+          "pts": 45
+        },
+        {
+          "id": 72,
+          "pts": 46
         }
       ]
     },
     {
       "pos": 8,
       "name": "Yosember",
-      "pts": 42,
-      "diff": -17,
+      "pts": 44,
+      "diff": -19,
       "acumulado": [
         {
           "id": 1,
@@ -2175,13 +2231,21 @@
         {
           "id": 70,
           "pts": 42
+        },
+        {
+          "id": 71,
+          "pts": 43
+        },
+        {
+          "id": 72,
+          "pts": 44
         }
       ]
     },
     {
       "pos": 9,
       "name": "Mayra",
-      "pts": 39,
+      "pts": 43,
       "diff": -20,
       "acumulado": [
         {
@@ -2447,14 +2511,22 @@
         {
           "id": 70,
           "pts": 39
+        },
+        {
+          "id": 71,
+          "pts": 40
+        },
+        {
+          "id": 72,
+          "pts": 43
         }
       ]
     },
     {
       "pos": 10,
       "name": "Carlos",
-      "pts": 35,
-      "diff": -24,
+      "pts": 36,
+      "diff": -27,
       "acumulado": [
         {
           "id": 1,
@@ -2719,525 +2791,533 @@
         {
           "id": 70,
           "pts": 35
+        },
+        {
+          "id": 71,
+          "pts": 36
+        },
+        {
+          "id": 72,
+          "pts": 36
         }
       ]
     }
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 42,
-      "partidos": [
-        {
-          "id": 1,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "México 2 - 0 Sudáfrica"
-        },
-        {
-          "id": 2,
-          "pred_l": 2,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Corea del Sur 2 - 1 Chequia"
-        },
-        {
-          "id": 3,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "México 1 - 0 Corea del Sur"
-        },
-        {
-          "id": 4,
-          "pred_l": 0,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Sudáfrica 1 - 1 Chequia"
-        },
-        {
-          "id": 5,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "México 3 - 0 Chequia"
-        },
-        {
-          "id": 6,
-          "pred_l": 2,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Sudáfrica 1 - 0 Corea del Sur"
-        },
-        {
-          "id": 7,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Canadá 1 - 1 Bosnia y Herz."
-        },
-        {
-          "id": 8,
-          "pred_l": 0,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Catar 1 - 1 Suiza"
-        },
-        {
-          "id": 9,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Canadá 6 - 0 Catar"
-        },
-        {
-          "id": 10,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Bosnia y Herz. 1 - 4 Suiza"
-        },
-        {
-          "id": 11,
-          "pred_l": 2,
-          "pred_v": 3,
-          "pts": 1,
-          "resultado": "Canadá 1 - 2 Suiza"
-        },
-        {
-          "id": 12,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Bosnia y Herz. 3 - 1 Catar"
-        },
-        {
-          "id": 13,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Brasil 1 - 1 Marruecos"
-        },
-        {
-          "id": 14,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Haití 0 - 1 Escocia"
-        },
-        {
-          "id": 15,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "Brasil 3 - 0 Haití"
-        },
-        {
-          "id": 16,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Marruecos 1 - 0 Escocia"
-        },
-        {
-          "id": 17,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Brasil 3 - 0 Escocia"
-        },
-        {
-          "id": 18,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Marruecos 4 - 2 Haití"
-        },
-        {
-          "id": 19,
-          "pred_l": 0,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "USA 4 - 1 Paraguay"
-        },
-        {
-          "id": 20,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Australia 2 - 0 Turquía"
-        },
-        {
-          "id": 21,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "USA 2 - 0 Australia"
-        },
-        {
-          "id": 22,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Paraguay 1 - 0 Turquía"
-        },
-        {
-          "id": 23,
-          "pred_l": 0,
-          "pred_v": 3,
-          "pts": 1,
-          "resultado": "USA 2 - 3 Turquía"
-        },
-        {
-          "id": 24,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Paraguay 0 - 0 Australia"
-        },
-        {
-          "id": 25,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Alemania 7 - 1 Curaçao"
-        },
-        {
-          "id": 26,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Costa de Marfil 1 - 0 Ecuador"
-        },
-        {
-          "id": 27,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Alemania 2 - 1 Costa de Marfil"
-        },
-        {
-          "id": 28,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Curaçao 0 - 0 Ecuador"
-        },
-        {
-          "id": 29,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Alemania 1 - 2 Ecuador"
-        },
-        {
-          "id": 30,
-          "pred_l": 0,
-          "pred_v": 3,
-          "pts": 1,
-          "resultado": "Curaçao 0 - 2 Costa de Marfil"
-        },
-        {
-          "id": 31,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Países Bajos 2 - 2 Japón"
-        },
-        {
-          "id": 32,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
-        },
-        {
-          "id": 33,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Países Bajos 5 - 1 Suecia"
-        },
-        {
-          "id": 34,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Japón 4 - 0 Túnez"
-        },
-        {
-          "id": 35,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Países Bajos 3 - 1 Túnez"
-        },
-        {
-          "id": 36,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Japón 1 - 1 Suecia"
-        },
-        {
-          "id": 37,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Bélgica 1 - 1 Egipto"
-        },
-        {
-          "id": 38,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Irán 2 - 2 Nueva Zelanda"
-        },
-        {
-          "id": 39,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Bélgica 0 - 0 Irán"
-        },
-        {
-          "id": 40,
-          "pred_l": 0,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Egipto 3 - 1 Nueva Zelanda"
-        },
-        {
-          "id": 41,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Bélgica 5 - 1 Nueva Zelanda"
-        },
-        {
-          "id": 42,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Egipto 1 - 1 Irán"
-        },
-        {
-          "id": 43,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "España 0 - 0 Cabo Verde"
-        },
-        {
-          "id": 44,
-          "pred_l": 1,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Arabia Saudí 1 - 1 Uruguay"
-        },
-        {
-          "id": 45,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "España 4 - 0 Arabia Saudí"
-        },
-        {
-          "id": 46,
-          "pred_l": 1,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Cabo Verde 2 - 2 Uruguay"
-        },
-        {
-          "id": 47,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "España 1 - 0 Uruguay"
-        },
-        {
-          "id": 48,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Cabo Verde 0 - 0 Arabia Saudí"
-        },
-        {
-          "id": 49,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Francia 3 - 1 Senegal"
-        },
-        {
-          "id": 50,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Irak 1 - 4 Noruega"
-        },
-        {
-          "id": 51,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "Francia 3 - 0 Irak"
-        },
-        {
-          "id": 52,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Senegal 2 - 3 Noruega"
-        },
-        {
-          "id": 53,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Francia 4 - 1 Noruega"
-        },
-        {
-          "id": 54,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Senegal 5 - 0 Irak"
-        },
-        {
-          "id": 55,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Argentina 3 - 0 Argelia"
-        },
-        {
-          "id": 56,
-          "pred_l": 0,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Austria 3 - 1 Jordania"
-        },
-        {
-          "id": 57,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Argentina 2 - 0 Austria"
-        },
-        {
-          "id": 58,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 3,
-          "resultado": "Argelia 2 - 1 Jordania"
-        },
-        {
-          "id": 59,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 60,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 61,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Portugal 1 - 1 DR Congo"
-        },
-        {
-          "id": 62,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Uzbekistán 1 - 3 Colombia"
-        },
-        {
-          "id": 63,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Portugal 5 - 0 Uzbekistán"
-        },
-        {
-          "id": 64,
-          "pred_l": 0,
-          "pred_v": 3,
-          "pts": 1,
-          "resultado": "DR Congo 0 - 1 Colombia"
-        },
-        {
-          "id": 65,
-          "pred_l": 2,
-          "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 66,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 67,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Inglaterra 4 - 2 Croacia"
-        },
-        {
-          "id": 68,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Ghana 1 - 0 Panamá"
-        },
-        {
-          "id": 69,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Inglaterra 0 - 0 Ghana"
-        },
-        {
-          "id": 70,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Croacia 1 - 0 Panamá"
-        },
-        {
-          "id": 71,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 72,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
-        }
-      ]
-    },
-    "Josmary": {
       "pts_total": 44,
       "partidos": [
         {
           "id": 1,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "México 2 - 0 Sudáfrica"
+        },
+        {
+          "id": 2,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Corea del Sur 2 - 1 Chequia"
+        },
+        {
+          "id": 3,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "México 1 - 0 Corea del Sur"
+        },
+        {
+          "id": 4,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Sudáfrica 1 - 1 Chequia"
+        },
+        {
+          "id": 5,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "México 3 - 0 Chequia"
+        },
+        {
+          "id": 6,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Sudáfrica 1 - 0 Corea del Sur"
+        },
+        {
+          "id": 7,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
+        },
+        {
+          "id": 8,
+          "pred_l": 0,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Catar 1 - 1 Suiza"
+        },
+        {
+          "id": 9,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
+        },
+        {
+          "id": 10,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Bosnia y Herz. 1 - 4 Suiza"
+        },
+        {
+          "id": 11,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": 1,
+          "resultado": "Canadá 1 - 2 Suiza"
+        },
+        {
+          "id": 12,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Bosnia y Herz. 3 - 1 Catar"
+        },
+        {
+          "id": 13,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Brasil 1 - 1 Marruecos"
+        },
+        {
+          "id": 14,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Haití 0 - 1 Escocia"
+        },
+        {
+          "id": 15,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "Brasil 3 - 0 Haití"
+        },
+        {
+          "id": 16,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Marruecos 1 - 0 Escocia"
+        },
+        {
+          "id": 17,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Brasil 3 - 0 Escocia"
+        },
+        {
+          "id": 18,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Marruecos 4 - 2 Haití"
+        },
+        {
+          "id": 19,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "USA 4 - 1 Paraguay"
+        },
+        {
+          "id": 20,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Australia 2 - 0 Turquía"
+        },
+        {
+          "id": 21,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "USA 2 - 0 Australia"
+        },
+        {
+          "id": 22,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Paraguay 1 - 0 Turquía"
+        },
+        {
+          "id": 23,
+          "pred_l": 0,
+          "pred_v": 3,
+          "pts": 1,
+          "resultado": "USA 2 - 3 Turquía"
+        },
+        {
+          "id": 24,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 0 Australia"
+        },
+        {
+          "id": 25,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Alemania 7 - 1 Curaçao"
+        },
+        {
+          "id": 26,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Costa de Marfil 1 - 0 Ecuador"
+        },
+        {
+          "id": 27,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Alemania 2 - 1 Costa de Marfil"
+        },
+        {
+          "id": 28,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Curaçao 0 - 0 Ecuador"
+        },
+        {
+          "id": 29,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Alemania 1 - 2 Ecuador"
+        },
+        {
+          "id": 30,
+          "pred_l": 0,
+          "pred_v": 3,
+          "pts": 1,
+          "resultado": "Curaçao 0 - 2 Costa de Marfil"
+        },
+        {
+          "id": 31,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Países Bajos 2 - 2 Japón"
+        },
+        {
+          "id": 32,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Suecia 5 - 1 Túnez"
+        },
+        {
+          "id": 33,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Países Bajos 5 - 1 Suecia"
+        },
+        {
+          "id": 34,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Japón 4 - 0 Túnez"
+        },
+        {
+          "id": 35,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Países Bajos 3 - 1 Túnez"
+        },
+        {
+          "id": 36,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Japón 1 - 1 Suecia"
+        },
+        {
+          "id": 37,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Bélgica 1 - 1 Egipto"
+        },
+        {
+          "id": 38,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Irán 2 - 2 Nueva Zelanda"
+        },
+        {
+          "id": 39,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Bélgica 0 - 0 Irán"
+        },
+        {
+          "id": 40,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
+        },
+        {
+          "id": 41,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Bélgica 5 - 1 Nueva Zelanda"
+        },
+        {
+          "id": 42,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Egipto 1 - 1 Irán"
+        },
+        {
+          "id": 43,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "España 0 - 0 Cabo Verde"
+        },
+        {
+          "id": 44,
+          "pred_l": 1,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Arabia Saudí 1 - 1 Uruguay"
+        },
+        {
+          "id": 45,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "España 4 - 0 Arabia Saudí"
+        },
+        {
+          "id": 46,
+          "pred_l": 1,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Cabo Verde 2 - 2 Uruguay"
+        },
+        {
+          "id": 47,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
+        },
+        {
+          "id": 48,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Cabo Verde 0 - 0 Arabia Saudí"
+        },
+        {
+          "id": 49,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Francia 3 - 1 Senegal"
+        },
+        {
+          "id": 50,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Irak 1 - 4 Noruega"
+        },
+        {
+          "id": 51,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "Francia 3 - 0 Irak"
+        },
+        {
+          "id": 52,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Senegal 2 - 3 Noruega"
+        },
+        {
+          "id": 53,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Francia 4 - 1 Noruega"
+        },
+        {
+          "id": 54,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Senegal 5 - 0 Irak"
+        },
+        {
+          "id": 55,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Argentina 3 - 0 Argelia"
+        },
+        {
+          "id": 56,
+          "pred_l": 0,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Austria 3 - 1 Jordania"
+        },
+        {
+          "id": 57,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Argentina 2 - 0 Austria"
+        },
+        {
+          "id": 58,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 3,
+          "resultado": "Argelia 2 - 1 Jordania"
+        },
+        {
+          "id": 59,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 60,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 61,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Portugal 1 - 1 DR Congo"
+        },
+        {
+          "id": 62,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Uzbekistán 1 - 3 Colombia"
+        },
+        {
+          "id": 63,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
+        },
+        {
+          "id": 64,
+          "pred_l": 0,
+          "pred_v": 3,
+          "pts": 1,
+          "resultado": "DR Congo 0 - 1 Colombia"
+        },
+        {
+          "id": 65,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 66,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 67,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
+        },
+        {
+          "id": 68,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Ghana 1 - 0 Panamá"
+        },
+        {
+          "id": 69,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Inglaterra 0 - 0 Ghana"
+        },
+        {
+          "id": 70,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Croacia 1 - 0 Panamá"
+        },
+        {
+          "id": 71,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
+        },
+        {
+          "id": 72,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Croacia 2 - 1 Ghana"
+        }
+      ]
+    },
+    "Josmary": {
+      "pts_total": 46,
+      "partidos": [
+        {
+          "id": 1,
           "pred_l": 2,
           "pred_v": 1,
           "pts": 1,
@@ -3730,20 +3810,20 @@
           "id": 71,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Carlos": {
-      "pts_total": 35,
+      "pts_total": 36,
       "partidos": [
         {
           "id": 1,
@@ -4239,20 +4319,20 @@
           "id": 71,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Osmar": {
-      "pts_total": 54,
+      "pts_total": 55,
       "partidos": [
         {
           "id": 1,
@@ -4748,20 +4828,20 @@
           "id": 71,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 0,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Jonathan": {
-      "pts_total": 51,
+      "pts_total": 55,
       "partidos": [
         {
           "id": 1,
@@ -5257,20 +5337,20 @@
           "id": 71,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 4,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Sol": {
-      "pts_total": 48,
+      "pts_total": 50,
       "partidos": [
         {
           "id": 1,
@@ -5766,20 +5846,20 @@
           "id": 71,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Mayra": {
-      "pts_total": 39,
+      "pts_total": 43,
       "partidos": [
         {
           "id": 1,
@@ -6275,20 +6355,20 @@
           "id": 71,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Peter": {
-      "pts_total": 53,
+      "pts_total": 55,
       "partidos": [
         {
           "id": 1,
@@ -6784,528 +6864,19 @@
           "id": 71,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     },
     "Carolina": {
-      "pts_total": 58,
-      "partidos": [
-        {
-          "id": 1,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "México 2 - 0 Sudáfrica"
-        },
-        {
-          "id": 2,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Corea del Sur 2 - 1 Chequia"
-        },
-        {
-          "id": 3,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "México 1 - 0 Corea del Sur"
-        },
-        {
-          "id": 4,
-          "pred_l": 0,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Sudáfrica 1 - 1 Chequia"
-        },
-        {
-          "id": 5,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "México 3 - 0 Chequia"
-        },
-        {
-          "id": 6,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Sudáfrica 1 - 0 Corea del Sur"
-        },
-        {
-          "id": 7,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Canadá 1 - 1 Bosnia y Herz."
-        },
-        {
-          "id": 8,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Catar 1 - 1 Suiza"
-        },
-        {
-          "id": 9,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Canadá 6 - 0 Catar"
-        },
-        {
-          "id": 10,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Bosnia y Herz. 1 - 4 Suiza"
-        },
-        {
-          "id": 11,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Canadá 1 - 2 Suiza"
-        },
-        {
-          "id": 12,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Bosnia y Herz. 3 - 1 Catar"
-        },
-        {
-          "id": 13,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Brasil 1 - 1 Marruecos"
-        },
-        {
-          "id": 14,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Haití 0 - 1 Escocia"
-        },
-        {
-          "id": 15,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "Brasil 3 - 0 Haití"
-        },
-        {
-          "id": 16,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Marruecos 1 - 0 Escocia"
-        },
-        {
-          "id": 17,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Brasil 3 - 0 Escocia"
-        },
-        {
-          "id": 18,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Marruecos 4 - 2 Haití"
-        },
-        {
-          "id": 19,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "USA 4 - 1 Paraguay"
-        },
-        {
-          "id": 20,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Australia 2 - 0 Turquía"
-        },
-        {
-          "id": 21,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "USA 2 - 0 Australia"
-        },
-        {
-          "id": 22,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Paraguay 1 - 0 Turquía"
-        },
-        {
-          "id": 23,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "USA 2 - 3 Turquía"
-        },
-        {
-          "id": 24,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Paraguay 0 - 0 Australia"
-        },
-        {
-          "id": 25,
-          "pred_l": 4,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Alemania 7 - 1 Curaçao"
-        },
-        {
-          "id": 26,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Costa de Marfil 1 - 0 Ecuador"
-        },
-        {
-          "id": 27,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 3,
-          "resultado": "Alemania 2 - 1 Costa de Marfil"
-        },
-        {
-          "id": 28,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Curaçao 0 - 0 Ecuador"
-        },
-        {
-          "id": 29,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Alemania 1 - 2 Ecuador"
-        },
-        {
-          "id": 30,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 3,
-          "resultado": "Curaçao 0 - 2 Costa de Marfil"
-        },
-        {
-          "id": 31,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Países Bajos 2 - 2 Japón"
-        },
-        {
-          "id": 32,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Suecia 5 - 1 Túnez"
-        },
-        {
-          "id": 33,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Países Bajos 5 - 1 Suecia"
-        },
-        {
-          "id": 34,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Japón 4 - 0 Túnez"
-        },
-        {
-          "id": 35,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Países Bajos 3 - 1 Túnez"
-        },
-        {
-          "id": 36,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 3,
-          "resultado": "Japón 1 - 1 Suecia"
-        },
-        {
-          "id": 37,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Bélgica 1 - 1 Egipto"
-        },
-        {
-          "id": 38,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Irán 2 - 2 Nueva Zelanda"
-        },
-        {
-          "id": 39,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Bélgica 0 - 0 Irán"
-        },
-        {
-          "id": 40,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Egipto 3 - 1 Nueva Zelanda"
-        },
-        {
-          "id": 41,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Bélgica 5 - 1 Nueva Zelanda"
-        },
-        {
-          "id": 42,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 3,
-          "resultado": "Egipto 1 - 1 Irán"
-        },
-        {
-          "id": 43,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "España 0 - 0 Cabo Verde"
-        },
-        {
-          "id": 44,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Arabia Saudí 1 - 1 Uruguay"
-        },
-        {
-          "id": 45,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "España 4 - 0 Arabia Saudí"
-        },
-        {
-          "id": 46,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Cabo Verde 2 - 2 Uruguay"
-        },
-        {
-          "id": 47,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "España 1 - 0 Uruguay"
-        },
-        {
-          "id": 48,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Cabo Verde 0 - 0 Arabia Saudí"
-        },
-        {
-          "id": 49,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Francia 3 - 1 Senegal"
-        },
-        {
-          "id": 50,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Irak 1 - 4 Noruega"
-        },
-        {
-          "id": 51,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 3,
-          "resultado": "Francia 3 - 0 Irak"
-        },
-        {
-          "id": 52,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Senegal 2 - 3 Noruega"
-        },
-        {
-          "id": 53,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Francia 4 - 1 Noruega"
-        },
-        {
-          "id": 54,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Senegal 5 - 0 Irak"
-        },
-        {
-          "id": 55,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Argentina 3 - 0 Argelia"
-        },
-        {
-          "id": 56,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Austria 3 - 1 Jordania"
-        },
-        {
-          "id": 57,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Argentina 2 - 0 Austria"
-        },
-        {
-          "id": 58,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Argelia 2 - 1 Jordania"
-        },
-        {
-          "id": 59,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 60,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 61,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Portugal 1 - 1 DR Congo"
-        },
-        {
-          "id": 62,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "Uzbekistán 1 - 3 Colombia"
-        },
-        {
-          "id": 63,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Portugal 5 - 0 Uzbekistán"
-        },
-        {
-          "id": 64,
-          "pred_l": 0,
-          "pred_v": 2,
-          "pts": 1,
-          "resultado": "DR Congo 0 - 1 Colombia"
-        },
-        {
-          "id": 65,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 66,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 67,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Inglaterra 4 - 2 Croacia"
-        },
-        {
-          "id": 68,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 1,
-          "resultado": "Ghana 1 - 0 Panamá"
-        },
-        {
-          "id": 69,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Inglaterra 0 - 0 Ghana"
-        },
-        {
-          "id": 70,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 1,
-          "resultado": "Croacia 1 - 0 Panamá"
-        },
-        {
-          "id": 71,
-          "pred_l": 3,
-          "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
-        },
-        {
-          "id": 72,
-          "pred_l": 1,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
-        }
-      ]
-    },
-    "Jose": {
       "pts_total": 59,
       "partidos": [
         {
@@ -7331,6 +6902,515 @@
         },
         {
           "id": 4,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Sudáfrica 1 - 1 Chequia"
+        },
+        {
+          "id": 5,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "México 3 - 0 Chequia"
+        },
+        {
+          "id": 6,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Sudáfrica 1 - 0 Corea del Sur"
+        },
+        {
+          "id": 7,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Canadá 1 - 1 Bosnia y Herz."
+        },
+        {
+          "id": 8,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Catar 1 - 1 Suiza"
+        },
+        {
+          "id": 9,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Canadá 6 - 0 Catar"
+        },
+        {
+          "id": 10,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Bosnia y Herz. 1 - 4 Suiza"
+        },
+        {
+          "id": 11,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Canadá 1 - 2 Suiza"
+        },
+        {
+          "id": 12,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Bosnia y Herz. 3 - 1 Catar"
+        },
+        {
+          "id": 13,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Brasil 1 - 1 Marruecos"
+        },
+        {
+          "id": 14,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Haití 0 - 1 Escocia"
+        },
+        {
+          "id": 15,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "Brasil 3 - 0 Haití"
+        },
+        {
+          "id": 16,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Marruecos 1 - 0 Escocia"
+        },
+        {
+          "id": 17,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Brasil 3 - 0 Escocia"
+        },
+        {
+          "id": 18,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Marruecos 4 - 2 Haití"
+        },
+        {
+          "id": 19,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "USA 4 - 1 Paraguay"
+        },
+        {
+          "id": 20,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Australia 2 - 0 Turquía"
+        },
+        {
+          "id": 21,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "USA 2 - 0 Australia"
+        },
+        {
+          "id": 22,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Paraguay 1 - 0 Turquía"
+        },
+        {
+          "id": 23,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "USA 2 - 3 Turquía"
+        },
+        {
+          "id": 24,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Paraguay 0 - 0 Australia"
+        },
+        {
+          "id": 25,
+          "pred_l": 4,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Alemania 7 - 1 Curaçao"
+        },
+        {
+          "id": 26,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Costa de Marfil 1 - 0 Ecuador"
+        },
+        {
+          "id": 27,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 3,
+          "resultado": "Alemania 2 - 1 Costa de Marfil"
+        },
+        {
+          "id": 28,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Curaçao 0 - 0 Ecuador"
+        },
+        {
+          "id": 29,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Alemania 1 - 2 Ecuador"
+        },
+        {
+          "id": 30,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 3,
+          "resultado": "Curaçao 0 - 2 Costa de Marfil"
+        },
+        {
+          "id": 31,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Países Bajos 2 - 2 Japón"
+        },
+        {
+          "id": 32,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Suecia 5 - 1 Túnez"
+        },
+        {
+          "id": 33,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Países Bajos 5 - 1 Suecia"
+        },
+        {
+          "id": 34,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Japón 4 - 0 Túnez"
+        },
+        {
+          "id": 35,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Países Bajos 3 - 1 Túnez"
+        },
+        {
+          "id": 36,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 3,
+          "resultado": "Japón 1 - 1 Suecia"
+        },
+        {
+          "id": 37,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Bélgica 1 - 1 Egipto"
+        },
+        {
+          "id": 38,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Irán 2 - 2 Nueva Zelanda"
+        },
+        {
+          "id": 39,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Bélgica 0 - 0 Irán"
+        },
+        {
+          "id": 40,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Egipto 3 - 1 Nueva Zelanda"
+        },
+        {
+          "id": 41,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Bélgica 5 - 1 Nueva Zelanda"
+        },
+        {
+          "id": 42,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 3,
+          "resultado": "Egipto 1 - 1 Irán"
+        },
+        {
+          "id": 43,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "España 0 - 0 Cabo Verde"
+        },
+        {
+          "id": 44,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Arabia Saudí 1 - 1 Uruguay"
+        },
+        {
+          "id": 45,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "España 4 - 0 Arabia Saudí"
+        },
+        {
+          "id": 46,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Cabo Verde 2 - 2 Uruguay"
+        },
+        {
+          "id": 47,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "España 1 - 0 Uruguay"
+        },
+        {
+          "id": 48,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Cabo Verde 0 - 0 Arabia Saudí"
+        },
+        {
+          "id": 49,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Francia 3 - 1 Senegal"
+        },
+        {
+          "id": 50,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Irak 1 - 4 Noruega"
+        },
+        {
+          "id": 51,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "Francia 3 - 0 Irak"
+        },
+        {
+          "id": 52,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Senegal 2 - 3 Noruega"
+        },
+        {
+          "id": 53,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Francia 4 - 1 Noruega"
+        },
+        {
+          "id": 54,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Senegal 5 - 0 Irak"
+        },
+        {
+          "id": 55,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Argentina 3 - 0 Argelia"
+        },
+        {
+          "id": 56,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Austria 3 - 1 Jordania"
+        },
+        {
+          "id": 57,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Argentina 2 - 0 Austria"
+        },
+        {
+          "id": 58,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Argelia 2 - 1 Jordania"
+        },
+        {
+          "id": 59,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 60,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 61,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Portugal 1 - 1 DR Congo"
+        },
+        {
+          "id": 62,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "Uzbekistán 1 - 3 Colombia"
+        },
+        {
+          "id": 63,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Portugal 5 - 0 Uzbekistán"
+        },
+        {
+          "id": 64,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": 1,
+          "resultado": "DR Congo 0 - 1 Colombia"
+        },
+        {
+          "id": 65,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 66,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente"
+        },
+        {
+          "id": 67,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Inglaterra 4 - 2 Croacia"
+        },
+        {
+          "id": 68,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "Ghana 1 - 0 Panamá"
+        },
+        {
+          "id": 69,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Inglaterra 0 - 0 Ghana"
+        },
+        {
+          "id": 70,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Croacia 1 - 0 Panamá"
+        },
+        {
+          "id": 71,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
+        },
+        {
+          "id": 72,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Croacia 2 - 1 Ghana"
+        }
+      ]
+    },
+    "Jose": {
+      "pts_total": 63,
+      "partidos": [
+        {
+          "id": 1,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 3,
+          "resultado": "México 2 - 0 Sudáfrica"
+        },
+        {
+          "id": 2,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Corea del Sur 2 - 1 Chequia"
+        },
+        {
+          "id": 3,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 1,
+          "resultado": "México 1 - 0 Corea del Sur"
+        },
+        {
+          "id": 4,
           "pred_l": 1,
           "pred_v": 1,
           "pts": 3,
@@ -7802,15 +7882,15 @@
           "id": 71,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 1,
+          "resultado": "Inglaterra 2 - 0 Panamá"
         },
         {
           "id": 72,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente"
+          "pts": 3,
+          "resultado": "Croacia 2 - 1 Ghana"
         }
       ]
     }
@@ -8607,6 +8687,30 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-23T23:00:00Z"
+    },
+    {
+      "id": 71,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
+    },
+    {
+      "id": 72,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Croacia",
+      "visitante": "Ghana",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
     }
   ],
   "todos_partidos": [
@@ -9456,10 +9560,10 @@
       "jornada": 3,
       "local": "Inglaterra",
       "visitante": "Panamá",
-      "goles_l": 0,
+      "goles_l": 2,
       "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-06-27T21:00:00Z"
     },
     {
@@ -9468,9 +9572,9 @@
       "jornada": 3,
       "local": "Croacia",
       "visitante": "Ghana",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": false,
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-27T21:00:00Z"
     },
@@ -9849,6 +9953,30 @@
   ],
   "ultimos5": [
     {
+      "id": 71,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
+    },
+    {
+      "id": 72,
+      "grupo": "L",
+      "jornada": 3,
+      "local": "Croacia",
+      "visitante": "Ghana",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-27T21:00:00Z"
+    },
+    {
       "id": 41,
       "grupo": "G",
       "jornada": 3,
@@ -9883,48 +10011,11 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-27T00:00:00Z"
-    },
-    {
-      "id": 48,
-      "grupo": "H",
-      "jornada": 3,
-      "local": "Cabo Verde",
-      "visitante": "Arabia Saudí",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-27T00:00:00Z"
-    },
-    {
-      "id": 53,
-      "grupo": "I",
-      "jornada": 3,
-      "local": "Francia",
-      "visitante": "Noruega",
-      "goles_l": 4,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-26T19:00:00Z"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 71,
-      "grupo": "L",
-      "jornada": 3,
-      "local": "Inglaterra",
-      "visitante": "Panamá",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-06-27T21:00:00Z"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 66,
-    "pendientes": 6
+    "jugados": 68,
+    "pendientes": 4
   }
 }
