@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Manual del Jugador — Quiniela Mundial 2026</title>
+<style>
+  @page { margin: 28px 36px; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Inter, system-ui, sans-serif;
+    color: #1b2433;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 13px;
+  }
+  .cover {
+    background: linear-gradient(135deg, #0c1a2e 0%, #122a45 60%, #0c1a2e 100%);
+    color: #fff;
+    border-radius: 18px;
+    padding: 36px 32px;
+    margin-bottom: 26px;
+  }
+  .cover .eyebrow {
+    color: #48e1a6;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 11px;
+  }
+  .cover h1 {
+    font-size: 30px;
+    margin: 8px 0 6px;
+  }
+  .cover p {
+    color: #b9c6dc;
+    font-size: 13px;
+    margin: 0;
+  }
+  h2 {
+    color: #0c1a2e;
+    font-size: 17px;
+    border-left: 5px solid #48e1a6;
+    padding-left: 10px;
+    margin: 26px 0 10px;
+  }
+  h3 { color: #134; font-size: 14px; margin: 16px 0 6px; }
+  a { color: #1d7fd6; text-decoration: none; font-weight: 600; }
+  .link-box {
+    background: #eef7f2;
+    border: 1px solid #bfe7d3;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 10px 0 18px;
+    word-break: break-all;
+    font-size: 13px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 18px;
+    font-size: 12.5px;
+  }
+  th {
+    background: #0c1a2e;
+    color: #fff;
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+  }
+  td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #e4e8ef;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f7f9fc; }
+  code {
+    background: #eef1f6;
+    border: 1px solid #dde2ea;
+    border-radius: 5px;
+    padding: 1px 6px;
+    font-family: Consolas, monospace;
+    font-size: 12px;
+  }
+  .example {
+    background: #fff8e6;
+    border: 1px solid #ffd166;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 10px 0;
+    font-size: 12.5px;
+  }
+  .example b { color: #92650a; }
+  ol, ul { margin: 6px 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .badge {
+    display: inline-block;
+    background: #48e1a6;
+    color: #06301f;
+    font-weight: 800;
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: 11px;
+  }
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #8a93a3;
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="cover">
+    <div class="eyebrow">Quiniela Mundial 2026</div>
+    <h1>⚽ Manual del Jugador</h1>
+    <p>Cómo ver la página, llenar tus pronósticos de eliminatoria y entender los puntos.</p>
+  </div>
+
+  <h2>1. ¿Dónde veo la quiniela?</h2>
+  <div class="link-box">🔗 <strong>https://yosealex09.github.io/quiniela2026</strong></div>
+  <p>La página se actualiza sola cada hora con los resultados reales del Mundial. Solo entra cuando quieras ver cómo vas.</p>
+
+  <h3>Qué hay en cada pestaña</h3>
+  <table>
+    <tr><th>Pestaña</th><th>Qué muestra</th></tr>
+    <tr><td>🏆 Ranking</td><td>Tabla de posiciones de los 10, y si hay un partido en vivo en este momento.</td></tr>
+    <tr><td>🔮 Pronósticos</td><td>Selecciona tu nombre y mira partido por partido qué le pusiste a cada uno, con tu puntaje. Más abajo, <b>"Tu bracket"</b>: el camino completo que armaste en eliminatorias.</td></tr>
+    <tr><td>🌐 Grupos</td><td>Tabla de posiciones de cada uno de los 12 grupos.</td></tr>
+    <tr><td>🗂️ Brackets</td><td>El cuadro real de eliminatorias con los resultados reales.</td></tr>
+    <tr><td>🗓️ Próximos</td><td>Partidos de grupos que aún no se juegan, por día.</td></tr>
+    <tr><td>📈 Evolución</td><td>Gráfica de tus puntos a lo largo del torneo, comparado con los demás.</td></tr>
+    <tr><td>⚖️ Comparar</td><td>Pronósticos de los 10 lado a lado, para partidos que aún no se juegan.</td></tr>
+  </table>
+
+  <h2>2. ¿Cómo pronostico la eliminatoria (16avos en adelante)?</h2>
+  <p>Ya no va en Excel — se llena aquí:</p>
+  <div class="link-box">📝 <strong>https://docs.google.com/forms/d/e/1FAIpQLSeonTzVh9qfGTO-K71JWXI93gbYtr-wU6a1NpTO3haLPEDrag/viewform</strong></div>
+
+  <h3>Cómo llenarlo</h3>
+  <ol>
+    <li>Elige tu nombre en la primera pregunta.</li>
+    <li>Para cada partido, escribe el marcador que crees que va a pasar: <code>goles local-goles visitante</code>. Ejemplo: <code>2-1</code>.</li>
+    <li>El formulario tiene 5 páginas: <b>16avos, Octavos, Cuartos, Semifinal y Final</b>. Dale "Siguiente" para avanzar.</li>
+  </ol>
+
+  <h3>Lo importante: armas TODO tu bracket de una sola vez</h3>
+  <p>Desde Octavos, las preguntas no tienen nombres reales todavía porque depende de quién avance. Vas a ver algo así:</p>
+  <div class="example">
+    <code>Partido 1088: Ganador de [Equipo C vs Equipo S] vs Ganador de [Equipo F vs Equipo V]</code>
+    <p style="margin:8px 0 0">Significa: <b>el que tú crees que gana</b> el primer cruce, contra <b>el que tú crees que gana</b> el segundo. Tú decides quién avanza con tu propio marcador, sin esperar a que se sepa de verdad.</p>
+  </div>
+  <div class="example">
+    <b>Ejemplo:</b> si en 16avos predijiste que México le gana 2-1 a Corea, cuando llegues a la pregunta de Octavos que diga "Ganador de [México vs Corea] vs ...", ese cruce ya está resuelto para ti — pones el marcador de México contra el otro equipo que elegiste.
+  </div>
+
+  <h3>¿Y si me equivoco en una ronda?</h3>
+  <p>Si tu equipo no pasa de ronda en la realidad, tu predicción para esa ronda en adelante simplemente no suma puntos — pero no te quita lo que ya ganaste antes.</p>
+
+  <h3>¿Puedo cambiar mi respuesta?</h3>
+  <p>Sí. Si vuelves a enviar el formulario, se queda con tu <b>última respuesta</b>, no se duplica.</p>
+
+  <h3>Algunos 16avos todavía dicen "Equipo X vs Equipo Y"</h3>
+  <p>Es porque ese cruce real aún no se sabe (su grupo no terminó). Igual puedes pronosticar un marcador — cuando se confirme el equipo real, tu predicción ya queda lista y se cuenta sola.</p>
+
+  <h3>¿Y si creo que va a empate y se decide en penales?</h3>
+  <p>Puedes poner el marcador empatado igual (para competir por los 3 puntos si aciertas exacto), pero agrega al final quién avanza en penales, así:</p>
+  <div class="example">
+    <code>1-1 avanza España</code> &nbsp;o&nbsp; <code>1-1 (España)</code>
+    <p style="margin:8px 0 0">Si no aclaras quién avanza, esa rama de tu bracket no puede seguir armándose (pero no pierdes los puntos que ya tenías).</p>
+  </div>
+
+  <h2>3. ¿Cómo se reparten los puntos?</h2>
+  <table>
+    <tr><th>Resultado</th><th>Puntos</th></tr>
+    <tr><td>Adivinas el marcador exacto</td><td><span class="badge">3 puntos</span></td></tr>
+    <tr><td>Adivinas quién gana (o el empate), sin el marcador exacto</td><td><span class="badge" style="background:#4ea8ff;color:#04203f">1 punto</span></td></tr>
+    <tr><td>Te equivocas de quién gana</td><td><span class="badge" style="background:#ff6b6b;color:#3a0a0a">0 puntos</span></td></tr>
+  </table>
+
+  <h2>4. ¿Tengo que hacer algo más?</h2>
+  <p>No. Una vez que llenes el formulario, todo es automático: resultados reales, cálculo de puntos y actualización de la página corren solos cada hora.</p>
+
+  <div class="footer">Quiniela Mundial 2026 · Cualquier duda, pregúntale a Yosember 🙂</div>
+
+</body>
+</html>

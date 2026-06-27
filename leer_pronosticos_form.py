@@ -28,6 +28,11 @@ IMPORTANTE: para que el cruce funcione, calendario.json debe tener ya el nombre
 real de los equipos en los cruces de eliminatoria (no "Equipo A vs Equipo Q").
 Edita calendario.json a mano reemplazando esos placeholders en cuanto se
 confirme el bracket.
+
+Empates en eliminatoria (van a penales): si alguien predice un marcador
+empatado (ej. "1-1"), no hay forma de saber a quién hizo avanzar para armar
+el resto de su bracket. Puede aclararlo agregando el equipo al final de la
+misma respuesta, ej. "1-1 avanza España" o "1-1 (España)".
 """
 
 import csv
@@ -48,7 +53,17 @@ JUGADORES = ['Yosember','Josmary','Carlos','Osmar','Jonathan','Sol','Mayra','Pet
 
 PATRON_PARTIDO = re.compile(r"^(.*?)\s+vs\s+(.*?)$", re.IGNORECASE)
 PATRON_ABSTRACTO = re.compile(r"partido\s+(\d+)", re.IGNORECASE)
-PATRON_MARCADOR = re.compile(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*$")
+# Marcador, con un equipo opcional al final para desambiguar quien avanza si el
+# marcador queda empatado (se va a penales), ej: "1-1 avanza España" o "1-1 (España)".
+PATRON_MARCADOR = re.compile(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*(.*)$")
+
+
+def extraer_ganador_penales(resto):
+    texto = resto.strip().strip("()").strip()
+    if not texto:
+        return None
+    texto = re.sub(r"(?i)^avanza\s+|^gana\s+", "", texto).strip()
+    return texto or None
 
 
 def normaliza(nombre):
@@ -150,7 +165,12 @@ def main():
                 continue
             a, b = int(m.group(1)), int(m.group(2))
             pred_l, pred_v = (b, a) if invertido else (a, b)
-            pronosticos[jugador][str(id_)] = {"pred_l": pred_l, "pred_v": pred_v}
+            entrada = {"pred_l": pred_l, "pred_v": pred_v}
+            if pred_l == pred_v:
+                penal = extraer_ganador_penales(m.group(3))
+                if penal:
+                    entrada["penal"] = penal
+            pronosticos[jugador][str(id_)] = entrada
             actualizados += 1
 
     with open(PRONOSTICOS, "w", encoding="utf-8") as f:

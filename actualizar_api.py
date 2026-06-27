@@ -169,8 +169,12 @@ def equipo_predicho_ganador(preds_jugador, mapa_real, estructura, id_, cache):
         ganador = local
     elif pred["pred_v"] > pred["pred_l"]:
         ganador = visitante
+    elif pred.get("penal") and normaliza_simple(pred["penal"]) == normaliza_simple(local):
+        ganador = local  # empate predicho, pero dijo quién avanza en penales
+    elif pred.get("penal") and normaliza_simple(pred["penal"]) == normaliza_simple(visitante):
+        ganador = visitante
     else:
-        ganador = None  # empate predicho - no se puede desambiguar quién avanza
+        ganador = None  # empate predicho sin aclarar quién avanza
     cache[id_] = ganador
     return ganador
 

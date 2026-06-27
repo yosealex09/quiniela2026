@@ -54,6 +54,20 @@ Sí — si vuelves a enviar el formulario, se queda con tu **última respuesta**
 
 Es porque ese cruce real todavía no se sabe (su grupo no ha terminado). Igual puedes pronosticar un marcador para ese cruce — cuando se sepa quién juega en realidad, tu predicción ya queda lista y se cuenta automáticamente.
 
+### ¿Y si creo que va a empate y se decide en penales?
+
+Puedes poner el marcador empatado igual (para competir por los 3 puntos si aciertas exacto), pero agrega al final quién avanza en penales:
+
+```
+1-1 avanza España
+```
+o
+```
+1-1 (España)
+```
+
+Si no aclaras quién avanza, esa rama de tu bracket no puede seguir armándose para las rondas siguientes (pero no pierdes los puntos que ya ganaste antes).
+
 ## 3. ¿Cómo se reparten los puntos?
 
 Para cada partido (de grupos o de eliminatoria):
