@@ -649,7 +649,9 @@ function renderComparativo() {
         <thead><tr><th>Cruce</th>${jugadores.map(j => `<th style="text-align:center">${j}</th>`).join('')}</tr></thead>
         <tbody>${RONDAS_KO.map(ronda => {
           const ids = ronda.orden || Array.from({ length: ronda.max - ronda.min + 1 }, (_, i) => ronda.min + i);
-          const pendientes = ids.filter(id => { const r = mapaReal[id]; return !r || !r.jugado; });
+          const pendientes = ids
+            .filter(id => { const r = mapaReal[id]; return !r || !r.jugado; })
+            .sort((a, b) => (mapaReal[a]?.fecha || '9999').localeCompare(mapaReal[b]?.fecha || '9999'));
           if (!pendientes.length) return '';
           return `
             <tr><td colspan="${jugadores.length + 1}" style="background:rgba(72,225,166,.08);color:var(--accent);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.04em">${ronda.nombre}</td></tr>
