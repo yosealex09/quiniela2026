@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "28/06/2026 15:52",
+  "actualizado": "28/06/2026 16:58",
   "ranking": [
     {
       "pos": 1,
@@ -12727,11 +12727,11 @@
       "local": "Sudáfrica",
       "visitante": "Canadá",
       "goles_l": 0,
-      "goles_v": 0,
+      "goles_v": 1,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-28T19:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1073,
@@ -13199,11 +13199,11 @@
       "local": "Sudáfrica",
       "visitante": "Canadá",
       "goles_l": 0,
-      "goles_v": 0,
+      "goles_v": 1,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-28T19:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     }
   ],
   "stats": {
