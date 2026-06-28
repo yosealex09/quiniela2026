@@ -103,16 +103,25 @@ def emparejar_resultados(calendario, partidos_api):
         jugado = False
         en_vivo = False
         fecha = None
+        ganador = None
         if match:
             m, invertido = match
             estado = m.get("status")
-            ft = m.get("score", {}).get("fullTime", {})
+            score = m.get("score", {})
+            ft = score.get("fullTime", {})
             h, a = ft.get("home"), ft.get("away")
             fecha = m.get("utcDate")
             if h is not None and a is not None:
                 gl, gv = (a, h) if invertido else (h, a)
                 jugado = estado == "FINISHED"
                 en_vivo = estado in ("IN_PLAY", "PAUSED")
+                # Si el marcador queda empatado pero hay un "winner" (penales),
+                # esto dice quien avanzo de verdad aunque el marcador no lo diga.
+                ganador_api = score.get("winner")
+                if ganador_api == "HOME_TEAM":
+                    ganador = "visitante" if invertido else "local"
+                elif ganador_api == "AWAY_TEAM":
+                    ganador = "local" if invertido else "visitante"
         else:
             sin_cruzar.append(partido)
         entrada["goles_l"] = gl
@@ -120,6 +129,7 @@ def emparejar_resultados(calendario, partidos_api):
         entrada["jugado"] = jugado
         entrada["en_vivo"] = en_vivo
         entrada["fecha"] = fecha
+        entrada["ganador"] = ganador
         resultado.append(entrada)
     return resultado, sin_cruzar
 
@@ -132,6 +142,36 @@ def calcular_pts(pred_l, pred_v, goles_l, goles_v):
     signo_pred = (pred_l > pred_v) - (pred_l < pred_v)
     signo_real = (goles_l > goles_v) - (goles_l < goles_v)
     return 1 if signo_pred == signo_real else 0
+
+
+def calcular_pts_eliminatoria(pred_l, pred_v, pred_penal, goles_l, goles_v, real_local, real_visitante, ganador):
+    """Puntaje para partidos de eliminatoria. Si el marcador real quedo empatado y
+    se resolvio en penales (ganador != None), usa el sistema de 2 componentes:
+    marcador del empate (3 exacto / 1 si predijo empate sin acertar el numero / 0)
+    + 1 punto extra si ademas acerto quien avanza. Si no fue a penales, es la
+    regla normal de siempre (3/1/0)."""
+    if pred_l is None or pred_v is None or goles_l is None or goles_v is None:
+        return None
+    if not (goles_l == goles_v and ganador):
+        return calcular_pts(pred_l, pred_v, goles_l, goles_v)
+
+    exacto = (pred_l == goles_l and pred_v == goles_v)
+    empate_predicho = (pred_l == pred_v)
+    base = 3 if exacto else (1 if empate_predicho else 0)
+
+    if pred_l > pred_v:
+        predicho_avanza = "local"
+    elif pred_v > pred_l:
+        predicho_avanza = "visitante"
+    elif pred_penal and normaliza_simple(pred_penal) == normaliza_simple(real_local):
+        predicho_avanza = "local"
+    elif pred_penal and normaliza_simple(pred_penal) == normaliza_simple(real_visitante):
+        predicho_avanza = "visitante"
+    else:
+        predicho_avanza = None
+
+    bonus = 1 if predicho_avanza == ganador else 0
+    return base + bonus
 
 
 def normaliza_simple(nombre):
@@ -229,9 +269,12 @@ def main():
                 # 16avos: el partido real ya tiene equipos fijos, se compara directo.
                 pred_local = real["local"] if real and not str(real["local"]).startswith("Equipo") else None
                 pred_visit = real["visitante"] if real and not str(real["visitante"]).startswith("Equipo") else None
-                pts = calcular_pts(pred["pred_l"], pred["pred_v"],
-                                    real["goles_l"] if jugado else None,
-                                    real["goles_v"] if jugado else None)
+                pts = calcular_pts_eliminatoria(
+                    pred["pred_l"], pred["pred_v"], pred.get("penal"),
+                    real["goles_l"] if jugado else None, real["goles_v"] if jugado else None,
+                    real["local"] if real else None, real["visitante"] if real else None,
+                    real["ganador"] if real else None,
+                ) if real else None
             else:
                 # Octavos en adelante: el jugador predijo un cruce abstracto
                 # ("ganador de X vs ganador de Y"). Solo cuenta si su propio
@@ -244,10 +287,17 @@ def main():
                     pts = 0  # no se pudo resolver su camino (empate en alguna ronda previa)
                 elif (normaliza_simple(pred_local) == normaliza_simple(real["local"]) and
                       normaliza_simple(pred_visit) == normaliza_simple(real["visitante"])):
-                    pts = calcular_pts(pred["pred_l"], pred["pred_v"], real["goles_l"], real["goles_v"])
+                    pts = calcular_pts_eliminatoria(
+                        pred["pred_l"], pred["pred_v"], pred.get("penal"),
+                        real["goles_l"], real["goles_v"], real["local"], real["visitante"], real["ganador"],
+                    )
                 elif (normaliza_simple(pred_local) == normaliza_simple(real["visitante"]) and
                       normaliza_simple(pred_visit) == normaliza_simple(real["local"])):
-                    pts = calcular_pts(pred["pred_l"], pred["pred_v"], real["goles_v"], real["goles_l"])
+                    ganador_inv = {"local": "visitante", "visitante": "local"}.get(real["ganador"])
+                    pts = calcular_pts_eliminatoria(
+                        pred["pred_l"], pred["pred_v"], pred.get("penal"),
+                        real["goles_v"], real["goles_l"], real["visitante"], real["local"], ganador_inv,
+                    )
                 else:
                     pts = 0  # su camino predicho no coincide con los equipos reales
 
