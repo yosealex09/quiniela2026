@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "28/06/2026 10:07",
+  "actualizado": "28/06/2026 10:39",
   "ranking": [
     {
       "pos": 1,
@@ -3470,6 +3470,276 @@
           "pred_v": 0,
           "pts": 1,
           "resultado": "Croacia 2 - 1 Ghana"
+        },
+        {
+          "id": 1072,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Sudáfrica",
+          "pred_visitante": "Canadá"
+        },
+        {
+          "id": 1073,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Brasil",
+          "pred_visitante": "Japón"
+        },
+        {
+          "id": 1074,
+          "pred_l": 3,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Alemania",
+          "pred_visitante": "Paraguay"
+        },
+        {
+          "id": 1075,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Marruecos"
+        },
+        {
+          "id": 1076,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Costa de Marfil",
+          "pred_visitante": "Noruega"
+        },
+        {
+          "id": 1077,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Francia",
+          "pred_visitante": "Suecia"
+        },
+        {
+          "id": 1078,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "México",
+          "pred_visitante": "Ecuador"
+        },
+        {
+          "id": 1080,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Bélgica",
+          "pred_visitante": "Senegal"
+        },
+        {
+          "id": 1081,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bosnia y Herz."
+        },
+        {
+          "id": 1082,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "España",
+          "pred_visitante": "Austria"
+        },
+        {
+          "id": 1083,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "Croacia"
+        },
+        {
+          "id": 1084,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Suiza",
+          "pred_visitante": "Argelia"
+        },
+        {
+          "id": 1085,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Australia",
+          "pred_visitante": "Egipto"
+        },
+        {
+          "id": 1086,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Argentina",
+          "pred_visitante": "Cabo Verde"
+        },
+        {
+          "id": 1087,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Colombia",
+          "pred_visitante": "Ghana"
+        },
+        {
+          "id": 1088,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
+          "id": 1089,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Canadá",
+          "pred_visitante": "Países Bajos"
+        },
+        {
+          "id": 1090,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1091,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
+        },
+        {
+          "id": 1092,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Brasil",
+          "pred_visitante": "Noruega"
+        },
+        {
+          "id": 1093,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "México",
+          "pred_visitante": null
+        },
+        {
+          "id": 1094,
+          "pred_l": 3,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Argentina",
+          "pred_visitante": "Egipto"
+        },
+        {
+          "id": 1095,
+          "pred_l": 0,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Suiza",
+          "pred_visitante": "Colombia"
+        },
+        {
+          "id": 1096,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Francia",
+          "pred_visitante": "Países Bajos"
+        },
+        {
+          "id": 1097,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "España",
+          "pred_visitante": "Bélgica"
+        },
+        {
+          "id": 1098,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Brasil",
+          "pred_visitante": null
+        },
+        {
+          "id": 1099,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Argentina",
+          "pred_visitante": "Colombia"
+        },
+        {
+          "id": 1100,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Francia",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1101,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": null,
+          "pred_visitante": "Argentina"
+        },
+        {
+          "id": 1102,
+          "pred_l": 0,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Francia",
+          "pred_visitante": null
         }
       ]
     },
