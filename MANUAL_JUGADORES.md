@@ -70,13 +70,26 @@ Si no aclaras quién avanza, esa rama de tu bracket no puede seguir armándose p
 
 ## 3. ¿Cómo se reparten los puntos?
 
-Para cada partido (de grupos o de eliminatoria):
+Para cada partido normal (de grupos, o de eliminatoria sin penales):
 
 | Resultado | Puntos |
 |---|---|
 | Adivinas el marcador exacto | **3 puntos** |
 | Adivinas quién gana (o el empate), pero no el marcador exacto | **1 punto** |
 | Te equivocas de quién gana | **0 puntos** |
+
+### Si el partido de eliminatoria se decide en penales
+
+Aquí se suma un punto extra por acertar quién avanza, además de los puntos del marcador:
+
+| Situación | Puntos |
+|---|---|
+| Marcador exacto del empate **+** aciertas quién avanza | **4 puntos** |
+| Marcador exacto del empate, sin acertar quién avanza | **3 puntos** |
+| Empate correcto pero con otro marcador **+** aciertas quién avanza | **2 puntos** |
+| Empate correcto pero con otro marcador, sin acertar quién avanza | **1 punto** |
+| Predijiste un ganador (sin empate) que resultó ser quien avanzó en penales | **1 punto** |
+| Te equivocaste en todo | **0 puntos** |
 
 ## 4. ¿Tengo que hacer algo más?
 
