@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "28/06/2026 10:42",
+  "actualizado": "28/06/2026 10:54",
   "ranking": [
     {
       "pos": 1,
@@ -5544,7 +5544,7 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": null,
+          "pred_local": "Brasil",
           "pred_visitante": "Colombia"
         },
         {
@@ -5554,7 +5554,7 @@
           "pts": null,
           "resultado": "Pendiente",
           "pred_local": "Alemania",
-          "pred_visitante": null
+          "pred_visitante": "Brasil"
         }
       ]
     },
