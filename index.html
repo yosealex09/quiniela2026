@@ -69,10 +69,15 @@
     .next-match-teams{font-size:18px;font-weight:800}
     .next-match-teams span{color:var(--muted);font-weight:600;margin:0 8px;font-size:13px}
     .next-match-pred{color:var(--muted);font-size:13px;margin-top:4px}
-    .bracket-wrap{display:flex;gap:24px;overflow-x:auto;padding-bottom:10px}
-    .bracket-col{display:flex;flex-direction:column;justify-content:space-around;gap:14px;min-width:200px}
-    .bracket-round-title{text-align:center;color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:4px}
+    .bracket-wrap{display:flex;gap:36px;overflow-x:auto;padding-bottom:10px}
+    .bracket-col{position:relative;min-width:200px;flex-shrink:0}
+    .bracket-matches{position:relative}
+    .bracket-round-title{text-align:center;color:var(--accent);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;margin-bottom:10px}
     .bracket-match{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden}
+    .bracket-match::after{content:'';position:absolute;top:50%;left:100%;width:18px;height:1px;background:rgba(255,255,255,.18)}
+    .bracket-col:last-child .bracket-match::after{display:none}
+    .bracket-vacio{display:flex;align-items:center;justify-content:center;border-style:dashed;opacity:.5}
+    .bracket-vacio .bracket-team{border-bottom:none;font-size:11px}
     .bracket-team{display:flex;justify-content:space-between;padding:7px 10px;font-size:12px;border-bottom:1px solid rgba(255,255,255,.05)}
     .bracket-team:last-child{border-bottom:none}
     .bracket-winner{color:var(--accent);font-weight:800}
@@ -339,6 +344,7 @@ function selectPlayer(name) {
     </table>
     ${tuBracketHtml ? `<h2 style="font-size:14px;margin:20px 0 10px">🗂️ Tu bracket</h2>${tuBracketHtml}` : ''}`;
 
+  if (tuBracketHtml) posicionarBracket(document.getElementById('forecastContent'));
   animateCounts();
 }
 
@@ -428,45 +434,88 @@ const RONDAS_KO = [
   { nombre: 'Final',              min: 1102, max: 1102 },
 ];
 
+const BRACKET_MATCH_H = { normal: 62, pronostico: 80 };
+const BRACKET_GAP = 16;
+
 // Construye el HTML de un bracket. Si esPronostico=true, usa pred_local/pred_visitante
 // y pred_l/pred_v (predicciones de un jugador); si no, usa los datos reales del torneo.
+// Siempre dibuja las 16/8/4/2/1 casillas de cada ronda (aunque falte el pronóstico)
+// para que las columnas queden alineadas como un árbol real.
 function buildBracketHtml(partidos, esPronostico) {
-  if (!partidos.length) return '';
+  const mapaId = {};
+  partidos.forEach(p => mapaId[p.id] = p);
+  const hayAlgo = partidos.length > 0;
+  if (!hayAlgo) return '';
+
+  const matchH = esPronostico ? BRACKET_MATCH_H.pronostico : BRACKET_MATCH_H.normal;
+
   const html = RONDAS_KO.map(ronda => {
-    const matches = partidos.filter(p => p.id >= ronda.min && p.id <= ronda.max).sort((a,b) => a.id - b.id);
-    if (!matches.length) return '';
+    const cantidad = ronda.max - ronda.min + 1;
+    const cajas = [];
+    for (let id = ronda.min; id <= ronda.max; id++) {
+      const m = mapaId[id];
+      if (!m) { cajas.push(`<div class="bracket-match bracket-vacio" data-h="${matchH}"><div class="bracket-team pend">Sin pronóstico</div></div>`); continue; }
+      const local     = esPronostico ? (m.pred_local ?? '?')     : m.local;
+      const visitante = esPronostico ? (m.pred_visitante ?? '?') : m.visitante;
+      const golesL    = esPronostico ? m.pred_l : (m.jugado ? m.goles_l : '');
+      const golesV    = esPronostico ? m.pred_v : (m.jugado ? m.goles_v : '');
+      const jugado    = esPronostico ? true : m.jugado;
+      const ganaLocal = jugado && golesL != null && golesV != null && golesL > golesV;
+      const ganaVisit = jugado && golesL != null && golesV != null && golesV > golesL;
+      const estadoTxt = !esPronostico ? '' : m.pts===3?'✓ Exacto':m.pts===1?'~ Tendencia':m.pts===0?'✗ Fallo':'Pendiente';
+      const estadoCls = !esPronostico ? '' : m.pts===3?'hit3':m.pts===1?'hit1':m.pts===0?'miss':'pend';
+      cajas.push(`
+        <div class="bracket-match" data-h="${matchH}">
+          <div class="bracket-team ${ganaLocal?'bracket-winner':''}">
+            <span>${local}</span><span>${golesL ?? ''}</span>
+          </div>
+          <div class="bracket-team ${ganaVisit?'bracket-winner':''}">
+            <span>${visitante}</span><span>${golesV ?? ''}</span>
+          </div>
+          ${esPronostico ? `<div class="${estadoCls}" style="font-size:10px;text-align:center;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)">${estadoTxt}</div>` : ''}
+        </div>`);
+    }
     return `
-      <div class="bracket-col">
+      <div class="bracket-col" data-cantidad="${cantidad}">
         <div class="bracket-round-title">${ronda.nombre}</div>
-        ${matches.map(m => {
-          const local     = esPronostico ? (m.pred_local ?? '?')     : m.local;
-          const visitante = esPronostico ? (m.pred_visitante ?? '?') : m.visitante;
-          const golesL    = esPronostico ? m.pred_l : (m.jugado ? m.goles_l : '');
-          const golesV    = esPronostico ? m.pred_v : (m.jugado ? m.goles_v : '');
-          const jugado    = esPronostico ? true : m.jugado;
-          const ganaLocal = jugado && golesL != null && golesV != null && golesL > golesV;
-          const ganaVisit = jugado && golesL != null && golesV != null && golesV > golesL;
-          const estadoTxt = !esPronostico ? '' : m.pts===3?'✓ Exacto':m.pts===1?'~ Tendencia':m.pts===0?'✗ Fallo':'Pendiente';
-          const estadoCls = !esPronostico ? '' : m.pts===3?'hit3':m.pts===1?'hit1':m.pts===0?'miss':'pend';
-          return `
-          <div class="bracket-match">
-            <div class="bracket-team ${ganaLocal?'bracket-winner':''}">
-              <span>${local}</span><span>${golesL ?? ''}</span>
-            </div>
-            <div class="bracket-team ${ganaVisit?'bracket-winner':''}">
-              <span>${visitante}</span><span>${golesV ?? ''}</span>
-            </div>
-            ${esPronostico ? `<div class="${estadoCls}" style="font-size:10px;text-align:center;padding:3px 0;border-top:1px solid rgba(255,255,255,.06)">${estadoTxt}</div>` : ''}
-          </div>`;
-        }).join('')}
+        <div class="bracket-matches">${cajas.join('')}</div>
       </div>`;
   }).join('');
 
   return `<div class="bracket-wrap">${html}</div>`;
 }
 
+// Posiciona cada partido para que quede centrado verticalmente entre los dos
+// que lo alimentan (como un árbol de eliminación real), y dibuja las líneas
+// conectoras entre rondas.
+function posicionarBracket(contenedor) {
+  const cols = [...contenedor.querySelectorAll('.bracket-col')];
+  if (!cols.length) return;
+  const h0 = +cols[0].querySelector('.bracket-match').dataset.h || 62;
+  const n0 = cols[0].querySelectorAll('.bracket-match').length;
+  const alturaTotal = n0 * (h0 + BRACKET_GAP) - BRACKET_GAP;
+
+  let centros = Array.from({ length: n0 }, (_, i) => i * (h0 + BRACKET_GAP) + h0 / 2);
+  cols.forEach((col, idx) => {
+    const cajas = [...col.querySelectorAll('.bracket-match')];
+    const h = +cajas[0]?.dataset.h || 62;
+    if (idx > 0) {
+      centros = centros.filter((_, i) => i % 2 === 0).map((_, i) => (centros[2*i] + centros[2*i+1]) / 2);
+    }
+    col.querySelector('.bracket-matches').style.height = alturaTotal + 'px';
+    cajas.forEach((caja, i) => {
+      caja.style.position = 'absolute';
+      caja.style.left = '0';
+      caja.style.right = '0';
+      caja.style.height = h + 'px';
+      caja.style.top = (centros[i] - h / 2) + 'px';
+    });
+  });
+}
+
 function renderBracket() {
   document.getElementById('bracketContent').innerHTML = buildBracketHtml(DATA.todos_partidos.filter(p => p.id >= 1072), false);
+  posicionarBracket(document.getElementById('bracketContent'));
 }
 
 // ── Gráfica ───────────────────────────────────────────────────────────────────
