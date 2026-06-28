@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "28/06/2026 14:25",
+  "actualizado": "28/06/2026 14:34",
   "ranking": [
     {
       "pos": 1,
@@ -9377,7 +9377,7 @@
           "pts": null,
           "resultado": "Pendiente",
           "pred_local": "Canadá",
-          "pred_visitante": null
+          "pred_visitante": "Países Bajos"
         },
         {
           "id": 1090,
@@ -9440,7 +9440,7 @@
           "pts": null,
           "resultado": "Pendiente",
           "pred_local": "Francia",
-          "pred_visitante": null
+          "pred_visitante": "Países Bajos"
         },
         {
           "id": 1097,
@@ -9475,7 +9475,7 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": null,
+          "pred_local": "Francia",
           "pred_visitante": "Portugal"
         },
         {
@@ -9493,7 +9493,7 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": null,
+          "pred_local": "Francia",
           "pred_visitante": "Argentina"
         }
       ]
