@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "28/06/2026 01:12",
+  "actualizado": "28/06/2026 09:33",
   "ranking": [
     {
       "pos": 1,
@@ -9796,7 +9796,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-28T19:00:00Z"
     },
     {
       "id": 1073,
@@ -9808,7 +9808,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T17:00:00Z"
     },
     {
       "id": 1074,
@@ -9820,7 +9820,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-29T20:30:00Z"
     },
     {
       "id": 1075,
@@ -9832,7 +9832,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T01:00:00Z"
     },
     {
       "id": 1076,
@@ -9844,7 +9844,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T17:00:00Z"
     },
     {
       "id": 1077,
@@ -9856,7 +9856,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-06-30T21:00:00Z"
     },
     {
       "id": 1078,
@@ -9868,19 +9868,19 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-01T01:00:00Z"
     },
     {
       "id": 1079,
       "grupo": "16avos de Final",
       "jornada": 0,
       "local": "Inglaterra",
-      "visitante": "RD Congo",
+      "visitante": "DR Congo",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-01T16:00:00Z"
     },
     {
       "id": 1080,
@@ -9892,7 +9892,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-01T20:00:00Z"
     },
     {
       "id": 1081,
@@ -9904,7 +9904,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T00:00:00Z"
     },
     {
       "id": 1082,
@@ -9916,7 +9916,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T19:00:00Z"
     },
     {
       "id": 1083,
@@ -9928,7 +9928,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-02T23:00:00Z"
     },
     {
       "id": 1084,
@@ -9940,7 +9940,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-03T03:00:00Z"
     },
     {
       "id": 1085,
@@ -9952,7 +9952,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-03T18:00:00Z"
     },
     {
       "id": 1086,
@@ -9964,7 +9964,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-03T22:00:00Z"
     },
     {
       "id": 1087,
@@ -9976,7 +9976,7 @@
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null
+      "fecha": "2026-07-04T01:30:00Z"
     },
     {
       "id": 1088,
