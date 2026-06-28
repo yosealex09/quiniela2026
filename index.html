@@ -610,38 +610,76 @@ function renderProximos() {
 // ── Comparativo de pronósticos ───────────────────────────────────────────────
 function renderComparativo() {
   const jugadores = DATA.ranking.map(r => r.name);
-  const partidos = (DATA.todos_partidos || [])
+  const mapaReal = {};
+  (DATA.todos_partidos || []).forEach(p => mapaReal[p.id] = p);
+
+  // ── Fase de grupos: agrupado por día ─────────────────────────────────────
+  const partidosGrupo = (DATA.todos_partidos || [])
     .filter(p => p.grupo.length === 1 && p.fecha && !p.jugado && !p.en_vivo)
     .sort((a, b) => a.fecha.localeCompare(b.fecha));
 
-  if (!partidos.length) {
-    document.getElementById('compareContent').innerHTML = '<p class="pend" style="font-size:13px">No quedan partidos pendientes por comparar.</p>';
-    return;
-  }
-
-  const dias = agruparPorDia(partidos);
-
-  const filas = dias.map(grupo => `
-    <tr><td colspan="${jugadores.length + 1}" style="background:rgba(255,209,102,.08);color:var(--gold);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.04em">${formatearDia(grupo.partidos[0].fecha)}</td></tr>
-    ${grupo.partidos.map(m => `
-      <tr>
-        <td style="font-size:12px;white-space:nowrap">${m.local} <span style="color:var(--muted)">vs</span> ${m.visitante}</td>
-        ${jugadores.map(j => {
-          const pred = DATA.pronosticos[j].partidos.find(x => x.id === m.id);
-          if (!pred) return '<td class="pend">—</td>';
-          const cls = pred.pts === 3 ? 'hit3' : pred.pts === 1 ? 'hit1' : pred.pts === 0 ? 'miss' : 'pend';
-          return `<td class="${cls}" style="text-align:center">${pred.pred_l ?? '?'}-${pred.pred_v ?? '?'}</td>`;
-        }).join('')}
-      </tr>`).join('')}
-  `).join('');
-
-  document.getElementById('compareContent').innerHTML = `
-    <div class="compare-grid-wrap">
+  let htmlGrupos = '<p class="pend" style="font-size:13px">No quedan partidos de grupo pendientes.</p>';
+  if (partidosGrupo.length) {
+    const dias = agruparPorDia(partidosGrupo);
+    htmlGrupos = `
       <table class="ft">
         <thead><tr><th>Partido</th>${jugadores.map(j => `<th style="text-align:center">${j}</th>`).join('')}</tr></thead>
-        <tbody>${filas}</tbody>
-      </table>
-    </div>`;
+        <tbody>${dias.map(grupo => `
+          <tr><td colspan="${jugadores.length + 1}" style="background:rgba(255,209,102,.08);color:var(--gold);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.04em">${formatearDia(grupo.partidos[0].fecha)}</td></tr>
+          ${grupo.partidos.map(m => `
+            <tr>
+              <td style="font-size:12px;white-space:nowrap">${m.local} <span style="color:var(--muted)">vs</span> ${m.visitante}</td>
+              ${jugadores.map(j => {
+                const pred = DATA.pronosticos[j].partidos.find(x => x.id === m.id);
+                if (!pred) return '<td class="pend">—</td>';
+                const cls = pred.pts === 3 ? 'hit3' : pred.pts === 1 ? 'hit1' : pred.pts === 0 ? 'miss' : 'pend';
+                return `<td class="${cls}" style="text-align:center">${pred.pred_l ?? '?'}-${pred.pred_v ?? '?'}</td>`;
+              }).join('')}
+            </tr>`).join('')}
+        `).join('')}</tbody>
+      </table>`;
+  }
+
+  // ── Eliminatoria: agrupado por ronda (16avos en adelante) ────────────────
+  let htmlElim = '<p class="pend" style="font-size:13px">Todavía no hay pronósticos de eliminatoria.</p>';
+  const algunPronostico = jugadores.some(j => (DATA.pronosticos[j].partidos || []).some(x => x.id >= 1072));
+  if (algunPronostico) {
+    htmlElim = `
+      <table class="ft">
+        <thead><tr><th>Cruce</th>${jugadores.map(j => `<th style="text-align:center">${j}</th>`).join('')}</tr></thead>
+        <tbody>${RONDAS_KO.map(ronda => {
+          const ids = ronda.orden || Array.from({ length: ronda.max - ronda.min + 1 }, (_, i) => ronda.min + i);
+          const pendientes = ids.filter(id => { const r = mapaReal[id]; return !r || !r.jugado; });
+          if (!pendientes.length) return '';
+          return `
+            <tr><td colspan="${jugadores.length + 1}" style="background:rgba(72,225,166,.08);color:var(--accent);font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.04em">${ronda.nombre}</td></tr>
+            ${pendientes.map((id, i) => {
+              const real = mapaReal[id];
+              const esAbstracto = id >= 1088;
+              const etiqueta = esAbstracto ? `Cruce ${i + 1}` : (real && !String(real.local).startsWith('Equipo') ? `${real.local} vs ${real.visitante}` : 'Por confirmar');
+              return `
+                <tr>
+                  <td style="font-size:12px;white-space:nowrap">${etiqueta}</td>
+                  ${jugadores.map(j => {
+                    const pred = DATA.pronosticos[j].partidos.find(x => x.id === id);
+                    if (!pred) return '<td class="pend">—</td>';
+                    const cls = pred.pts === 3 ? 'hit3' : pred.pts === 1 ? 'hit1' : pred.pts === 0 ? 'miss' : 'pend';
+                    const texto = esAbstracto
+                      ? `${pred.pred_local ?? '?'} ${pred.pred_l ?? '?'}-${pred.pred_v ?? '?'} ${pred.pred_visitante ?? '?'}`
+                      : `${pred.pred_l ?? '?'}-${pred.pred_v ?? '?'}`;
+                    return `<td class="${cls}" style="text-align:center;font-size:11px">${texto}</td>`;
+                  }).join('')}
+                </tr>`;
+            }).join('')}`;
+        }).join('')}</tbody>
+      </table>`;
+  }
+
+  document.getElementById('compareContent').innerHTML = `
+    <h2 style="font-size:14px;margin-bottom:10px">⚽ Fase de grupos</h2>
+    <div class="compare-grid-wrap">${htmlGrupos}</div>
+    <h2 style="font-size:14px;margin:22px 0 10px">🗂️ Eliminatoria</h2>
+    <div class="compare-grid-wrap">${htmlElim}</div>`;
 }
 
 cargar();

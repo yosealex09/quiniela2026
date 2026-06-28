@@ -283,6 +283,7 @@ def main():
 
     ultimos5 = sorted(partidos_grupo_jugados, key=lambda p: p["fecha"] or "", reverse=True)[:5]
     en_vivo = [p for p in todos_partidos if p.get("en_vivo")]
+    total_jugados = len([p for p in todos_partidos if p["jugado"]])
 
     jugados_antes = None
     if os.path.exists(JSON_OUT):
@@ -291,8 +292,8 @@ def main():
                 jugados_antes = json.load(f).get("stats", {}).get("jugados")
         except (json.JSONDecodeError, OSError):
             jugados_antes = None
-    if jugados_antes is not None and len(partidos_grupo_jugados) < jugados_antes:
-        print(f"  ALERTA: jugados bajo de {jugados_antes} a {len(partidos_grupo_jugados)} "
+    if jugados_antes is not None and total_jugados < jugados_antes:
+        print(f"  ALERTA: jugados bajo de {jugados_antes} a {total_jugados} "
               "- posible dato incompleto de la API, revisar antes de confiar en este resultado")
 
     data = {
@@ -304,7 +305,7 @@ def main():
         "todos_partidos": todos_partidos,
         "ultimos5": ultimos5,
         "en_vivo": en_vivo,
-        "stats": {"jugados": len(partidos_grupo_jugados), "pendientes": 72 - len(partidos_grupo_jugados)},
+        "stats": {"jugados": total_jugados, "pendientes": len(todos_partidos) - total_jugados},
     }
 
     with open(JSON_OUT, "w", encoding="utf-8") as f:
