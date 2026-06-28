@@ -426,8 +426,13 @@ function selectGrupo(g) {
 }
 
 // ── Brackets ──────────────────────────────────────────────────────────────────
+// El orden de los 16avos NO es el orden de id (1072,1073,1074...) — es el orden
+// real del árbol (quién se cruza con quién), calculado desde estructura_bracket.json.
+// Si esa estructura cambia, este orden hay que regenerarlo igual.
+const ORDEN_16AVOS = [1074,1077,1072,1075,1083,1082,1081,1080,1073,1076,1078,1079,1086,1085,1084,1087];
+
 const RONDAS_KO = [
-  { nombre: '16avos de Final',    min: 1072, max: 1087 },
+  { nombre: '16avos de Final',    min: 1072, max: 1087, orden: ORDEN_16AVOS },
   { nombre: 'Octavos de Final',   min: 1088, max: 1095 },
   { nombre: 'Cuartos de Final',   min: 1096, max: 1099 },
   { nombre: 'Semifinales',        min: 1100, max: 1101 },
@@ -450,9 +455,10 @@ function buildBracketHtml(partidos, esPronostico) {
   const matchH = esPronostico ? BRACKET_MATCH_H.pronostico : BRACKET_MATCH_H.normal;
 
   const html = RONDAS_KO.map(ronda => {
-    const cantidad = ronda.max - ronda.min + 1;
+    const idsOrden = ronda.orden || Array.from({ length: ronda.max - ronda.min + 1 }, (_, i) => ronda.min + i);
+    const cantidad = idsOrden.length;
     const cajas = [];
-    for (let id = ronda.min; id <= ronda.max; id++) {
+    for (const id of idsOrden) {
       const m = mapaId[id];
       if (!m) { cajas.push(`<div class="bracket-match bracket-vacio" data-h="${matchH}"><div class="bracket-team pend">Sin pronóstico</div></div>`); continue; }
       const local     = esPronostico ? (m.pred_local ?? '?')     : m.local;
