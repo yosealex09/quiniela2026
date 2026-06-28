@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "27/06/2026 21:49",
+  "actualizado": "27/06/2026 23:56",
   "ranking": [
     {
       "pos": 1,
@@ -9520,10 +9520,10 @@
       "jornada": 3,
       "local": "Argentina",
       "visitante": "Jordania",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 3,
+      "goles_v": 1,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-28T02:00:00Z"
     },
     {
@@ -9532,10 +9532,10 @@
       "jornada": 3,
       "local": "Argelia",
       "visitante": "Austria",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 2,
+      "goles_v": 2,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-28T02:00:00Z"
     },
     {
@@ -10117,7 +10117,32 @@
       "fecha": "2026-06-27T03:00:00Z"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 59,
+      "grupo": "J",
+      "jornada": 3,
+      "local": "Argentina",
+      "visitante": "Jordania",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-28T02:00:00Z"
+    },
+    {
+      "id": 60,
+      "grupo": "J",
+      "jornada": 3,
+      "local": "Argelia",
+      "visitante": "Austria",
+      "goles_l": 2,
+      "goles_v": 2,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-28T02:00:00Z"
+    }
+  ],
   "stats": {
     "jugados": 70,
     "pendientes": 2
