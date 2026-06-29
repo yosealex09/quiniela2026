@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "29/06/2026 13:33",
+  "actualizado": "29/06/2026 15:07",
   "ranking": [
     {
       "pos": 1,
@@ -12779,12 +12779,12 @@
       "jornada": 0,
       "local": "Brasil",
       "visitante": "Japón",
-      "goles_l": 0,
-      "goles_v": 0,
+      "goles_l": 2,
+      "goles_v": 1,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-29T17:00:00Z",
-      "ganador": null
+      "ganador": "local"
     },
     {
       "id": 1074,
@@ -13238,12 +13238,12 @@
       "jornada": 0,
       "local": "Brasil",
       "visitante": "Japón",
-      "goles_l": 0,
-      "goles_v": 0,
+      "goles_l": 2,
+      "goles_v": 1,
       "jugado": false,
       "en_vivo": true,
       "fecha": "2026-06-29T17:00:00Z",
-      "ganador": null
+      "ganador": "local"
     }
   ],
   "stats": {
