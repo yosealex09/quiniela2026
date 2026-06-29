@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "29/06/2026 12:06",
+  "actualizado": "29/06/2026 13:33",
   "ranking": [
     {
       "pos": 1,
@@ -8250,8 +8250,8 @@
         },
         {
           "id": 1073,
-          "pred_l": 3,
-          "pred_v": 2,
+          "pred_l": 2,
+          "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
           "pred_local": "Brasil",
@@ -8425,7 +8425,7 @@
           "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Brasil",
+          "pred_local": "Japón",
           "pred_visitante": "Noruega"
         },
         {
@@ -12779,10 +12779,10 @@
       "jornada": 0,
       "local": "Brasil",
       "visitante": "Japón",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-29T17:00:00Z",
       "ganador": null
     },
@@ -13231,7 +13231,21 @@
       "ganador": "local"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 1073,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Brasil",
+      "visitante": "Japón",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-29T17:00:00Z",
+      "ganador": null
+    }
+  ],
   "stats": {
     "jugados": 73,
     "pendientes": 30
