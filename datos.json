@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "29/06/2026 20:05",
+  "actualizado": "30/06/2026 00:04",
   "ranking": [
     {
       "pos": 1,
@@ -306,6 +306,10 @@
         },
         {
           "id": 1074,
+          "pts": 66
+        },
+        {
+          "id": 1075,
           "pts": 66
         }
       ]
@@ -615,6 +619,10 @@
         {
           "id": 1074,
           "pts": 63
+        },
+        {
+          "id": 1075,
+          "pts": 63
         }
       ]
     },
@@ -922,6 +930,10 @@
         },
         {
           "id": 1074,
+          "pts": 61
+        },
+        {
+          "id": 1075,
           "pts": 61
         }
       ]
@@ -1231,6 +1243,10 @@
         {
           "id": 1074,
           "pts": 59
+        },
+        {
+          "id": 1075,
+          "pts": 59
         }
       ]
     },
@@ -1538,6 +1554,10 @@
         },
         {
           "id": 1074,
+          "pts": 58
+        },
+        {
+          "id": 1075,
           "pts": 58
         }
       ]
@@ -1847,6 +1867,10 @@
         {
           "id": 1074,
           "pts": 58
+        },
+        {
+          "id": 1075,
+          "pts": 58
         }
       ]
     },
@@ -2154,6 +2178,10 @@
         },
         {
           "id": 1074,
+          "pts": 52
+        },
+        {
+          "id": 1075,
           "pts": 52
         }
       ]
@@ -2463,6 +2491,10 @@
         {
           "id": 1074,
           "pts": 51
+        },
+        {
+          "id": 1075,
+          "pts": 51
         }
       ]
     },
@@ -2771,6 +2803,10 @@
         {
           "id": 1074,
           "pts": 47
+        },
+        {
+          "id": 1075,
+          "pts": 47
         }
       ]
     },
@@ -3078,6 +3114,10 @@
         },
         {
           "id": 1074,
+          "pts": 40
+        },
+        {
+          "id": 1075,
           "pts": 40
         }
       ]
@@ -3614,7 +3654,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -3622,8 +3662,8 @@
           "id": 1075,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -4402,7 +4442,7 @@
           "pred_l": 1,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -4410,8 +4450,8 @@
           "id": 1075,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -5190,7 +5230,7 @@
           "pred_l": 3,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -5198,8 +5238,8 @@
           "id": 1075,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -5978,7 +6018,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -5986,8 +6026,8 @@
           "id": 1075,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -6766,7 +6806,7 @@
           "pred_l": 2,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -6774,8 +6814,8 @@
           "id": 1075,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -7554,7 +7594,7 @@
           "pred_l": 4,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -7562,8 +7602,8 @@
           "id": 1075,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -8342,7 +8382,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -8350,8 +8390,8 @@
           "id": 1075,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -9130,7 +9170,7 @@
           "pred_l": 3,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -9138,8 +9178,8 @@
           "id": 1075,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -9918,7 +9958,7 @@
           "pred_l": 2,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -9926,8 +9966,8 @@
           "id": 1075,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -10706,7 +10746,7 @@
           "pred_l": 3,
           "pred_v": 0,
           "pts": 0,
-          "resultado": "Alemania 5 - 6 Paraguay",
+          "resultado": "Alemania 4 - 5 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -10714,8 +10754,8 @@
           "id": 1075,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Países Bajos 3 - 4 Marruecos",
           "pred_local": "Países Bajos",
           "pred_visitante": "Marruecos"
         },
@@ -12872,8 +12912,8 @@
       "jornada": 0,
       "local": "Alemania",
       "visitante": "Paraguay",
-      "goles_l": 5,
-      "goles_v": 6,
+      "goles_l": 4,
+      "goles_v": 5,
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-29T20:30:00Z",
@@ -12885,9 +12925,9 @@
       "jornada": 0,
       "local": "Países Bajos",
       "visitante": "Marruecos",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 3,
+      "goles_v": 4,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-30T01:00:00Z",
       "ganador": null
@@ -13313,7 +13353,7 @@
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 75,
-    "pendientes": 28
+    "jugados": 76,
+    "pendientes": 27
   }
 }
