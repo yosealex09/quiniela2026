@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "30/06/2026 00:09",
+  "actualizado": "30/06/2026 14:59",
   "ranking": [
     {
       "pos": 1,
@@ -12938,12 +12938,12 @@
       "jornada": 0,
       "local": "Costa de Marfil",
       "visitante": "Noruega",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 2,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-06-30T17:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1077,
@@ -13092,13 +13092,13 @@
       "id": 1088,
       "grupo": "Octavos de Final",
       "jornada": 0,
-      "local": "Equipo A",
-      "visitante": "Equipo Q",
+      "local": "Canadá",
+      "visitante": "Marruecos",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-04T17:00:00Z",
       "ganador": null
     },
     {
@@ -13351,7 +13351,21 @@
       "ganador": "local"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 1076,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Costa de Marfil",
+      "visitante": "Noruega",
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-06-30T17:00:00Z",
+      "ganador": "visitante"
+    }
+  ],
   "stats": {
     "jugados": 76,
     "pendientes": 27
