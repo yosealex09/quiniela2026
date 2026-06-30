@@ -108,20 +108,39 @@ def emparejar_resultados(calendario, partidos_api):
             m, invertido = match
             estado = m.get("status")
             score = m.get("score", {})
-            ft = score.get("fullTime", {})
-            h, a = ft.get("home"), ft.get("away")
+            duracion = score.get("duration")
             fecha = m.get("utcDate")
+
+            # IMPORTANTE: cuando el partido se decide en penales, "fullTime" de
+            # la API en realidad trae el marcador de la TANDA DE PENALES, no los
+            # goles del partido. El marcador real (90 min + prorroga) viene en
+            # "regularTime" + "extraTime". Hay que sumarlos para el resultado real.
+            if duracion == "PENALTY_SHOOTOUT" and score.get("regularTime", {}).get("home") is not None:
+                rt, et = score.get("regularTime", {}), score.get("extraTime", {}) or {}
+                h = rt.get("home", 0) + (et.get("home") or 0)
+                a = rt.get("away", 0) + (et.get("away") or 0)
+            else:
+                ft = score.get("fullTime", {})
+                h, a = ft.get("home"), ft.get("away")
+
             if h is not None and a is not None:
                 gl, gv = (a, h) if invertido else (h, a)
                 jugado = estado == "FINISHED"
                 en_vivo = estado in ("IN_PLAY", "PAUSED")
-                # Si el marcador queda empatado pero hay un "winner" (penales),
-                # esto dice quien avanzo de verdad aunque el marcador no lo diga.
+
                 ganador_api = score.get("winner")
                 if ganador_api == "HOME_TEAM":
                     ganador = "visitante" if invertido else "local"
                 elif ganador_api == "AWAY_TEAM":
                     ganador = "local" if invertido else "visitante"
+                elif duracion == "PENALTY_SHOOTOUT":
+                    # "winner" a veces viene vacio para penales; el marcador de la
+                    # tanda (fullTime, en este caso) suele indicar igual quien gano.
+                    ft = score.get("fullTime", {})
+                    ph, pa = ft.get("home"), ft.get("away")
+                    if ph is not None and pa is not None and ph != pa:
+                        gana_home = ph > pa
+                        ganador = ("visitante" if gana_home else "local") if invertido else ("local" if gana_home else "visitante")
         else:
             sin_cruzar.append(partido)
         entrada["goles_l"] = gl
