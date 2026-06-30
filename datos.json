@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "29/06/2026 15:12",
+  "actualizado": "29/06/2026 19:41",
   "ranking": [
     {
       "pos": 1,
@@ -302,6 +302,10 @@
         },
         {
           "id": 1073,
+          "pts": 66
+        },
+        {
+          "id": 1074,
           "pts": 66
         }
       ]
@@ -607,6 +611,10 @@
         {
           "id": 1073,
           "pts": 63
+        },
+        {
+          "id": 1074,
+          "pts": 63
         }
       ]
     },
@@ -910,6 +918,10 @@
         },
         {
           "id": 1073,
+          "pts": 61
+        },
+        {
+          "id": 1074,
           "pts": 61
         }
       ]
@@ -1215,6 +1227,10 @@
         {
           "id": 1073,
           "pts": 59
+        },
+        {
+          "id": 1074,
+          "pts": 59
         }
       ]
     },
@@ -1518,6 +1534,10 @@
         },
         {
           "id": 1073,
+          "pts": 58
+        },
+        {
+          "id": 1074,
           "pts": 58
         }
       ]
@@ -1823,6 +1843,10 @@
         {
           "id": 1073,
           "pts": 58
+        },
+        {
+          "id": 1074,
+          "pts": 58
         }
       ]
     },
@@ -2126,6 +2150,10 @@
         },
         {
           "id": 1073,
+          "pts": 52
+        },
+        {
+          "id": 1074,
           "pts": 52
         }
       ]
@@ -2431,6 +2459,10 @@
         {
           "id": 1073,
           "pts": 51
+        },
+        {
+          "id": 1074,
+          "pts": 51
         }
       ]
     },
@@ -2735,6 +2767,10 @@
         {
           "id": 1073,
           "pts": 47
+        },
+        {
+          "id": 1074,
+          "pts": 47
         }
       ]
     },
@@ -3038,6 +3074,10 @@
         },
         {
           "id": 1073,
+          "pts": 40
+        },
+        {
+          "id": 1074,
           "pts": 40
         }
       ]
@@ -3573,8 +3613,8 @@
           "id": 1074,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -4361,8 +4401,8 @@
           "id": 1074,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -5149,8 +5189,8 @@
           "id": 1074,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -5937,8 +5977,8 @@
           "id": 1074,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -6725,8 +6765,8 @@
           "id": 1074,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -7513,8 +7553,8 @@
           "id": 1074,
           "pred_l": 4,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -8301,8 +8341,8 @@
           "id": 1074,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -9089,8 +9129,8 @@
           "id": 1074,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -9877,8 +9917,8 @@
           "id": 1074,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -10665,8 +10705,8 @@
           "id": 1074,
           "pred_l": 3,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Alemania 5 - 6 Paraguay",
           "pred_local": "Alemania",
           "pred_visitante": "Paraguay"
         },
@@ -12832,9 +12872,9 @@
       "jornada": 0,
       "local": "Alemania",
       "visitante": "Paraguay",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 5,
+      "goles_v": 6,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-29T20:30:00Z",
       "ganador": null
@@ -13273,7 +13313,7 @@
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 74,
-    "pendientes": 29
+    "jugados": 75,
+    "pendientes": 28
   }
 }
