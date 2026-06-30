@@ -350,7 +350,8 @@ def main():
                 acumulado.append({"id": p["id"], "pts": total})
         ranking.append({"pos": i, "name": name, "pts": pts, "diff": pts - max_pts, "acumulado": acumulado})
 
-    ultimos5 = sorted(partidos_grupo_jugados, key=lambda p: p["fecha"] or "", reverse=True)[:5]
+    todos_jugados = [p for p in todos_partidos if p["jugado"]]
+    ultimos5 = sorted(todos_jugados, key=lambda p: p["fecha"] or "", reverse=True)[:5]
     en_vivo = [p for p in todos_partidos if p.get("en_vivo")]
     total_jugados = len([p for p in todos_partidos if p["jugado"]])
 

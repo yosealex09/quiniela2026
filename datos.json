@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "30/06/2026 14:59",
+  "actualizado": "30/06/2026 15:01",
   "ranking": [
     {
       "pos": 1,
@@ -13286,6 +13286,58 @@
   ],
   "ultimos5": [
     {
+      "id": 1075,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Países Bajos",
+      "visitante": "Marruecos",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-30T01:00:00Z",
+      "ganador": "visitante"
+    },
+    {
+      "id": 1074,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Alemania",
+      "visitante": "Paraguay",
+      "goles_l": 1,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-29T20:30:00Z",
+      "ganador": "visitante"
+    },
+    {
+      "id": 1073,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Brasil",
+      "visitante": "Japón",
+      "goles_l": 2,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-29T17:00:00Z",
+      "ganador": "local"
+    },
+    {
+      "id": 1072,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Sudáfrica",
+      "visitante": "Canadá",
+      "goles_l": 0,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-06-28T19:00:00Z",
+      "ganador": "visitante"
+    },
+    {
       "id": 59,
       "grupo": "J",
       "jornada": 3,
@@ -13296,58 +13348,6 @@
       "jugado": true,
       "en_vivo": false,
       "fecha": "2026-06-28T02:00:00Z",
-      "ganador": "local"
-    },
-    {
-      "id": 60,
-      "grupo": "J",
-      "jornada": 3,
-      "local": "Argelia",
-      "visitante": "Austria",
-      "goles_l": 3,
-      "goles_v": 3,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-28T02:00:00Z",
-      "ganador": null
-    },
-    {
-      "id": 65,
-      "grupo": "K",
-      "jornada": 3,
-      "local": "Portugal",
-      "visitante": "Colombia",
-      "goles_l": 0,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-27T23:30:00Z",
-      "ganador": null
-    },
-    {
-      "id": 66,
-      "grupo": "K",
-      "jornada": 3,
-      "local": "DR Congo",
-      "visitante": "Uzbekistán",
-      "goles_l": 3,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-27T23:30:00Z",
-      "ganador": "local"
-    },
-    {
-      "id": 71,
-      "grupo": "L",
-      "jornada": 3,
-      "local": "Inglaterra",
-      "visitante": "Panamá",
-      "goles_l": 2,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-06-27T21:00:00Z",
       "ganador": "local"
     }
   ],
