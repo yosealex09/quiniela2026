@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "02/07/2026 21:19",
+  "actualizado": "03/07/2026 09:14",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 81,
+      "pts": 82,
       "diff": 0,
       "acumulado": [
         {
@@ -343,6 +343,10 @@
         {
           "id": 1083,
           "pts": 81
+        },
+        {
+          "id": 1084,
+          "pts": 82
         }
       ]
     },
@@ -350,7 +354,7 @@
       "pos": 2,
       "name": "Carolina",
       "pts": 77,
-      "diff": -4,
+      "diff": -5,
       "acumulado": [
         {
           "id": 1,
@@ -687,13 +691,17 @@
         {
           "id": 1083,
           "pts": 77
+        },
+        {
+          "id": 1084,
+          "pts": 77
         }
       ]
     },
     {
       "pos": 3,
       "name": "Osmar",
-      "pts": 75,
+      "pts": 76,
       "diff": -6,
       "acumulado": [
         {
@@ -1031,13 +1039,17 @@
         {
           "id": 1083,
           "pts": 75
+        },
+        {
+          "id": 1084,
+          "pts": 76
         }
       ]
     },
     {
       "pos": 4,
       "name": "Sol",
-      "pts": 71,
+      "pts": 72,
       "diff": -10,
       "acumulado": [
         {
@@ -1375,13 +1387,17 @@
         {
           "id": 1083,
           "pts": 71
+        },
+        {
+          "id": 1084,
+          "pts": 72
         }
       ]
     },
     {
       "pos": 5,
       "name": "Jonathan",
-      "pts": 68,
+      "pts": 69,
       "diff": -13,
       "acumulado": [
         {
@@ -1719,6 +1735,10 @@
         {
           "id": 1083,
           "pts": 68
+        },
+        {
+          "id": 1084,
+          "pts": 69
         }
       ]
     },
@@ -1726,7 +1746,7 @@
       "pos": 6,
       "name": "Josmary",
       "pts": 66,
-      "diff": -15,
+      "diff": -16,
       "acumulado": [
         {
           "id": 1,
@@ -2063,6 +2083,10 @@
         {
           "id": 1083,
           "pts": 66
+        },
+        {
+          "id": 1084,
+          "pts": 66
         }
       ]
     },
@@ -2070,7 +2094,7 @@
       "pos": 7,
       "name": "Peter",
       "pts": 66,
-      "diff": -15,
+      "diff": -16,
       "acumulado": [
         {
           "id": 1,
@@ -2407,6 +2431,10 @@
         {
           "id": 1083,
           "pts": 66
+        },
+        {
+          "id": 1084,
+          "pts": 66
         }
       ]
     },
@@ -2414,7 +2442,7 @@
       "pos": 8,
       "name": "Yosember",
       "pts": 65,
-      "diff": -16,
+      "diff": -17,
       "acumulado": [
         {
           "id": 1,
@@ -2751,13 +2779,17 @@
         {
           "id": 1083,
           "pts": 65
+        },
+        {
+          "id": 1084,
+          "pts": 65
         }
       ]
     },
     {
       "pos": 9,
       "name": "Carlos",
-      "pts": 53,
+      "pts": 54,
       "diff": -28,
       "acumulado": [
         {
@@ -3095,13 +3127,17 @@
         {
           "id": 1083,
           "pts": 53
+        },
+        {
+          "id": 1084,
+          "pts": 54
         }
       ]
     },
     {
       "pos": 10,
       "name": "Mayra",
-      "pts": 50,
+      "pts": 51,
       "diff": -31,
       "acumulado": [
         {
@@ -3439,6 +3475,10 @@
         {
           "id": 1083,
           "pts": 50
+        },
+        {
+          "id": 1084,
+          "pts": 51
         }
       ]
     }
@@ -4063,8 +4103,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -4851,8 +4891,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -5021,7 +5061,7 @@
       ]
     },
     "Carlos": {
-      "pts_total": 53,
+      "pts_total": 54,
       "partidos": [
         {
           "id": 1,
@@ -5639,8 +5679,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -5809,7 +5849,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 75,
+      "pts_total": 76,
       "partidos": [
         {
           "id": 1,
@@ -6427,8 +6467,8 @@
           "id": 1084,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -6597,7 +6637,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 68,
+      "pts_total": 69,
       "partidos": [
         {
           "id": 1,
@@ -7215,8 +7255,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -7385,7 +7425,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 71,
+      "pts_total": 72,
       "partidos": [
         {
           "id": 1,
@@ -8003,8 +8043,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -8173,7 +8213,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 50,
+      "pts_total": 51,
       "partidos": [
         {
           "id": 1,
@@ -8791,8 +8831,8 @@
           "id": 1084,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -9579,8 +9619,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -10367,8 +10407,8 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -10537,7 +10577,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 81,
+      "pts_total": 82,
       "partidos": [
         {
           "id": 1,
@@ -11155,8 +11195,8 @@
           "id": 1084,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
         },
@@ -13362,12 +13402,12 @@
       "jornada": 0,
       "local": "Suiza",
       "visitante": "Argelia",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-03T03:00:00Z",
-      "ganador": null
+      "ganador": "local"
     },
     {
       "id": 1085,
@@ -13606,6 +13646,19 @@
   ],
   "ultimos5": [
     {
+      "id": 1084,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Suiza",
+      "visitante": "Argelia",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-03T03:00:00Z",
+      "ganador": "local"
+    },
+    {
       "id": 1083,
       "grupo": "16avos de Final",
       "jornada": 0,
@@ -13656,24 +13709,11 @@
       "en_vivo": false,
       "fecha": "2026-07-01T20:00:00Z",
       "ganador": "local"
-    },
-    {
-      "id": 1079,
-      "grupo": "16avos de Final",
-      "jornada": 0,
-      "local": "Inglaterra",
-      "visitante": "DR Congo",
-      "goles_l": 2,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-01T16:00:00Z",
-      "ganador": "local"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 84,
-    "pendientes": 19
+    "jugados": 85,
+    "pendientes": 18
   }
 }
