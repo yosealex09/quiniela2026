@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "actualizado": "03/07/2026 17:17",
+  "actualizado": "03/07/2026 19:07",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 82,
+      "pts": 83,
       "diff": 0,
       "acumulado": [
         {
@@ -350,7 +350,7 @@
         },
         {
           "id": 1085,
-          "pts": 82
+          "pts": 83
         }
       ]
     },
@@ -358,7 +358,7 @@
       "pos": 2,
       "name": "Carolina",
       "pts": 81,
-      "diff": -1,
+      "diff": -2,
       "acumulado": [
         {
           "id": 1,
@@ -710,7 +710,7 @@
       "pos": 3,
       "name": "Osmar",
       "pts": 76,
-      "diff": -6,
+      "diff": -7,
       "acumulado": [
         {
           "id": 1,
@@ -1062,7 +1062,7 @@
       "pos": 4,
       "name": "Sol",
       "pts": 76,
-      "diff": -6,
+      "diff": -7,
       "acumulado": [
         {
           "id": 1,
@@ -1412,9 +1412,361 @@
     },
     {
       "pos": 5,
+      "name": "Jonathan",
+      "pts": 70,
+      "diff": -13,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 1
+        },
+        {
+          "id": 3,
+          "pts": 1
+        },
+        {
+          "id": 4,
+          "pts": 2
+        },
+        {
+          "id": 5,
+          "pts": 3
+        },
+        {
+          "id": 6,
+          "pts": 3
+        },
+        {
+          "id": 7,
+          "pts": 3
+        },
+        {
+          "id": 8,
+          "pts": 4
+        },
+        {
+          "id": 9,
+          "pts": 5
+        },
+        {
+          "id": 10,
+          "pts": 6
+        },
+        {
+          "id": 11,
+          "pts": 6
+        },
+        {
+          "id": 12,
+          "pts": 6
+        },
+        {
+          "id": 13,
+          "pts": 6
+        },
+        {
+          "id": 14,
+          "pts": 7
+        },
+        {
+          "id": 15,
+          "pts": 8
+        },
+        {
+          "id": 16,
+          "pts": 8
+        },
+        {
+          "id": 17,
+          "pts": 9
+        },
+        {
+          "id": 18,
+          "pts": 10
+        },
+        {
+          "id": 19,
+          "pts": 10
+        },
+        {
+          "id": 20,
+          "pts": 10
+        },
+        {
+          "id": 21,
+          "pts": 10
+        },
+        {
+          "id": 22,
+          "pts": 11
+        },
+        {
+          "id": 23,
+          "pts": 11
+        },
+        {
+          "id": 24,
+          "pts": 12
+        },
+        {
+          "id": 25,
+          "pts": 13
+        },
+        {
+          "id": 26,
+          "pts": 13
+        },
+        {
+          "id": 27,
+          "pts": 16
+        },
+        {
+          "id": 28,
+          "pts": 16
+        },
+        {
+          "id": 29,
+          "pts": 16
+        },
+        {
+          "id": 30,
+          "pts": 17
+        },
+        {
+          "id": 31,
+          "pts": 17
+        },
+        {
+          "id": 32,
+          "pts": 17
+        },
+        {
+          "id": 33,
+          "pts": 18
+        },
+        {
+          "id": 34,
+          "pts": 19
+        },
+        {
+          "id": 35,
+          "pts": 20
+        },
+        {
+          "id": 36,
+          "pts": 23
+        },
+        {
+          "id": 37,
+          "pts": 24
+        },
+        {
+          "id": 38,
+          "pts": 25
+        },
+        {
+          "id": 39,
+          "pts": 25
+        },
+        {
+          "id": 40,
+          "pts": 25
+        },
+        {
+          "id": 41,
+          "pts": 26
+        },
+        {
+          "id": 42,
+          "pts": 29
+        },
+        {
+          "id": 43,
+          "pts": 29
+        },
+        {
+          "id": 44,
+          "pts": 29
+        },
+        {
+          "id": 45,
+          "pts": 30
+        },
+        {
+          "id": 46,
+          "pts": 30
+        },
+        {
+          "id": 47,
+          "pts": 30
+        },
+        {
+          "id": 48,
+          "pts": 33
+        },
+        {
+          "id": 49,
+          "pts": 34
+        },
+        {
+          "id": 50,
+          "pts": 35
+        },
+        {
+          "id": 51,
+          "pts": 36
+        },
+        {
+          "id": 52,
+          "pts": 36
+        },
+        {
+          "id": 53,
+          "pts": 37
+        },
+        {
+          "id": 54,
+          "pts": 38
+        },
+        {
+          "id": 55,
+          "pts": 39
+        },
+        {
+          "id": 56,
+          "pts": 39
+        },
+        {
+          "id": 57,
+          "pts": 42
+        },
+        {
+          "id": 58,
+          "pts": 42
+        },
+        {
+          "id": 59,
+          "pts": 45
+        },
+        {
+          "id": 60,
+          "pts": 45
+        },
+        {
+          "id": 61,
+          "pts": 45
+        },
+        {
+          "id": 62,
+          "pts": 48
+        },
+        {
+          "id": 63,
+          "pts": 49
+        },
+        {
+          "id": 64,
+          "pts": 52
+        },
+        {
+          "id": 65,
+          "pts": 53
+        },
+        {
+          "id": 66,
+          "pts": 53
+        },
+        {
+          "id": 67,
+          "pts": 53
+        },
+        {
+          "id": 68,
+          "pts": 54
+        },
+        {
+          "id": 69,
+          "pts": 54
+        },
+        {
+          "id": 70,
+          "pts": 55
+        },
+        {
+          "id": 71,
+          "pts": 58
+        },
+        {
+          "id": 72,
+          "pts": 59
+        },
+        {
+          "id": 1072,
+          "pts": 59
+        },
+        {
+          "id": 1073,
+          "pts": 59
+        },
+        {
+          "id": 1074,
+          "pts": 59
+        },
+        {
+          "id": 1075,
+          "pts": 59
+        },
+        {
+          "id": 1076,
+          "pts": 60
+        },
+        {
+          "id": 1077,
+          "pts": 61
+        },
+        {
+          "id": 1078,
+          "pts": 61
+        },
+        {
+          "id": 1079,
+          "pts": 62
+        },
+        {
+          "id": 1080,
+          "pts": 62
+        },
+        {
+          "id": 1081,
+          "pts": 65
+        },
+        {
+          "id": 1082,
+          "pts": 68
+        },
+        {
+          "id": 1083,
+          "pts": 68
+        },
+        {
+          "id": 1084,
+          "pts": 69
+        },
+        {
+          "id": 1085,
+          "pts": 70
+        }
+      ]
+    },
+    {
+      "pos": 6,
       "name": "Josmary",
       "pts": 69,
-      "diff": -13,
+      "diff": -14,
       "acumulado": [
         {
           "id": 1,
@@ -1763,362 +2115,10 @@
       ]
     },
     {
-      "pos": 6,
-      "name": "Jonathan",
-      "pts": 69,
-      "diff": -13,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 3,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 2
-        },
-        {
-          "id": 5,
-          "pts": 3
-        },
-        {
-          "id": 6,
-          "pts": 3
-        },
-        {
-          "id": 7,
-          "pts": 3
-        },
-        {
-          "id": 8,
-          "pts": 4
-        },
-        {
-          "id": 9,
-          "pts": 5
-        },
-        {
-          "id": 10,
-          "pts": 6
-        },
-        {
-          "id": 11,
-          "pts": 6
-        },
-        {
-          "id": 12,
-          "pts": 6
-        },
-        {
-          "id": 13,
-          "pts": 6
-        },
-        {
-          "id": 14,
-          "pts": 7
-        },
-        {
-          "id": 15,
-          "pts": 8
-        },
-        {
-          "id": 16,
-          "pts": 8
-        },
-        {
-          "id": 17,
-          "pts": 9
-        },
-        {
-          "id": 18,
-          "pts": 10
-        },
-        {
-          "id": 19,
-          "pts": 10
-        },
-        {
-          "id": 20,
-          "pts": 10
-        },
-        {
-          "id": 21,
-          "pts": 10
-        },
-        {
-          "id": 22,
-          "pts": 11
-        },
-        {
-          "id": 23,
-          "pts": 11
-        },
-        {
-          "id": 24,
-          "pts": 12
-        },
-        {
-          "id": 25,
-          "pts": 13
-        },
-        {
-          "id": 26,
-          "pts": 13
-        },
-        {
-          "id": 27,
-          "pts": 16
-        },
-        {
-          "id": 28,
-          "pts": 16
-        },
-        {
-          "id": 29,
-          "pts": 16
-        },
-        {
-          "id": 30,
-          "pts": 17
-        },
-        {
-          "id": 31,
-          "pts": 17
-        },
-        {
-          "id": 32,
-          "pts": 17
-        },
-        {
-          "id": 33,
-          "pts": 18
-        },
-        {
-          "id": 34,
-          "pts": 19
-        },
-        {
-          "id": 35,
-          "pts": 20
-        },
-        {
-          "id": 36,
-          "pts": 23
-        },
-        {
-          "id": 37,
-          "pts": 24
-        },
-        {
-          "id": 38,
-          "pts": 25
-        },
-        {
-          "id": 39,
-          "pts": 25
-        },
-        {
-          "id": 40,
-          "pts": 25
-        },
-        {
-          "id": 41,
-          "pts": 26
-        },
-        {
-          "id": 42,
-          "pts": 29
-        },
-        {
-          "id": 43,
-          "pts": 29
-        },
-        {
-          "id": 44,
-          "pts": 29
-        },
-        {
-          "id": 45,
-          "pts": 30
-        },
-        {
-          "id": 46,
-          "pts": 30
-        },
-        {
-          "id": 47,
-          "pts": 30
-        },
-        {
-          "id": 48,
-          "pts": 33
-        },
-        {
-          "id": 49,
-          "pts": 34
-        },
-        {
-          "id": 50,
-          "pts": 35
-        },
-        {
-          "id": 51,
-          "pts": 36
-        },
-        {
-          "id": 52,
-          "pts": 36
-        },
-        {
-          "id": 53,
-          "pts": 37
-        },
-        {
-          "id": 54,
-          "pts": 38
-        },
-        {
-          "id": 55,
-          "pts": 39
-        },
-        {
-          "id": 56,
-          "pts": 39
-        },
-        {
-          "id": 57,
-          "pts": 42
-        },
-        {
-          "id": 58,
-          "pts": 42
-        },
-        {
-          "id": 59,
-          "pts": 45
-        },
-        {
-          "id": 60,
-          "pts": 45
-        },
-        {
-          "id": 61,
-          "pts": 45
-        },
-        {
-          "id": 62,
-          "pts": 48
-        },
-        {
-          "id": 63,
-          "pts": 49
-        },
-        {
-          "id": 64,
-          "pts": 52
-        },
-        {
-          "id": 65,
-          "pts": 53
-        },
-        {
-          "id": 66,
-          "pts": 53
-        },
-        {
-          "id": 67,
-          "pts": 53
-        },
-        {
-          "id": 68,
-          "pts": 54
-        },
-        {
-          "id": 69,
-          "pts": 54
-        },
-        {
-          "id": 70,
-          "pts": 55
-        },
-        {
-          "id": 71,
-          "pts": 58
-        },
-        {
-          "id": 72,
-          "pts": 59
-        },
-        {
-          "id": 1072,
-          "pts": 59
-        },
-        {
-          "id": 1073,
-          "pts": 59
-        },
-        {
-          "id": 1074,
-          "pts": 59
-        },
-        {
-          "id": 1075,
-          "pts": 59
-        },
-        {
-          "id": 1076,
-          "pts": 60
-        },
-        {
-          "id": 1077,
-          "pts": 61
-        },
-        {
-          "id": 1078,
-          "pts": 61
-        },
-        {
-          "id": 1079,
-          "pts": 62
-        },
-        {
-          "id": 1080,
-          "pts": 62
-        },
-        {
-          "id": 1081,
-          "pts": 65
-        },
-        {
-          "id": 1082,
-          "pts": 68
-        },
-        {
-          "id": 1083,
-          "pts": 68
-        },
-        {
-          "id": 1084,
-          "pts": 69
-        },
-        {
-          "id": 1085,
-          "pts": 69
-        }
-      ]
-    },
-    {
       "pos": 7,
       "name": "Yosember",
       "pts": 67,
-      "diff": -15,
+      "diff": -16,
       "acumulado": [
         {
           "id": 1,
@@ -2469,7 +2469,7 @@
     {
       "pos": 8,
       "name": "Peter",
-      "pts": 66,
+      "pts": 67,
       "diff": -16,
       "acumulado": [
         {
@@ -2814,14 +2814,14 @@
         },
         {
           "id": 1085,
-          "pts": 66
+          "pts": 67
         }
       ]
     },
     {
       "pos": 9,
       "name": "Carlos",
-      "pts": 54,
+      "pts": 55,
       "diff": -28,
       "acumulado": [
         {
@@ -3166,14 +3166,14 @@
         },
         {
           "id": 1085,
-          "pts": 54
+          "pts": 55
         }
       ]
     },
     {
       "pos": 10,
       "name": "Mayra",
-      "pts": 51,
+      "pts": 52,
       "diff": -31,
       "acumulado": [
         {
@@ -3518,7 +3518,7 @@
         },
         {
           "id": 1085,
-          "pts": 51
+          "pts": 52
         }
       ]
     }
@@ -5101,7 +5101,7 @@
       ]
     },
     "Carlos": {
-      "pts_total": 54,
+      "pts_total": 55,
       "partidos": [
         {
           "id": 1,
@@ -5728,7 +5728,7 @@
           "id": 1085,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "Australia 1 - 1 Egipto",
           "pred_local": "Australia",
           "pred_visitante": "Egipto"
@@ -6677,7 +6677,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 69,
+      "pts_total": 70,
       "partidos": [
         {
           "id": 1,
@@ -7304,7 +7304,7 @@
           "id": 1085,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "Australia 1 - 1 Egipto",
           "pred_local": "Australia",
           "pred_visitante": "Egipto"
@@ -8253,7 +8253,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 51,
+      "pts_total": 52,
       "partidos": [
         {
           "id": 1,
@@ -8880,7 +8880,7 @@
           "id": 1085,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "Australia 1 - 1 Egipto",
           "pred_local": "Australia",
           "pred_visitante": "Egipto"
@@ -9041,7 +9041,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 66,
+      "pts_total": 67,
       "partidos": [
         {
           "id": 1,
@@ -9668,7 +9668,7 @@
           "id": 1085,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "Australia 1 - 1 Egipto",
           "pred_local": "Australia",
           "pred_visitante": "Egipto"
@@ -10617,7 +10617,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 82,
+      "pts_total": 83,
       "partidos": [
         {
           "id": 1,
@@ -11244,7 +11244,7 @@
           "id": 1085,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "Australia 1 - 1 Egipto",
           "pred_local": "Australia",
           "pred_visitante": "Egipto"
@@ -13468,12 +13468,12 @@
       "jornada": 0,
       "local": "Argentina",
       "visitante": "Cabo Verde",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 1,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-07-03T22:00:00Z",
-      "ganador": null
+      "ganador": "local"
     },
     {
       "id": 1087,
@@ -13751,7 +13751,21 @@
       "ganador": "local"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 1086,
+      "grupo": "16avos de Final",
+      "jornada": 0,
+      "local": "Argentina",
+      "visitante": "Cabo Verde",
+      "goles_l": 1,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-07-03T22:00:00Z",
+      "ganador": "local"
+    }
+  ],
   "stats": {
     "jugados": 86,
     "pendientes": 17
