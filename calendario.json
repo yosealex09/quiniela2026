@@ -647,8 +647,8 @@
     "id": 1092,
     "grupo": "Octavos de Final",
     "jornada": 0,
-    "local": "Equipo E",
-    "visitante": "Equipo U"
+    "local": "Portugal",
+    "visitante": "España"
   },
   {
     "id": 1093,
@@ -661,15 +661,15 @@
     "id": 1094,
     "grupo": "Octavos de Final",
     "jornada": 0,
-    "local": "Equipo G",
-    "visitante": "Equipo W"
+    "local": "Argentina",
+    "visitante": "Egipto"
   },
   {
     "id": 1095,
     "grupo": "Octavos de Final",
     "jornada": 0,
-    "local": "Equipo H",
-    "visitante": "Equipo X"
+    "local": "Suiza",
+    "visitante": "Colombia"
   },
   {
     "id": 1096,
