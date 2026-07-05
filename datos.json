@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "04/07/2026 12:09",
+  "actualizado": "04/07/2026 22:51",
   "ranking": [
     {
       "pos": 1,
@@ -358,6 +358,14 @@
         },
         {
           "id": 1087,
+          "pts": 84
+        },
+        {
+          "id": 1088,
+          "pts": 84
+        },
+        {
+          "id": 1089,
           "pts": 84
         }
       ]
@@ -719,6 +727,14 @@
         {
           "id": 1087,
           "pts": 83
+        },
+        {
+          "id": 1088,
+          "pts": 83
+        },
+        {
+          "id": 1089,
+          "pts": 83
         }
       ]
     },
@@ -1078,6 +1094,14 @@
         },
         {
           "id": 1087,
+          "pts": 78
+        },
+        {
+          "id": 1088,
+          "pts": 78
+        },
+        {
+          "id": 1089,
           "pts": 78
         }
       ]
@@ -1439,6 +1463,14 @@
         {
           "id": 1087,
           "pts": 77
+        },
+        {
+          "id": 1088,
+          "pts": 77
+        },
+        {
+          "id": 1089,
+          "pts": 77
         }
       ]
     },
@@ -1798,6 +1830,14 @@
         },
         {
           "id": 1087,
+          "pts": 71
+        },
+        {
+          "id": 1088,
+          "pts": 71
+        },
+        {
+          "id": 1089,
           "pts": 71
         }
       ]
@@ -2159,6 +2199,14 @@
         {
           "id": 1087,
           "pts": 71
+        },
+        {
+          "id": 1088,
+          "pts": 71
+        },
+        {
+          "id": 1089,
+          "pts": 71
         }
       ]
     },
@@ -2518,6 +2566,14 @@
         },
         {
           "id": 1087,
+          "pts": 69
+        },
+        {
+          "id": 1088,
+          "pts": 69
+        },
+        {
+          "id": 1089,
           "pts": 69
         }
       ]
@@ -2879,6 +2935,14 @@
         {
           "id": 1087,
           "pts": 69
+        },
+        {
+          "id": 1088,
+          "pts": 69
+        },
+        {
+          "id": 1089,
+          "pts": 69
         }
       ]
     },
@@ -3239,6 +3303,14 @@
         {
           "id": 1087,
           "pts": 57
+        },
+        {
+          "id": 1088,
+          "pts": 57
+        },
+        {
+          "id": 1089,
+          "pts": 57
         }
       ]
     },
@@ -3598,6 +3670,14 @@
         },
         {
           "id": 1087,
+          "pts": 56
+        },
+        {
+          "id": 1088,
+          "pts": 56
+        },
+        {
+          "id": 1089,
           "pts": 56
         }
       ]
@@ -4259,8 +4339,8 @@
           "id": 1088,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -4268,8 +4348,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -5047,8 +5127,8 @@
           "id": 1088,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -5056,8 +5136,8 @@
           "id": 1089,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -5835,8 +5915,8 @@
           "id": 1088,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -5844,8 +5924,8 @@
           "id": 1089,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -6623,8 +6703,8 @@
           "id": 1088,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -6632,8 +6712,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -7411,8 +7491,8 @@
           "id": 1088,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -7420,8 +7500,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Sudáfrica",
           "pred_visitante": "Países Bajos"
         },
@@ -8199,8 +8279,8 @@
           "id": 1088,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -8208,8 +8288,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -8987,8 +9067,8 @@
           "id": 1088,
           "pred_l": 3,
           "pred_v": 4,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -8996,8 +9076,8 @@
           "id": 1089,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -9775,8 +9855,8 @@
           "id": 1088,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -9784,8 +9864,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -10563,8 +10643,8 @@
           "id": 1088,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -10572,8 +10652,8 @@
           "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -11351,8 +11431,8 @@
           "id": 1088,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Francia"
         },
@@ -11360,8 +11440,8 @@
           "id": 1089,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
@@ -13574,12 +13654,12 @@
       "jornada": 0,
       "local": "Canadá",
       "visitante": "Marruecos",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 0,
+      "goles_v": 3,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-04T17:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1089,
@@ -13587,12 +13667,12 @@
       "jornada": 0,
       "local": "Paraguay",
       "visitante": "Francia",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 0,
+      "goles_v": 1,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-04T21:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1090,
@@ -13766,6 +13846,32 @@
   ],
   "ultimos5": [
     {
+      "id": 1089,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Paraguay",
+      "visitante": "Francia",
+      "goles_l": 0,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-04T21:00:00Z",
+      "ganador": "visitante"
+    },
+    {
+      "id": 1088,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Canadá",
+      "visitante": "Marruecos",
+      "goles_l": 0,
+      "goles_v": 3,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-04T17:00:00Z",
+      "ganador": "visitante"
+    },
+    {
       "id": 1087,
       "grupo": "16avos de Final",
       "jornada": 0,
@@ -13803,37 +13909,11 @@
       "en_vivo": false,
       "fecha": "2026-07-03T18:00:00Z",
       "ganador": "visitante"
-    },
-    {
-      "id": 1084,
-      "grupo": "16avos de Final",
-      "jornada": 0,
-      "local": "Suiza",
-      "visitante": "Argelia",
-      "goles_l": 2,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-03T03:00:00Z",
-      "ganador": "local"
-    },
-    {
-      "id": 1083,
-      "grupo": "16avos de Final",
-      "jornada": 0,
-      "local": "Portugal",
-      "visitante": "Croacia",
-      "goles_l": 2,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-02T23:00:00Z",
-      "ganador": "local"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 88,
-    "pendientes": 15
+    "jugados": 90,
+    "pendientes": 13
   }
 }
