@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "04/07/2026 22:51",
+  "actualizado": "06/07/2026 09:24",
   "ranking": [
     {
       "pos": 1,
@@ -366,6 +366,14 @@
         },
         {
           "id": 1089,
+          "pts": 84
+        },
+        {
+          "id": 1090,
+          "pts": 84
+        },
+        {
+          "id": 1091,
           "pts": 84
         }
       ]
@@ -735,6 +743,14 @@
         {
           "id": 1089,
           "pts": 83
+        },
+        {
+          "id": 1090,
+          "pts": 83
+        },
+        {
+          "id": 1091,
+          "pts": 83
         }
       ]
     },
@@ -1102,6 +1118,14 @@
         },
         {
           "id": 1089,
+          "pts": 78
+        },
+        {
+          "id": 1090,
+          "pts": 78
+        },
+        {
+          "id": 1091,
           "pts": 78
         }
       ]
@@ -1471,6 +1495,14 @@
         {
           "id": 1089,
           "pts": 77
+        },
+        {
+          "id": 1090,
+          "pts": 77
+        },
+        {
+          "id": 1091,
+          "pts": 77
         }
       ]
     },
@@ -1838,6 +1870,14 @@
         },
         {
           "id": 1089,
+          "pts": 71
+        },
+        {
+          "id": 1090,
+          "pts": 71
+        },
+        {
+          "id": 1091,
           "pts": 71
         }
       ]
@@ -2207,6 +2247,14 @@
         {
           "id": 1089,
           "pts": 71
+        },
+        {
+          "id": 1090,
+          "pts": 71
+        },
+        {
+          "id": 1091,
+          "pts": 71
         }
       ]
     },
@@ -2574,6 +2622,14 @@
         },
         {
           "id": 1089,
+          "pts": 69
+        },
+        {
+          "id": 1090,
+          "pts": 69
+        },
+        {
+          "id": 1091,
           "pts": 69
         }
       ]
@@ -2943,6 +2999,14 @@
         {
           "id": 1089,
           "pts": 69
+        },
+        {
+          "id": 1090,
+          "pts": 69
+        },
+        {
+          "id": 1091,
+          "pts": 69
         }
       ]
     },
@@ -3311,6 +3375,14 @@
         {
           "id": 1089,
           "pts": 57
+        },
+        {
+          "id": 1090,
+          "pts": 57
+        },
+        {
+          "id": 1091,
+          "pts": 57
         }
       ]
     },
@@ -3678,6 +3750,14 @@
         },
         {
           "id": 1089,
+          "pts": 56
+        },
+        {
+          "id": 1090,
+          "pts": 56
+        },
+        {
+          "id": 1091,
           "pts": 56
         }
       ]
@@ -4357,8 +4437,8 @@
           "id": 1090,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -4366,8 +4446,8 @@
           "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -5145,8 +5225,8 @@
           "id": 1090,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -5154,8 +5234,8 @@
           "id": 1091,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -5933,8 +6013,8 @@
           "id": 1090,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -5942,8 +6022,8 @@
           "id": 1091,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -6721,8 +6801,8 @@
           "id": 1090,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -6730,8 +6810,8 @@
           "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -7509,8 +7589,8 @@
           "id": 1090,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -7518,8 +7598,8 @@
           "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Senegal"
         },
@@ -8297,8 +8377,8 @@
           "id": 1090,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -8306,8 +8386,8 @@
           "id": 1091,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -9085,8 +9165,8 @@
           "id": 1090,
           "pred_l": 4,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -9094,8 +9174,8 @@
           "id": 1091,
           "pred_l": 3,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Senegal"
         },
@@ -9873,8 +9953,8 @@
           "id": 1090,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -9882,8 +9962,8 @@
           "id": 1091,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -10661,8 +10741,8 @@
           "id": 1090,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -10670,8 +10750,8 @@
           "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -11449,8 +11529,8 @@
           "id": 1090,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Portugal",
           "pred_visitante": "España"
         },
@@ -11458,8 +11538,8 @@
           "id": 1091,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "USA",
           "pred_visitante": "Bélgica"
         },
@@ -13680,12 +13760,12 @@
       "jornada": 0,
       "local": "Brasil",
       "visitante": "Noruega",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-05T20:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1091,
@@ -13693,12 +13773,12 @@
       "jornada": 0,
       "local": "México",
       "visitante": "Inglaterra",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 2,
+      "goles_v": 3,
+      "jugado": true,
       "en_vivo": false,
-      "fecha": "2026-07-06T00:00:00Z",
-      "ganador": null
+      "fecha": "2026-07-06T01:00:00Z",
+      "ganador": "visitante"
     },
     {
       "id": 1092,
@@ -13756,13 +13836,13 @@
       "id": 1096,
       "grupo": "Cuartos de Final",
       "jornada": 0,
-      "local": "Equipo A",
-      "visitante": "Equipo Q",
+      "local": "Francia",
+      "visitante": "Marruecos",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-09T20:00:00Z",
       "ganador": null
     },
     {
@@ -13782,13 +13862,13 @@
       "id": 1098,
       "grupo": "Cuartos de Final",
       "jornada": 0,
-      "local": "Equipo C",
-      "visitante": "Equipo S",
+      "local": "Noruega",
+      "visitante": "Inglaterra",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-11T21:00:00Z",
       "ganador": null
     },
     {
@@ -13846,6 +13926,32 @@
   ],
   "ultimos5": [
     {
+      "id": 1091,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "México",
+      "visitante": "Inglaterra",
+      "goles_l": 2,
+      "goles_v": 3,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-06T01:00:00Z",
+      "ganador": "visitante"
+    },
+    {
+      "id": 1090,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Brasil",
+      "visitante": "Noruega",
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-05T20:00:00Z",
+      "ganador": "visitante"
+    },
+    {
       "id": 1089,
       "grupo": "Octavos de Final",
       "jornada": 0,
@@ -13883,37 +13989,11 @@
       "en_vivo": false,
       "fecha": "2026-07-04T01:30:00Z",
       "ganador": "local"
-    },
-    {
-      "id": 1086,
-      "grupo": "16avos de Final",
-      "jornada": 0,
-      "local": "Argentina",
-      "visitante": "Cabo Verde",
-      "goles_l": 3,
-      "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-03T22:00:00Z",
-      "ganador": "local"
-    },
-    {
-      "id": 1085,
-      "grupo": "16avos de Final",
-      "jornada": 0,
-      "local": "Australia",
-      "visitante": "Egipto",
-      "goles_l": 1,
-      "goles_v": 1,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-03T18:00:00Z",
-      "ganador": "visitante"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 90,
-    "pendientes": 13
+    "jugados": 92,
+    "pendientes": 11
   }
 }
