@@ -1,9 +1,385 @@
 {
   "ok": true,
-  "actualizado": "06/07/2026 09:24",
+  "actualizado": "06/07/2026 09:54",
   "ranking": [
     {
       "pos": 1,
+      "name": "Carolina",
+      "pts": 84,
+      "diff": 0,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 3
+        },
+        {
+          "id": 2,
+          "pts": 3
+        },
+        {
+          "id": 3,
+          "pts": 4
+        },
+        {
+          "id": 4,
+          "pts": 4
+        },
+        {
+          "id": 5,
+          "pts": 5
+        },
+        {
+          "id": 6,
+          "pts": 5
+        },
+        {
+          "id": 7,
+          "pts": 5
+        },
+        {
+          "id": 8,
+          "pts": 5
+        },
+        {
+          "id": 9,
+          "pts": 6
+        },
+        {
+          "id": 10,
+          "pts": 7
+        },
+        {
+          "id": 11,
+          "pts": 7
+        },
+        {
+          "id": 12,
+          "pts": 8
+        },
+        {
+          "id": 13,
+          "pts": 8
+        },
+        {
+          "id": 14,
+          "pts": 9
+        },
+        {
+          "id": 15,
+          "pts": 12
+        },
+        {
+          "id": 16,
+          "pts": 12
+        },
+        {
+          "id": 17,
+          "pts": 13
+        },
+        {
+          "id": 18,
+          "pts": 14
+        },
+        {
+          "id": 19,
+          "pts": 15
+        },
+        {
+          "id": 20,
+          "pts": 15
+        },
+        {
+          "id": 21,
+          "pts": 18
+        },
+        {
+          "id": 22,
+          "pts": 18
+        },
+        {
+          "id": 23,
+          "pts": 19
+        },
+        {
+          "id": 24,
+          "pts": 20
+        },
+        {
+          "id": 25,
+          "pts": 21
+        },
+        {
+          "id": 26,
+          "pts": 22
+        },
+        {
+          "id": 27,
+          "pts": 25
+        },
+        {
+          "id": 28,
+          "pts": 25
+        },
+        {
+          "id": 29,
+          "pts": 25
+        },
+        {
+          "id": 30,
+          "pts": 28
+        },
+        {
+          "id": 31,
+          "pts": 28
+        },
+        {
+          "id": 32,
+          "pts": 29
+        },
+        {
+          "id": 33,
+          "pts": 30
+        },
+        {
+          "id": 34,
+          "pts": 31
+        },
+        {
+          "id": 35,
+          "pts": 32
+        },
+        {
+          "id": 36,
+          "pts": 35
+        },
+        {
+          "id": 37,
+          "pts": 35
+        },
+        {
+          "id": 38,
+          "pts": 35
+        },
+        {
+          "id": 39,
+          "pts": 35
+        },
+        {
+          "id": 40,
+          "pts": 36
+        },
+        {
+          "id": 41,
+          "pts": 37
+        },
+        {
+          "id": 42,
+          "pts": 40
+        },
+        {
+          "id": 43,
+          "pts": 40
+        },
+        {
+          "id": 44,
+          "pts": 40
+        },
+        {
+          "id": 45,
+          "pts": 41
+        },
+        {
+          "id": 46,
+          "pts": 41
+        },
+        {
+          "id": 47,
+          "pts": 41
+        },
+        {
+          "id": 48,
+          "pts": 42
+        },
+        {
+          "id": 49,
+          "pts": 43
+        },
+        {
+          "id": 50,
+          "pts": 44
+        },
+        {
+          "id": 51,
+          "pts": 47
+        },
+        {
+          "id": 52,
+          "pts": 47
+        },
+        {
+          "id": 53,
+          "pts": 48
+        },
+        {
+          "id": 54,
+          "pts": 49
+        },
+        {
+          "id": 55,
+          "pts": 50
+        },
+        {
+          "id": 56,
+          "pts": 51
+        },
+        {
+          "id": 57,
+          "pts": 52
+        },
+        {
+          "id": 58,
+          "pts": 53
+        },
+        {
+          "id": 59,
+          "pts": 54
+        },
+        {
+          "id": 60,
+          "pts": 55
+        },
+        {
+          "id": 61,
+          "pts": 55
+        },
+        {
+          "id": 62,
+          "pts": 56
+        },
+        {
+          "id": 63,
+          "pts": 57
+        },
+        {
+          "id": 64,
+          "pts": 58
+        },
+        {
+          "id": 65,
+          "pts": 58
+        },
+        {
+          "id": 66,
+          "pts": 58
+        },
+        {
+          "id": 67,
+          "pts": 58
+        },
+        {
+          "id": 68,
+          "pts": 59
+        },
+        {
+          "id": 69,
+          "pts": 59
+        },
+        {
+          "id": 70,
+          "pts": 60
+        },
+        {
+          "id": 71,
+          "pts": 61
+        },
+        {
+          "id": 72,
+          "pts": 61
+        },
+        {
+          "id": 1072,
+          "pts": 62
+        },
+        {
+          "id": 1073,
+          "pts": 63
+        },
+        {
+          "id": 1074,
+          "pts": 63
+        },
+        {
+          "id": 1075,
+          "pts": 66
+        },
+        {
+          "id": 1076,
+          "pts": 69
+        },
+        {
+          "id": 1077,
+          "pts": 70
+        },
+        {
+          "id": 1078,
+          "pts": 71
+        },
+        {
+          "id": 1079,
+          "pts": 72
+        },
+        {
+          "id": 1080,
+          "pts": 73
+        },
+        {
+          "id": 1081,
+          "pts": 76
+        },
+        {
+          "id": 1082,
+          "pts": 77
+        },
+        {
+          "id": 1083,
+          "pts": 77
+        },
+        {
+          "id": 1084,
+          "pts": 77
+        },
+        {
+          "id": 1085,
+          "pts": 81
+        },
+        {
+          "id": 1086,
+          "pts": 82
+        },
+        {
+          "id": 1087,
+          "pts": 83
+        },
+        {
+          "id": 1088,
+          "pts": 83
+        },
+        {
+          "id": 1089,
+          "pts": 83
+        },
+        {
+          "id": 1090,
+          "pts": 83
+        },
+        {
+          "id": 1091,
+          "pts": 84
+        }
+      ]
+    },
+    {
+      "pos": 2,
       "name": "Jose",
       "pts": 84,
       "diff": 0,
@@ -379,386 +755,10 @@
       ]
     },
     {
-      "pos": 2,
-      "name": "Carolina",
-      "pts": 83,
-      "diff": -1,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 3
-        },
-        {
-          "id": 2,
-          "pts": 3
-        },
-        {
-          "id": 3,
-          "pts": 4
-        },
-        {
-          "id": 4,
-          "pts": 4
-        },
-        {
-          "id": 5,
-          "pts": 5
-        },
-        {
-          "id": 6,
-          "pts": 5
-        },
-        {
-          "id": 7,
-          "pts": 5
-        },
-        {
-          "id": 8,
-          "pts": 5
-        },
-        {
-          "id": 9,
-          "pts": 6
-        },
-        {
-          "id": 10,
-          "pts": 7
-        },
-        {
-          "id": 11,
-          "pts": 7
-        },
-        {
-          "id": 12,
-          "pts": 8
-        },
-        {
-          "id": 13,
-          "pts": 8
-        },
-        {
-          "id": 14,
-          "pts": 9
-        },
-        {
-          "id": 15,
-          "pts": 12
-        },
-        {
-          "id": 16,
-          "pts": 12
-        },
-        {
-          "id": 17,
-          "pts": 13
-        },
-        {
-          "id": 18,
-          "pts": 14
-        },
-        {
-          "id": 19,
-          "pts": 15
-        },
-        {
-          "id": 20,
-          "pts": 15
-        },
-        {
-          "id": 21,
-          "pts": 18
-        },
-        {
-          "id": 22,
-          "pts": 18
-        },
-        {
-          "id": 23,
-          "pts": 19
-        },
-        {
-          "id": 24,
-          "pts": 20
-        },
-        {
-          "id": 25,
-          "pts": 21
-        },
-        {
-          "id": 26,
-          "pts": 22
-        },
-        {
-          "id": 27,
-          "pts": 25
-        },
-        {
-          "id": 28,
-          "pts": 25
-        },
-        {
-          "id": 29,
-          "pts": 25
-        },
-        {
-          "id": 30,
-          "pts": 28
-        },
-        {
-          "id": 31,
-          "pts": 28
-        },
-        {
-          "id": 32,
-          "pts": 29
-        },
-        {
-          "id": 33,
-          "pts": 30
-        },
-        {
-          "id": 34,
-          "pts": 31
-        },
-        {
-          "id": 35,
-          "pts": 32
-        },
-        {
-          "id": 36,
-          "pts": 35
-        },
-        {
-          "id": 37,
-          "pts": 35
-        },
-        {
-          "id": 38,
-          "pts": 35
-        },
-        {
-          "id": 39,
-          "pts": 35
-        },
-        {
-          "id": 40,
-          "pts": 36
-        },
-        {
-          "id": 41,
-          "pts": 37
-        },
-        {
-          "id": 42,
-          "pts": 40
-        },
-        {
-          "id": 43,
-          "pts": 40
-        },
-        {
-          "id": 44,
-          "pts": 40
-        },
-        {
-          "id": 45,
-          "pts": 41
-        },
-        {
-          "id": 46,
-          "pts": 41
-        },
-        {
-          "id": 47,
-          "pts": 41
-        },
-        {
-          "id": 48,
-          "pts": 42
-        },
-        {
-          "id": 49,
-          "pts": 43
-        },
-        {
-          "id": 50,
-          "pts": 44
-        },
-        {
-          "id": 51,
-          "pts": 47
-        },
-        {
-          "id": 52,
-          "pts": 47
-        },
-        {
-          "id": 53,
-          "pts": 48
-        },
-        {
-          "id": 54,
-          "pts": 49
-        },
-        {
-          "id": 55,
-          "pts": 50
-        },
-        {
-          "id": 56,
-          "pts": 51
-        },
-        {
-          "id": 57,
-          "pts": 52
-        },
-        {
-          "id": 58,
-          "pts": 53
-        },
-        {
-          "id": 59,
-          "pts": 54
-        },
-        {
-          "id": 60,
-          "pts": 55
-        },
-        {
-          "id": 61,
-          "pts": 55
-        },
-        {
-          "id": 62,
-          "pts": 56
-        },
-        {
-          "id": 63,
-          "pts": 57
-        },
-        {
-          "id": 64,
-          "pts": 58
-        },
-        {
-          "id": 65,
-          "pts": 58
-        },
-        {
-          "id": 66,
-          "pts": 58
-        },
-        {
-          "id": 67,
-          "pts": 58
-        },
-        {
-          "id": 68,
-          "pts": 59
-        },
-        {
-          "id": 69,
-          "pts": 59
-        },
-        {
-          "id": 70,
-          "pts": 60
-        },
-        {
-          "id": 71,
-          "pts": 61
-        },
-        {
-          "id": 72,
-          "pts": 61
-        },
-        {
-          "id": 1072,
-          "pts": 62
-        },
-        {
-          "id": 1073,
-          "pts": 63
-        },
-        {
-          "id": 1074,
-          "pts": 63
-        },
-        {
-          "id": 1075,
-          "pts": 66
-        },
-        {
-          "id": 1076,
-          "pts": 69
-        },
-        {
-          "id": 1077,
-          "pts": 70
-        },
-        {
-          "id": 1078,
-          "pts": 71
-        },
-        {
-          "id": 1079,
-          "pts": 72
-        },
-        {
-          "id": 1080,
-          "pts": 73
-        },
-        {
-          "id": 1081,
-          "pts": 76
-        },
-        {
-          "id": 1082,
-          "pts": 77
-        },
-        {
-          "id": 1083,
-          "pts": 77
-        },
-        {
-          "id": 1084,
-          "pts": 77
-        },
-        {
-          "id": 1085,
-          "pts": 81
-        },
-        {
-          "id": 1086,
-          "pts": 82
-        },
-        {
-          "id": 1087,
-          "pts": 83
-        },
-        {
-          "id": 1088,
-          "pts": 83
-        },
-        {
-          "id": 1089,
-          "pts": 83
-        },
-        {
-          "id": 1090,
-          "pts": 83
-        },
-        {
-          "id": 1091,
-          "pts": 83
-        }
-      ]
-    },
-    {
       "pos": 3,
       "name": "Osmar",
-      "pts": 78,
-      "diff": -6,
+      "pts": 79,
+      "diff": -5,
       "acumulado": [
         {
           "id": 1,
@@ -1126,15 +1126,15 @@
         },
         {
           "id": 1091,
-          "pts": 78
+          "pts": 79
         }
       ]
     },
     {
       "pos": 4,
       "name": "Sol",
-      "pts": 77,
-      "diff": -7,
+      "pts": 78,
+      "diff": -6,
       "acumulado": [
         {
           "id": 1,
@@ -1502,7 +1502,7 @@
         },
         {
           "id": 1091,
-          "pts": 77
+          "pts": 78
         }
       ]
     },
@@ -2261,8 +2261,8 @@
     {
       "pos": 7,
       "name": "Yosember",
-      "pts": 69,
-      "diff": -15,
+      "pts": 70,
+      "diff": -14,
       "acumulado": [
         {
           "id": 1,
@@ -2630,15 +2630,15 @@
         },
         {
           "id": 1091,
-          "pts": 69
+          "pts": 70
         }
       ]
     },
     {
       "pos": 8,
       "name": "Peter",
-      "pts": 69,
-      "diff": -15,
+      "pts": 70,
+      "diff": -14,
       "acumulado": [
         {
           "id": 1,
@@ -3006,7 +3006,7 @@
         },
         {
           "id": 1091,
-          "pts": 69
+          "pts": 70
         }
       ]
     },
@@ -3765,7 +3765,7 @@
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 69,
+      "pts_total": 70,
       "partidos": [
         {
           "id": 1,
@@ -4417,57 +4417,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
-        },
-        {
-          "id": 1092,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 0,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "México",
           "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -4493,8 +4493,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -5206,29 +5206,29 @@
         {
           "id": 1088,
           "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
-          "pred_l": 2,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
           "pred_l": 2,
-          "pred_v": 3,
+          "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
+          "pred_local": "Brasil",
+          "pred_visitante": "Noruega"
         },
         {
           "id": 1091,
@@ -5236,17 +5236,17 @@
           "pred_v": 1,
           "pts": 0,
           "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
+          "pred_local": "México",
+          "pred_visitante": "Inglaterra"
         },
         {
           "id": 1092,
           "pred_l": 2,
-          "pred_v": 1,
+          "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Brasil",
-          "pred_visitante": "Noruega"
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
         },
         {
           "id": 1093,
@@ -5254,8 +5254,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "México",
-          "pred_visitante": "Inglaterra"
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -5281,8 +5281,8 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Alemania",
-          "pred_visitante": "Canadá"
+          "pred_local": "Canadá",
+          "pred_visitante": "Alemania"
         },
         {
           "id": 1097,
@@ -5317,7 +5317,7 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Canadá",
+          "pred_local": "Alemania",
           "pred_visitante": "España"
         },
         {
@@ -5994,56 +5994,56 @@
         {
           "id": 1088,
           "pred_l": 1,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
-          "pred_l": 1,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 1,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
           "pred_l": 2,
-          "pred_v": 2,
+          "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 2,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
-        },
-        {
-          "id": 1092,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 0,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
+          "pred_local": "Ecuador",
+          "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 2,
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Ecuador",
-          "pred_visitante": "Inglaterra"
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 2,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -6069,8 +6069,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -6105,7 +6105,7 @@
           "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Portugal"
         },
         {
@@ -6129,7 +6129,7 @@
       ]
     },
     "Osmar": {
-      "pts_total": 78,
+      "pts_total": 79,
       "partidos": [
         {
           "id": 1,
@@ -6781,48 +6781,48 @@
         },
         {
           "id": 1088,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
-          "pred_l": 1,
-          "pred_v": 2,
+          "pred_l": 2,
+          "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
+          "pred_local": "Brasil",
+          "pred_visitante": "Noruega"
         },
         {
           "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": 0,
+          "pts": 1,
           "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
+          "pred_local": "México",
+          "pred_visitante": "Inglaterra"
         },
         {
           "id": 1092,
-          "pred_l": 2,
-          "pred_v": 1,
+          "pred_l": 1,
+          "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Brasil",
-          "pred_visitante": "Noruega"
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
         },
         {
           "id": 1093,
@@ -6830,8 +6830,8 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "México",
-          "pred_visitante": "Inglaterra"
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -6857,8 +6857,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Alemania",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Alemania"
         },
         {
           "id": 1097,
@@ -6893,7 +6893,7 @@
           "pred_v": 0,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Alemania",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Bélgica"
         },
         {
@@ -6911,7 +6911,7 @@
           "pred_v": 0,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Alemania",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Brasil"
         }
       ]
@@ -7569,57 +7569,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Sudáfrica",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
-          "pred_l": 1,
+          "pred_l": 3,
           "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Senegal"
-        },
-        {
-          "id": 1092,
-          "pred_l": 3,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
+          "pred_local": "Ecuador",
+          "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 1,
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Ecuador",
-          "pred_visitante": "Inglaterra"
+          "pred_local": "USA",
+          "pred_visitante": "Senegal"
         },
         {
           "id": 1094,
@@ -7645,8 +7645,8 @@
           "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -7681,7 +7681,7 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Portugal"
         },
         {
@@ -7705,7 +7705,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 77,
+      "pts_total": 78,
       "partidos": [
         {
           "id": 1,
@@ -8357,57 +8357,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
-          "id": 1090,
-          "pred_l": 0,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
-        },
-        {
-          "id": 1092,
+          "id": 1089,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
+          "id": 1090,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "México",
           "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 0,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -8433,8 +8433,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -8469,7 +8469,7 @@
           "pred_v": 0,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "España"
         },
         {
@@ -8487,7 +8487,7 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Argentina"
         }
       ]
@@ -9145,57 +9145,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 3,
-          "pred_v": 4,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 2,
           "pred_v": 3,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
-          "id": 1090,
-          "pred_l": 4,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
+          "id": 1089,
           "pred_l": 3,
-          "pred_v": 3,
+          "pred_v": 4,
           "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Senegal"
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
         },
         {
-          "id": 1092,
+          "id": 1090,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Japón",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 2,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
+          "pred_local": "México",
+          "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 4,
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "México",
-          "pred_visitante": "Inglaterra"
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 3,
+          "pred_v": 3,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Senegal"
         },
         {
           "id": 1094,
@@ -9221,8 +9221,8 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -9257,7 +9257,7 @@
           "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Portugal"
         },
         {
@@ -9281,7 +9281,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 69,
+      "pts_total": 70,
       "partidos": [
         {
           "id": 1,
@@ -9933,57 +9933,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 1,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
-          "id": 1090,
+          "id": 1089,
           "pred_l": 1,
+          "pred_v": 2,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
+          "id": 1090,
+          "pred_l": 2,
           "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 1,
-          "pred_v": 0,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
-        },
-        {
-          "id": 1092,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "México",
           "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 1,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 1,
+          "pred_v": 0,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -10009,8 +10009,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -10045,7 +10045,7 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Portugal"
         },
         {
@@ -10063,13 +10063,13 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Argentina"
         }
       ]
     },
     "Carolina": {
-      "pts_total": 83,
+      "pts_total": 84,
       "partidos": [
         {
           "id": 1,
@@ -10721,57 +10721,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 1,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 0,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
-          "id": 1090,
-          "pred_l": 2,
-          "pred_v": 2,
-          "pts": 0,
-          "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
+          "id": 1089,
           "pred_l": 1,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
         },
         {
-          "id": 1092,
+          "id": 1090,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Brasil 1 - 2 Noruega",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "México",
           "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 2,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -10797,8 +10797,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -10833,7 +10833,7 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Portugal"
         },
         {
@@ -10851,7 +10851,7 @@
           "pred_v": 2,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Argentina"
         }
       ]
@@ -11509,57 +11509,57 @@
         },
         {
           "id": 1088,
-          "pred_l": 2,
-          "pred_v": 3,
-          "pts": 0,
-          "resultado": "Canadá 0 - 3 Marruecos",
-          "pred_local": "Alemania",
-          "pred_visitante": "Francia"
-        },
-        {
-          "id": 1089,
           "pred_l": 1,
           "pred_v": 2,
           "pts": 0,
-          "resultado": "Paraguay 0 - 1 Francia",
+          "resultado": "Canadá 0 - 3 Marruecos",
           "pred_local": "Canadá",
           "pred_visitante": "Países Bajos"
         },
         {
+          "id": 1089,
+          "pred_l": 2,
+          "pred_v": 3,
+          "pts": 0,
+          "resultado": "Paraguay 0 - 1 Francia",
+          "pred_local": "Alemania",
+          "pred_visitante": "Francia"
+        },
+        {
           "id": 1090,
-          "pred_l": 1,
-          "pred_v": 2,
+          "pred_l": 2,
+          "pred_v": 1,
           "pts": 0,
           "resultado": "Brasil 1 - 2 Noruega",
-          "pred_local": "Portugal",
-          "pred_visitante": "España"
-        },
-        {
-          "id": 1091,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": 0,
-          "resultado": "México 2 - 3 Inglaterra",
-          "pred_local": "USA",
-          "pred_visitante": "Bélgica"
-        },
-        {
-          "id": 1092,
-          "pred_l": 2,
-          "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
           "pred_local": "Brasil",
           "pred_visitante": "Noruega"
         },
         {
-          "id": 1093,
+          "id": 1091,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "Ecuador",
           "pred_visitante": "Inglaterra"
+        },
+        {
+          "id": 1092,
+          "pred_l": 1,
+          "pred_v": 2,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "Portugal",
+          "pred_visitante": "España"
+        },
+        {
+          "id": 1093,
+          "pred_l": 2,
+          "pred_v": 1,
+          "pts": null,
+          "resultado": "Pendiente",
+          "pred_local": "USA",
+          "pred_visitante": "Bélgica"
         },
         {
           "id": 1094,
@@ -11585,8 +11585,8 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
-          "pred_visitante": "Países Bajos"
+          "pred_local": "Países Bajos",
+          "pred_visitante": "Francia"
         },
         {
           "id": 1097,
@@ -11621,7 +11621,7 @@
           "pred_v": 1,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "España"
         },
         {
@@ -11639,7 +11639,7 @@
           "pred_v": 3,
           "pts": null,
           "resultado": "Pendiente",
-          "pred_local": "Francia",
+          "pred_local": "Países Bajos",
           "pred_visitante": "Argentina"
         }
       ]
