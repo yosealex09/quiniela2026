@@ -92,6 +92,7 @@
     <div class="eyebrow">Quiniela Mundial 2026</div>
     <h1>⚽ Tabla de posiciones</h1>
     <p id="subtitulo">Cargando datos…</p>
+    <p id="comentario" style="margin-top:10px;font-size:13px;opacity:.85;font-style:italic;"></p>
   </div>
 
   <div class="tabs">
@@ -219,6 +220,7 @@ async function cargar() {
     renderKpis();
     renderPlayerBtns();
     document.getElementById('subtitulo').textContent = `Datos leídos del Excel · Actualizado: ${DATA.actualizado}`;
+    if (DATA.comentario) document.getElementById('comentario').textContent = DATA.comentario;
     document.getElementById('footer').textContent = `Quiniela Mundial 2026 · ${DATA.stats.jugados} partidos jugados · ${DATA.actualizado}`;
     document.getElementById('errorBox').style.display = 'none';
   } catch(e) {
