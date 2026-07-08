@@ -1,7 +1,8 @@
 {
   "ok": true,
-  "actualizado": "07/07/2026 14:18",
-  "comentario": "😅 Jose sudando frío en el primer lugar con 88 pts. Carolina mirando con cara de \"un partido más y te paso.\"",
+  "actualizado": "07/07/2026 17:55",
+  "comentario": "😬 Jose en la cima con 88 pts, agarrado de las uñas. Carolina mirando con cara de \"respira que ya llego.\"",
+  "comentario_partido": "🎉 Argentina clasifica a Cuartos con un 3-2 que nadie va a olvidar pronto.",
   "ranking": [
     {
       "pos": 1,
@@ -13946,10 +13947,10 @@
       "jornada": 0,
       "local": "Suiza",
       "visitante": "Colombia",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 0,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-07-07T20:00:00Z",
       "ganador": null
     },
@@ -14112,7 +14113,21 @@
       "ganador": "visitante"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 1095,
+      "grupo": "Octavos de Final",
+      "jornada": 0,
+      "local": "Suiza",
+      "visitante": "Colombia",
+      "goles_l": 0,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-07-07T20:00:00Z",
+      "ganador": null
+    }
+  ],
   "stats": {
     "jugados": 95,
     "pendientes": 8

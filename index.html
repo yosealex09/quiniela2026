@@ -122,6 +122,7 @@
         <div class="panel">
           <h2>Últimos resultados</h2>
           <div id="ultimos"></div>
+          <p id="comentario-partido" style="margin-top:10px;font-size:13px;color:#48e1a6;font-style:italic;display:none"></p>
         </div>
         <div class="panel">
           <div class="kpis" id="kpis">
@@ -221,6 +222,8 @@ async function cargar() {
     renderPlayerBtns();
     document.getElementById('subtitulo').textContent = `Datos leídos del Excel · Actualizado: ${DATA.actualizado}`;
     if (DATA.comentario) document.getElementById('comentario').textContent = DATA.comentario;
+    const elP = document.getElementById('comentario-partido');
+    if (DATA.comentario_partido) { elP.textContent = DATA.comentario_partido; elP.style.display = ''; }
     document.getElementById('footer').textContent = `Quiniela Mundial 2026 · ${DATA.stats.jugados} partidos jugados · ${DATA.actualizado}`;
     document.getElementById('errorBox').style.display = 'none';
   } catch(e) {
