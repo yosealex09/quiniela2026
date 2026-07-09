@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "actualizado": "09/07/2026 17:39",
+  "actualizado": "09/07/2026 18:07",
   "comentario": "👑 Jose lidera con 89 pts por apenas 2 pt(s). Carolina mirando con cara de \"ya casi te tengo.\"",
-  "comentario_partido": "😬 Suiza 0-0 Colombia y a penales. Suiza aguantó los nervios. Colombia se fue sin respirar.",
+  "comentario_partido": "😤 Francia 2-0 sobre Marruecos. No fue bonito pero cuenta igual.",
   "ranking": [
     {
       "pos": 1,
@@ -392,6 +392,10 @@
         },
         {
           "id": 1095,
+          "pts": 89
+        },
+        {
+          "id": 1096,
           "pts": 89
         }
       ]
@@ -785,6 +789,10 @@
         {
           "id": 1095,
           "pts": 87
+        },
+        {
+          "id": 1096,
+          "pts": 87
         }
       ]
     },
@@ -1176,6 +1184,10 @@
         },
         {
           "id": 1095,
+          "pts": 81
+        },
+        {
+          "id": 1096,
           "pts": 81
         }
       ]
@@ -1569,6 +1581,10 @@
         {
           "id": 1095,
           "pts": 79
+        },
+        {
+          "id": 1096,
+          "pts": 79
         }
       ]
     },
@@ -1960,6 +1976,10 @@
         },
         {
           "id": 1095,
+          "pts": 73
+        },
+        {
+          "id": 1096,
           "pts": 73
         }
       ]
@@ -2353,6 +2373,10 @@
         {
           "id": 1095,
           "pts": 72
+        },
+        {
+          "id": 1096,
+          "pts": 72
         }
       ]
     },
@@ -2744,6 +2768,10 @@
         },
         {
           "id": 1095,
+          "pts": 71
+        },
+        {
+          "id": 1096,
           "pts": 71
         }
       ]
@@ -3137,6 +3165,10 @@
         {
           "id": 1095,
           "pts": 71
+        },
+        {
+          "id": 1096,
+          "pts": 71
         }
       ]
     },
@@ -3529,6 +3561,10 @@
         {
           "id": 1095,
           "pts": 59
+        },
+        {
+          "id": 1096,
+          "pts": 59
         }
       ]
     },
@@ -3920,6 +3956,10 @@
         },
         {
           "id": 1095,
+          "pts": 58
+        },
+        {
+          "id": 1096,
           "pts": 58
         }
       ]
@@ -4653,8 +4693,8 @@
           "id": 1096,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -5441,8 +5481,8 @@
           "id": 1096,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Canadá"
         },
@@ -6229,8 +6269,8 @@
           "id": 1096,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -7017,8 +7057,8 @@
           "id": 1096,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Alemania",
           "pred_visitante": "Países Bajos"
         },
@@ -7805,8 +7845,8 @@
           "id": 1096,
           "pred_l": 4,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -8593,8 +8633,8 @@
           "id": 1096,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -9381,8 +9421,8 @@
           "id": 1096,
           "pred_l": 4,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -10169,8 +10209,8 @@
           "id": 1096,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -10957,8 +10997,8 @@
           "id": 1096,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -11745,8 +11785,8 @@
           "id": 1096,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Francia 2 - 0 Marruecos",
           "pred_local": "Francia",
           "pred_visitante": "Países Bajos"
         },
@@ -14002,8 +14042,8 @@
       "visitante": "Marruecos",
       "goles_l": 2,
       "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
+      "jugado": true,
+      "en_vivo": false,
       "fecha": "2026-07-09T20:00:00Z",
       "ganador": "local"
     },
@@ -14088,6 +14128,19 @@
   ],
   "ultimos5": [
     {
+      "id": 1096,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Francia",
+      "visitante": "Marruecos",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-09T20:00:00Z",
+      "ganador": "local"
+    },
+    {
       "id": 1095,
       "grupo": "Octavos de Final",
       "jornada": 0,
@@ -14138,39 +14191,12 @@
       "en_vivo": false,
       "fecha": "2026-07-06T19:00:00Z",
       "ganador": "visitante"
-    },
-    {
-      "id": 1091,
-      "grupo": "Octavos de Final",
-      "jornada": 0,
-      "local": "México",
-      "visitante": "Inglaterra",
-      "goles_l": 2,
-      "goles_v": 3,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-06T01:00:00Z",
-      "ganador": "visitante"
     }
   ],
-  "en_vivo": [
-    {
-      "id": 1096,
-      "grupo": "Cuartos de Final",
-      "jornada": 0,
-      "local": "Francia",
-      "visitante": "Marruecos",
-      "goles_l": 2,
-      "goles_v": 0,
-      "jugado": false,
-      "en_vivo": true,
-      "fecha": "2026-07-09T20:00:00Z",
-      "ganador": "local"
-    }
-  ],
+  "en_vivo": [],
   "stats": {
-    "jugados": 96,
-    "pendientes": 7
+    "jugados": 97,
+    "pendientes": 6
   },
   "flash": {
     "cuartos": {
@@ -14184,16 +14210,52 @@
       "ranking": [
         {
           "pos": 1,
-          "name": "Carlos",
-          "pts": 0,
+          "name": "Jonathan",
+          "pts": 3,
           "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 0,
+              "penal": null,
+              "pts": 3
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 1,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 2,
+          "name": "Carlos",
+          "pts": 1,
+          "diff": -2,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 3,
               "pred_v": 2,
               "penal": null,
-              "pts": null
+              "pts": 1
             },
             {
               "id": 1097,
@@ -14219,17 +14281,17 @@
           ]
         },
         {
-          "pos": 2,
+          "pos": 3,
           "name": "Mayra",
-          "pts": 0,
-          "diff": 0,
+          "pts": 1,
+          "diff": -2,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 1
             },
             {
               "id": 1097,
@@ -14255,72 +14317,36 @@
           ]
         },
         {
-          "pos": 3,
-          "name": "Jose",
-          "pts": 0,
-          "diff": 0,
-          "detalle": [
-            {
-              "id": 1096,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": null
-            },
-            {
-              "id": 1097,
-              "pred_l": 1,
-              "pred_v": 0,
-              "penal": null,
-              "pts": null
-            },
-            {
-              "id": 1098,
-              "pred_l": 1,
-              "pred_v": 2,
-              "penal": null,
-              "pts": null
-            },
-            {
-              "id": 1099,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": null
-            }
-          ]
-        },
-        {
           "pos": 4,
-          "name": "Jonathan",
-          "pts": 0,
-          "diff": 0,
+          "name": "Jose",
+          "pts": 1,
+          "diff": -2,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": 1
+            },
+            {
+              "id": 1097,
+              "pred_l": 1,
               "pred_v": 0,
               "penal": null,
               "pts": null
             },
             {
-              "id": 1097,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": null
-            },
-            {
               "id": 1098,
-              "pred_l": 2,
-              "pred_v": 1,
+              "pred_l": 1,
+              "pred_v": 2,
               "penal": null,
               "pts": null
             },
             {
               "id": 1099,
-              "pred_l": 1,
-              "pred_v": 2,
+              "pred_l": 2,
+              "pred_v": 1,
               "penal": null,
               "pts": null
             }
@@ -14328,29 +14354,29 @@
         },
         {
           "pos": 5,
-          "name": "Josmary",
-          "pts": 0,
-          "diff": 0,
+          "name": "Sol",
+          "pts": 1,
+          "diff": -2,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 2,
-              "pred_v": 2,
-              "penal": "Francia",
-              "pts": null
+              "pred_v": 1,
+              "penal": null,
+              "pts": 1
             },
             {
               "id": 1097,
-              "pred_l": 2,
-              "pred_v": 1,
+              "pred_l": 1,
+              "pred_v": 0,
               "penal": null,
               "pts": null
             },
             {
               "id": 1098,
               "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
+              "pred_v": 2,
+              "penal": "Noruega",
               "pts": null
             },
             {
@@ -14364,21 +14390,21 @@
         },
         {
           "pos": 6,
-          "name": "Yosember",
+          "name": "Josmary",
           "pts": 0,
-          "diff": 0,
+          "diff": -3,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 2,
               "pred_v": 2,
-              "penal": "Marruecos",
-              "pts": null
+              "penal": "Francia",
+              "pts": 0
             },
             {
               "id": 1097,
               "pred_l": 2,
-              "pred_v": 0,
+              "pred_v": 1,
               "penal": null,
               "pts": null
             },
@@ -14400,20 +14426,20 @@
         },
         {
           "pos": 7,
-          "name": "Sol",
+          "name": "Yosember",
           "pts": 0,
-          "diff": 0,
+          "diff": -3,
           "detalle": [
             {
               "id": 1096,
               "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": null
+              "pred_v": 2,
+              "penal": "Marruecos",
+              "pts": 0
             },
             {
               "id": 1097,
-              "pred_l": 1,
+              "pred_l": 2,
               "pred_v": 0,
               "penal": null,
               "pts": null
@@ -14421,8 +14447,8 @@
             {
               "id": 1098,
               "pred_l": 2,
-              "pred_v": 2,
-              "penal": "Noruega",
+              "pred_v": 1,
+              "penal": null,
               "pts": null
             },
             {
