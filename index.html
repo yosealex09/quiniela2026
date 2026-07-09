@@ -103,6 +103,7 @@
     <div class="tab"         data-page="proximos">🗓️ Próximos</div>
     <div class="tab"         data-page="grafica">📈 Evolución</div>
     <div class="tab"         data-page="comparar">⚖️ Comparar</div>
+    <div class="tab"         data-page="flash">⚡ QuinielaFlash</div>
   </div>
 
   <div id="errorBox" class="error" style="display:none"></div>
@@ -185,6 +186,11 @@
     </div>
   </div>
 
+  <!-- QUINIELA FLASH -->
+  <div id="page-flash" class="page">
+    <div id="flashContent"></div>
+  </div>
+
   <div class="footer" id="footer">Quiniela Mundial 2026</div>
 </div>
 
@@ -206,6 +212,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.page === 'brackets' && DATA) renderBracket();
     if (tab.dataset.page === 'proximos' && DATA) renderProximos();
     if (tab.dataset.page === 'comparar' && DATA) renderComparativo();
+    if (tab.dataset.page === 'flash' && DATA) renderFlash();
   });
 });
 
@@ -687,6 +694,77 @@ function renderComparativo() {
     <div class="compare-grid-wrap">${htmlGrupos}</div>
     <h2 style="font-size:14px;margin:22px 0 10px">🗂️ Eliminatoria</h2>
     <div class="compare-grid-wrap">${htmlElim}</div>`;
+}
+
+// ── QuinielaFlash ─────────────────────────────────────────────────────────────
+function renderFlash() {
+  const flash = DATA.flash || {};
+  const rondas = Object.keys(flash);
+  if (!rondas.length) {
+    document.getElementById('flashContent').innerHTML = '<div class="panel"><p class="pend" style="font-size:13px">No hay datos de QuinielaFlash aún.</p></div>';
+    return;
+  }
+
+  const mapaPartidos = {};
+  (DATA.todos_partidos || []).forEach(p => mapaPartidos[p.id] = p);
+
+  let html = '';
+  rondas.forEach(rKey => {
+    const ronda = flash[rKey];
+    const ranking = ronda.ranking || [];
+    const pids = ronda.partidos || [];
+    if (!ranking.length) return;
+
+    // Encabezado
+    html += `<div style="background:linear-gradient(135deg,rgba(255,209,102,.15),rgba(17,24,39,.9));border:1px solid rgba(255,209,102,.35);border-radius:20px;padding:18px;margin-bottom:18px">
+      <div style="color:var(--gold);font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800;margin-bottom:4px">⚡ QuinielaFlash</div>
+      <h2 style="font-size:20px;font-weight:900;margin-bottom:16px">${ronda.nombre}</h2>`;
+
+    // Ranking compacto
+    html += `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-bottom:20px">`;
+    ranking.forEach(r => {
+      const medal = r.pos === 1 ? '🥇' : r.pos === 2 ? '🥈' : r.pos === 3 ? '🥉' : `${r.pos}°`;
+      const diffTxt = r.diff === 0 ? '<span style="color:var(--accent);font-size:11px;font-weight:800">Líder</span>'
+                                    : `<span style="color:var(--muted);font-size:11px">${r.diff} pts</span>`;
+      html += `<div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:12px;text-align:center">
+        <div style="font-size:20px">${medal}</div>
+        <div style="font-weight:700;font-size:13px;margin:4px 0">${r.name}</div>
+        <div style="font-size:22px;font-weight:900;color:var(--gold)">${r.pts}</div>
+        ${diffTxt}
+      </div>`;
+    });
+    html += `</div>`;
+
+    // Tabla detalle: jugadores × partidos
+    html += `<div style="overflow-x:auto"><table class="ft">
+      <thead><tr>
+        <th>Jugador</th>`;
+    pids.forEach(id => {
+      const p = mapaPartidos[id];
+      const etq = p ? `${p.local}<br><span style="color:var(--muted)">vs</span><br>${p.visitante}` : `#${id}`;
+      html += `<th style="text-align:center;font-size:11px;line-height:1.4">${etq}</th>`;
+    });
+    html += `<th style="text-align:center">Total</th></tr></thead><tbody>`;
+
+    ranking.forEach(r => {
+      html += `<tr><td style="font-weight:700">${r.name}</td>`;
+      (r.detalle || []).forEach(d => {
+        const p = mapaPartidos[d.id];
+        const real = p && p.jugado ? `<div style="font-size:10px;color:var(--muted);margin-top:2px">${p.goles_l}-${p.goles_v}${p.ganador ? '' : ''}</div>` : '';
+        let pred = d.pred_l != null ? `${d.pred_l}-${d.pred_v}` : '—';
+        if (d.penal) pred += `<div style="font-size:10px;color:var(--muted)">(${d.penal})</div>`;
+        const cls = d.pts === 3 ? 'hit3' : d.pts === 2 ? 'hit1' : d.pts === 1 ? 'hit1' : d.pts === 0 ? 'miss' : 'pend';
+        const ptsTxt = d.pts != null ? `<div style="font-size:11px;font-weight:800">${d.pts > 0 ? '+' : ''}${d.pts}p</div>` : '';
+        html += `<td class="${cls}" style="text-align:center">${pred}${real}${ptsTxt}</td>`;
+      });
+      const ptsCls = r.pts > 0 ? 'hit3' : 'pend';
+      html += `<td class="${ptsCls}" style="text-align:center;font-size:18px;font-weight:900">${r.pts}</td></tr>`;
+    });
+
+    html += `</tbody></table></div></div>`;
+  });
+
+  document.getElementById('flashContent').innerHTML = html;
 }
 
 cargar();

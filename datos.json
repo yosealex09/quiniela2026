@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "actualizado": "07/07/2026 20:18",
+  "actualizado": "09/07/2026 17:39",
   "comentario": "👑 Jose lidera con 89 pts por apenas 2 pt(s). Carolina mirando con cara de \"ya casi te tengo.\"",
   "comentario_partido": "😬 Suiza 0-0 Colombia y a penales. Suiza aguantó los nervios. Colombia se fue sin respirar.",
   "ranking": [
@@ -14000,24 +14000,24 @@
       "jornada": 0,
       "local": "Francia",
       "visitante": "Marruecos",
-      "goles_l": null,
-      "goles_v": null,
+      "goles_l": 2,
+      "goles_v": 0,
       "jugado": false,
-      "en_vivo": false,
+      "en_vivo": true,
       "fecha": "2026-07-09T20:00:00Z",
-      "ganador": null
+      "ganador": "local"
     },
     {
       "id": 1097,
       "grupo": "Cuartos de Final",
       "jornada": 0,
-      "local": "Equipo B",
-      "visitante": "Equipo R",
+      "local": "España",
+      "visitante": "Bélgica",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-10T19:00:00Z",
       "ganador": null
     },
     {
@@ -14037,13 +14037,13 @@
       "id": 1099,
       "grupo": "Cuartos de Final",
       "jornada": 0,
-      "local": "Equipo D",
-      "visitante": "Equipo T",
+      "local": "Argentina",
+      "visitante": "Suiza",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-12T01:00:00Z",
       "ganador": null
     },
     {
@@ -14153,9 +14153,288 @@
       "ganador": "visitante"
     }
   ],
-  "en_vivo": [],
+  "en_vivo": [
+    {
+      "id": 1096,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Francia",
+      "visitante": "Marruecos",
+      "goles_l": 2,
+      "goles_v": 0,
+      "jugado": false,
+      "en_vivo": true,
+      "fecha": "2026-07-09T20:00:00Z",
+      "ganador": "local"
+    }
+  ],
   "stats": {
     "jugados": 96,
     "pendientes": 7
+  },
+  "flash": {
+    "cuartos": {
+      "nombre": "Cuartos de Final",
+      "partidos": [
+        1096,
+        1097,
+        1098,
+        1099
+      ],
+      "ranking": [
+        {
+          "pos": 1,
+          "name": "Carlos",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 3,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 1,
+              "pred_v": 1,
+              "penal": "Bélgica",
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 3,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 2,
+          "name": "Mayra",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 3,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 3,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 3,
+          "name": "Jose",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 1,
+              "pred_v": 0,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 1,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 4,
+          "name": "Jonathan",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 0,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 1,
+              "pred_v": 2,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 5,
+          "name": "Josmary",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 2,
+              "penal": "Francia",
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 6,
+          "name": "Yosember",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 2,
+              "penal": "Marruecos",
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 0,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        },
+        {
+          "pos": 7,
+          "name": "Sol",
+          "pts": 0,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1097,
+              "pred_l": 1,
+              "pred_v": 0,
+              "penal": null,
+              "pts": null
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 2,
+              "penal": "Noruega",
+              "pts": null
+            },
+            {
+              "id": 1099,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": null
+            }
+          ]
+        }
+      ]
+    }
   }
 }
