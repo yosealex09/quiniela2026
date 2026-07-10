@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "actualizado": "10/07/2026 09:39",
-  "comentario": "😅 Jose sudando frío en el primer lugar con 92 pts. Carolina mirando con cara de \"un partido más y te paso.\"",
+  "actualizado": "10/07/2026 10:06",
+  "comentario": "👑 Jose lidera con 89 pts por apenas 2 pt(s). Carolina mirando con cara de \"ya casi te tengo.\"",
   "comentario_partido": "😤 Francia 2-0 sobre Marruecos. No fue bonito pero cuenta igual.",
   "ranking": [
     {
       "pos": 1,
       "name": "Jose",
-      "pts": 92,
+      "pts": 89,
       "diff": 0,
       "acumulado": [
         {
@@ -304,107 +304,107 @@
         },
         {
           "id": 1073,
-          "pts": 67
+          "pts": 66
         },
         {
           "id": 1074,
-          "pts": 67
+          "pts": 66
         },
         {
           "id": 1075,
-          "pts": 68
+          "pts": 67
         },
         {
           "id": 1076,
-          "pts": 69
+          "pts": 67
         },
         {
           "id": 1077,
-          "pts": 72
+          "pts": 70
         },
         {
           "id": 1078,
-          "pts": 72
+          "pts": 70
         },
         {
           "id": 1079,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1080,
-          "pts": 74
+          "pts": 72
         },
         {
           "id": 1081,
-          "pts": 77
+          "pts": 75
         },
         {
           "id": 1082,
-          "pts": 80
+          "pts": 78
         },
         {
           "id": 1083,
-          "pts": 83
+          "pts": 81
         },
         {
           "id": 1084,
-          "pts": 84
+          "pts": 82
         },
         {
           "id": 1085,
-          "pts": 85
+          "pts": 83
         },
         {
           "id": 1086,
-          "pts": 86
+          "pts": 84
         },
         {
           "id": 1087,
-          "pts": 87
+          "pts": 84
         },
         {
           "id": 1088,
-          "pts": 87
+          "pts": 84
         },
         {
           "id": 1089,
-          "pts": 87
+          "pts": 84
         },
         {
           "id": 1090,
-          "pts": 87
+          "pts": 84
         },
         {
           "id": 1091,
-          "pts": 87
+          "pts": 84
         },
         {
           "id": 1092,
-          "pts": 88
+          "pts": 85
         },
         {
           "id": 1093,
-          "pts": 88
+          "pts": 85
         },
         {
           "id": 1094,
-          "pts": 91
+          "pts": 88
         },
         {
           "id": 1095,
-          "pts": 92
+          "pts": 89
         },
         {
           "id": 1096,
-          "pts": 92
+          "pts": 89
         }
       ]
     },
     {
       "pos": 2,
       "name": "Carolina",
-      "pts": 89,
-      "diff": -3,
+      "pts": 87,
+      "diff": -2,
       "acumulado": [
         {
           "id": 1,
@@ -740,463 +740,67 @@
         },
         {
           "id": 1083,
-          "pts": 78
+          "pts": 77
         },
         {
           "id": 1084,
-          "pts": 79
+          "pts": 77
         },
         {
           "id": 1085,
-          "pts": 83
+          "pts": 81
         },
         {
           "id": 1086,
-          "pts": 84
+          "pts": 82
         },
         {
           "id": 1087,
-          "pts": 85
+          "pts": 83
         },
         {
           "id": 1088,
-          "pts": 85
+          "pts": 83
         },
         {
           "id": 1089,
-          "pts": 85
+          "pts": 83
         },
         {
           "id": 1090,
-          "pts": 85
+          "pts": 83
         },
         {
           "id": 1091,
-          "pts": 86
+          "pts": 84
         },
         {
           "id": 1092,
-          "pts": 86
+          "pts": 84
         },
         {
           "id": 1093,
-          "pts": 87
+          "pts": 85
         },
         {
           "id": 1094,
-          "pts": 88
+          "pts": 86
         },
         {
           "id": 1095,
-          "pts": 89
+          "pts": 87
         },
         {
           "id": 1096,
-          "pts": 89
+          "pts": 87
         }
       ]
     },
     {
       "pos": 3,
-      "name": "Sol",
-      "pts": 83,
-      "diff": -9,
-      "acumulado": [
-        {
-          "id": 1,
-          "pts": 0
-        },
-        {
-          "id": 2,
-          "pts": 1
-        },
-        {
-          "id": 3,
-          "pts": 1
-        },
-        {
-          "id": 4,
-          "pts": 1
-        },
-        {
-          "id": 5,
-          "pts": 2
-        },
-        {
-          "id": 6,
-          "pts": 2
-        },
-        {
-          "id": 7,
-          "pts": 2
-        },
-        {
-          "id": 8,
-          "pts": 3
-        },
-        {
-          "id": 9,
-          "pts": 3
-        },
-        {
-          "id": 10,
-          "pts": 4
-        },
-        {
-          "id": 11,
-          "pts": 4
-        },
-        {
-          "id": 12,
-          "pts": 4
-        },
-        {
-          "id": 13,
-          "pts": 4
-        },
-        {
-          "id": 14,
-          "pts": 4
-        },
-        {
-          "id": 15,
-          "pts": 5
-        },
-        {
-          "id": 16,
-          "pts": 6
-        },
-        {
-          "id": 17,
-          "pts": 9
-        },
-        {
-          "id": 18,
-          "pts": 10
-        },
-        {
-          "id": 19,
-          "pts": 11
-        },
-        {
-          "id": 20,
-          "pts": 11
-        },
-        {
-          "id": 21,
-          "pts": 11
-        },
-        {
-          "id": 22,
-          "pts": 11
-        },
-        {
-          "id": 23,
-          "pts": 12
-        },
-        {
-          "id": 24,
-          "pts": 13
-        },
-        {
-          "id": 25,
-          "pts": 14
-        },
-        {
-          "id": 26,
-          "pts": 14
-        },
-        {
-          "id": 27,
-          "pts": 17
-        },
-        {
-          "id": 28,
-          "pts": 17
-        },
-        {
-          "id": 29,
-          "pts": 17
-        },
-        {
-          "id": 30,
-          "pts": 18
-        },
-        {
-          "id": 31,
-          "pts": 18
-        },
-        {
-          "id": 32,
-          "pts": 19
-        },
-        {
-          "id": 33,
-          "pts": 20
-        },
-        {
-          "id": 34,
-          "pts": 21
-        },
-        {
-          "id": 35,
-          "pts": 22
-        },
-        {
-          "id": 36,
-          "pts": 22
-        },
-        {
-          "id": 37,
-          "pts": 22
-        },
-        {
-          "id": 38,
-          "pts": 23
-        },
-        {
-          "id": 39,
-          "pts": 23
-        },
-        {
-          "id": 40,
-          "pts": 23
-        },
-        {
-          "id": 41,
-          "pts": 24
-        },
-        {
-          "id": 42,
-          "pts": 27
-        },
-        {
-          "id": 43,
-          "pts": 27
-        },
-        {
-          "id": 44,
-          "pts": 27
-        },
-        {
-          "id": 45,
-          "pts": 28
-        },
-        {
-          "id": 46,
-          "pts": 28
-        },
-        {
-          "id": 47,
-          "pts": 31
-        },
-        {
-          "id": 48,
-          "pts": 31
-        },
-        {
-          "id": 49,
-          "pts": 32
-        },
-        {
-          "id": 50,
-          "pts": 33
-        },
-        {
-          "id": 51,
-          "pts": 34
-        },
-        {
-          "id": 52,
-          "pts": 35
-        },
-        {
-          "id": 53,
-          "pts": 35
-        },
-        {
-          "id": 54,
-          "pts": 36
-        },
-        {
-          "id": 55,
-          "pts": 37
-        },
-        {
-          "id": 56,
-          "pts": 37
-        },
-        {
-          "id": 57,
-          "pts": 38
-        },
-        {
-          "id": 58,
-          "pts": 38
-        },
-        {
-          "id": 59,
-          "pts": 39
-        },
-        {
-          "id": 60,
-          "pts": 40
-        },
-        {
-          "id": 61,
-          "pts": 40
-        },
-        {
-          "id": 62,
-          "pts": 41
-        },
-        {
-          "id": 63,
-          "pts": 42
-        },
-        {
-          "id": 64,
-          "pts": 45
-        },
-        {
-          "id": 65,
-          "pts": 46
-        },
-        {
-          "id": 66,
-          "pts": 47
-        },
-        {
-          "id": 67,
-          "pts": 48
-        },
-        {
-          "id": 68,
-          "pts": 51
-        },
-        {
-          "id": 69,
-          "pts": 51
-        },
-        {
-          "id": 70,
-          "pts": 52
-        },
-        {
-          "id": 71,
-          "pts": 53
-        },
-        {
-          "id": 72,
-          "pts": 54
-        },
-        {
-          "id": 1072,
-          "pts": 55
-        },
-        {
-          "id": 1073,
-          "pts": 58
-        },
-        {
-          "id": 1074,
-          "pts": 58
-        },
-        {
-          "id": 1075,
-          "pts": 61
-        },
-        {
-          "id": 1076,
-          "pts": 64
-        },
-        {
-          "id": 1077,
-          "pts": 65
-        },
-        {
-          "id": 1078,
-          "pts": 66
-        },
-        {
-          "id": 1079,
-          "pts": 69
-        },
-        {
-          "id": 1080,
-          "pts": 70
-        },
-        {
-          "id": 1081,
-          "pts": 71
-        },
-        {
-          "id": 1082,
-          "pts": 72
-        },
-        {
-          "id": 1083,
-          "pts": 73
-        },
-        {
-          "id": 1084,
-          "pts": 74
-        },
-        {
-          "id": 1085,
-          "pts": 78
-        },
-        {
-          "id": 1086,
-          "pts": 79
-        },
-        {
-          "id": 1087,
-          "pts": 80
-        },
-        {
-          "id": 1088,
-          "pts": 80
-        },
-        {
-          "id": 1089,
-          "pts": 80
-        },
-        {
-          "id": 1090,
-          "pts": 80
-        },
-        {
-          "id": 1091,
-          "pts": 81
-        },
-        {
-          "id": 1092,
-          "pts": 82
-        },
-        {
-          "id": 1093,
-          "pts": 82
-        },
-        {
-          "id": 1094,
-          "pts": 83
-        },
-        {
-          "id": 1095,
-          "pts": 83
-        },
-        {
-          "id": 1096,
-          "pts": 83
-        }
-      ]
-    },
-    {
-      "pos": 4,
       "name": "Osmar",
       "pts": 81,
-      "diff": -11,
+      "diff": -8,
       "acumulado": [
         {
           "id": 1,
@@ -1585,14 +1189,410 @@
         {
           "id": 1096,
           "pts": 81
+        }
+      ]
+    },
+    {
+      "pos": 4,
+      "name": "Sol",
+      "pts": 79,
+      "diff": -10,
+      "acumulado": [
+        {
+          "id": 1,
+          "pts": 0
+        },
+        {
+          "id": 2,
+          "pts": 1
+        },
+        {
+          "id": 3,
+          "pts": 1
+        },
+        {
+          "id": 4,
+          "pts": 1
+        },
+        {
+          "id": 5,
+          "pts": 2
+        },
+        {
+          "id": 6,
+          "pts": 2
+        },
+        {
+          "id": 7,
+          "pts": 2
+        },
+        {
+          "id": 8,
+          "pts": 3
+        },
+        {
+          "id": 9,
+          "pts": 3
+        },
+        {
+          "id": 10,
+          "pts": 4
+        },
+        {
+          "id": 11,
+          "pts": 4
+        },
+        {
+          "id": 12,
+          "pts": 4
+        },
+        {
+          "id": 13,
+          "pts": 4
+        },
+        {
+          "id": 14,
+          "pts": 4
+        },
+        {
+          "id": 15,
+          "pts": 5
+        },
+        {
+          "id": 16,
+          "pts": 6
+        },
+        {
+          "id": 17,
+          "pts": 9
+        },
+        {
+          "id": 18,
+          "pts": 10
+        },
+        {
+          "id": 19,
+          "pts": 11
+        },
+        {
+          "id": 20,
+          "pts": 11
+        },
+        {
+          "id": 21,
+          "pts": 11
+        },
+        {
+          "id": 22,
+          "pts": 11
+        },
+        {
+          "id": 23,
+          "pts": 12
+        },
+        {
+          "id": 24,
+          "pts": 13
+        },
+        {
+          "id": 25,
+          "pts": 14
+        },
+        {
+          "id": 26,
+          "pts": 14
+        },
+        {
+          "id": 27,
+          "pts": 17
+        },
+        {
+          "id": 28,
+          "pts": 17
+        },
+        {
+          "id": 29,
+          "pts": 17
+        },
+        {
+          "id": 30,
+          "pts": 18
+        },
+        {
+          "id": 31,
+          "pts": 18
+        },
+        {
+          "id": 32,
+          "pts": 19
+        },
+        {
+          "id": 33,
+          "pts": 20
+        },
+        {
+          "id": 34,
+          "pts": 21
+        },
+        {
+          "id": 35,
+          "pts": 22
+        },
+        {
+          "id": 36,
+          "pts": 22
+        },
+        {
+          "id": 37,
+          "pts": 22
+        },
+        {
+          "id": 38,
+          "pts": 23
+        },
+        {
+          "id": 39,
+          "pts": 23
+        },
+        {
+          "id": 40,
+          "pts": 23
+        },
+        {
+          "id": 41,
+          "pts": 24
+        },
+        {
+          "id": 42,
+          "pts": 27
+        },
+        {
+          "id": 43,
+          "pts": 27
+        },
+        {
+          "id": 44,
+          "pts": 27
+        },
+        {
+          "id": 45,
+          "pts": 28
+        },
+        {
+          "id": 46,
+          "pts": 28
+        },
+        {
+          "id": 47,
+          "pts": 31
+        },
+        {
+          "id": 48,
+          "pts": 31
+        },
+        {
+          "id": 49,
+          "pts": 32
+        },
+        {
+          "id": 50,
+          "pts": 33
+        },
+        {
+          "id": 51,
+          "pts": 34
+        },
+        {
+          "id": 52,
+          "pts": 35
+        },
+        {
+          "id": 53,
+          "pts": 35
+        },
+        {
+          "id": 54,
+          "pts": 36
+        },
+        {
+          "id": 55,
+          "pts": 37
+        },
+        {
+          "id": 56,
+          "pts": 37
+        },
+        {
+          "id": 57,
+          "pts": 38
+        },
+        {
+          "id": 58,
+          "pts": 38
+        },
+        {
+          "id": 59,
+          "pts": 39
+        },
+        {
+          "id": 60,
+          "pts": 40
+        },
+        {
+          "id": 61,
+          "pts": 40
+        },
+        {
+          "id": 62,
+          "pts": 41
+        },
+        {
+          "id": 63,
+          "pts": 42
+        },
+        {
+          "id": 64,
+          "pts": 45
+        },
+        {
+          "id": 65,
+          "pts": 46
+        },
+        {
+          "id": 66,
+          "pts": 47
+        },
+        {
+          "id": 67,
+          "pts": 48
+        },
+        {
+          "id": 68,
+          "pts": 51
+        },
+        {
+          "id": 69,
+          "pts": 51
+        },
+        {
+          "id": 70,
+          "pts": 52
+        },
+        {
+          "id": 71,
+          "pts": 53
+        },
+        {
+          "id": 72,
+          "pts": 54
+        },
+        {
+          "id": 1072,
+          "pts": 55
+        },
+        {
+          "id": 1073,
+          "pts": 58
+        },
+        {
+          "id": 1074,
+          "pts": 58
+        },
+        {
+          "id": 1075,
+          "pts": 61
+        },
+        {
+          "id": 1076,
+          "pts": 64
+        },
+        {
+          "id": 1077,
+          "pts": 65
+        },
+        {
+          "id": 1078,
+          "pts": 65
+        },
+        {
+          "id": 1079,
+          "pts": 68
+        },
+        {
+          "id": 1080,
+          "pts": 69
+        },
+        {
+          "id": 1081,
+          "pts": 70
+        },
+        {
+          "id": 1082,
+          "pts": 71
+        },
+        {
+          "id": 1083,
+          "pts": 71
+        },
+        {
+          "id": 1084,
+          "pts": 72
+        },
+        {
+          "id": 1085,
+          "pts": 76
+        },
+        {
+          "id": 1086,
+          "pts": 77
+        },
+        {
+          "id": 1087,
+          "pts": 77
+        },
+        {
+          "id": 1088,
+          "pts": 77
+        },
+        {
+          "id": 1089,
+          "pts": 77
+        },
+        {
+          "id": 1090,
+          "pts": 77
+        },
+        {
+          "id": 1091,
+          "pts": 78
+        },
+        {
+          "id": 1092,
+          "pts": 78
+        },
+        {
+          "id": 1093,
+          "pts": 78
+        },
+        {
+          "id": 1094,
+          "pts": 79
+        },
+        {
+          "id": 1095,
+          "pts": 79
+        },
+        {
+          "id": 1096,
+          "pts": 79
         }
       ]
     },
     {
       "pos": 5,
       "name": "Yosember",
-      "pts": 75,
-      "diff": -17,
+      "pts": 73,
+      "diff": -16,
       "acumulado": [
         {
           "id": 1,
@@ -1928,66 +1928,66 @@
         },
         {
           "id": 1083,
-          "pts": 66
+          "pts": 65
         },
         {
           "id": 1084,
-          "pts": 67
+          "pts": 65
         },
         {
           "id": 1085,
-          "pts": 69
+          "pts": 67
         },
         {
           "id": 1086,
-          "pts": 70
+          "pts": 68
         },
         {
           "id": 1087,
-          "pts": 71
+          "pts": 69
         },
         {
           "id": 1088,
-          "pts": 71
+          "pts": 69
         },
         {
           "id": 1089,
-          "pts": 71
+          "pts": 69
         },
         {
           "id": 1090,
-          "pts": 71
+          "pts": 69
         },
         {
           "id": 1091,
-          "pts": 72
+          "pts": 70
         },
         {
           "id": 1092,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1093,
-          "pts": 74
+          "pts": 72
         },
         {
           "id": 1094,
-          "pts": 75
+          "pts": 73
         },
         {
           "id": 1095,
-          "pts": 75
+          "pts": 73
         },
         {
           "id": 1096,
-          "pts": 75
+          "pts": 73
         }
       ]
     },
     {
       "pos": 6,
       "name": "Josmary",
-      "pts": 75,
+      "pts": 72,
       "diff": -17,
       "acumulado": [
         {
@@ -2280,111 +2280,111 @@
         },
         {
           "id": 1072,
-          "pts": 50
+          "pts": 49
         },
         {
           "id": 1073,
-          "pts": 53
+          "pts": 52
         },
         {
           "id": 1074,
-          "pts": 53
+          "pts": 52
         },
         {
           "id": 1075,
-          "pts": 54
+          "pts": 53
         },
         {
           "id": 1076,
-          "pts": 57
+          "pts": 56
         },
         {
           "id": 1077,
-          "pts": 58
+          "pts": 57
         },
         {
           "id": 1078,
-          "pts": 61
+          "pts": 60
         },
         {
           "id": 1079,
-          "pts": 62
+          "pts": 60
         },
         {
           "id": 1080,
-          "pts": 63
+          "pts": 61
         },
         {
           "id": 1081,
-          "pts": 64
+          "pts": 62
         },
         {
           "id": 1082,
-          "pts": 65
+          "pts": 63
         },
         {
           "id": 1083,
-          "pts": 68
+          "pts": 66
         },
         {
           "id": 1084,
-          "pts": 69
+          "pts": 66
         },
         {
           "id": 1085,
-          "pts": 72
+          "pts": 69
         },
         {
           "id": 1086,
-          "pts": 73
+          "pts": 70
         },
         {
           "id": 1087,
-          "pts": 74
+          "pts": 71
         },
         {
           "id": 1088,
-          "pts": 74
+          "pts": 71
         },
         {
           "id": 1089,
-          "pts": 74
+          "pts": 71
         },
         {
           "id": 1090,
-          "pts": 74
+          "pts": 71
         },
         {
           "id": 1091,
-          "pts": 74
+          "pts": 71
         },
         {
           "id": 1092,
-          "pts": 75
+          "pts": 72
         },
         {
           "id": 1093,
-          "pts": 75
+          "pts": 72
         },
         {
           "id": 1094,
-          "pts": 75
+          "pts": 72
         },
         {
           "id": 1095,
-          "pts": 75
+          "pts": 72
         },
         {
           "id": 1096,
-          "pts": 75
+          "pts": 72
         }
       ]
     },
     {
       "pos": 7,
       "name": "Jonathan",
-      "pts": 73,
-      "diff": -19,
+      "pts": 71,
+      "diff": -18,
       "acumulado": [
         {
           "id": 1,
@@ -2680,107 +2680,107 @@
         },
         {
           "id": 1073,
-          "pts": 60
+          "pts": 59
         },
         {
           "id": 1074,
-          "pts": 60
+          "pts": 59
         },
         {
           "id": 1075,
-          "pts": 60
+          "pts": 59
         },
         {
           "id": 1076,
-          "pts": 61
+          "pts": 60
         },
         {
           "id": 1077,
-          "pts": 62
+          "pts": 61
         },
         {
           "id": 1078,
-          "pts": 62
+          "pts": 61
         },
         {
           "id": 1079,
-          "pts": 63
+          "pts": 62
         },
         {
           "id": 1080,
-          "pts": 63
+          "pts": 62
         },
         {
           "id": 1081,
-          "pts": 66
+          "pts": 65
         },
         {
           "id": 1082,
-          "pts": 69
+          "pts": 68
         },
         {
           "id": 1083,
-          "pts": 70
+          "pts": 68
         },
         {
           "id": 1084,
-          "pts": 71
+          "pts": 69
         },
         {
           "id": 1085,
-          "pts": 72
+          "pts": 70
         },
         {
           "id": 1086,
-          "pts": 72
+          "pts": 70
         },
         {
           "id": 1087,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1088,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1089,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1090,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1091,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1092,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1093,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1094,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1095,
-          "pts": 73
+          "pts": 71
         },
         {
           "id": 1096,
-          "pts": 73
+          "pts": 71
         }
       ]
     },
     {
       "pos": 8,
       "name": "Peter",
-      "pts": 72,
-      "diff": -20,
+      "pts": 71,
+      "diff": -18,
       "acumulado": [
         {
           "id": 1,
@@ -3120,63 +3120,63 @@
         },
         {
           "id": 1084,
-          "pts": 67
+          "pts": 66
         },
         {
           "id": 1085,
-          "pts": 68
+          "pts": 67
         },
         {
           "id": 1086,
-          "pts": 69
+          "pts": 68
         },
         {
           "id": 1087,
-          "pts": 70
+          "pts": 69
         },
         {
           "id": 1088,
-          "pts": 70
+          "pts": 69
         },
         {
           "id": 1089,
-          "pts": 70
+          "pts": 69
         },
         {
           "id": 1090,
-          "pts": 70
+          "pts": 69
         },
         {
           "id": 1091,
-          "pts": 71
+          "pts": 70
         },
         {
           "id": 1092,
-          "pts": 71
+          "pts": 70
         },
         {
           "id": 1093,
-          "pts": 71
+          "pts": 70
         },
         {
           "id": 1094,
-          "pts": 72
+          "pts": 71
         },
         {
           "id": 1095,
-          "pts": 72
+          "pts": 71
         },
         {
           "id": 1096,
-          "pts": 72
+          "pts": 71
         }
       ]
     },
     {
       "pos": 9,
       "name": "Mayra",
-      "pts": 65,
-      "diff": -27,
+      "pts": 59,
+      "diff": -30,
       "acumulado": [
         {
           "id": 1,
@@ -3488,83 +3488,83 @@
         },
         {
           "id": 1077,
-          "pts": 50
+          "pts": 49
         },
         {
           "id": 1078,
-          "pts": 51
+          "pts": 49
         },
         {
           "id": 1079,
-          "pts": 52
+          "pts": 50
         },
         {
           "id": 1080,
-          "pts": 52
+          "pts": 50
         },
         {
           "id": 1081,
-          "pts": 53
+          "pts": 50
         },
         {
           "id": 1082,
-          "pts": 54
+          "pts": 50
         },
         {
           "id": 1083,
-          "pts": 55
+          "pts": 50
         },
         {
           "id": 1084,
-          "pts": 56
+          "pts": 51
         },
         {
           "id": 1085,
-          "pts": 57
+          "pts": 52
         },
         {
           "id": 1086,
-          "pts": 60
+          "pts": 55
         },
         {
           "id": 1087,
-          "pts": 61
+          "pts": 56
         },
         {
           "id": 1088,
-          "pts": 61
+          "pts": 56
         },
         {
           "id": 1089,
-          "pts": 61
+          "pts": 56
         },
         {
           "id": 1090,
-          "pts": 61
+          "pts": 56
         },
         {
           "id": 1091,
-          "pts": 62
+          "pts": 56
         },
         {
           "id": 1092,
-          "pts": 62
+          "pts": 56
         },
         {
           "id": 1093,
-          "pts": 62
+          "pts": 56
         },
         {
           "id": 1094,
-          "pts": 65
+          "pts": 59
         },
         {
           "id": 1095,
-          "pts": 65
+          "pts": 59
         },
         {
           "id": 1096,
-          "pts": 65
+          "pts": 59
         }
       ]
     },
@@ -3572,7 +3572,7 @@
       "pos": 10,
       "name": "Carlos",
       "pts": 58,
-      "diff": -34,
+      "diff": -31,
       "acumulado": [
         {
           "id": 1,
@@ -3967,7 +3967,7 @@
   ],
   "pronosticos": {
     "Yosember": {
-      "pts_total": 75,
+      "pts_total": 73,
       "partidos": [
         {
           "id": 1,
@@ -4576,7 +4576,7 @@
           "id": 1083,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 2 - 1 Croacia",
           "pred_local": "Portugal",
           "pred_visitante": "Croacia"
@@ -4585,7 +4585,7 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
@@ -4755,7 +4755,7 @@
       ]
     },
     "Josmary": {
-      "pts_total": 75,
+      "pts_total": 72,
       "partidos": [
         {
           "id": 1,
@@ -5265,7 +5265,7 @@
           "id": 1072,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Sudáfrica 0 - 1 Canadá",
           "pred_local": "Sudáfrica",
           "pred_visitante": "Canadá"
@@ -5328,7 +5328,7 @@
           "id": 1079,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Inglaterra 2 - 1 DR Congo",
           "pred_local": "Inglaterra",
           "pred_visitante": "DR Congo"
@@ -5373,7 +5373,7 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
@@ -7119,7 +7119,7 @@
       ]
     },
     "Jonathan": {
-      "pts_total": 73,
+      "pts_total": 71,
       "partidos": [
         {
           "id": 1,
@@ -7638,7 +7638,7 @@
           "id": 1073,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Brasil 2 - 1 Japón",
           "pred_local": "Brasil",
           "pred_visitante": "Japón"
@@ -7728,7 +7728,7 @@
           "id": 1083,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 2 - 1 Croacia",
           "pred_local": "Portugal",
           "pred_visitante": "Croacia"
@@ -7907,7 +7907,7 @@
       ]
     },
     "Sol": {
-      "pts_total": 83,
+      "pts_total": 79,
       "partidos": [
         {
           "id": 1,
@@ -8471,7 +8471,7 @@
           "id": 1078,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "México 2 - 0 Ecuador",
           "pred_local": "México",
           "pred_visitante": "Ecuador"
@@ -8516,7 +8516,7 @@
           "id": 1083,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 2 - 1 Croacia",
           "pred_local": "Portugal",
           "pred_visitante": "Croacia"
@@ -8552,7 +8552,7 @@
           "id": 1087,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Colombia 1 - 0 Ghana",
           "pred_local": "Colombia",
           "pred_visitante": "Ghana"
@@ -8597,7 +8597,7 @@
           "id": 1092,
           "pred_l": 0,
           "pred_v": 0,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 0 - 1 España",
           "pred_local": "Portugal",
           "pred_visitante": "España"
@@ -8695,7 +8695,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 65,
+      "pts_total": 59,
       "partidos": [
         {
           "id": 1,
@@ -9250,7 +9250,7 @@
           "id": 1077,
           "pred_l": 3,
           "pred_v": 3,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Francia 3 - 0 Suecia",
           "pred_local": "Francia",
           "pred_visitante": "Suecia"
@@ -9259,7 +9259,7 @@
           "id": 1078,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "México 2 - 0 Ecuador",
           "pred_local": "México",
           "pred_visitante": "Ecuador"
@@ -9286,7 +9286,7 @@
           "id": 1081,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "USA 2 - 0 Bosnia y Herz.",
           "pred_local": "USA",
           "pred_visitante": "Bosnia y Herz."
@@ -9295,7 +9295,7 @@
           "id": 1082,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "España 3 - 0 Austria",
           "pred_local": "España",
           "pred_visitante": "Austria"
@@ -9304,7 +9304,7 @@
           "id": 1083,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 2 - 1 Croacia",
           "pred_local": "Portugal",
           "pred_visitante": "Croacia"
@@ -9376,7 +9376,7 @@
           "id": 1091,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "México 2 - 3 Inglaterra",
           "pred_local": "México",
           "pred_visitante": "Inglaterra"
@@ -9483,7 +9483,7 @@
       ]
     },
     "Peter": {
-      "pts_total": 72,
+      "pts_total": 71,
       "partidos": [
         {
           "id": 1,
@@ -10101,7 +10101,7 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
@@ -10271,7 +10271,7 @@
       ]
     },
     "Carolina": {
-      "pts_total": 89,
+      "pts_total": 87,
       "partidos": [
         {
           "id": 1,
@@ -10880,7 +10880,7 @@
           "id": 1083,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Portugal 2 - 1 Croacia",
           "pred_local": "Portugal",
           "pred_visitante": "Croacia"
@@ -10889,7 +10889,7 @@
           "id": 1084,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Suiza 2 - 0 Argelia",
           "pred_local": "Suiza",
           "pred_visitante": "Argelia"
@@ -11059,7 +11059,7 @@
       ]
     },
     "Jose": {
-      "pts_total": 92,
+      "pts_total": 89,
       "partidos": [
         {
           "id": 1,
@@ -11578,7 +11578,7 @@
           "id": 1073,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Brasil 2 - 1 Japón",
           "pred_local": "Brasil",
           "pred_visitante": "Japón"
@@ -11605,7 +11605,7 @@
           "id": 1076,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Costa de Marfil 1 - 2 Noruega",
           "pred_local": "Costa de Marfil",
           "pred_visitante": "Noruega"
@@ -11704,7 +11704,7 @@
           "id": 1087,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": 1,
+          "pts": 0,
           "resultado": "Colombia 1 - 0 Ghana",
           "pred_local": "Colombia",
           "pred_visitante": "Ghana"
