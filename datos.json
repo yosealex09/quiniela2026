@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "actualizado": "10/07/2026 18:34",
+  "actualizado": "12/07/2026 10:06",
   "comentario": "👑 Jose lidera con 89 pts por apenas 2 pt(s). Carolina mirando con cara de \"ya casi te tengo.\"",
-  "comentario_partido": "🎉 España clasifica a Cuartos con un 2-1 que nadie va a olvidar pronto.",
+  "comentario_partido": "🎉 Argentina clasifica a Cuartos con un 3-1 que nadie va a olvidar pronto.",
   "ranking": [
     {
       "pos": 1,
@@ -400,6 +400,14 @@
         },
         {
           "id": 1097,
+          "pts": 89
+        },
+        {
+          "id": 1098,
+          "pts": 89
+        },
+        {
+          "id": 1099,
           "pts": 89
         }
       ]
@@ -801,6 +809,14 @@
         {
           "id": 1097,
           "pts": 87
+        },
+        {
+          "id": 1098,
+          "pts": 87
+        },
+        {
+          "id": 1099,
+          "pts": 87
         }
       ]
     },
@@ -1200,6 +1216,14 @@
         },
         {
           "id": 1097,
+          "pts": 81
+        },
+        {
+          "id": 1098,
+          "pts": 81
+        },
+        {
+          "id": 1099,
           "pts": 81
         }
       ]
@@ -1601,6 +1625,14 @@
         {
           "id": 1097,
           "pts": 79
+        },
+        {
+          "id": 1098,
+          "pts": 79
+        },
+        {
+          "id": 1099,
+          "pts": 79
         }
       ]
     },
@@ -2000,6 +2032,14 @@
         },
         {
           "id": 1097,
+          "pts": 74
+        },
+        {
+          "id": 1098,
+          "pts": 74
+        },
+        {
+          "id": 1099,
           "pts": 74
         }
       ]
@@ -2401,6 +2441,14 @@
         {
           "id": 1097,
           "pts": 72
+        },
+        {
+          "id": 1098,
+          "pts": 72
+        },
+        {
+          "id": 1099,
+          "pts": 72
         }
       ]
     },
@@ -2800,6 +2848,14 @@
         },
         {
           "id": 1097,
+          "pts": 71
+        },
+        {
+          "id": 1098,
+          "pts": 71
+        },
+        {
+          "id": 1099,
           "pts": 71
         }
       ]
@@ -3201,14 +3257,22 @@
         {
           "id": 1097,
           "pts": 71
+        },
+        {
+          "id": 1098,
+          "pts": 71
+        },
+        {
+          "id": 1099,
+          "pts": 71
         }
       ]
     },
     {
       "pos": 9,
       "name": "Mayra",
-      "pts": 59,
-      "diff": -30,
+      "pts": 60,
+      "diff": -29,
       "acumulado": [
         {
           "id": 1,
@@ -3601,6 +3665,14 @@
         {
           "id": 1097,
           "pts": 59
+        },
+        {
+          "id": 1098,
+          "pts": 60
+        },
+        {
+          "id": 1099,
+          "pts": 60
         }
       ]
     },
@@ -4000,6 +4072,14 @@
         },
         {
           "id": 1097,
+          "pts": 58
+        },
+        {
+          "id": 1098,
+          "pts": 58
+        },
+        {
+          "id": 1099,
           "pts": 58
         }
       ]
@@ -4751,8 +4831,8 @@
           "id": 1098,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -4760,8 +4840,8 @@
           "id": 1099,
           "pred_l": 1,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -5539,8 +5619,8 @@
           "id": 1098,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "México"
         },
@@ -5548,8 +5628,8 @@
           "id": 1099,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -6327,8 +6407,8 @@
           "id": 1098,
           "pred_l": 3,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -6336,8 +6416,8 @@
           "id": 1099,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -7115,8 +7195,8 @@
           "id": 1098,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -7124,8 +7204,8 @@
           "id": 1099,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -7903,8 +7983,8 @@
           "id": 1098,
           "pred_l": 4,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Ecuador"
         },
@@ -7912,8 +7992,8 @@
           "id": 1099,
           "pred_l": 3,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Cabo Verde",
           "pred_visitante": "Colombia"
         },
@@ -8691,8 +8771,8 @@
           "id": 1098,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -8700,8 +8780,8 @@
           "id": 1099,
           "pred_l": 3,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -8735,7 +8815,7 @@
       ]
     },
     "Mayra": {
-      "pts_total": 59,
+      "pts_total": 60,
       "partidos": [
         {
           "id": 1,
@@ -9479,8 +9559,8 @@
           "id": 1098,
           "pred_l": 2,
           "pred_v": 4,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 1,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Noruega",
           "pred_visitante": "Inglaterra"
         },
@@ -9488,8 +9568,8 @@
           "id": 1099,
           "pred_l": 3,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -10267,8 +10347,8 @@
           "id": 1098,
           "pred_l": 1,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -10276,8 +10356,8 @@
           "id": 1099,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -11055,8 +11135,8 @@
           "id": 1098,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -11064,8 +11144,8 @@
           "id": 1099,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -11843,8 +11923,8 @@
           "id": 1098,
           "pred_l": 4,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Noruega 1 - 2 Inglaterra",
           "pred_local": "Brasil",
           "pred_visitante": "Inglaterra"
         },
@@ -11852,8 +11932,8 @@
           "id": 1099,
           "pred_l": 3,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Argentina 3 - 1 Suiza",
           "pred_local": "Argentina",
           "pred_visitante": "Colombia"
         },
@@ -14106,12 +14186,12 @@
       "jornada": 0,
       "local": "Noruega",
       "visitante": "Inglaterra",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-11T21:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1099,
@@ -14119,12 +14199,12 @@
       "jornada": 0,
       "local": "Argentina",
       "visitante": "Suiza",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-12T01:00:00Z",
-      "ganador": null
+      "ganador": "local"
     },
     {
       "id": 1100,
@@ -14168,6 +14248,32 @@
   ],
   "ultimos5": [
     {
+      "id": 1099,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Argentina",
+      "visitante": "Suiza",
+      "goles_l": 3,
+      "goles_v": 1,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-12T01:00:00Z",
+      "ganador": "local"
+    },
+    {
+      "id": 1098,
+      "grupo": "Cuartos de Final",
+      "jornada": 0,
+      "local": "Noruega",
+      "visitante": "Inglaterra",
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-11T21:00:00Z",
+      "ganador": "visitante"
+    },
+    {
       "id": 1097,
       "grupo": "Cuartos de Final",
       "jornada": 0,
@@ -14205,38 +14311,12 @@
       "en_vivo": false,
       "fecha": "2026-07-07T20:00:00Z",
       "ganador": "local"
-    },
-    {
-      "id": 1094,
-      "grupo": "Octavos de Final",
-      "jornada": 0,
-      "local": "Argentina",
-      "visitante": "Egipto",
-      "goles_l": 3,
-      "goles_v": 2,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-07T16:00:00Z",
-      "ganador": "local"
-    },
-    {
-      "id": 1093,
-      "grupo": "Octavos de Final",
-      "jornada": 0,
-      "local": "USA",
-      "visitante": "Bélgica",
-      "goles_l": 1,
-      "goles_v": 4,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-07T00:00:00Z",
-      "ganador": "visitante"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 98,
-    "pendientes": 5
+    "jugados": 100,
+    "pendientes": 3
   },
   "flash": {
     "cuartos": {
@@ -14250,6 +14330,78 @@
       "ranking": [
         {
           "pos": 1,
+          "name": "Mayra",
+          "pts": 6,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": 1
+            },
+            {
+              "id": 1097,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": 3
+            },
+            {
+              "id": 1098,
+              "pred_l": 2,
+              "pred_v": 3,
+              "penal": null,
+              "pts": 1
+            },
+            {
+              "id": 1099,
+              "pred_l": 3,
+              "pred_v": 2,
+              "penal": null,
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "pos": 2,
+          "name": "Jose",
+          "pts": 6,
+          "diff": 0,
+          "detalle": [
+            {
+              "id": 1096,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": 1
+            },
+            {
+              "id": 1097,
+              "pred_l": 1,
+              "pred_v": 0,
+              "penal": null,
+              "pts": 1
+            },
+            {
+              "id": 1098,
+              "pred_l": 1,
+              "pred_v": 2,
+              "penal": null,
+              "pts": 3
+            },
+            {
+              "id": 1099,
+              "pred_l": 2,
+              "pred_v": 1,
+              "penal": null,
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "pos": 3,
           "name": "Jonathan",
           "pts": 6,
           "diff": 0,
@@ -14273,58 +14425,22 @@
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 0
             },
             {
               "id": 1099,
               "pred_l": 1,
               "pred_v": 2,
               "penal": null,
-              "pts": null
+              "pts": 0
             }
           ]
         },
         {
-          "pos": 2,
-          "name": "Mayra",
-          "pts": 4,
-          "diff": -2,
-          "detalle": [
-            {
-              "id": 1096,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": 1
-            },
-            {
-              "id": 1097,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": 3
-            },
-            {
-              "id": 1098,
-              "pred_l": 2,
-              "pred_v": 3,
-              "penal": null,
-              "pts": null
-            },
-            {
-              "id": 1099,
-              "pred_l": 3,
-              "pred_v": 2,
-              "penal": null,
-              "pts": null
-            }
-          ]
-        },
-        {
-          "pos": 3,
+          "pos": 4,
           "name": "Josmary",
-          "pts": 4,
-          "diff": -2,
+          "pts": 5,
+          "diff": -1,
           "detalle": [
             {
               "id": 1096,
@@ -14345,58 +14461,22 @@
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 0
             },
             {
               "id": 1099,
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
-            }
-          ]
-        },
-        {
-          "pos": 4,
-          "name": "Jose",
-          "pts": 2,
-          "diff": -4,
-          "detalle": [
-            {
-              "id": 1096,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
               "pts": 1
-            },
-            {
-              "id": 1097,
-              "pred_l": 1,
-              "pred_v": 0,
-              "penal": null,
-              "pts": 1
-            },
-            {
-              "id": 1098,
-              "pred_l": 1,
-              "pred_v": 2,
-              "penal": null,
-              "pts": null
-            },
-            {
-              "id": 1099,
-              "pred_l": 2,
-              "pred_v": 1,
-              "penal": null,
-              "pts": null
             }
           ]
         },
         {
           "pos": 5,
           "name": "Sol",
-          "pts": 2,
-          "diff": -4,
+          "pts": 3,
+          "diff": -3,
           "detalle": [
             {
               "id": 1096,
@@ -14417,22 +14497,22 @@
               "pred_l": 2,
               "pred_v": 2,
               "penal": "Noruega",
-              "pts": null
+              "pts": 0
             },
             {
               "id": 1099,
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 1
             }
           ]
         },
         {
           "pos": 6,
           "name": "Carlos",
-          "pts": 1,
-          "diff": -5,
+          "pts": 2,
+          "diff": -4,
           "detalle": [
             {
               "id": 1096,
@@ -14453,22 +14533,22 @@
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 0
             },
             {
               "id": 1099,
               "pred_l": 3,
               "pred_v": 2,
               "penal": null,
-              "pts": null
+              "pts": 1
             }
           ]
         },
         {
           "pos": 7,
           "name": "Yosember",
-          "pts": 1,
-          "diff": -5,
+          "pts": 2,
+          "diff": -4,
           "detalle": [
             {
               "id": 1096,
@@ -14489,14 +14569,14 @@
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 0
             },
             {
               "id": 1099,
               "pred_l": 2,
               "pred_v": 1,
               "penal": null,
-              "pts": null
+              "pts": 1
             }
           ]
         }
