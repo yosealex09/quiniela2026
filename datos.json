@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "actualizado": "15/07/2026 09:48",
+  "actualizado": "17/07/2026 15:01",
   "comentario": "👑 Jose lidera con 89 pts por apenas 2 pt(s). Carolina mirando con cara de \"ya casi te tengo.\"",
-  "comentario_partido": "⚽ España 0-2 y a Cuartos. Francia con la maleta lista desde el minuto 80.",
+  "comentario_partido": "⚽ Argentina 1-2 y a Cuartos. Inglaterra con la maleta lista desde el minuto 80.",
   "ranking": [
     {
       "pos": 1,
@@ -412,6 +412,10 @@
         },
         {
           "id": 1100,
+          "pts": 89
+        },
+        {
+          "id": 1101,
           "pts": 89
         }
       ]
@@ -825,6 +829,10 @@
         {
           "id": 1100,
           "pts": 87
+        },
+        {
+          "id": 1101,
+          "pts": 87
         }
       ]
     },
@@ -1236,6 +1244,10 @@
         },
         {
           "id": 1100,
+          "pts": 81
+        },
+        {
+          "id": 1101,
           "pts": 81
         }
       ]
@@ -1649,6 +1661,10 @@
         {
           "id": 1100,
           "pts": 79
+        },
+        {
+          "id": 1101,
+          "pts": 79
         }
       ]
     },
@@ -2060,6 +2076,10 @@
         },
         {
           "id": 1100,
+          "pts": 74
+        },
+        {
+          "id": 1101,
           "pts": 74
         }
       ]
@@ -2473,6 +2493,10 @@
         {
           "id": 1100,
           "pts": 72
+        },
+        {
+          "id": 1101,
+          "pts": 72
         }
       ]
     },
@@ -2884,6 +2908,10 @@
         },
         {
           "id": 1100,
+          "pts": 71
+        },
+        {
+          "id": 1101,
           "pts": 71
         }
       ]
@@ -3297,6 +3325,10 @@
         {
           "id": 1100,
           "pts": 71
+        },
+        {
+          "id": 1101,
+          "pts": 71
         }
       ]
     },
@@ -3709,6 +3741,10 @@
         {
           "id": 1100,
           "pts": 60
+        },
+        {
+          "id": 1101,
+          "pts": 60
         }
       ]
     },
@@ -4120,6 +4156,10 @@
         },
         {
           "id": 1100,
+          "pts": 58
+        },
+        {
+          "id": 1101,
           "pts": 58
         }
       ]
@@ -4898,8 +4938,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -5686,8 +5726,8 @@
           "id": 1101,
           "pred_l": 1,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "México",
           "pred_visitante": "Argentina"
         },
@@ -6474,8 +6514,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 0,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -7262,8 +7302,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Colombia"
         },
@@ -8050,8 +8090,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 1,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Cabo Verde"
         },
@@ -8838,8 +8878,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -9626,8 +9666,8 @@
           "id": 1101,
           "pred_l": 3,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Inglaterra",
           "pred_visitante": "Argentina"
         },
@@ -10414,8 +10454,8 @@
           "id": 1101,
           "pred_l": 1,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -11202,8 +11242,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 2,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -11990,8 +12030,8 @@
           "id": 1101,
           "pred_l": 2,
           "pred_v": 3,
-          "pts": null,
-          "resultado": "Pendiente",
+          "pts": 0,
+          "resultado": "Inglaterra 1 - 2 Argentina",
           "pred_local": "Brasil",
           "pred_visitante": "Argentina"
         },
@@ -14265,28 +14305,41 @@
       "jornada": 0,
       "local": "Inglaterra",
       "visitante": "Argentina",
-      "goles_l": null,
-      "goles_v": null,
-      "jugado": false,
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
       "en_vivo": false,
       "fecha": "2026-07-15T19:00:00Z",
-      "ganador": null
+      "ganador": "visitante"
     },
     {
       "id": 1102,
       "grupo": "Final",
       "jornada": 0,
-      "local": "Equipo A",
-      "visitante": "Equipo Q",
+      "local": "España",
+      "visitante": "Argentina",
       "goles_l": null,
       "goles_v": null,
       "jugado": false,
       "en_vivo": false,
-      "fecha": null,
+      "fecha": "2026-07-19T19:00:00Z",
       "ganador": null
     }
   ],
   "ultimos5": [
+    {
+      "id": 1101,
+      "grupo": "Semifinales",
+      "jornada": 0,
+      "local": "Inglaterra",
+      "visitante": "Argentina",
+      "goles_l": 1,
+      "goles_v": 2,
+      "jugado": true,
+      "en_vivo": false,
+      "fecha": "2026-07-15T19:00:00Z",
+      "ganador": "visitante"
+    },
     {
       "id": 1100,
       "grupo": "Semifinales",
@@ -14338,25 +14391,12 @@
       "en_vivo": false,
       "fecha": "2026-07-10T19:00:00Z",
       "ganador": "local"
-    },
-    {
-      "id": 1096,
-      "grupo": "Cuartos de Final",
-      "jornada": 0,
-      "local": "Francia",
-      "visitante": "Marruecos",
-      "goles_l": 2,
-      "goles_v": 0,
-      "jugado": true,
-      "en_vivo": false,
-      "fecha": "2026-07-09T20:00:00Z",
-      "ganador": "local"
     }
   ],
   "en_vivo": [],
   "stats": {
-    "jugados": 101,
-    "pendientes": 2
+    "jugados": 102,
+    "pendientes": 1
   },
   "flash": {
     "cuartos": {
