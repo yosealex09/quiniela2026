@@ -83,6 +83,35 @@
     .bracket-winner{color:var(--accent);font-weight:800}
     .live-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--danger);box-shadow:0 0 0 0 rgba(255,107,107,.6);animation:livepulse 1.5s infinite}
     @keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(255,107,107,.6)}70%{box-shadow:0 0 0 8px rgba(255,107,107,0)}100%{box-shadow:0 0 0 0 rgba(255,107,107,0)}}
+
+    /* ── Premiación ── */
+    .confetti-wrap{position:relative;overflow:hidden;border-radius:24px}
+    .confetti-piece{position:absolute;width:8px;height:14px;border-radius:2px;opacity:0;animation:confalldown 3.5s ease-in infinite}
+    @keyframes confalldown{0%{transform:translateY(-30px) rotate(0deg);opacity:1}100%{transform:translateY(340px) rotate(720deg);opacity:0}}
+    .podium-wrap{display:flex;align-items:flex-end;justify-content:center;gap:12px;margin:32px 0 20px}
+    .podium-slot{display:flex;flex-direction:column;align-items:center;gap:0}
+    .podium-avatar{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:900;margin-bottom:8px;border:3px solid}
+    .podium-name{font-weight:800;font-size:14px;margin-bottom:4px;text-align:center}
+    .podium-pts{font-size:12px;color:var(--muted);margin-bottom:8px}
+    .podium-block{border-radius:14px 14px 0 0;width:100px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900}
+    .p1 .podium-avatar{background:rgba(255,209,102,.18);border-color:var(--gold);color:var(--gold);box-shadow:0 0 24px rgba(255,209,102,.35)}
+    .p2 .podium-avatar{background:rgba(192,192,192,.15);border-color:#c0c0c0;color:#c0c0c0}
+    .p3 .podium-avatar{background:rgba(205,127,50,.15);border-color:#cd7f32;color:#cd7f32}
+    .p1 .podium-block{background:linear-gradient(180deg,rgba(255,209,102,.35),rgba(255,209,102,.12));border:1px solid rgba(255,209,102,.4);height:130px}
+    .p2 .podium-block{background:linear-gradient(180deg,rgba(192,192,192,.2),rgba(192,192,192,.06));border:1px solid rgba(192,192,192,.3);height:95px}
+    .p3 .podium-block{background:linear-gradient(180deg,rgba(205,127,50,.2),rgba(205,127,50,.06));border:1px solid rgba(205,127,50,.3);height:70px}
+    .award-row{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:14px;margin-bottom:8px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);transition:.2s}
+    .award-row.top1{background:linear-gradient(90deg,rgba(255,209,102,.12),rgba(255,255,255,.04));border-color:rgba(255,209,102,.3)}
+    .award-row.top2{background:linear-gradient(90deg,rgba(192,192,192,.1),rgba(255,255,255,.04));border-color:rgba(192,192,192,.25)}
+    .award-row.top3{background:linear-gradient(90deg,rgba(205,127,50,.1),rgba(255,255,255,.04));border-color:rgba(205,127,50,.25)}
+    .award-pos{font-size:22px;min-width:36px;text-align:center}
+    .award-name{font-weight:800;font-size:16px;flex:1}
+    .award-pts{font-size:26px;font-weight:900}
+    .award-diff{font-size:12px;color:var(--muted);min-width:50px;text-align:right}
+    .flash-card{border-radius:16px;padding:14px 18px;display:flex;align-items:center;gap:14px;margin-bottom:8px}
+    .flash-card.f1{background:linear-gradient(90deg,rgba(255,209,102,.15),rgba(255,255,255,.04));border:1px solid rgba(255,209,102,.35)}
+    .flash-card.f2{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .champion-banner{text-align:center;padding:28px 20px 20px;background:linear-gradient(135deg,rgba(255,209,102,.18),rgba(72,225,166,.1),rgba(17,24,39,.9));border:1px solid rgba(255,209,102,.4);border-radius:24px;margin-bottom:24px}
   </style>
 </head>
 <body>
@@ -104,6 +133,7 @@
     <div class="tab"         data-page="grafica">📈 Evolución</div>
     <div class="tab"         data-page="comparar">⚖️ Comparar</div>
     <div class="tab"         data-page="flash">⚡ QuinielaFlash</div>
+    <div class="tab"         data-page="premiacion">🎖️ Premiación</div>
   </div>
 
   <div id="errorBox" class="error" style="display:none"></div>
@@ -186,6 +216,11 @@
     </div>
   </div>
 
+  <!-- PREMIACIÓN -->
+  <div id="page-premiacion" class="page">
+    <div id="premiacionContent"></div>
+  </div>
+
   <!-- QUINIELA FLASH -->
   <div id="page-flash" class="page">
     <div id="flashContent"></div>
@@ -213,6 +248,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (tab.dataset.page === 'proximos' && DATA) renderProximos();
     if (tab.dataset.page === 'comparar' && DATA) renderComparativo();
     if (tab.dataset.page === 'flash' && DATA) renderFlash();
+    if (tab.dataset.page === 'premiacion' && DATA) renderPremiacion();
   });
 });
 
@@ -694,6 +730,118 @@ function renderComparativo() {
     <div class="compare-grid-wrap">${htmlGrupos}</div>
     <h2 style="font-size:14px;margin:22px 0 10px">🗂️ Eliminatoria</h2>
     <div class="compare-grid-wrap">${htmlElim}</div>`;
+}
+
+// ── Premiación ────────────────────────────────────────────────────────────────
+function renderPremiacion() {
+  const ranking = DATA.ranking || [];
+  if (!ranking.length) return;
+
+  const COLORES = ['#ffd166','#c0c0c0','#cd7f32'];
+  const MEDALLAS = ['🥇','🥈','🥉'];
+  const INICIALES = n => n.slice(0,2).toUpperCase();
+
+  // Confetti
+  const CONF_COLORS = ['#ffd166','#48e1a6','#4ea8ff','#f472b6','#fb923c','#b794f4','#ff6b6b'];
+  let confetti = '';
+  for (let i = 0; i < 28; i++) {
+    const color = CONF_COLORS[i % CONF_COLORS.length];
+    const left = (i * 3.6).toFixed(1);
+    const delay = (i * 0.13).toFixed(2);
+    const dur = (2.8 + (i % 5) * 0.35).toFixed(2);
+    confetti += `<div class="confetti-piece" style="left:${left}%;background:${color};animation-delay:${delay}s;animation-duration:${dur}s"></div>`;
+  }
+
+  // Campeón del torneo (solo si hay un #1102 jugado con ganador)
+  const final = (DATA.todos_partidos||[]).find(p => p.id === 1102);
+  const campeonTorneo = final && final.jugado
+    ? (final.ganador === 'local' ? final.local : final.visitante)
+    : null;
+
+  // Banner campeón real
+  const bannerCampeon = campeonTorneo ? `
+    <div class="champion-banner">
+      <div style="font-size:52px;margin-bottom:8px">🏆</div>
+      <div style="font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-weight:800;margin-bottom:6px">Campeón del Mundo 2026</div>
+      <div style="font-size:36px;font-weight:900;letter-spacing:-.5px">${campeonTorneo}</div>
+      <div style="font-size:13px;color:var(--muted);margin-top:8px">España 1-0 Argentina · ${final.fecha ? new Date(final.fecha).toLocaleDateString('es-ES',{day:'numeric',month:'long',year:'numeric'}) : ''}</div>
+    </div>` : '';
+
+  // Podio top 3
+  const top = ranking.slice(0,3);
+  const orden = [top[1], top[0], top[2]].filter(Boolean); // 2-1-3
+  const clases = ['p2','p1','p3'];
+  const podioSlots = orden.map((r, i) => {
+    const cls = clases[i];
+    const real_pos = cls === 'p1' ? 0 : cls === 'p2' ? 1 : 2;
+    const color = COLORES[real_pos];
+    return `
+      <div class="podium-slot ${cls}">
+        <div class="podium-avatar" style="border-color:${color};color:${color}">${INICIALES(r.name)}</div>
+        <div class="podium-name">${r.name}</div>
+        <div class="podium-pts">${r.pts} pts</div>
+        <div class="podium-block">${MEDALLAS[real_pos]}</div>
+      </div>`;
+  }).join('');
+
+  // Lista completa
+  const lista = ranking.map(r => {
+    const cls = r.pos === 1 ? 'top1' : r.pos === 2 ? 'top2' : r.pos === 3 ? 'top3' : '';
+    const posIcon = r.pos <= 3 ? MEDALLAS[r.pos-1] : `${r.pos}°`;
+    const diffTxt = r.diff === 0 ? '<span style="color:var(--accent);font-weight:800;font-size:11px">Campeón</span>'
+                                 : `<span style="color:var(--muted);font-size:12px">${r.diff} pts</span>`;
+    return `
+      <div class="award-row ${cls}">
+        <div class="award-pos">${posIcon}</div>
+        <div class="award-name">${r.name}</div>
+        ${diffTxt}
+        <div class="award-pts" style="color:${r.pos===1?'var(--gold)':r.pos===2?'#c0c0c0':r.pos===3?'#cd7f32':'var(--text)'}">${r.pts}</div>
+      </div>`;
+  }).join('');
+
+  // Flash section
+  const flash = DATA.flash || {};
+  let flashHtml = '';
+  Object.values(flash).forEach(ronda => {
+    const rf = ronda.ranking || [];
+    if (!rf.length) return;
+    const maxPts = rf[0].pts;
+    flashHtml = `
+      <div class="panel" style="margin-top:24px">
+        <h2 style="margin-bottom:16px">⚡ QuinielaFlash — ${ronda.nombre}</h2>
+        ${rf.map(r => {
+          const isTie = r.pts === maxPts;
+          const posIcon = r.pos <= 3 ? MEDALLAS[r.pos-1] : `${r.pos}°`;
+          return `
+            <div class="flash-card ${isTie ? 'f1' : 'f2'}">
+              <div style="font-size:22px;min-width:32px;text-align:center">${posIcon}</div>
+              <div style="font-weight:800;font-size:15px;flex:1">${r.name}</div>
+              <div style="font-size:22px;font-weight:900;color:${isTie?'var(--gold)':'var(--text)'}">${r.pts} pts</div>
+            </div>`;
+        }).join('')}
+      </div>`;
+  });
+
+  document.getElementById('premiacionContent').innerHTML = `
+    <div class="confetti-wrap" style="position:relative">${confetti}
+      ${bannerCampeon}
+    </div>
+
+    <div class="panel">
+      <h2 style="text-align:center;font-size:20px;margin-bottom:0">🎖️ Podio Final</h2>
+      <div class="podium-wrap">${podioSlots}</div>
+    </div>
+
+    <div class="panel">
+      <h2 style="margin-bottom:16px">📋 Clasificación final</h2>
+      ${lista}
+    </div>
+
+    ${flashHtml}
+
+    <div style="text-align:center;margin-top:28px;padding:20px;color:var(--muted);font-size:13px">
+      Quiniela Mundial 2026 · Fin del torneo · Gracias por jugar 🙌
+    </div>`;
 }
 
 // ── QuinielaFlash ─────────────────────────────────────────────────────────────
